@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minecity Roleplay | Official Master Wiki & Documentation</title>
+  <meta name="description" content="The definitive master wiki and documentation for Minecity Roleplay GTA Minecraft server setup. Complete player guides, admin protocols, commands, and permissions.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏙️</text></svg>">
+</head>
+<body>
+
+  <!-- Top Navigation Header -->
+  <header class="header">
+    <a href="#" class="brand" data-tab="overview">
+      <div class="brand-icon">🏙️</div>
+      <div class="brand-text">MINECITY <span>ROLEPLAY</span></div>
+    </a>
+
+    <div class="header-controls">
+      <div class="search-wrapper">
+        <input type="text" id="globalSearch" class="search-input" placeholder="Search guides, commands... (Ctrl+K)" data-i18n-placeholder="searchPlaceholder">
+        <span class="search-shortcut">⌘K</span>
+      </div>
+
+      <!-- Language Selector -->
+      <select id="langSelect" class="lang-select">
+        <option value="en">🇺🇸 English</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="it">🇮🇹 Italiano</option>
+        <option value="pt">🇧🇷 Português</option>
+        <option value="zh">🇨🇳 中文</option>
+        <option value="ko">🇰🇷 한국어</option>
+        <option value="ru">🇷🇺 Русский</option>
+      </select>
+
+      <!-- Theme Switcher -->
+      <button id="themeToggle" class="icon-btn" title="Toggle Dark/Light Mode">🌙</button>
+
+      <!-- Mobile Hamburger -->
+      <button id="mobileToggle" class="icon-btn mobile-toggle" title="Toggle Navigation Menu">☰</button>
+    </div>
+  </header>
+
+  <div class="app-container">
+    <!-- Sticky Sidebar Navigation -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-heading" data-i18n="navOverview">Overview</div>
+      <ul class="sidebar-nav">
+        <li><a href="#" class="sidebar-link active" data-tab="overview"><span class="icon">🏛️</span> <span data-i18n="navOverview">Overview</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="videos"><span class="icon">🎥</span> <span data-i18n="navVideos">Video Tutorials</span> <span class="sidebar-badge">HD</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="github-pages-setup"><span class="icon">🚀</span> <span data-i18n="navDeploy">GitHub Pages Setup</span></a></li>
+      </ul>
+
+      <div class="sidebar-heading" data-i18n="navPlayerGuide">Player Manual</div>
+      <ul class="sidebar-nav">
+        <li><a href="#" class="sidebar-link" data-tab="player-guide"><span class="icon">📖</span> Full Player Manual</a></li>
+        <li><a href="#player-start" class="sidebar-link" data-tab="player-guide"><span class="icon">🪪</span> Welcome & ID Card</a></li>
+        <li><a href="#player-comm" class="sidebar-link" data-tab="player-guide"><span class="icon">💬</span> Proximity RP Chat & Emotes</a></li>
+        <li><a href="#player-phone" class="sidebar-link" data-tab="player-guide"><span class="icon">📱</span> Smartphone & GPS Nav</a></li>
+        <li><a href="#player-properties" class="sidebar-link" data-tab="player-guide"><span class="icon">🏢</span> Apartments & Houses</a></li>
+        <li><a href="#player-vehicles" class="sidebar-link" data-tab="player-guide"><span class="icon">🏎️</span> Vehicles & Helicopters</a></li>
+        <li><a href="#player-police" class="sidebar-link" data-tab="player-guide"><span class="icon">👮</span> Police & Wanted Stars</a></li>
+        <li><a href="#player-ems" class="sidebar-link" data-tab="player-guide"><span class="icon">🚑</span> Paramedics & Diseases</a></li>
+        <li><a href="#player-survival" class="sidebar-link" data-tab="player-guide"><span class="icon">🥤</span> Hydration & Survival</a></li>
+        <li><a href="#player-pets" class="sidebar-link" data-tab="player-guide"><span class="icon">🐕</span> Tamagotchi Pets</a></li>
+        <li><a href="#player-crime" class="sidebar-link" data-tab="player-guide"><span class="icon">💰</span> Gangs, Drugs & Robberies</a></li>
+      </ul>
+
+      <div class="sidebar-heading" data-i18n="navAdminGuide">Admin & Owner Guide</div>
+      <ul class="sidebar-nav">
+        <li><a href="#" class="sidebar-link" data-tab="admin-guide"><span class="icon">🛡️</span> Server Architecture</a></li>
+        <li><a href="#admin-suite" class="sidebar-link" data-tab="admin-guide"><span class="icon">⚙️</span> MinecitySuite Core Config</a></li>
+        <li><a href="#admin-fixer" class="sidebar-link" data-tab="admin-guide"><span class="icon">🔧</span> MinecityFixerAddon Config</a></li>
+        <li><a href="#admin-vehicles" class="sidebar-link" data-tab="admin-guide"><span class="icon">🚁</span> Vehicle Models & Garage Fix</a></li>
+        <li><a href="#admin-perms" class="sidebar-link" data-tab="admin-guide"><span class="icon">🔑</span> LuckPerms Ranks & Setup</a></li>
+        <li><a href="#admin-dummies" class="sidebar-link" data-tab="admin-guide"><span class="icon">🤖</span> Testing Dummy System</a></li>
+        <li><a href="#admin-troubleshoot" class="sidebar-link" data-tab="admin-guide"><span class="icon">🚨</span> Troubleshooting & Fixes</a></li>
+      </ul>
+
+      <div class="sidebar-heading">Data & References</div>
+      <ul class="sidebar-nav">
+        <li><a href="#" class="sidebar-link" data-tab="commands"><span class="icon">⚡</span> <span data-i18n="navCommands">Commands</span> <span class="sidebar-badge">Full</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="permissions"><span class="icon">🔐</span> <span data-i18n="navPermissions">Permissions</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="placeholders"><span class="icon">🧩</span> <span data-i18n="navPlaceholders">Placeholders</span></a></li>
+      </ul>
+    </aside>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+
+      <!-- ==================================================================
+           TAB 1: OVERVIEW / HOME
+           ================================================================== -->
+      <section id="tab-overview" class="tab-content active">
+        <div class="hero-banner">
+          <div class="hero-pill" data-i18n="heroBadge">GTA Roleplay Minecraft Setup • 1.21.x Ready</div>
+          <h1 class="hero-title" data-i18n="heroTitle">The Definitive Minecity Wiki</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Complete player manuals, administration protocols, full command registries, permissions matrix, and development architecture for the premier GTA Roleplay experience in Minecraft.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">📖 Open Player Manual</button>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'admin-guide\']').click()">🛡️ Admin & Owner Protocols</button>
+            <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">🔗 BuiltByBit Official Page</a>
+          </div>
+        </div>
+
+        <div class="callout callout-info">
+          <div class="callout-title">💎 Official Unique Setups Ecosystem</div>
+          <p>
+            Minecity is a comprehensive, production-grade Minecraft Roleplay server built on <strong>Purpur 1.21.11 / Java 21</strong>, requiring <strong>zero client-side mods</strong>. Players connect with standard vanilla Minecraft clients while enjoying 3D animated vehicles, balistic guns, proximity voice chat, cellphones, interactive apartments, and realistic public safety services powered by <strong>MinecitySuite</strong> and <strong>MinecityFixerAddon</strong>.
+          </p>
+        </div>
+
+        <h2 class="section-title">🌟 Key Server Features</h2>
+        <div class="card-grid">
+          <div class="feature-card">
+            <div class="card-icon">🏎️</div>
+            <h3>3D Animated Vehicles & Flight</h3>
+            <p>Cars, motorbikes, emergency cruisers, helicopters, and private planes with realistic physics, gas stations, trunks, and inverted steering controls patched.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">👮</div>
+            <h3>Law Enforcement & Wanted Stars</h3>
+            <p>0 to 5-star wanted system visible above nametags, in chat, and on TAB. Features a 2-hit arrest baton, handcuffs with dragging, and state penitentiary sentences.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🚑</div>
+            <h3>Paramedics & Realistic Medicine</h3>
+            <p>Full hospital emergency room, contagious illnesses, bone fractures, CPR defibrillator revival, and a 24/7 city pharmacy with prescribed treatments.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🏢</div>
+            <h3>Apartments & Real Estate</h3>
+            <p>Browse studios, penthouses, and permanent villas with an intuitive GUI (<code>/apartments</code>). Includes automated schematic resets upon rental expiry.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🥤</div>
+            <h3>Survival Hydration System</h3>
+            <p>Real-time thirst and hunger mechanics. Custom sodas, bottled mineral water, and coffee restore hydration, while dehydration triggers fatigue and blurred vision.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon">🐕</div>
+            <h3>Tamagotchi Pets</h3>
+            <p>Adopt dogs, cats, and exotic animals. Feed, play, bathe, and train your pet companion. Sell trained pets or summon them into the passenger seat.</p>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()">Learn More</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TAB 2: PLAYER GUIDE
+           ================================================================== -->
+      <section id="tab-player-guide" class="tab-content">
+        <h1 class="hero-title">🏙️ Citizen's Roleplay Manual</h1>
+        <p class="hero-subtitle">Everything you need to know about starting your civilian life, building wealth, driving, and surviving in Minecity.</p>
+
+        <!-- Chapter 1 -->
+        <article id="player-start" class="guide-section">
+          <h2 class="section-title">1. Getting Started & City Arrival</h2>
+          <p>
+            When you first connect to Minecity, you spawn at the Los Santos International Terminal as an arriving tourist. You will automatically receive an introductory cinematic tutorial guiding you through the city landmarks.
+          </p>
+          <div class="callout callout-info">
+            <div class="callout-title">Interactive Tour</div>
+            <p>If you want to replay the guided introduction at any time, run <code>/tutorial</code> or <code>/servertutorialplus start welcome</code>.</p>
+          </div>
+          <h3 class="section-subtitle">Your Citizen ID Card (DNI)</h3>
+          <p>
+            Every citizen carries a permanent identification card storing your legal name, registration date, and social security details. Police officers frequently request ID during routine traffic stops:
+          </p>
+          <ul>
+            <li><code>/card show</code> — Presents your identification card to the citizen or officer you are facing.</li>
+            <li><code>/card view</code> — Opens your own personal ID card in your hands.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 2 -->
+        <article id="player-comm" class="guide-section">
+          <h2 class="section-title">2. In-Character Communication & Emotes</h2>
+          <p>
+            Minecity features proximity-based text chat channels and complete body animations:
+          </p>
+          <ul>
+            <li><strong>Local Chat (Default):</strong> Standard messages reach players within a <strong>15-block radius</strong>.</li>
+            <li><strong>In-Character Actions (<code>/me &lt;action&gt;</code>):</strong> Describes a physical action your character is doing (e.g. <code>/me hands over the car keys</code>).</li>
+            <li><strong>Situational Surroundings (<code>/do &lt;context&gt;</code>):</strong> Establishes facts in your scene (e.g. <code>/do The vehicle's engine is smoking heavily</code>).</li>
+            <li><strong>Out of Character (<code>/ooc &lt;message&gt;</code> or <code>/b</code>):</strong> Used for questions or remarks outside the roleplay context.</li>
+            <li><strong>Body Poses (<code>/sit</code>, <code>/lay</code>, <code>/crawl</code>, <code>/bellyflop</code>):</strong> Sit on stairs, sofas, chairs, lie down in hospital beds, or crawl under obstacles.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 3 -->
+        <article id="player-phone" class="guide-section">
+          <h2 class="section-title">3. Smartphone & Live GPS Navigation</h2>
+          <p>
+            Your smartphone is your ultimate tool for staying connected. Execute <code>/phone</code> to open the custom device GUI.
+          </p>
+          <ul>
+            <li><strong>SIM Number:</strong> You receive a unique 5-digit cellular phone number (e.g. <code>49201</code>). Share it with friends to exchange text messages or calls.</li>
+            <li><strong>911 Dispatch:</strong> Instantly calls the police department or emergency medical services with your exact street coordinates.</li>
+            <li><strong>Live GPS Particle Arrows:</strong> Type <code>/gps to &lt;destination&gt;</code> (such as Hospital, Police, Dealership, Bank, Mining Quarry). Glowing arrows will guide you along the roads step-by-step. Use <code>/gps stop</code> to cancel.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 4 -->
+        <article id="player-properties" class="guide-section">
+          <h2 class="section-title">4. Real Estate: Apartments, Houses & Offices</h2>
+          <p>
+            Powered by <strong>MinecitySuite (MCRP-Properties)</strong>, buying or renting a home has never been easier:
+          </p>
+          <ul>
+            <li>Type <code>/apartments</code> (or <code>/rent</code> / <code>/buy</code>) to open the interactive property catalogue.</li>
+            <li><strong>Rental Apartments:</strong> Inexpensive weekly or monthly leases. Your apartment automatically locks its doors to strangers. If your lease expires, the interior schematic automatically restores clean for the next tenant.</li>
+            <li><strong>Permanent Houses:</strong> Luxury villas, penthouses, and suburban houses that belong to you forever.</li>
+            <li><strong>Roommates:</strong> Add trusted friends to your doors using <code>/arm addmember &lt;region&gt; &lt;player&gt;</code>.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 5 -->
+        <article id="player-vehicles" class="guide-section">
+          <h2 class="section-title">5. Vehicles, Dealerships & Helicopter Flight</h2>
+          <p>
+            Minecity includes an extensive collection of custom 3D sports cars, cruisers, motorbikes, helicopters, and planes:
+          </p>
+          <div class="callout callout-success">
+            <div class="callout-title">Fixed Steering & Elevation Controls (MinecityFixerAddon)</div>
+            <p>
+              Steering inversion has been completely fixed! When you steer left, your car turns left; when you steer right, it turns right.
+              <br><strong>Helicopters:</strong> Press <strong>SPACEBAR</strong> to ascend vertically. Look up/down or press <strong>SHIFT</strong> to descend smoothly!
+            </p>
+          </div>
+          <ul>
+            <li><strong>Purchasing:</strong> Buy vehicles at dealerships (via DtlTraders). When purchased, the vehicle is automatically delivered straight into your virtual <strong>Garage</strong>!</li>
+            <li><strong>Virtual Garage (<code>/qav garage</code>):</strong> Spawn your vehicle anywhere in parking zones, or click despawn to safely garage it.</li>
+            <li><strong>Refueling:</strong> Pull up to any gas station pump and hold the fuel nozzle to refill your tank.</li>
+            <li><strong>Trunk Storage:</strong> Sneak and right-click your vehicle's trunk to store contraband, tools, and luggage.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 6 -->
+        <article id="player-police" class="guide-section">
+          <h2 class="section-title">6. Police Department & Criminal Justice</h2>
+          <p>
+            The legal system in Minecity is enforced by both player officers and automated security:
+          </p>
+          <ul>
+            <li><strong>Wanted Stars (0 - 5 ★):</strong> Crimes like speeding, illegal firearm possession, or bank robberies instantly raise your wanted level. Your stars are displayed in colored text above your head, in the chat prefix, and on the TAB player list.</li>
+            <li><strong>Wanted Persistence:</strong> If you die during a shootout with police, your wanted stars persist when you respawn!</li>
+            <li><strong>Arrest Baton (Jail Stick):</strong> Officers must hit suspects <strong>twice (2 left-clicks)</strong> with the baton to immobilize and handcuff them.</li>
+            <li><strong>Handcuffs:</strong> Handcuffed suspects cannot draw weapons or sprint and will be escorted by the officer to the squad car.</li>
+            <li><strong>Prison Sentence:</strong> Once booked at the precinct, inmates serve time in the city penitentiary until their sentence expires or bail is posted.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 7 -->
+        <article id="player-ems" class="guide-section">
+          <h2 class="section-title">7. Hospital, Diseases & Emergency Medicine</h2>
+          <p>
+            Life in the metropolis carries health risks. MinecitySuite features realistic illnesses and emergency medicine:
+          </p>
+          <ul>
+            <li><strong>Contagious Diseases:</strong> Contracting the flu, pneumonia, or food poisoning causes coughing, slow movement, and blurred vision.</li>
+            <li><strong>Bone Fractures:</strong> Falling from high elevations causes broken leg bones requiring medical splints or crutches.</li>
+            <li><strong>Pharmacy (<code>/pharmacy</code>):</strong> Purchase over-the-counter medical supplies such as Antibiotics, Morphine, Bandages, and First Aid Kits.</li>
+            <li><strong>CPR & Defibrillator:</strong> When a player is downed or unconscious, on-duty paramedics rush with <code>/paramedic revive &lt;player&gt;</code> to save their life!</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 8 -->
+        <article id="player-survival" class="guide-section">
+          <h2 class="section-title">8. Realistic Survival: Thirst & Hunger</h2>
+          <p>
+            Your health depends on proper hydration and nutrition:
+          </p>
+          <ul>
+            <li>Type <code>/survival status</code> to view your hydration percentage.</li>
+            <li>Running, carrying heavy weapons, and high fever accelerate dehydration.</li>
+            <li>If hydration drops below 20%, you experience fatigue, nausea, and intermittent fainting.</li>
+            <li>Drink bottled water, sodas, and coffee from restaurants or vending machines to maintain optimal stamina.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 9 -->
+        <article id="player-pets" class="guide-section">
+          <h2 class="section-title">9. Tamagotchi Pets System</h2>
+          <p>
+            Adopt and raise your loyal animal companion:
+          </p>
+          <ul>
+            <li>Run <code>/pet shop</code> to browse puppies, kittens, parrots, and accessories.</li>
+            <li>Use <code>/pet</code> to open the status dashboard: feed your pet treats, bathe it, play fetch, and put it to sleep.</li>
+            <li>Use <code>/pet call</code> to summon your pet to your side or ride shotgun in your sports car!</li>
+          </ul>
+        </article>
+      </section>
+
+      <!-- ==================================================================
+           TAB 3: ADMIN & OWNER GUIDE
+           ================================================================== -->
+      <section id="tab-admin-guide" class="tab-content">
+        <h1 class="hero-title">🛡️ Admin & Server Owner Guide</h1>
+        <p class="hero-subtitle">Comprehensive technical manual, configuration architectures, LuckPerms permissions hierarchy, and runtime injection protocols.</p>
+
+        <!-- Chapter 1 -->
+        <article id="admin-suite" class="guide-section">
+          <h2 class="section-title">1. MinecitySuite Architecture & Configuration</h2>
+          <p>
+            <strong>MinecitySuite</strong> is the monolithic custom roleplay core developed specifically for Minecity Roleplay. It centralizes 6 major gameplay systems into a unified, high-performance Java engine:
+          </p>
+          <div class="callout callout-info">
+            <div class="callout-title">File Structure inside <code>plugins/MinecitySuite/</code></div>
+            <ul>
+              <li><code>config-general.yml</code>: Main language selector, database storage type, debug logger.</li>
+              <li><code>police-config.yml</code>: Arrest baton hits, jail coordinate vectors, wanted stars decay time, fines.</li>
+              <li><code>paramedic-config.yml</code>: Emergency call timers, illness infection rates, hospital respawn points.</li>
+              <li><code>survival-config.yml</code>: Thirst decay curves, sprint dehydration multiplier, item hydration values.</li>
+              <li><code>pets-config.yml</code>: Pet prices, hunger depletion rates, level progression thresholds.</li>
+              <li><code>dummy-config.yml</code>: Training dummy AI configurations and testing equipment.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Chapter 2 -->
+        <article id="admin-fixer" class="guide-section">
+          <h2 class="section-title">2. MinecityFixerAddon: Runtime Fixer & Enhancer</h2>
+          <p>
+            <strong>MinecityFixerAddon</strong> is a post-world runtime injector designed to fix bugs and enhance third-party closed-source plugins (such as QualityArmoryVehicles2, GPS, and ForcePack) without modifying their original jars:
+          </p>
+          <ul>
+            <li><strong>Vehicle Steering Inversion Patch:</strong> Injects into QAV packet listeners to normalize left/right turning controls so vehicles turn naturally in modern 1.21.11 Paper/Purpur.</li>
+            <li><strong>Helicopter Elevation Control:</strong> Fixes vertical lift calculations so helicopters ascend with Spacebar and descend with Shift/Pitch.</li>
+            <li><strong>Shop-to-Garage Auto Deposit:</strong> Automatically catches vehicle purchases made via DtlTraders and stores them into the virtual Garage instead of dropping buggy physical vehicle items in player inventories.</li>
+            <li><strong>PacketEvents 1.21.11 Packet 66/67 Disconnect Fix:</strong> Intercepts unmapped server play packets that previously disconnected players during vehicle interactions.</li>
+            <li><strong>Decorative Vehicle Model Item Generator:</strong> Adds <code>/vehicle model get &lt;vehicle_name&gt;</code> allowing staff to spawn physical vehicle models purely for showroom displays.</li>
+            <li><strong>Multi-Language Engine:</strong> Full translation dictionary for 9 languages (EN, ES, DE, FR, IT, PT, ZH, KO, RU).</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 3 -->
+        <article id="admin-vehicles" class="guide-section">
+          <h2 class="section-title">3. Vehicle Showrooms & Dealership Setup</h2>
+          <p>
+            To create an interactive car or motorcycle dealership:
+          </p>
+          <ol>
+            <li>Create an NPC with Citizens (e.g. <code>/npc create Car Dealer</code>).</li>
+            <li>Link a DtlTraders shop to the NPC offering vehicle vouchers.</li>
+            <li>Place a decorative vehicle model on display using <code>/vehicle model get &lt;name&gt;</code>.</li>
+            <li>When players buy the vehicle voucher from the NPC, <strong>MinecityFixerAddon</strong> intercepts the purchase and immediately registers the car to the player's <code>/qav garage</code>.</li>
+          </ol>
+        </article>
+
+        <!-- Chapter 4 -->
+        <article id="admin-perms" class="guide-section">
+          <h2 class="section-title">4. LuckPerms Permissions & Group Hierarchy</h2>
+          <p>
+            The setup uses LuckPerms with a structured group inheritance hierarchy:
+          </p>
+          <pre><code># Default Civilian Group Inheritance
+default -> lvl1 -> lvl2 -> lvl3 -> lvl4 -> lvl5 -> vip
+
+# Emergency Services
+police_officer (inherits default + police.officer, police.handcuffs)
+police_chief   (inherits police_officer + police.chief)
+
+paramedic_duty (inherits default + paramedic.duty)
+paramedic_chief(inherits paramedic_duty + paramedic.chief)
+
+# Administration Staff
+helper -> moderator -> admin -> owner (all permissions '*')</code></pre>
+        </article>
+
+        <!-- Chapter 5 -->
+        <article id="admin-dummies" class="guide-section">
+          <h2 class="section-title">5. Testing Dummy System (<code>/ms</code>)</h2>
+          <p>
+            Admins can spawn controllable test dummies to evaluate police batons, arrest mechanics, and paramedic CPR without needing a second human player:
+          </p>
+          <ul>
+            <li><code>/ms adddummy &lt;name&gt;</code> — Spawns a realistic dummy player at your target block.</li>
+            <li><code>/ms dummycontrol &lt;name&gt;</code> — Forces the dummy to toggle between standing, sitting, and laying in a bed.</li>
+            <li><code>/ms removedummy &lt;name&gt;</code> — Removes the dummy entity safely.</li>
+          </ul>
+        </article>
+
+        <!-- Chapter 6 -->
+        <article id="admin-troubleshoot" class="guide-section">
+          <h2 class="section-title">6. Troubleshooting & Optimization Fixes</h2>
+          <div class="callout callout-success">
+            <div class="callout-title">Quests Sign Interaction Fix (Purpur 1.21.11)</div>
+            <p>
+              In modern Minecraft 1.21+, materials like <code>OAK_WALL_SIGN</code> are block-only and throw <code>IllegalArgumentException: ... isn't an item</code> when accessed by older quest listeners. <strong>QuestsMinecity.jar</strong> has been patched with <code>toBlockItemStack()</code>, cleanly mapping wall signs and wall torches to their valid item forms.
+            </p>
+          </div>
+          <div class="callout callout-success">
+            <div class="callout-title">Citizens Clean Shutdown Patch</div>
+            <p>
+              <strong>Citizens-2.0.41-b4129.jar</strong> has been patched in <code>AbstractNPC.java</code> to ensure that when <code>/stop</code> is executed, internal hologram sub-NPCs do not attempt to register event listeners while disabled, completely preventing the <code>IllegalPluginAccessException: Plugin attempted to register Spawned{true} while not enabled</code> warning.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- ==================================================================
+           TAB 4: COMMANDS DIRECTORY
+           ================================================================== -->
+      <section id="tab-commands" class="tab-content">
+        <h1 class="hero-title">⚡ Master Command Registry</h1>
+        <p class="hero-subtitle">Interactive, searchable directory of all citizen, officer, medic, real estate, vehicle, and admin commands.</p>
+
+        <div class="table-filter-bar">
+          <select id="cmdCategoryFilter" class="filter-select">
+            <option value="ALL">All Categories</option>
+            <option value="Real Estate">Real Estate & Properties</option>
+            <option value="Vehicles">Vehicles & Transport</option>
+            <option value="Police">Police & Justice</option>
+            <option value="Paramedics">Paramedics & Medicine</option>
+            <option value="Survival">Survival & Hydration</option>
+            <option value="Pets">Pets & Companions</option>
+            <option value="Communication">Communication & Phone</option>
+            <option value="Navigation">GPS Navigation</option>
+            <option value="Roleplay">Roleplay & Emotes</option>
+            <option value="Economy">Economy & Banking</option>
+            <option value="Crime">Gangs & Underworld</option>
+            <option value="Admin">Administration</option>
+          </select>
+          <input type="text" id="cmdSearchInput" class="table-search" placeholder="Type command name, alias, or description...">
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="tableCommand">Command</th>
+                <th data-i18n="tableAliases">Aliases</th>
+                <th data-i18n="tablePermission">Permission</th>
+                <th data-i18n="tablePlugin">Plugin</th>
+                <th data-i18n="tableDescription">Description</th>
+              </tr>
+            </thead>
+            <tbody id="commandsTableBody">
+              <!-- Dynamically populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TAB 5: PERMISSIONS MATRIX
+           ================================================================== -->
+      <section id="tab-permissions" class="tab-content">
+        <h1 class="hero-title">🔐 Permissions Matrix</h1>
+        <p class="hero-subtitle">Complete permission nodes registry mapped by LuckPerms staff and civilian groups.</p>
+
+        <div class="table-filter-bar">
+          <select id="permGroupFilter" class="filter-select">
+            <option value="ALL">All Groups</option>
+            <option value="Civilian">Civilian (Default)</option>
+            <option value="Police">Police Department</option>
+            <option value="Paramedic">Paramedic / EMS</option>
+            <option value="Administrator">Administrator</option>
+          </select>
+          <input type="text" id="permSearchInput" class="table-search" placeholder="Search permission node or description...">
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Permission Node</th>
+                <th data-i18n="tableGroup">Group</th>
+                <th data-i18n="tableDefault">Default State</th>
+                <th data-i18n="tableDescription">Description</th>
+              </tr>
+            </thead>
+            <tbody id="permissionsTableBody">
+              <!-- Dynamically populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TAB 6: PLACEHOLDERS (PAPI)
+           ================================================================== -->
+      <section id="tab-placeholders" class="tab-content">
+        <h1 class="hero-title">🧩 PlaceholderAPI Reference</h1>
+        <p class="hero-subtitle">Variables for TAB, Scoreboards, Holograms, DeluxeMenus, and Chat formatting.</p>
+
+        <div class="table-filter-bar">
+          <input type="text" id="papiSearchInput" class="table-search" placeholder="Search placeholder variable name...">
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th data-i18n="tablePlaceholder">Placeholder</th>
+                <th data-i18n="tablePlugin">Plugin</th>
+                <th data-i18n="tableExample">Example Output</th>
+                <th data-i18n="tableDescription">Description</th>
+              </tr>
+            </thead>
+            <tbody id="placeholdersTableBody">
+              <!-- Dynamically populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TAB 7: VIDEO TUTORIALS
+           ================================================================== -->
+      <section id="tab-videos" class="tab-content">
+        <h1 class="hero-title">🎥 Video Tutorials & Showcases</h1>
+        <p class="hero-subtitle">Official cinematics and video guides from the Unique Setups BuiltByBit showcase gallery.</p>
+
+        <div class="callout callout-info">
+          <div class="callout-title">Official BuiltByBit Resource Reference</div>
+          <p>
+            Watch the official trailers, gameplay footage, and feature walkthroughs directly from the <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer">BuiltByBit Minecity Roleplay page</a>.
+          </p>
+        </div>
+
+        <div id="videoGallery" class="video-grid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           TAB 8: GITHUB PAGES 1-CLICK DEPLOYMENT
+           ================================================================== -->
+      <section id="tab-github-pages-setup" class="tab-content">
+        <h1 class="hero-title">🚀 Host this Wiki on GitHub Pages (Free & Easy)</h1>
+        <p class="hero-subtitle">Step-by-step instructions to get your wiki live on the web at <code>https://&lt;your-user&gt;.github.io/&lt;repo-name&gt;/</code> in under 2 minutes!</p>
+
+        <div class="callout callout-success">
+          <div class="callout-title">Zero Build Tools Required!</div>
+          <p>This wiki is 100% static (HTML5, CSS3, JavaScript). It requires NO Node.js, NO npm install, and NO complex build commands. Just upload the files directly to GitHub!</p>
+        </div>
+
+        <h2 class="section-title">Step 1: Create a GitHub Repository</h2>
+        <ol>
+          <li>Go to <a href="https://github.com/new" target="_blank" rel="noopener noreferrer">github.com/new</a> and log in to your GitHub account.</li>
+          <li>Set the <strong>Repository name</strong> to <code>minecity-wiki</code> (or anything you prefer).</li>
+          <li>Choose <strong>Public</strong> (GitHub Pages is completely free for public repositories).</li>
+          <li>Click <strong>Create repository</strong>.</li>
+        </ol>
+
+        <h2 class="section-title">Step 2: Upload the Wiki Files</h2>
+        <p>You have two simple options:</p>
+        <div class="card-grid">
+          <div class="feature-card">
+            <h3>Option A: Web Drag-and-Drop (Easiest)</h3>
+            <p>On your empty GitHub repo page, click <strong>uploading an existing file</strong>. Drag all files from this wiki folder (including <code>index.html</code>, <code>css/</code>, <code>js/</code>, and <code>.nojekyll</code>) directly into the browser and click <strong>Commit changes</strong>.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Option B: Git Command Line</h3>
+            <p>Open terminal or PowerShell inside the wiki folder and run:</p>
+            <pre><code>git init
+git add .
+git commit -m "Initial Minecity Wiki commit"
+git branch -M main
+git remote add origin https://github.com/&lt;your-username&gt;/minecity-wiki.git
+git push -u origin main</code></pre>
+          </div>
+        </div>
+
+        <h2 class="section-title">Step 3: Enable GitHub Pages</h2>
+        <ol>
+          <li>In your repository, click on the <strong>Settings</strong> tab at the top.</li>
+          <li>In the left sidebar, click on <strong>Pages</strong> (under Code and automation).</li>
+          <li>Under <strong>Build and deployment > Source</strong>, choose <strong>Deploy from a branch</strong>.</li>
+          <li>Under <strong>Branch</strong>, select <code>main</code> and folder <code>/ (root)</code>, then click <strong>Save</strong>.</li>
+          <li>Wait 30-60 seconds, refresh the page, and GitHub will display:
+            <br><code>✅ Your site is live at https://&lt;your-username&gt;.github.io/minecity-wiki/</code>!
+          </li>
+        </ol>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div>
+          © 2026 <strong>Minecity Roleplay</strong> — Built with ❤️ for the community.
+          <br><small>Crafted for Purpur 1.21.11 & Java 21 • Setup by <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer">Unique Setups</a>.</small>
+        </div>
+        <div>
+          <a href="#" data-tab="overview">Overview</a> •
+          <a href="#" data-tab="player-guide">Player Guide</a> •
+          <a href="#" data-tab="admin-guide">Admin Guide</a> •
+          <a href="#" data-tab="commands">Commands</a> •
+          <a href="#" data-tab="github-pages-setup">GitHub Pages</a>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Application Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
