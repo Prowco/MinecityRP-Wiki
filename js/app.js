@@ -1,31 +1,37 @@
 /**
  * Minecity Roleplay - Main Interactive Application Script
- * Router, live search, tables filter, multi-language dynamic rendering, and clipboard actions.
+ * 100% Full Dynamic Multi-Language Rendering Engine,
+ * Reliable Navigation without scroll jumps, GTA Styling,
+ * Real-time Filterable Tables & 17-Video Gallery.
  */
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Theme Management
+  // Theme Management (Dark by default, GTA styling)
   const themeToggle = document.getElementById("themeToggle");
   const savedTheme = localStorage.getItem("minecity_theme") || "dark";
   document.documentElement.setAttribute("data-theme", savedTheme);
   updateThemeIcon(savedTheme);
 
-  themeToggle.addEventListener("click", () => {
-    const current = document.documentElement.getAttribute("data-theme");
-    const next = current === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", next);
-    localStorage.setItem("minecity_theme", next);
-    updateThemeIcon(next);
-  });
-
-  function updateThemeIcon(theme) {
-    themeToggle.innerHTML = theme === "dark" ? "🌙" : "☀️";
+  if (themeToggle) {
+    themeToggle.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme");
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("minecity_theme", next);
+      updateThemeIcon(next);
+    });
   }
 
-  // Mobile Menu Toggle
+  function updateThemeIcon(theme) {
+    if (themeToggle) {
+      themeToggle.innerHTML = theme === "dark" ? "🌙" : "☀️";
+    }
+  }
+
+  // Mobile Menu Drawer
   const mobileToggle = document.getElementById("mobileToggle");
   const sidebar = document.getElementById("sidebar");
-  if (mobileToggle) {
+  if (mobileToggle && sidebar) {
     mobileToggle.addEventListener("click", () => {
       sidebar.classList.toggle("open");
     });
@@ -40,20 +46,23 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Listen for language changes and re-render everything
   document.addEventListener("minecity:language-changed", () => {
-    applyTranslations();
+    renderAllContent();
   });
 
-  // Enhanced Tab & Anchor Navigation
+  // =========================================================================
+  // RELIABLE NAVIGATION & SCROLL HANDLER (NO JUMP TO TOP!)
+  // =========================================================================
   const tabContents = document.querySelectorAll(".tab-content");
   const allSidebarLinks = document.querySelectorAll(".sidebar-link");
 
   function navigateTo(tabId, sectionId = null) {
-    // Determine the tab if not explicitly given
+    // If no tabId was given but a sectionId was, find its container
     if (!tabId && sectionId) {
-      const targetElement = document.getElementById(sectionId);
-      if (targetElement) {
-        const parentTab = targetElement.closest(".tab-content");
+      const targetEl = document.getElementById(sectionId);
+      if (targetEl) {
+        const parentTab = targetEl.closest(".tab-content");
         if (parentTab) {
           tabId = parentTab.id.replace("tab-", "");
         }
@@ -62,44 +71,53 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!tabId) tabId = "overview";
 
-    // Switch tab visibility
+    // 1. Activate target tab
     tabContents.forEach(tab => tab.classList.remove("active"));
-    const targetTab = document.getElementById(`tab-${tabId}`);
-    if (targetTab) {
-      targetTab.classList.add("active");
+    const activeTabEl = document.getElementById(`tab-${tabId}`);
+    if (activeTabEl) {
+      activeTabEl.classList.add("active");
     }
 
-    // Update active highlight in sidebar
+    // 2. Highlight active sidebar link
     allSidebarLinks.forEach(l => l.classList.remove("active"));
-    let activeLink = null;
+    let targetLink = null;
     if (sectionId) {
-      activeLink = document.querySelector(`.sidebar-link[href="#${sectionId}"]`);
+      targetLink = document.querySelector(`.sidebar-link[href="#${sectionId}"]`);
     }
-    if (!activeLink) {
-      activeLink = document.querySelector(`.sidebar-link[data-tab="${tabId}"][href="#"]`) ||
+    if (!targetLink) {
+      targetLink = document.querySelector(`.sidebar-link[data-tab="${tabId}"][href="#"]`) ||
                    document.querySelector(`.sidebar-link[data-tab="${tabId}"]`);
     }
-    if (activeLink) activeLink.classList.add("active");
+    if (targetLink) targetLink.classList.add("active");
 
-    // Close mobile drawer if opened
+    // 3. Close mobile drawer if open
     if (sidebar && sidebar.classList.contains("open")) {
       sidebar.classList.remove("open");
     }
 
-    // Smooth scroll to the specific target section or top
+    // 4. Scroll to section accurately or top of tab
     if (sectionId) {
-      setTimeout(() => {
-        const el = document.getElementById(sectionId);
-        if (el) {
-          el.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      }, 60);
+      // Use double requestAnimationFrame to guarantee layout pass after display:block
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          const el = document.getElementById(sectionId);
+          if (el) {
+            const headerHeight = 84;
+            const elementPosition = el.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+            window.scrollTo({
+              top: offsetPosition,
+              behavior: "smooth"
+            });
+          }
+        });
+      });
     } else {
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   }
 
-  // Intercept all internal navigation clicks
+  // Intercept all clicks on internal links
   document.addEventListener("click", (e) => {
     const link = e.target.closest("a");
     if (!link) return;
@@ -107,7 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const dataTab = link.getAttribute("data-tab");
     const href = link.getAttribute("href");
 
-    // Check if this is an in-app navigation link
     if (dataTab || (href && href.startsWith("#"))) {
       e.preventDefault();
       let sectionId = null;
@@ -119,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       navigateTo(tabId, sectionId);
 
-      // Update URL hash cleanly
+      // Clean URL hash update
       const newHash = sectionId ? `#${sectionId}` : (tabId ? `#tab-${tabId}` : "");
       if (newHash && window.location.hash !== newHash) {
         history.pushState(null, null, newHash);
@@ -127,7 +144,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Handle URL hash on initial load or browser back/forward
+  // Handle URL hash on initial load or popstate
   function handleUrlHash() {
     if (!window.location.hash || window.location.hash.length <= 1) return;
     const hash = window.location.hash.substring(1);
@@ -150,16 +167,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   window.addEventListener("popstate", handleUrlHash);
+
+  // Initial Content Render
+  renderAllContent();
   handleUrlHash();
 
-  // Render Dynamic Tables
-  renderCommandsTable();
-  renderPermissionsTable();
-  renderPlaceholdersTable();
-  renderVideoGallery();
-  applyTranslations();
-
-  // Global Search Setup
+  // Global Search Setup (Ctrl+K)
   const searchInput = document.getElementById("globalSearch");
   if (searchInput) {
     searchInput.addEventListener("input", (e) => {
@@ -189,154 +202,209 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Render Commands Table
-function renderCommandsTable() {
-  const container = document.getElementById("commandsTableBody");
-  const filterCategory = document.getElementById("cmdCategoryFilter");
-  const searchInput = document.getElementById("cmdSearchInput");
-  if (!container) return;
-
-  function update() {
-    const cat = filterCategory ? filterCategory.value : "ALL";
-    const q = searchInput ? searchInput.value.toLowerCase().trim() : "";
-
-    const filtered = MINECITY_DATA.commands.filter(cmd => {
-      const matchCat = cat === "ALL" || cmd.category === cat;
-      const matchQuery = !q || cmd.command.toLowerCase().includes(q) || 
-                         cmd.aliases.toLowerCase().includes(q) || 
-                         cmd.desc.toLowerCase().includes(q) ||
-                         cmd.plugin.toLowerCase().includes(q);
-      return matchCat && matchQuery;
-    });
-
-    container.innerHTML = filtered.map(cmd => `
-      <tr>
-        <td>
-          <code>${cmd.command}</code>
-          <button class="copy-btn" data-copy="${cmd.command}">${I18N.t("copyText")}</button>
-        </td>
-        <td><small>${cmd.aliases}</small></td>
-        <td><span class="badge badge-perm">${cmd.permission}</span></td>
-        <td><span class="badge badge-plugin">${cmd.plugin}</span></td>
-        <td>${cmd.desc}</td>
-      </tr>
-    `).join("");
-  }
-
-  if (filterCategory) filterCategory.addEventListener("change", update);
-  if (searchInput) searchInput.addEventListener("input", update);
-  update();
-}
-
-// Render Permissions Table
-function renderPermissionsTable() {
-  const container = document.getElementById("permissionsTableBody");
-  const filterGroup = document.getElementById("permGroupFilter");
-  const searchInput = document.getElementById("permSearchInput");
-  if (!container) return;
-
-  function update() {
-    const group = filterGroup ? filterGroup.value : "ALL";
-    const q = searchInput ? searchInput.value.toLowerCase().trim() : "";
-
-    const filtered = MINECITY_DATA.permissions.filter(p => {
-      const matchGroup = group === "ALL" || p.group.includes(group);
-      const matchQuery = !q || p.node.toLowerCase().includes(q) || p.desc.toLowerCase().includes(q);
-      return matchGroup && matchQuery;
-    });
-
-    container.innerHTML = filtered.map(p => `
-      <tr>
-        <td>
-          <code>${p.node}</code>
-          <button class="copy-btn" data-copy="${p.node}">${I18N.t("copyText")}</button>
-        </td>
-        <td><span class="badge badge-perm">${p.group}</span></td>
-        <td><span class="badge ${p.default === 'op' ? 'badge-op' : 'badge-true'}">${p.default}</span></td>
-        <td>${p.desc}</td>
-      </tr>
-    `).join("");
-  }
-
-  if (filterGroup) filterGroup.addEventListener("change", update);
-  if (searchInput) searchInput.addEventListener("input", update);
-  update();
-}
-
-// Render Placeholders Table
-function renderPlaceholdersTable() {
-  const container = document.getElementById("placeholdersTableBody");
-  const searchInput = document.getElementById("papiSearchInput");
-  if (!container) return;
-
-  function update() {
-    const q = searchInput ? searchInput.value.toLowerCase().trim() : "";
-    const filtered = MINECITY_DATA.placeholders.filter(p => {
-      return !q || p.placeholder.toLowerCase().includes(q) || 
-             p.desc.toLowerCase().includes(q) || 
-             p.plugin.toLowerCase().includes(q);
-    });
-
-    container.innerHTML = filtered.map(p => `
-      <tr>
-        <td>
-          <code>${p.placeholder}</code>
-          <button class="copy-btn" data-copy="${p.placeholder}">${I18N.t("copyText")}</button>
-        </td>
-        <td><span class="badge badge-plugin">${p.plugin}</span></td>
-        <td><strong>${p.example}</strong></td>
-        <td>${p.desc}</td>
-      </tr>
-    `).join("");
-  }
-
-  if (searchInput) searchInput.addEventListener("input", update);
-  update();
-}
-
-// Render Video Gallery
-function renderVideoGallery() {
-  const container = document.getElementById("videoGallery");
-  if (!container) return;
-
-  container.innerHTML = MINECITY_DATA.videos.map(v => `
-    <div class="video-card">
-      <div class="video-thumb">
-        <iframe src="https://www.youtube.com/embed/${v.youtubeId}" allowfullscreen loading="lazy" title="${v.title}"></iframe>
-      </div>
-      <div class="video-info">
-        <span class="badge badge-plugin" style="align-self: flex-start; margin-bottom: 8px;">${v.category}</span>
-        <h4>${v.title}</h4>
-        <p>${v.description}</p>
-        <a href="${v.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.5rem 1rem;">
-          ▶️ ${I18N.t("watchOnYouTube")}
-        </a>
-      </div>
-    </div>
-  `).join("");
-}
-
-// Apply Multi-Language Translations to DOM
-function applyTranslations() {
+// =========================================================================
+// DYNAMIC 100% CONTENT RENDERING ENGINE
+// =========================================================================
+function renderAllContent() {
+  // 1. Text elements with data-i18n
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
-    el.innerText = I18N.t(key);
+    el.innerHTML = I18N.t(key);
   });
+
   document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
     const key = el.getAttribute("data-i18n-placeholder");
     el.setAttribute("placeholder", I18N.t(key));
   });
 
-  // Refresh dynamic table translations
+  // 2. Render Full Player Guide Chapters
+  renderPlayerGuide();
+
+  // 3. Render Full Admin Guide Chapters
+  renderAdminGuide();
+
+  // 4. Render Dynamic Tables & Video Gallery
   renderCommandsTable();
   renderPermissionsTable();
   renderPlaceholdersTable();
+  renderVideoGallery();
+}
+
+// Render Player Guide Chapters
+function renderPlayerGuide() {
+  const container = document.getElementById("playerGuideContainer");
+  if (!container) return;
+
+  const chapters = I18N.getGuides("player");
+  const isEs = I18N.currentLocale === "es";
+
+  container.innerHTML = chapters.map(ch => {
+    let videoHtml = "";
+    if (ch.videoId) {
+      videoHtml = `
+        <div class="video-card guide-video-embed">
+          <div class="video-thumb">
+            <iframe src="https://www.youtube.com/embed/${ch.videoId}" allowfullscreen loading="lazy" title="${ch.videoTitle}"></iframe>
+          </div>
+          <div class="video-info" style="padding: 0.8rem 1.1rem;">
+            <small style="color: var(--gta-yellow); font-weight: 800; text-transform: uppercase; font-size: 0.75rem;">${I18N.t("videoWalkthrough")}</small>
+            <h4 style="font-size: 0.98rem; margin: 4px 0;">${ch.videoTitle}</h4>
+          </div>
+        </div>
+      `;
+    }
+
+    return `
+      <article id="${ch.id}" class="guide-section">
+        <h2 class="section-title"><span>${ch.icon}</span> ${ch.title}</h2>
+        ${ch.content}
+        ${videoHtml}
+      </article>
+    `;
+  }).join("");
+}
+
+// Render Admin Guide Chapters
+function renderAdminGuide() {
+  const container = document.getElementById("adminGuideContainer");
+  if (!container) return;
+
+  const chapters = I18N.getGuides("admin");
+
+  container.innerHTML = chapters.map(ch => `
+    <article id="${ch.id}" class="guide-section">
+      <h2 class="section-title"><span>${ch.icon}</span> ${ch.title}</h2>
+      ${ch.content}
+    </article>
+  `).join("");
+}
+
+// Render Master Commands Table
+function renderCommandsTable() {
+  const tbody = document.getElementById("commandsTableBody");
+  const filterSelect = document.getElementById("cmdCategoryFilter");
+  const searchInput = document.getElementById("cmdSearchInput");
+  if (!tbody) return;
+
+  const isEs = I18N.currentLocale === "es";
+  const selectedCat = filterSelect ? filterSelect.value : "ALL";
+  const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
+
+  const filtered = MINECITY_DATA.commands.filter(c => {
+    const matchesCat = (selectedCat === "ALL" || c.category === selectedCat);
+    const desc = isEs ? (c.desc_es || c.desc) : c.desc;
+    const matchesSearch = !query ||
+      c.command.toLowerCase().includes(query) ||
+      c.aliases.toLowerCase().includes(query) ||
+      desc.toLowerCase().includes(query) ||
+      c.plugin.toLowerCase().includes(query);
+    return matchesCat && matchesSearch;
+  });
+
+  tbody.innerHTML = filtered.map(c => {
+    const desc = isEs ? (c.desc_es || c.desc) : c.desc;
+    return `
+      <tr>
+        <td>
+          <code style="font-weight: 700;">${c.command}</code>
+          <button class="copy-btn" data-copy="${c.command.split(' ')[0]}">${I18N.t("copyText")}</button>
+        </td>
+        <td><code>${c.aliases}</code></td>
+        <td><span class="badge badge-plugin">${c.permission}</span></td>
+        <td><strong>${c.plugin}</strong></td>
+        <td>${desc}</td>
+      </tr>
+    `;
+  }).join("");
+
+  if (filterSelect && !filterSelect.dataset.initialized) {
+    filterSelect.dataset.initialized = "true";
+    filterSelect.addEventListener("change", renderCommandsTable);
+  }
+  if (searchInput && !searchInput.dataset.initialized) {
+    searchInput.dataset.initialized = "true";
+    searchInput.addEventListener("input", renderCommandsTable);
+  }
+}
+
+// Render Permissions Table
+function renderPermissionsTable() {
+  const tbody = document.getElementById("permissionsTableBody");
+  if (!tbody) return;
+
+  const isEs = I18N.currentLocale === "es";
+
+  tbody.innerHTML = MINECITY_DATA.permissions.map(p => {
+    const desc = isEs ? (p.desc_es || p.desc) : p.desc;
+    return `
+      <tr>
+        <td>
+          <code>${p.node}</code>
+          <button class="copy-btn" data-copy="${p.node}">${I18N.t("copyText")}</button>
+        </td>
+        <td><span class="badge badge-plugin">${p.group}</span></td>
+        <td>${p.defaultState}</td>
+        <td>${desc}</td>
+      </tr>
+    `;
+  }).join("");
+}
+
+// Render Placeholders Table
+function renderPlaceholdersTable() {
+  const tbody = document.getElementById("placeholdersTableBody");
+  if (!tbody) return;
+
+  const isEs = I18N.currentLocale === "es";
+
+  tbody.innerHTML = MINECITY_DATA.placeholders.map(p => {
+    const desc = isEs ? (p.desc_es || p.desc) : p.desc;
+    return `
+      <tr>
+        <td>
+          <code>${p.placeholder}</code>
+          <button class="copy-btn" data-copy="${p.placeholder}">${I18N.t("copyText")}</button>
+        </td>
+        <td><strong>${p.plugin}</strong></td>
+        <td><code style="color: var(--accent-green); background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.3);">${p.example}</code></td>
+        <td>${desc}</td>
+      </tr>
+    `;
+  }).join("");
+}
+
+// Render Video Gallery (All 17 Real Minecity Videos)
+function renderVideoGallery() {
+  const container = document.getElementById("videoGallery");
+  if (!container) return;
+
+  const isEs = I18N.currentLocale === "es";
+
+  container.innerHTML = MINECITY_DATA.videos.map(v => {
+    const title = isEs ? (v.title_es || v.title) : v.title;
+    const desc = isEs ? (v.description_es || v.description) : v.description;
+
+    return `
+      <div class="video-card">
+        <div class="video-thumb">
+          <iframe src="https://www.youtube.com/embed/${v.youtubeId}" allowfullscreen loading="lazy" title="${title}"></iframe>
+        </div>
+        <div class="video-info">
+          <span class="badge badge-plugin" style="align-self: flex-start; margin-bottom: 8px;">${v.category}</span>
+          <h4>${title}</h4>
+          <p>${desc}</p>
+          <a href="${v.url}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="font-size: 0.82rem; padding: 0.5rem 1rem;">
+            ▶️ ${I18N.t("watchOnYouTube")}
+          </a>
+        </div>
+      </div>
+    `;
+  }).join("");
 }
 
 // Global Live Search Across Tabs
 function handleGlobalSearch(q) {
   if (!q) return;
-  // If user searches for a command starting with slash
   if (q.startsWith("/")) {
     const cmdLink = document.querySelector('[data-tab="commands"]');
     if (cmdLink) {
@@ -344,7 +412,7 @@ function handleGlobalSearch(q) {
       const cmdSearch = document.getElementById("cmdSearchInput");
       if (cmdSearch) {
         cmdSearch.value = q;
-        cmdSearch.dispatchEvent(new Event("input"));
+        renderCommandsTable();
       }
     }
   }
