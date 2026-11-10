@@ -2,11 +2,12 @@
  * Minecity Roleplay - Master Documentation Database
  * Comprehensive multi-language data for commands, permissions,
  * placeholders, and the 17-video official playlist showcase.
+ * Grounded strictly in server configurations and plugins.
  */
 
 const MINECITY_DATA = {
   version: "1.21.11-R0.1",
-  coreVersion: "MinecitySuite v1.0.0 & MinecityFixerAddon v1.0.4",
+  coreVersion: "MinecitySuite v1.0.0",
   platform: "Purpur 1.21.11 / Java 21",
   serverStyle: "GTA V / GTA VI Roleplay",
   resourceLink: "https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/",
@@ -492,11 +493,101 @@ const MINECITY_DATA = {
 ],
   commands: [
   {
+    "command": "/car",
+    "aliases": "/qav garage, /garage",
+    "permission": "None (Everyone)",
+    "category": "Vehicles",
+    "plugin": "MyCommand & QAV",
+    "desc": {
+      "en": "Opens your personal vehicle garage GUI to browse, select, and spawn your owned cars.",
+      "es": "Abre el menú interactivo de tu garaje para ver y sacar cualquiera de tus vehículos.",
+      "de": "Öffnet das persönliche Fahrzeug-Garagenmenü zum Auswählen und Spawnen deiner Autos.",
+      "fr": "Ouvre le menu de votre garage personnel pour choisir et faire apparaître vos véhicules.",
+      "it": "Apre il menu del garage personale per visualizzare e far spawnare le tue auto.",
+      "pt": "Abre o menu da sua garagem para visualizar e invocar seus veículos.",
+      "zh": "打开个人车库界面，浏览、挑选并生成名下拥有的载具。",
+      "ko": "소유한 차량을 확인하고 스폰할 수 있는 개인 차고 메뉴를 엽니다.",
+      "ru": "Открывает меню личного гаража для выбора и спавна принадлежащих вам машин."
+    }
+  },
+  {
+    "command": "/carcall",
+    "aliases": "/qav callback",
+    "permission": "None (Everyone)",
+    "category": "Vehicles",
+    "plugin": "MyCommand & QAV",
+    "desc": {
+      "en": "Saves and stores your active vehicle back into your garage to prevent theft or loss.",
+      "es": "Guarda y almacena tu vehículo activo de vuelta en el garaje para evitar robos.",
+      "de": "Speichert und parkt dein aktives Fahrzeug zurück in die Garage ein, um Diebstahl zu verhindern.",
+      "fr": "Sauvegarde et range votre véhicule actif dans votre garage pour éviter le vol.",
+      "it": "Salva e ripone il veicolo attivo nel garage per prevenirne il furto.",
+      "pt": "Salva e guarda seu veículo ativo de volta na garagem para evitar roubos.",
+      "zh": "将当前使用的载具安全收回保存至个人车库中，防止被盗或丢失。",
+      "ko": "도난이나 분실을 방지하기 위해 사용 중인 차량을 차고로 안전하게 입고 저장합니다.",
+      "ru": "Сохраняет и убирает активную машину обратно в гараж для защиты от угона."
+    }
+  },
+  {
+    "command": "/carsit1",
+    "aliases": "/carsit2, /carsit3",
+    "permission": "None (Everyone)",
+    "category": "Vehicles",
+    "plugin": "MyCommand & QAV",
+    "desc": {
+      "en": "Seats you as a passenger in seat 1, 2, or 3 of a vehicle.",
+      "es": "Te sienta como pasajero en el asiento 1, 2 o 3 de un vehículo.",
+      "de": "Setzt dich als Beifahrer auf Sitz 1, 2 oder 3 eines Fahrzeugs.",
+      "fr": "Vous installe comme passager sur le siège 1, 2 ou 3 d'un véhicule.",
+      "it": "Ti fa sedere come passeggero nel sedile 1, 2 o 3 di un veicolo.",
+      "pt": "Senta você como passageiro no banco 1, 2 ou 3 do veículo.",
+      "zh": "坐上载具的 1 号、2 号或 3 号乘客座位（副驾与后排）。",
+      "ko": "차량의 1번, 2번 또는 3번 조수석/뒷좌석에 동승자로 탑승합니다.",
+      "ru": "Сажает вас в качестве пассажира на место 1, 2 или 3 в машине."
+    }
+  },
+  {
+    "command": "/car-drive",
+    "aliases": "-",
+    "permission": "None (Everyone)",
+    "category": "Vehicles",
+    "plugin": "MyCommand & QAV",
+    "desc": {
+      "en": "Switches your passenger seat position to the driver's seat.",
+      "es": "Cambia tu posición de pasajero al asiento del conductor.",
+      "de": "Wechselt deine Sitzposition auf den Fahrersitz.",
+      "fr": "Bascule votre position de passager vers le siège conducteur.",
+      "it": "Sposta la tua posizione di passeggero al posto di guida.",
+      "pt": "Muda sua posição de passageiro para o assento do motorista.",
+      "zh": "从乘客座位切换至驾驶员主驾座位。",
+      "ko": "동승자 좌석에서 운전석으로 자리를 이동합니다.",
+      "ru": "Пересаживает вас с пассажирского места на водительское сиденье."
+    }
+  },
+  {
+    "command": "/vehicle trunk",
+    "aliases": "/trunk",
+    "permission": "None (Everyone)",
+    "category": "Vehicles",
+    "plugin": "QualityArmoryVehicles",
+    "desc": {
+      "en": "Opens the vehicle's trunk storage (can also be opened with Shift + Right-Click on the rear).",
+      "es": "Abre el maletero del vehículo (también accesible con Shift + Clic Derecho en la parte trasera).",
+      "de": "Öffnet den Kofferraum des Fahrzeugs (auch per Shift + Rechtsklick am Heck).",
+      "fr": "Ouvre le coffre du véhicule (accessible aussi avec Shift + Clic Droit à l'arrière).",
+      "it": "Apre il bagagliaio dell'auto (accessibile anche con Shift + Clic Destro sul retro).",
+      "pt": "Abre o porta-malas do veículo (também com Shift + Botão Direito na traseira).",
+      "zh": "开启载具后备箱空间（亦可在车尾通过 Shift + 鼠标右键直接开启）。",
+      "ko": "차량 트렁크를 엽니다 (차량 후면에서 Shift + 우클릭으로도 열 수 있습니다).",
+      "ru": "Открывает багажник машины (также открывается через Shift + ПКМ по задней части)."
+    }
+  },
+  {
     "command": "/apartments",
-    "aliases": "/properties, /apartamentos",
+    "aliases": "/properties, /apartment",
     "permission": "None (Everyone)",
     "category": "Real Estate",
-    "plugin": "MinecitySuite",
+    "plugin": "MinecitySuite & ARM",
     "desc": {
       "en": "Opens the interactive properties menu to browse, rent, buy, or manage owned homes.",
       "es": "Abre el menú interactivo para explorar, alquilar, comprar o gestionar propiedades.",
@@ -546,183 +637,75 @@ const MINECITY_DATA = {
     }
   },
   {
-    "command": "/arm rent <region>",
-    "aliases": "-",
-    "permission": "arm.use",
-    "category": "Real Estate",
-    "plugin": "ARM",
-    "desc": {
-      "en": "Rents an apartment or business region directly.",
-      "es": "Alquila una región de apartamento o negocio de forma directa.",
-      "de": "Mietet eine Wohnungs- oder Geschäftsregion direkt.",
-      "fr": "Loue directement une région d'appartement ou de commerce.",
-      "it": "Affitta direttamente una regione o negozio.",
-      "pt": "Aluga uma região de apartamento ou comércio diretamente.",
-      "zh": "直接通过区域代码租赁公寓或商铺领地。",
-      "ko": "아파트 또는 상가 구역을 직접 임대합니다.",
-      "ru": "Напрямую арендует регион квартиры или магазина."
-    }
-  },
-  {
-    "command": "/arm buy <region>",
-    "aliases": "-",
-    "permission": "arm.use",
-    "category": "Real Estate",
-    "plugin": "ARM",
-    "desc": {
-      "en": "Purchases a permanent property plot.",
-      "es": "Compra una parcela de propiedad permanente.",
-      "de": "Kauft ein dauerhaftes Grundstück.",
-      "fr": "Achète définitivement une parcelle.",
-      "it": "Acquista un lotto di proprietà permanente.",
-      "pt": "Compra um lote de propriedade permanente.",
-      "zh": "永久买断并拥有指定的地产地块。",
-      "ko": "지정된 토지 구역을 영구 구매합니다.",
-      "ru": "Покупает постоянный участок недвижимости."
-    }
-  },
-  {
     "command": "/arm addmember <region> <player>",
     "aliases": "-",
     "permission": "arm.use",
     "category": "Real Estate",
     "plugin": "ARM",
     "desc": {
-      "en": "Adds a roommate or friend with access to your apartment.",
-      "es": "Añade a un compañero o amigo con permiso de acceso a tus puertas.",
-      "de": "Fügt einen Mitbewohner mit Zugang zu deiner Wohnung hinzu.",
-      "fr": "Ajoute un colocataire avec accès aux portes de votre logement.",
-      "it": "Aggiunge un coinquilino con accesso alla tua casa.",
-      "pt": "Adiciona um amigo com permissão de acesso ao seu apartamento.",
-      "zh": "为室友或好友开通进入你房产的门禁权限。",
-      "ko": "내 아파트 출입 권한을 가진 룸메이트나 친구를 등록합니다.",
-      "ru": "Добавляет соседа с доступом к дверям вашей квартиры."
-    }
-  },
-  {
-    "command": "/arm removemember <region> <player>",
-    "aliases": "-",
-    "permission": "arm.use",
-    "category": "Real Estate",
-    "plugin": "ARM",
-    "desc": {
-      "en": "Revokes access to a player from your property.",
-      "es": "Revoca el acceso a un jugador de tu propiedad.",
-      "de": "Entzieht einem Spieler den Zugang zu deiner Immobilie.",
-      "fr": "Révoque l'accès d'un joueur à votre propriété.",
-      "it": "Revoca l'accesso a un giocatore dalla tua casa.",
-      "pt": "Remove o acesso de um jogador ao seu imóvel.",
-      "zh": "移除指定玩家对你房产的门禁权限。",
-      "ko": "내 부동산에서 특정 플레이어의 출입 권한을 회수합니다.",
-      "ru": "Забирает доступ к вашей собственности у игрока."
-    }
-  },
-  {
-    "command": "/qav garage",
-    "aliases": "/garage, /garaje",
-    "permission": "None (Everyone)",
-    "category": "Vehicles",
-    "plugin": "QualityArmoryVehicles",
-    "desc": {
-      "en": "Opens your personal virtual garage to spawn or store owned cars and helicopters.",
-      "es": "Abre tu garaje virtual personal para invocar o guardar tus vehículos y helicópteros.",
-      "de": "Öffnet deine virtuelle Garage zum Spawnen oder Einlagern von Autos und Helikoptern.",
-      "fr": "Ouvre votre garage virtuel pour faire apparaître ou ranger vos véhicules.",
-      "it": "Apre il garage virtuale per evocare o depositare i propri veicoli.",
-      "pt": "Abre sua garagem virtual pessoal para invocar ou guardar seus carros e helicópteros.",
-      "zh": "打开个人虚拟车库，生成或一键存入拥有的跑车、摩托与直升机。",
-      "ko": "보유 차량 및 헬리콥터를 소환하거나 보관하는 가상 차고를 엽니다.",
-      "ru": "Открывает виртуальный гараж для спавна или сохранения транспорта."
-    }
-  },
-  {
-    "command": "/vehicle model get <name>",
-    "aliases": "-",
-    "permission": "minecityfixer.admin",
-    "category": "Vehicles",
-    "plugin": "MinecityFixerAddon",
-    "desc": {
-      "en": "Gives staff a decorative 3D vehicle item for dealership showroom displays.",
-      "es": "Otorga al staff el ítem decorativo 3D para exhibir en concesionarios.",
-      "de": "Gibt dem Staff ein dekoratives 3D-Fahrzeug-Item für Showroom-Ausstellungen.",
-      "fr": "Donne un modèle de véhicule 3D décoratif pour les concessions.",
-      "it": "Fornisce allo staff un veicolo 3D decorativo per l'autosalone.",
-      "pt": "Dá à equipe um item 3D de veículo decorativo para vitrines de concessionárias.",
-      "zh": "为管理员生成用于展厅陈列展示的静态 3D 载具模型物品。",
-      "ko": "관리자에게 대리점 전시용 정적 3D 차량 모델 아이템을 지급합니다.",
-      "ru": "Выдает персоналу декоративную 3D-модель машины для автосалона."
+      "en": "Adds a trusted friend or roommate to your rented or owned property doors.",
+      "es": "Añade a un amigo o compañero de cuarto a las puertas de tu propiedad.",
+      "de": "Fügt einen Freund oder Mitbewohner zu den Türen deiner Immobilie hinzu.",
+      "fr": "Ajoute un ami ou colocataire aux portes de votre logement.",
+      "it": "Aggiunge un amico o coinquilino alle porte della tua proprietà.",
+      "pt": "Adiciona um amigo ou colega de quarto às portas do seu imóvel.",
+      "zh": "将好友或室友添加至个人房产钥匙白名单，共享门禁出入权。",
+      "ko": "소유한 부동산의 문에 친구나 룸메이트의 출입 권한을 추가합니다.",
+      "ru": "Добавляет друга или сожителя в список доступа к дверям вашего жилья."
     }
   },
   {
     "command": "/police cuff <player>",
     "aliases": "/cuff, /esposar",
-    "permission": "police.officer",
+    "permission": "police.handcuffs",
     "category": "Police",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Handcuffs a suspect after landing 2 consecutive hits with the arrest baton.",
-      "es": "Esposa a un sospechoso tras asestar 2 golpes seguidos con la porra policial.",
-      "de": "Fesselt einen Verdächtigen nach 2 aufeinanderfolgenden Schlagstocktreffern.",
-      "fr": "Menotte un suspect après 2 coups consécutifs de matraque.",
-      "it": "Ammanetta un sospetto dopo 2 colpi consecutivi di manganello.",
-      "pt": "Algema um suspeito após desferir 2 golpes seguidos com o cassetete.",
-      "zh": "使用警棍连续命中嫌疑人2次后对其进行拘捕上铐。",
-      "ko": "진압봉으로 2회 연속 타격 후 용의자에게 수갑을 채웁니다.",
-      "ru": "Надевает наручники на подозреваемого после 2 ударов дубинкой."
-    }
-  },
-  {
-    "command": "/police uncuff <player>",
-    "aliases": "/uncuff",
-    "permission": "police.officer",
-    "category": "Police",
-    "plugin": "MinecitySuite",
-    "desc": {
-      "en": "Removes handcuffs from a compliant citizen or detainee.",
-      "es": "Retira las esposas a un ciudadano o detenido.",
-      "de": "Nimmt einem Gefangenen die Handschellen ab.",
-      "fr": "Retire les menottes d'un citoyen ou détenu.",
-      "it": "Toglie le manette a un cittadino arrestato.",
-      "pt": "Remove as algemas de um cidadão detido.",
-      "zh": "解开指定被捕市民或嫌疑人的手铐。",
-      "ko": "수감자 또는 시민의 수갑을 해제합니다.",
-      "ru": "Снимает наручники с задержанного гражданина."
+      "en": "Handcuffs a subdued suspect, preventing sprinting, attacking, or weapon usage.",
+      "es": "Esposa a un sospechoso inmovilizado, impidiendo que corra, ataque o saque armas.",
+      "de": "Legt einem Verdächtigen Handschellen an und verhindert Sprinten und Angriffe.",
+      "fr": "Menotte un suspect maîtrisé, l'empêchant de courir ou d'attaquer.",
+      "it": "Mette le manette a un sospetto immobilizzato, impedendogli di correre o attaccare.",
+      "pt": "Algema um suspeito imobilizado, impedindo corridas, ataques e o uso de armas.",
+      "zh": "对已被制服的嫌疑人戴上手铐，禁止其疾跑、攻击或拔出武器。",
+      "ko": "제압된 용의자에게 수갑을 채워 질주, 공격 및 무기 사용을 봉쇄합니다.",
+      "ru": "Надевает наручники на обездвиженного преступника, блокируя бег и оружие."
     }
   },
   {
     "command": "/police jail <player> <minutes> <reason>",
     "aliases": "/jail, /encarcelar",
-    "permission": "police.officer",
+    "permission": "police.jail",
     "category": "Police",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Books an arrested criminal into the city state penitentiary.",
-      "es": "Ingresa a un criminal arrestado a la prisión estatal de la ciudad.",
-      "de": "Überführt einen Kriminellen in das Staatsgefängnis.",
-      "fr": "Incarcère un criminel dans la prison d'État.",
-      "it": "Registra un criminale nella prigione statale.",
-      "pt": "Envia um criminoso preso para a penitenciária estadual.",
-      "zh": "将落网罪犯正式收押至州立监狱服刑。",
-      "ko": "체포된 범죄자를 주립 교도소에 정식 수감합니다.",
-      "ru": "Отправляет пойманного преступника в государственную тюрьму."
+      "en": "Books and sentences an arrested criminal to the state penitentiary.",
+      "es": "Ingresa a un criminal arrestado a la prisión estatal con condena por tiempo.",
+      "de": "Überführt einen verhafteten Kriminellen in das Staatsgefängnis.",
+      "fr": "Incarcère un criminel arrêté dans la prison d'État avec peine définie.",
+      "it": "Registra e condanna un criminale arrestato nella prigione statale.",
+      "pt": "Envia um criminoso preso para a penitenciária estadual com tempo fixado.",
+      "zh": "将已逮捕入册的罪犯正式收押至州立监狱执行刑期。",
+      "ko": "체포된 범죄자를 주립 교도소에 정식 수감하고 형기를 집행합니다.",
+      "ru": "Отправляет пойманного преступника отбывать срок в государственную тюрьму."
     }
   },
   {
-    "command": "/wanted set <player> <1-5>",
+    "command": "/wanted set <player> <1-6>",
     "aliases": "/estrellas",
     "permission": "police.officer",
     "category": "Police",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Sets a player's active criminal wanted stars level (1 to 5 ★).",
-      "es": "Establece el nivel de búsqueda criminal de un jugador (1 a 5 estrellas ★).",
-      "de": "Setzt den Fahndungslevel eines Spielers (1 bis 5 Sterne ★).",
-      "fr": "Définit le niveau de recherche d'un joueur (1 à 5 étoiles ★).",
-      "it": "Imposta le stelle di ricercato di un giocatore (1 a 5 ★).",
-      "pt": "Define o nível de procurado de um jogador (1 a 5 estrelas ★).",
-      "zh": "为指定玩家设定犯罪通缉星级（1至5星 ★）。",
-      "ko": "플레이어의 범죄 수배 레벨을 설정합니다 (1~5성 ★).",
-      "ru": "Устанавливает уровень розыска игрока (от 1 до 5 звезд ★)."
+      "en": "Sets a player's active criminal wanted stars level (1 to 6 ★).",
+      "es": "Establece el nivel de búsqueda criminal de un jugador (1 a 6 estrellas ★).",
+      "de": "Setzt den Fahndungslevel eines Spielers (1 bis 6 Sterne ★).",
+      "fr": "Définit le niveau de recherche d'un joueur (1 à 6 étoiles ★).",
+      "it": "Imposta le stelle di ricercato di un giocatore (1 a 6 ★).",
+      "pt": "Define o nível de procurado de um jogador (1 a 6 estrelas ★).",
+      "zh": "为指定玩家设定犯罪通缉星级（1至6星 ★）。",
+      "ko": "플레이어의 범죄 수배 레벨을 설정합니다 (1~6성 ★).",
+      "ru": "Устанавливает уровень розыска игрока (от 1 до 6 звезд ★)."
     }
   },
   {
@@ -732,15 +715,33 @@ const MINECITY_DATA = {
     "category": "EMS & Hospital",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Performs emergency CPR resuscitation on an unconscious downed citizen.",
-      "es": "Aplica reanimación cardiopulmonar (RCP) de emergencia a un caído.",
-      "de": "Führt Notfall-Wiederbelebung (CPR) an einem Bewusstlosen durch.",
-      "fr": "Effectue une réanimation cardio-pulmonaire d'urgence sur un blessé.",
-      "it": "Esegue la rianimazione cardiopolmonare d'emergenza (CPR).",
-      "pt": "Aplica reanimação cardiopulmonar (RCP) em um cidadão desmaiado.",
-      "zh": "对倒地昏迷的市民实施紧急心肺复苏抢救 (CPR)。",
-      "ko": "의식을 잃고 쓰러진 시민에게 응급 심폐소생술(CPR)을 실시합니다.",
-      "ru": "Проводит экстренную сердечно-легочную реанимацию пострадавшего."
+      "en": "Revives a downed player on the spot when they accept the revival prompt (costs $250 fee).",
+      "es": "Reanima a un jugador caído en el lugar cuando acepta el aviso de rescate (coste $250).",
+      "de": "Belebt einen bewusstlosen Spieler vor Ort wieder, wenn dieser zustimmt ($250 Gebühr).",
+      "fr": "Réanime un joueur à terre sur place lorsqu'il accepte les soins (coût $250).",
+      "it": "Rianima un giocatore a terra sul posto quando accetta i soccorsi (costo $250).",
+      "pt": "Reanima um jogador desmaiado no local quando ele aceita o socorro (custo $250).",
+      "zh": "在伤者点击同意授权抢救后就地实施心肺复苏复活（扣除 $250 医疗费）。",
+      "ko": "쓰러진 플레이어가 수락하면 제자리에서 즉시 소생시킵니다 ($250 치료비).",
+      "ru": "Оживляет пострадавшего на месте при его согласии на помощь (стоимость $250)."
+    }
+  },
+  {
+    "command": "/paramedic menu",
+    "aliases": "/ems",
+    "permission": "paramedic.duty",
+    "category": "EMS & Hospital",
+    "plugin": "MinecitySuite",
+    "desc": {
+      "en": "Opens the paramedic emergency radar showing active 911 calls, downed players, and medical supplies.",
+      "es": "Abre el radar de emergencias médicas con llamadas 911, víctimas caídas y suministros.",
+      "de": "Öffnet das Notfall-Radar mit aktiven 911-Rufen, Verletzten und medizinischem Bedarf.",
+      "fr": "Ouvre le radar des urgences affichant appels 911, blessés et matériel médical.",
+      "it": "Apre il radar delle emergenze con chiamate al 911, feriti e forniture mediche.",
+      "pt": "Abre o radar de emergências com chamados do 911, vítimas e insumos médicos.",
+      "zh": "开启急救应急雷达面板，检视 911 报警、重伤市民坐标与专享医疗装备包。",
+      "ko": "911 호출, 부상자 위치 및 전용 의료 보급품을 확인하는 구급 레이더 메뉴를 엽니다.",
+      "ru": "Открывает меню парамедика с вызовами 911, пострадавшими и закупкой медикаментов."
     }
   },
   {
@@ -750,15 +751,15 @@ const MINECITY_DATA = {
     "category": "EMS & Hospital",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Opens the pharmacy GUI to purchase splints, bandages, antibiotics, and first aid.",
-      "es": "Abre el mostrador de farmacia para comprar férulas, vendajes y medicinas.",
-      "de": "Öffnet die Apotheke für Schienen, Verbände, Antibiotika und Erste Hilfe.",
-      "fr": "Ouvre la pharmacie pour acheter bandages, attelles et antibiotiques.",
-      "it": "Apre la farmacia per acquistare bende, antibiotici e pronto soccorso.",
-      "pt": "Abre a farmácia para comprar talas, ataduras, antibióticos e remédios.",
-      "zh": "打开市立药房界面，购买骨折夹板、止血绷带、抗生素与急救包。",
-      "ko": "부목, 붕대, 항생제 및 응급처치 키트를 구매하는 약국 창을 엽니다.",
-      "ru": "Открывает меню аптеки для покупки шин, бинтов и лекарств."
+      "en": "Opens the city pharmacy catalogue to buy bandages, splints, cough syrup, and medkits.",
+      "es": "Abre la farmacia de la ciudad para comprar jarabes, férulas, analgésicos y botiquines.",
+      "de": "Öffnet die Stadtapotheke zum Kauf von Bandagen, Schienen und Medikamenten.",
+      "fr": "Ouvre la pharmacie municipale pour acheter bandages, attelles et sirops.",
+      "it": "Apre la farmacia cittadina per comprare bende, stecche e medicinali.",
+      "pt": "Abre a farmácia municipal para comprar ataduras, talas, xaropes e kits médicos.",
+      "zh": "打开公立药房商城，购买止痛药片、止咳糖浆、骨折夹板与急救医疗箱。",
+      "ko": "붕대, 부목, 감기약 및 구급 키트를 구매할 수 있는 시립 약국을 엽니다.",
+      "ru": "Открывает городскую аптеку для покупки бинтов, шин, сиропов и медикаментов."
     }
   },
   {
@@ -768,15 +769,15 @@ const MINECITY_DATA = {
     "category": "Survival",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Displays your current hydration percentage, body fatigue, and symptoms.",
-      "es": "Muestra tu porcentaje actual de hidratación, fatiga corporal y síntomas.",
-      "de": "Zeigt deinen Flüssigkeitshaushalt, Erschöpfung und Symptome an.",
-      "fr": "Affiche votre niveau d'hydratation, votre fatigue et vos symptômes.",
-      "it": "Mostra la percentuale di idratazione e lo stato di affaticamento.",
-      "pt": "Exibe sua porcentagem atual de hidratação, cansaço e sintomas.",
-      "zh": "查看当前的身体水分百分比、疲劳指数及异常体征。",
-      "ko": "현재 체내 수분 퍼센트, 피로도 및 건강 상태를 확인합니다.",
-      "ru": "Показывает процент гидратации, усталость и симптомы."
+      "en": "Displays your exact hydration percentage, fatigue level, and health vitals.",
+      "es": "Muestra tu porcentaje de hidratación corporal, nivel de fatiga y signos vitales.",
+      "de": "Zeigt deinen genauen Flüssigkeitswert, Ermüdungsgrad und Vitalwerte an.",
+      "fr": "Affiche votre taux d'hydratation précis, fatigue et constantes vitales.",
+      "it": "Mostra la percentuale esatta di idratazione, affaticamento e parametri vitali.",
+      "pt": "Exibe sua porcentagem de hidratação, nível de cansaço e sinais vitais.",
+      "zh": "显示当前精准水分代谢百分比、身体疲劳度与生命体征数据。",
+      "ko": "현재 수분율, 누적 피로도 및 신체 활력 징후를 상세히 표시합니다.",
+      "ru": "Показывает точный процент гидратации, уровень усталости и показатели здоровья."
     }
   },
   {
@@ -786,15 +787,15 @@ const MINECITY_DATA = {
     "category": "Pets",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Opens the pet store to adopt dogs, cats, parrots, and purchase food.",
-      "es": "Abre la tienda de mascotas para adoptar perros, gatos y comprar comida.",
-      "de": "Öffnet die Tierhandlung zur Adoption von Hunden, Katzen und Zubehör.",
-      "fr": "Ouvre l'animalerie pour adopter des chiens, des chats et acheter de la nourriture.",
-      "it": "Apre il negozio per adottare animali e comprare cibo.",
-      "pt": "Abre o pet shop para adotar cães, gatos e comprar ração.",
-      "zh": "打开宠物伴侣商店，领养幼犬、猫咪、鹦鹉并购买宠物口粮。",
-      "ko": "강아지, 고양이, 앵무새 분양 및 사료를 구매할 수 있는 펫 상점을 엽니다.",
-      "ru": "Открывает зоомагазин для покупки питомцев и корма."
+      "en": "Opens the pet store to adopt puppies, kittens, parrots, and pet accessories.",
+      "es": "Abre la tienda de mascotas para adoptar cachorros, gatitos, loros y accesorios.",
+      "de": "Öffnet den Tierladen zur Adoption von Welpen, Kätzchen und Vögeln.",
+      "fr": "Ouvre l'animalerie pour adopter chiots, chatons, perroquets et accessoires.",
+      "it": "Apre il negozio di animali per adottare cuccioli, gattini e accessori.",
+      "pt": "Abre o pet shop para adotar filhotes de cachorro, gatos, aves e itens.",
+      "zh": "打开萌宠商城，领养纯种幼犬、猫咪、鹦鹉及购买宠物粮用品。",
+      "ko": "강아지, 고양이, 앵무새 입양 및 용품 구매가 가능한 펫샵을 엽니다.",
+      "ru": "Открывает зоомагазин для покупки щенков, котят, птиц и аксессуаров."
     }
   },
   {
@@ -804,15 +805,15 @@ const MINECITY_DATA = {
     "category": "Pets",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Opens the pet care dashboard (feed, wash, play, status).",
-      "es": "Abre el panel de cuidado de tu mascota (alimentar, lavar, jugar, estado).",
-      "de": "Öffnet das Haustier-Dashboard (Füttern, Waschen, Spielen, Status).",
-      "fr": "Ouvre le tableau de bord de votre animal (nourrir, laver, jouer).",
-      "it": "Apre il pannello dell'animale domestico (nutri, lava, gioca).",
-      "pt": "Abre o painel de cuidados do seu pet (alimentar, banho, brincar).",
-      "zh": "打开电子宠物管理面板（喂食、洗澡、互动玩耍与状态监测）。",
-      "ko": "펫 관리 대시보드를 엽니다 (먹이 주기, 씻기기, 놀아주기, 상태 확인).",
-      "ru": "Открывает панель ухода за питомцем (кормление, мытье, игры)."
+      "en": "Opens your pet's dashboard to feed, bathe, play fetch, and put them to sleep.",
+      "es": "Abre el panel de tu mascota para alimentarla, bañarla, jugar y hacerla dormir.",
+      "de": "Öffnet das Haustier-Dashboard zum Füttern, Waschen und Spielen.",
+      "fr": "Ouvre le tableau de bord de votre animal pour le nourrir et le laver.",
+      "it": "Apre il pannello dell'animale per dargli da mangiare, lavarlo e giocarci.",
+      "pt": "Abre o painel do seu pet para alimentar, dar banho e brincar.",
+      "zh": "打开爱宠状态面板：投喂饲料、洗澡清洁、抛球互动与就寝。",
+      "ko": "반려동물 상태창을 열어 밥 주기, 목욕, 놀아주기 및 재우기를 수행합니다.",
+      "ru": "Открывает панель питомца: кормление, купание, игры и сон."
     }
   },
   {
@@ -822,15 +823,15 @@ const MINECITY_DATA = {
     "category": "Pets",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Summons your active pet to your side or makes it ride inside your vehicle.",
-      "es": "Invoca a tu mascota activa a tu lado o la sube al asiento de tu vehículo.",
-      "de": "Ruft dein aktives Haustier herbei oder lässt es im Auto mitfahren.",
-      "fr": "Invoque votre animal à vos côtés ou le fait monter dans votre véhicule.",
-      "it": "Chiama il tuo animale al tuo fianco o fallo salire in auto.",
-      "pt": "Chama seu pet para o seu lado ou coloca-o como passageiro no carro.",
-      "zh": "将宠物瞬间召唤至身边，或使其坐上你车辆的副驾驶座。",
-      "ko": "활성화된 펫을 내 위치로 호출하거나 차량 조수석에 탑승시킵니다.",
-      "ru": "Призывает питомца к вам или сажает его в машину пассажиром."
+      "en": "Summons your loyal pet to your location or seats them in your car passenger seat.",
+      "es": "Llama a tu mascota a tu lado o la sube como copiloto en tu vehículo.",
+      "de": "Ruft dein Haustier zu dir oder setzt es auf den Beifahrersitz deines Autos.",
+      "fr": "Appelle votre animal à vos côtés ou le fait monter en passager dans votre voiture.",
+      "it": "Chiama il tuo animale vicino a te o lo fa salire come passeggero in auto.",
+      "pt": "Chama seu pet para o seu lado ou o coloca no banco do passageiro do carro.",
+      "zh": "呼叫宠物来到身边跟随，或将其放置于车辆副驾驶座陪同兜风。",
+      "ko": "반려동물을 곁으로 소환하거나 차량 조수석에 동승시킵니다.",
+      "ru": "Призывает питомца к вам или сажает его на пассажирское сиденье машины."
     }
   },
   {
@@ -838,17 +839,17 @@ const MINECITY_DATA = {
     "aliases": "/dni",
     "permission": "None (Everyone)",
     "category": "Identity",
-    "plugin": "MinecitySuite",
+    "plugin": "RPTools",
     "desc": {
-      "en": "Presents your Citizen ID card to the player you are looking at.",
-      "es": "Muestra tu documento de identidad (DNI) al jugador que tengas enfrente.",
-      "de": "Zeigt deinen Ausweis dem Spieler vor dir.",
-      "fr": "Présente votre carte d'identité au joueur en face de vous.",
-      "it": "Mostra il tuo documento di identità al giocatore di fronte.",
-      "pt": "Mostra seu documento de identidade (RG) para a pessoa à sua frente.",
-      "zh": "将个人市民身份证件正面展示给正对面的玩家或执法警官。",
-      "ko": "정면에 있는 플레이어 또는 경찰관에게 내 신분증을 제시합니다.",
-      "ru": "Показывает ваш паспорт игроку перед вами."
+      "en": "Presents your legal Citizen ID card (DNI) to the player or officer in front of you.",
+      "es": "Muestra tu cédula de identidad legal (DNI) al jugador u oficial frente a ti.",
+      "de": "Zeigt deinen amtlichen Personalausweis (DNI) dem Spieler oder Beamten vor dir.",
+      "fr": "Présente votre carte d'identité citoyenne (DNI) au joueur ou policier en face.",
+      "it": "Mostra la tua carta d'identità (DNI) al giocatore o poliziotto di fronte.",
+      "pt": "Apresenta seu documento de identidade (DNI) ao jogador ou policial à sua frente.",
+      "zh": "向正对面的市民或执法警官出示出示您的合法市民身份证件 (DNI)。",
+      "ko": "정면에 있는 플레이어나 경찰관에게 본인의 법적 시민 신분증(DNI)을 제시합니다.",
+      "ru": "Показывает ваш паспорт гражданина (DNI) стоящему перед вами игроку или офицеру."
     }
   },
   {
@@ -856,89 +857,125 @@ const MINECITY_DATA = {
     "aliases": "/telefono, /celular",
     "permission": "None (Everyone)",
     "category": "Communication",
-    "plugin": "MinecitySuite",
+    "plugin": "PhoneV2",
     "desc": {
-      "en": "Opens your smartphone interface (contacts, calls, SMS, 911 dispatch, bank app).",
-      "es": "Abre tu teléfono móvil (contactos, llamadas, SMS, 911 y banca móvil).",
-      "de": "Öffnet das Smartphone (Kontakte, Anrufe, SMS, 911 Notruf, Banking).",
-      "fr": "Ouvre votre smartphone (contacts, appels, SMS, 911, banque).",
-      "it": "Apre lo smartphone (contatti, chiamate, SMS, 911, banca).",
-      "pt": "Abre seu smartphone (contatos, chamadas, SMS, 911, banco).",
-      "zh": "调出个人智能手机（通讯录、电话、短信、911报警及手机银行）。",
-      "ko": "스마트폰을 엽니다 (연락처, 통화, 문자, 911 긴급호출, 뱅킹 앱).",
-      "ru": "Открывает интерфейс смартфона (контакты, звонки, SMS, 911, банк)."
+      "en": "Opens your interactive smartphone for SMS texting, calls, contacts, and 911 dispatch.",
+      "es": "Abre tu teléfono móvil para enviar SMS, llamar, ver contactos y pedir auxilio al 911.",
+      "de": "Öffnet dein Smartphone für SMS, Sprachanrufe, Kontakte und 911-Notrufe.",
+      "fr": "Ouvre votre smartphone pour SMS, appels, répertoire et appels d'urgence 911.",
+      "it": "Apre lo smartphone per inviare SMS, chiamare, rubrica e soccorso 911.",
+      "pt": "Abre seu celular para SMS, ligações, agenda de contatos e chamados ao 911.",
+      "zh": "打开触控智能手机界面，进行短信收发、电话通讯、通讯录管理及 911 报警。",
+      "ko": "문자 전송, 전화 통화, 연락처 및 911 긴급 신고를 위한 스마트폰을 엽니다.",
+      "ru": "Открывает смартфон для SMS, звонков, телефонной книги и вызова 911."
     }
   },
   {
     "command": "/gps to <destination>",
-    "aliases": "-",
-    "permission": "gps.use",
-    "category": "Navigation",
+    "aliases": "/gps",
+    "permission": "None (Everyone)",
+    "category": "Communication",
     "plugin": "GPS",
     "desc": {
-      "en": "Generates glowing particle arrows guiding you along city streets to a landmark.",
-      "es": "Genera flechas de partículas guía por las calles hasta el destino indicado.",
-      "de": "Erzeugt leuchtende Partikelpfeile, die dich durch Straßen leiten.",
-      "fr": "Crée des flèches de particules lumineuses pour vous guider en ville.",
-      "it": "Genera frecce di particelle luminose per guidarti verso la meta.",
-      "pt": "Cria setas de partículas luminosas guiando você pela rua até o local.",
-      "zh": "在城市主干道路面上生成粒子导航光标，指引前往目标建筑。",
-      "ko": "도시 도로를 따라 목적지까지 유도하는 발광 파티클 화살표를 생성합니다.",
-      "ru": "Создает светящиеся стрелки частиц на дорогах до пункта назначения."
+      "en": "Generates real-time particle guidance arrows on the asphalt to any city destination.",
+      "es": "Genera flechas de partículas guía en el asfalto hacia cualquier destino de la ciudad.",
+      "de": "Erzeugt dynamische Partikel-Pfeile auf dem Asphalt zu jedem Ziel in der Stadt.",
+      "fr": "Génère des flèches de particules sur la route guidant vers la destination choisie.",
+      "it": "Crea frecce di particelle luminose sull'asfalto verso qualsiasi meta cittadina.",
+      "pt": "Cria setas de partículas brilhantes no asfalto guiando até o destino selecionado.",
+      "zh": "在路面上投射高亮粒子导航箭头，精准引导前往城市任意地标目的地。",
+      "ko": "도시 내 주요 목적지까지 아스팔트 위에 실시간 파티클 길안내 화살표를 투사합니다.",
+      "ru": "Создает на асфальте стрелки из светящихся частиц, указывающие путь к цели."
     }
   },
   {
-    "command": "/me <action>",
-    "aliases": "-",
+    "command": "/bank",
+    "aliases": "/banco, /atm",
     "permission": "None (Everyone)",
-    "category": "Roleplay",
-    "plugin": "MinecitySuite",
+    "category": "Economy",
+    "plugin": "Bank Lite",
     "desc": {
-      "en": "Describes a physical in-character action (15-block proximity).",
-      "es": "Describe una acción física de tu personaje (radio de 15 bloques).",
-      "de": "Beschreibt eine physische Charakteraktion (15 Blöcke Radius).",
-      "fr": "Décrit une action physique du personnage (rayon de 15 blocs).",
-      "it": "Descrive un'azione fisica del personaggio (raggio 15 blocchi).",
-      "pt": "Descreve uma ação física do seu personagem (alcance de 15 blocos).",
-      "zh": "描述角色当前的肢体物理动作（15格就近广播范围）。",
-      "ko": "캐릭터의 신체 행동을 서술합니다 (반경 15블록 범위 공유).",
-      "ru": "Описывает физическое действие персонажа (радиус 15 блоков)."
+      "en": "Accesses your checking account at ATMs and bank branches to deposit, withdraw, or transfer funds.",
+      "es": "Accede a tu cuenta corriente en cajeros ATM y bancos para depositar, retirar o transferir.",
+      "de": "Greift an Geldautomaten und Banken auf dein Konto zu für Ein-/Auszahlungen und Überweisungen.",
+      "fr": "Accède à votre compte bancaire pour déposer, retirer ou transférer de l'argent.",
+      "it": "Accede al conto corrente tramite ATM o banche per depositi, prelievi e bonifici.",
+      "pt": "Acessa sua conta corrente em caixas eletrônicos e agências para depósitos e saques.",
+      "zh": "在银行网点或 ATM 机访问个人活期账户，办理存款、取款与跨户转账。",
+      "ko": "ATM 기기 및 은행에서 입금, 출금 및 계좌 이체를 위한 은행 계좌를 조회합니다.",
+      "ru": "Доступ к банковскому счету в банкоматах для снятия, пополнения и переводов."
     }
   },
   {
-    "command": "/do <context>",
-    "aliases": "-",
+    "command": "/clan create <name>",
+    "aliases": "/gang create",
     "permission": "None (Everyone)",
     "category": "Roleplay",
-    "plugin": "MinecitySuite",
+    "plugin": "ClansPlus",
     "desc": {
-      "en": "Establishes environmental surroundings or scene details.",
-      "es": "Establece el entorno o detalles contextuales de una escena de rol.",
-      "de": "Beschreibt Umgebungsinformationen und Szenendetails.",
-      "fr": "Établit les faits environnementaux d'une scène.",
-      "it": "Descrive l'ambiente o le circostanze della scena.",
-      "pt": "Estabelece detalhes ambientais ou circunstâncias da cena de rol.",
-      "zh": "客观补充当前场景的环境细节、氛围事实与客观结果。",
-      "ko": "주변 환경 및 상황의 객관적 사실이나 세부 정보를 묘사합니다.",
-      "ru": "Описывает окружающую обстановку или детали сцены."
+      "en": "Establishes a recognized civilian organization, business guild, or underground gang.",
+      "es": "Funda una organización civil, sindicato comercial o banda criminal.",
+      "de": "Gründet eine Zivilorganisation, Wirtschaftsgilde oder Straßenbande.",
+      "fr": "Crée une organisation civile, guilde commerciale ou gang criminel.",
+      "it": "Fonda un'organizzazione civile, sindacato commerciale o banda di strada.",
+      "pt": "Funda uma organização civil, guilda comercial ou facção criminosa.",
+      "zh": "建立合法的市民互助组织、商业公会或地下黑帮势力。",
+      "ko": "민간 단체, 상업 길드 또는 암흑가 범죄 조직(갱단)을 창설합니다.",
+      "ru": "Создает гражданскую организацию, коммерческую гильдию или преступную банду."
+    }
+  },
+  {
+    "command": "/crew",
+    "aliases": "/robbery crew",
+    "permission": "None (Everyone)",
+    "category": "Roleplay",
+    "plugin": "MyCommand & KoyaRobbery",
+    "desc": {
+      "en": "Manages your heist crew for coordinated bank and jewelry store robberies.",
+      "es": "Gestiona tu banda de asalto para atracos coordinados al banco central.",
+      "de": "Verwaltet deine Raubüberfall-Crew für Bank- und Juwelierraube.",
+      "fr": "Gère votre équipe de braquage pour attaquer la banque centrale.",
+      "it": "Gestisce la tua squadra per rapine coordinate alla banca centrale.",
+      "pt": "Gerencia sua quadrilha para assaltos coordenados ao banco central.",
+      "zh": "管理金库抢劫行动团队成员，协同执行中央银行金库强攻。",
+      "ko": "중앙은행 금고 털이를 위한 습격 크루 팀원을 관리합니다.",
+      "ru": "Управляет составом банды для скоординированного ограбления банка."
     }
   },
   {
     "command": "/ms adddummy <name>",
     "aliases": "-",
-    "permission": "minecitysuite.admin",
+    "permission": "minecity.admin",
     "category": "Administration",
     "plugin": "MinecitySuite",
     "desc": {
-      "en": "Spawns a controllable test dummy player for arrest & CPR training.",
-      "es": "Genera un dummy de pruebas controlable para entrenar arrestos y RCP.",
-      "de": "Spawnt einen steuerbaren Test-Dummy für Polizei- und Sanitäterübungen.",
-      "fr": "Fait apparaître un mannequin de test pour les entraînements police/secours.",
-      "it": "Evoca un manichino di prova per addestramenti polizia e CPR.",
-      "pt": "Gera um dummy de teste para treinar prisões e reanimação.",
-      "zh": "生成一个可控的测试假人，用于演练警棍抓捕与急救复苏。",
-      "ko": "체포 및 심폐소생 훈련을 위한 조작 가능한 테스트용 더미를 생성합니다.",
-      "ru": "Спавнит тестового манекена для тренировки задержаний и СЛР."
+      "en": "Spawns an interactive test dummy entity at your target block for police and medic simulation.",
+      "es": "Genera un muñeco de prueba interactivo para ensayar arrestos, porras y RCP.",
+      "de": "Spawnt einen interaktiven Test-Dummy zur Simulation von Verhaftungen und CPR.",
+      "fr": "Fait apparaître un mannequin de test pour simuler arrestations et réanimations.",
+      "it": "Genera un manichino di prova per testare arresti, manganelli e soccorsi RCP.",
+      "pt": "Spawna um boneco de testes interativo para simular prisões e socorros médicos.",
+      "zh": "生成交互式靶场测试人偶实体，用于检验警棍制服、上铐及心肺复苏功能。",
+      "ko": "경찰 진압 및 응급처치 시뮬레이션을 위한 상호작용형 테스트 더미를 소환합니다.",
+      "ru": "Создает тестового манекена для проверки полицейских дубинок и реанимации."
+    }
+  },
+  {
+    "command": "/vehicle model get <name>",
+    "aliases": "-",
+    "permission": "minecity.admin",
+    "category": "Administration",
+    "plugin": "MinecitySuite",
+    "desc": {
+      "en": "Spawns a static 3D vehicle display model for showroom podiums and dealership decor.",
+      "es": "Coloca un modelo 3D estático de exhibición para podios de concesionarios y decoración.",
+      "de": "Spawnt ein statisches 3D-Fahrzeugmodell für Autohäuser und Ausstellungsflächen.",
+      "fr": "Génère un modèle 3D statique de véhicule pour les concessions et podiums.",
+      "it": "Spawna un modello 3D statico per esposizioni in autosaloni e podi decorativi.",
+      "pt": "Spawna um modelo 3D estático de mostruário para plataformas de concessionárias.",
+      "zh": "生成展厅专用静态 3D 车辆模型，用于汽车销售展台与展厅装潢。",
+      "ko": "대리점 전시 플랫폼 및 매장 인테리어를 위한 고정형 3D 차량 모델을 소환합니다.",
+      "ru": "Создает статичную 3D-модель машины для выставочных подиумов в автосалонах."
     }
   }
 ],
