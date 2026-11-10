@@ -6,21 +6,33 @@
 
 ---
 
-## 🚀 Live Demo & Deployment to GitHub Pages
+## 🚀 Deployment to GitHub Pages
 
 This repository is ready to be hosted on **GitHub Pages** for free in under 2 minutes with **zero build tools, zero npm install, and zero server costs**!
 
+### Your Live URL:
+> **https://prowco.github.io/MinecityRP-Wiki/**
+
 ### Quick 3-Step Deployment:
-1. **Create a GitHub Repository**:
-   - Go to [github.com/new](https://github.com/new) and create a repository named `minecity-wiki`.
-2. **Upload Files**:
-   - Upload all files from this directory (`index.html`, `css/`, `js/`, `.nojekyll`, `README.md`) to the repository.
+1. **GitHub Repository**:
+   - Repository: `https://github.com/Prowco/MinecityRP-Wiki`
+2. **Upload / Push Files**:
+   - **Option A (Web Drag & Drop)**: On your empty repository page, click **uploading an existing file**, drag the contents of this folder into GitHub, and click **Commit changes**.
+   - **Option B (Git Terminal)**:
+     ```bash
+     git init
+     git add .
+     git commit -m "Minecity Roleplay Official Wiki Initial Commit"
+     git branch -M main
+     git remote add origin https://github.com/Prowco/MinecityRP-Wiki.git
+     git push -u origin main
+     ```
 3. **Enable GitHub Pages**:
-   - In your repository, go to **Settings** > **Pages**.
-   - Under **Source**, select **Deploy from a branch**.
-   - Under **Branch**, select `main` and `/ (root)`, then click **Save**.
-   - Your wiki will be instantly live at:  
-     `https://<your-username>.github.io/minecity-wiki/`
+   - In your repository, go to **Settings** > **Pages** (under Code and automation).
+   - Under **Build and deployment > Source**, select **Deploy from a branch**.
+   - Under **Branch**, select `main` and folder `/(root)`, then click **Save**.
+   - Wait ~30 seconds, and your wiki is live at:  
+     `https://prowco.github.io/MinecityRP-Wiki/`
 
 ---
 

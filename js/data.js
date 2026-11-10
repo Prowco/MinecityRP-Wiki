@@ -8,30 +8,143 @@ const MINECITY_DATA = {
   coreVersion: "MinecitySuite v1.0.0 & MinecityFixerAddon v1.0.4",
   platform: "Purpur 1.21.11 / Java 21",
   resourceLink: "https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/",
+  playlistUrl: "https://www.youtube.com/playlist?list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD",
   videos: [
     {
-      id: "minecity-trailer",
-      title: "Minecity Roleplay GTA - Official Cinematic Showcase",
-      youtubeId: "dQw4w9WgXcQ", // Representative embed or official link
-      url: "https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/",
-      description: "Explore the vast metropolis, 3D custom animated vehicles, high-stakes police chases, immersive jobs, and bank heists.",
-      category: "Cinematic"
+      id: "apartment-guide",
+      title: "How to rent an apartment in Minecraft! | Minecity GTA Setup",
+      youtubeId: "7f8Suj8XlIw",
+      url: "https://www.youtube.com/watch?v=7f8Suj8XlIw",
+      description: "Complete guide on finding, renting, and purchasing apartments, penthouses, and houses using the MCRP-Properties menu.",
+      category: "Real Estate"
     },
     {
-      id: "vehicles-showcase",
-      title: "Vehicles & Helicopter Flight Controls System",
-      youtubeId: "",
-      url: "https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/",
-      description: "How to buy, drive, refuel, lock, and fly helicopters with the custom elevation and inversion patch.",
+      id: "vehicles-guide",
+      title: "3D Vehicles in Minecraft without mods! | Minecity GTA Setup",
+      youtubeId: "lq8u-JcET-g",
+      url: "https://www.youtube.com/watch?v=lq8u-JcET-g",
+      description: "Showcase of 3D animated sports cars, motorbikes, helicopters, virtual garage storage, and gas stations.",
       category: "Vehicles"
     },
     {
-      id: "police-ems-showcase",
-      title: "Law Enforcement & Emergency Medical Services (EMS)",
-      youtubeId: "",
-      url: "https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/",
-      description: "Wanted stars system, arrest stick, handcuffs, diseases, surgery, and emergency resuscitation.",
-      category: "Public Safety"
+      id: "guns-guide",
+      title: "Guns in Minecraft without mods! | Minecity GTA Setup",
+      youtubeId: "5dHoEsEqK2Y",
+      url: "https://www.youtube.com/watch?v=5dHoEsEqK2Y",
+      description: "Overview of custom 3D firearms (pistols, rifles, shotguns, snipers), ballistic ammo, and shootouts.",
+      category: "Weapons"
+    },
+    {
+      id: "bank-robbery",
+      title: "Were we able to rob the bank in Minecraft? | Minecity GTA Setup",
+      youtubeId: "KZPMHXyRVds",
+      url: "https://www.youtube.com/watch?v=KZPMHXyRVds",
+      description: "High-stakes bank vault robbery, automated 911 police silent alarms, police response, and escaping with the loot.",
+      category: "Crime & Heists"
+    },
+    {
+      id: "hospital-guide",
+      title: "Hospital and Diseases in Minecraft! | Minecity GTA Setup",
+      youtubeId: "2ccipy7nn_k",
+      url: "https://www.youtube.com/watch?v=2ccipy7nn_k",
+      description: "Detailed tour of the city hospital, contracting realistic diseases, fractured bones, medicine, and paramedic treatments.",
+      category: "EMS & Hospital"
+    },
+    {
+      id: "casino-guide",
+      title: "We become MILLIONAIRES in the Minecraft casino! | Minecity GTA",
+      youtubeId: "OTSsf7QewjM",
+      url: "https://www.youtube.com/watch?v=OTSsf7QewjM",
+      description: "Gambling, video poker, casino games, roulette tables, and lottery tickets in the luxury entertainment district.",
+      category: "Entertainment"
+    },
+    {
+      id: "bank-guide",
+      title: "How does a bank work in Minecraft? | Minecity GTA Setup",
+      youtubeId: "r4HPhE_R2nA",
+      url: "https://www.youtube.com/watch?v=r4HPhE_R2nA",
+      description: "How to open bank accounts, use ATM machines across the city, deposit paychecks, and wire money.",
+      category: "Economy"
+    },
+    {
+      id: "fisher-job",
+      title: "Fisher Job | MINECRAFT ROLEPLAY | Minecity GTA",
+      youtubeId: "Tu8a5rsJJ2U",
+      url: "https://www.youtube.com/watch?v=Tu8a5rsJJ2U",
+      description: "Civilian fishing career, catching custom fish species, participating in fishing tournaments, and selling to markets.",
+      category: "Jobs"
+    },
+    {
+      id: "miner-job",
+      title: "Miner Job | MINECRAFT ROLEPLAY | Minecity GTA",
+      youtubeId: "frLu3F9IGZw",
+      url: "https://www.youtube.com/watch?v=frLu3F9IGZw",
+      description: "Working inside the industrial mining quarry, collecting precious ores, and earning your first fortune.",
+      category: "Jobs"
+    },
+    {
+      id: "truck-job-1",
+      title: "Truck Driver Job | MINECRAFT ROLEPLAY | Minecity GTA",
+      youtubeId: "-8Ui40Sgr1A",
+      url: "https://www.youtube.com/watch?v=-8Ui40Sgr1A",
+      description: "Commercial logistics, delivering heavy cargo freight across highways, and earning high transport paychecks.",
+      category: "Jobs"
+    },
+    {
+      id: "truck-job-2",
+      title: "Truck Driver Job Minecity Roleplay | 2026 Edition",
+      youtubeId: "Gx1BC-TEeBM",
+      url: "https://www.youtube.com/watch?v=Gx1BC-TEeBM",
+      description: "Updated walkthrough of truck delivery routes, trailer hitching, and transport logistics.",
+      category: "Jobs"
+    },
+    {
+      id: "bus-job",
+      title: "Bus Driver Job | MINECRAFT ROLEPLAY | Minecity GTA",
+      youtubeId: "H9VgeG_uJlY",
+      url: "https://www.youtube.com/watch?v=H9VgeG_uJlY",
+      description: "Public transit bus routes, picking up citizens at designated bus stops, and operating city transit lines.",
+      category: "Jobs"
+    },
+    {
+      id: "server-tutorial-1",
+      title: "Tutorial Guide Minecity GTA Server Setup 2026",
+      youtubeId: "Pu4ijeTxCA8",
+      url: "https://www.youtube.com/watch?v=Pu4ijeTxCA8",
+      description: "Comprehensive newcomer walkthrough covering spawn arrival, city orientation, smartphone setup, and first steps.",
+      category: "Tutorials"
+    },
+    {
+      id: "server-guide-1",
+      title: "Minecity RP Setup | Minecraft Server GTA 5 | Updated Guide",
+      youtubeId: "tqgprEd5LGY",
+      url: "https://www.youtube.com/watch?v=tqgprEd5LGY",
+      description: "Full in-depth feature overview of the entire Minecity Roleplay Grand Theft Auto server package.",
+      category: "Showcase"
+    },
+    {
+      id: "server-guide-2",
+      title: "Minecity RP Setup | Minecraft Server | Guide | Tutorial",
+      youtubeId: "JXYf6U3_8WI",
+      url: "https://www.youtube.com/watch?v=JXYf6U3_8WI",
+      description: "Setup walkthrough, configuration breakdown, and server administrator quick start.",
+      category: "Showcase"
+    },
+    {
+      id: "server-update-1",
+      title: "Minecity RP Setup | Minecraft Server GTA 6 | New Update",
+      youtubeId: "gzTH18xT6rU",
+      url: "https://www.youtube.com/watch?v=gzTH18xT6rU",
+      description: "Showcase of the next-generation GTA 6 themed updates, expanded city map, and new vehicle mechanics.",
+      category: "Showcase"
+    },
+    {
+      id: "server-update-2",
+      title: "Minecity RP Setup New Update | Minecraft Server GTA 6 Edition",
+      youtubeId: "pkEeNNJyTh0",
+      url: "https://www.youtube.com/watch?v=pkEeNNJyTh0",
+      description: "Review of latest improvements, performance optimizations, and roleplay feature additions.",
+      category: "Showcase"
     }
   ],
   commands: [
