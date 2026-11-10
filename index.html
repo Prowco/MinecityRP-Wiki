@@ -83,7 +83,7 @@
         <li><a href="#admin-troubleshoot" class="sidebar-link" data-tab="admin-guide"><span class="icon">🚨</span> <span data-i18n="navAdminTroubleshoot">6. Troubleshooting & Fixes</span></a></li>
       </ul>
 
-      <div class="sidebar-heading">Data & Registries</div>
+      <div class="sidebar-heading" data-i18n="navDataRegistries">Data & Registries</div>
       <ul class="sidebar-nav">
         <li><a href="#" class="sidebar-link" data-tab="commands"><span class="icon">⚡</span> <span data-i18n="navCommands">Commands</span> <span class="sidebar-badge">Full</span></a></li>
         <li><a href="#" class="sidebar-link" data-tab="permissions"><span class="icon">🔐</span> <span data-i18n="navPermissions">Permissions</span></a></li>
@@ -118,48 +118,48 @@
           </p>
         </div>
 
-        <h2 class="section-title">🌟 Key Server Features</h2>
+        <h2 class="section-title" data-i18n="keyFeaturesTitle">🌟 Key Server Features</h2>
         <div class="card-grid">
           <div class="feature-card">
             <div class="card-icon">🏎️</div>
             <h3 data-i18n="featVehiclesTitle">3D Vehicles & Helicopters</h3>
             <p data-i18n="featVehiclesDesc">Custom sports cars, motorbikes, cargo haulers, and helicopters with realistic flight physics and corrected steering controls.</p>
-            <a href="#player-vehicles" class="btn btn-secondary" data-tab="player-guide">View Vehicles Guide</a>
+            <a href="#player-vehicles" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewVehicles">View Vehicles Guide</a>
           </div>
 
           <div class="feature-card">
             <div class="card-icon">🏢</div>
             <h3 data-i18n="featPropertiesTitle">Real Apartments & Houses</h3>
             <p data-i18n="featPropertiesDesc">Rent or buy apartments, luxury penthouses, and private estates. Automatic door locking for you and your trusted roommates.</p>
-            <a href="#player-properties" class="btn btn-secondary" data-tab="player-guide">View Real Estate</a>
+            <a href="#player-properties" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewProperties">View Real Estate</a>
           </div>
 
           <div class="feature-card">
             <div class="card-icon">👮</div>
             <h3 data-i18n="featPoliceTitle">Police & Wanted Stars</h3>
             <p data-i18n="featPoliceDesc">Dynamic wanted stars (★), high-speed cruiser pursuits, 2-hit arrest batons, handcuffs, and state penitentiary bookings.</p>
-            <a href="#player-police" class="btn btn-secondary" data-tab="player-guide">View Police System</a>
+            <a href="#player-police" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewPolice">View Police System</a>
           </div>
 
           <div class="feature-card">
             <div class="card-icon">🚑</div>
             <h3 data-i18n="featHospitalTitle">Hospital & Paramedics</h3>
             <p data-i18n="featHospitalDesc">Realistic contagious illnesses, bone fractures from high falls, complete city pharmacy, and emergency CPR revival.</p>
-            <a href="#player-ems" class="btn btn-secondary" data-tab="player-guide">View Medical Guide</a>
+            <a href="#player-ems" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewHospital">View Medical Guide</a>
           </div>
 
           <div class="feature-card">
             <div class="card-icon">📱</div>
             <h3 data-i18n="featPhoneTitle">Smartphone & Guided GPS</h3>
             <p data-i18n="featPhoneDesc">Feature-packed smartphone with text messaging, contacts, 911 dispatch, and glowing particle GPS street navigation.</p>
-            <a href="#player-phone" class="btn btn-secondary" data-tab="player-guide">View Phone & GPS</a>
+            <a href="#player-phone" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewPhone">View Phone & GPS</a>
           </div>
 
           <div class="feature-card">
             <div class="card-icon">🥤</div>
             <h3 data-i18n="featSurvivalTitle">Thirst & Realistic Survival</h3>
             <p data-i18n="featSurvivalDesc">Dynamic hydration and physical fatigue curves. Custom sodas, bottled mineral water, and coffee restore stamina.</p>
-            <a href="#player-survival" class="btn btn-secondary" data-tab="player-guide">View Survival</a>
+            <a href="#player-survival" class="btn btn-secondary" data-tab="player-guide" data-i18n="btnViewSurvival">View Survival</a>
           </div>
         </div>
       </section>
@@ -169,7 +169,7 @@
            ================================================================== -->
       <section id="tab-player-guide" class="tab-content">
         <h1 class="hero-title">🏙️ <span data-i18n="navPlayerGuide">Citizen's Roleplay Manual</span></h1>
-        <p class="hero-subtitle">Everything you need to know about starting your civilian life, building wealth, driving, and surviving in Minecity.</p>
+        <p class="hero-subtitle" data-i18n="playerManualSubtitle">Everything you need to know about starting your civilian life, building wealth, driving, and surviving in Minecity.</p>
 
         <!-- Dynamically injected by app.js based on selected language -->
         <div id="playerGuideContainer"></div>
@@ -180,7 +180,7 @@
            ================================================================== -->
       <section id="tab-admin-guide" class="tab-content">
         <h1 class="hero-title">🛡️ <span data-i18n="navAdminGuide">Admin & Server Owner Guide</span></h1>
-        <p class="hero-subtitle">Comprehensive technical manual, configuration architectures, LuckPerms permissions hierarchy, and runtime injection protocols.</p>
+        <p class="hero-subtitle" data-i18n="adminGuideSubtitle">Comprehensive technical manual, configuration architectures, LuckPerms permissions hierarchy, and runtime injection protocols.</p>
 
         <!-- Dynamically injected by app.js based on selected language -->
         <div id="adminGuideContainer"></div>
@@ -191,7 +191,7 @@
            ================================================================== -->
       <section id="tab-commands" class="tab-content">
         <h1 class="hero-title">⚡ <span data-i18n="navCommands">Master Command Registry</span></h1>
-        <p class="hero-subtitle">Interactive, searchable directory of all citizen, officer, medic, real estate, vehicle, and admin commands.</p>
+        <p class="hero-subtitle" data-i18n="commandsSubtitle">Interactive, searchable directory of all citizen, officer, medic, real estate, vehicle, and admin commands.</p>
 
         <div class="table-filter-bar">
           <select id="cmdCategoryFilter" class="filter-select">
@@ -233,7 +233,7 @@
            ================================================================== -->
       <section id="tab-permissions" class="tab-content">
         <h1 class="hero-title">🔐 <span data-i18n="navPermissions">Permissions Matrix</span></h1>
-        <p class="hero-subtitle">LuckPerms permission nodes catalog for civilian ranks, emergency services, and staff hierarchy.</p>
+        <p class="hero-subtitle" data-i18n="permissionsSubtitle">LuckPerms permission nodes catalog for civilian ranks, emergency services, and staff hierarchy.</p>
 
         <div class="table-responsive">
           <table>
@@ -257,7 +257,7 @@
            ================================================================== -->
       <section id="tab-placeholders" class="tab-content">
         <h1 class="hero-title">🧩 <span data-i18n="navPlaceholders">Placeholders (PAPI)</span></h1>
-        <p class="hero-subtitle">PlaceholderAPI compatible variables for scoreboards, TAB, chat prefixes, and interactive menus.</p>
+        <p class="hero-subtitle" data-i18n="placeholdersSubtitle">PlaceholderAPI compatible variables for scoreboards, TAB, chat prefixes, and interactive menus.</p>
 
         <div class="table-responsive">
           <table>
@@ -281,11 +281,11 @@
            ================================================================== -->
       <section id="tab-videos" class="tab-content">
         <h1 class="hero-title">🎥 <span data-i18n="navVideos">Video Tutorials</span> & Showcases</h1>
-        <p class="hero-subtitle">Official cinematics and video guides featuring all 17 episodes from the official Minecity YouTube playlist.</p>
+        <p class="hero-subtitle" data-i18n="videosSubtitle">Official cinematics and video guides featuring all 17 episodes from the official Minecity YouTube playlist.</p>
 
         <div class="callout callout-info">
-          <div class="callout-title">Official YouTube Playlist (17 Episodes)</div>
-          <p>
+          <div class="callout-title" data-i18n="playlistCalloutTitle">Official YouTube Playlist (17 Episodes)</div>
+          <p data-i18n="playlistCalloutDesc">
             Watch all episodes directly on YouTube: <a href="https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD" target="_blank" rel="noopener noreferrer"><strong>Minecity Roleplay Full Playlist (17 Videos)</strong></a> • Also visit the <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer">BuiltByBit Minecity Roleplay Resource</a>.
           </p>
         </div>
@@ -297,7 +297,7 @@
 
       <!-- Footer (GTA Style) -->
       <footer class="footer">
-        <div>
+        <div data-i18n="footerText">
           © 2026 <strong>Minecity Roleplay</strong> — Crafted with passion for the Minecraft Roleplay community.
           <br><small>Optimized for Purpur 1.21.11 & Java 21 • Setup by <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer">Unique Setups</a>.</small>
         </div>

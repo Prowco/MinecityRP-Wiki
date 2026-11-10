@@ -47,7 +47,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Listen for language changes and re-render everything
-  document.addEventListener("minecity:language-changed", () => {
+  document.addEventListener("minecity:language-changed", (e) => {
+    if (langSelect && e.detail && e.detail.locale) {
+      langSelect.value = e.detail.locale;
+    }
     renderAllContent();
   });
 
@@ -206,6 +209,8 @@ document.addEventListener("DOMContentLoaded", () => {
 // DYNAMIC 100% CONTENT RENDERING ENGINE
 // =========================================================================
 function renderAllContent() {
+  document.title = I18N.t("siteTitle");
+
   // 1. Text elements with data-i18n
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const key = el.getAttribute("data-i18n");
@@ -236,19 +241,20 @@ function renderPlayerGuide() {
   if (!container) return;
 
   const chapters = I18N.getGuides("player");
-  const isEs = I18N.currentLocale === "es";
 
   container.innerHTML = chapters.map(ch => {
     let videoHtml = "";
     if (ch.videoId) {
+      const vObj = MINECITY_DATA.videos.find(v => v.youtubeId === ch.videoId);
+      const vTitle = vObj ? getLocalized(vObj, "title") : (ch.videoTitle || "");
       videoHtml = `
         <div class="video-card guide-video-embed">
           <div class="video-thumb">
-            <iframe src="https://www.youtube.com/embed/${ch.videoId}" allowfullscreen loading="lazy" title="${ch.videoTitle}"></iframe>
+            <iframe src="https://www.youtube.com/embed/${ch.videoId}" allowfullscreen loading="lazy" title="${vTitle}"></iframe>
           </div>
           <div class="video-info" style="padding: 0.8rem 1.1rem;">
             <small style="color: var(--gta-yellow); font-weight: 800; text-transform: uppercase; font-size: 0.75rem;">${I18N.t("videoWalkthrough")}</small>
-            <h4 style="font-size: 0.98rem; margin: 4px 0;">${ch.videoTitle}</h4>
+            <h4 style="font-size: 0.98rem; margin: 4px 0;">${vTitle}</h4>
           </div>
         </div>
       `;
@@ -279,6 +285,23 @@ function renderAdminGuide() {
   `).join("");
 }
 
+// Helper to retrieve localized text for any object field
+function getLocalized(obj, field = "desc") {
+  const lang = I18N.currentLocale;
+  if (!obj) return "";
+  if (obj[field] && typeof obj[field] === "object") {
+    return obj[field][lang] || obj[field].en || obj[field].es || "";
+  }
+  const plural = field + "s";
+  if (obj[plural] && typeof obj[plural] === "object") {
+    return obj[plural][lang] || obj[plural].en || obj[plural].es || "";
+  }
+  if (obj[field + "_" + lang]) {
+    return obj[field + "_" + lang];
+  }
+  return obj[field] || "";
+}
+
 // Render Master Commands Table
 function renderCommandsTable() {
   const tbody = document.getElementById("commandsTableBody");
@@ -286,13 +309,12 @@ function renderCommandsTable() {
   const searchInput = document.getElementById("cmdSearchInput");
   if (!tbody) return;
 
-  const isEs = I18N.currentLocale === "es";
   const selectedCat = filterSelect ? filterSelect.value : "ALL";
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
   const filtered = MINECITY_DATA.commands.filter(c => {
     const matchesCat = (selectedCat === "ALL" || c.category === selectedCat);
-    const desc = isEs ? (c.desc_es || c.desc) : c.desc;
+    const desc = getLocalized(c, "desc");
     const matchesSearch = !query ||
       c.command.toLowerCase().includes(query) ||
       c.aliases.toLowerCase().includes(query) ||
@@ -302,7 +324,7 @@ function renderCommandsTable() {
   });
 
   tbody.innerHTML = filtered.map(c => {
-    const desc = isEs ? (c.desc_es || c.desc) : c.desc;
+    const desc = getLocalized(c, "desc");
     return `
       <tr>
         <td>
@@ -332,10 +354,8 @@ function renderPermissionsTable() {
   const tbody = document.getElementById("permissionsTableBody");
   if (!tbody) return;
 
-  const isEs = I18N.currentLocale === "es";
-
   tbody.innerHTML = MINECITY_DATA.permissions.map(p => {
-    const desc = isEs ? (p.desc_es || p.desc) : p.desc;
+    const desc = getLocalized(p, "desc");
     return `
       <tr>
         <td>
@@ -355,10 +375,8 @@ function renderPlaceholdersTable() {
   const tbody = document.getElementById("placeholdersTableBody");
   if (!tbody) return;
 
-  const isEs = I18N.currentLocale === "es";
-
   tbody.innerHTML = MINECITY_DATA.placeholders.map(p => {
-    const desc = isEs ? (p.desc_es || p.desc) : p.desc;
+    const desc = getLocalized(p, "desc");
     return `
       <tr>
         <td>
@@ -378,11 +396,9 @@ function renderVideoGallery() {
   const container = document.getElementById("videoGallery");
   if (!container) return;
 
-  const isEs = I18N.currentLocale === "es";
-
   container.innerHTML = MINECITY_DATA.videos.map(v => {
-    const title = isEs ? (v.title_es || v.title) : v.title;
-    const desc = isEs ? (v.description_es || v.description) : v.description;
+    const title = getLocalized(v, "title");
+    const desc = getLocalized(v, "desc") || getLocalized(v, "description");
 
     return `
       <div class="video-card">
