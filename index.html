@@ -70,6 +70,7 @@
         <li><a href="#player-pets" class="sidebar-link" data-tab="player-guide"><span class="icon">🐕</span> <span data-i18n="navPlayerPets">9. Tamagotchi Pets</span></a></li>
         <li><a href="#player-crime" class="sidebar-link" data-tab="player-guide"><span class="icon">💰</span> <span data-i18n="navPlayerCrime">10. Weapons & Bank Heist</span></a></li>
         <li><a href="#player-jobs" class="sidebar-link" data-tab="player-guide"><span class="icon">💼</span> <span data-i18n="navPlayerJobs">11. Civilian Careers</span></a></li>
+        <li><a href="#player-casino" class="sidebar-link" data-tab="player-guide"><span class="icon">🎰</span> <span data-i18n="navPlayerCasino">12. Casino, Fishing & Arcade</span></a></li>
       </ul>
 
       <div class="sidebar-heading" data-i18n="navAdminGuide">Admin & Owner Guide</div>
@@ -85,9 +86,10 @@
 
       <div class="sidebar-heading" data-i18n="navDataRegistries">Data & Registries</div>
       <ul class="sidebar-nav">
-        <li><a href="#" class="sidebar-link" data-tab="commands"><span class="icon">⚡</span> <span data-i18n="navCommands">Commands</span> <span class="sidebar-badge">Full</span></a></li>
-        <li><a href="#" class="sidebar-link" data-tab="permissions"><span class="icon">🔐</span> <span data-i18n="navPermissions">Permissions</span></a></li>
-        <li><a href="#" class="sidebar-link" data-tab="placeholders"><span class="icon">🧩</span> <span data-i18n="navPlaceholders">Placeholders</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="plugins"><span class="icon">🔌</span> <span data-i18n="navPlugins">Server Plugins</span> <span class="sidebar-badge">76</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="commands"><span class="icon">⚡</span> <span data-i18n="navCommands">Commands</span> <span class="sidebar-badge">323</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="permissions"><span class="icon">🔐</span> <span data-i18n="navPermissions">Permissions</span> <span class="sidebar-badge">363</span></a></li>
+        <li><a href="#" class="sidebar-link" data-tab="placeholders"><span class="icon">🧩</span> <span data-i18n="navPlaceholders">Placeholders</span> <span class="sidebar-badge">113</span></a></li>
       </ul>
     </aside>
 
@@ -106,8 +108,10 @@
           </p>
           <div class="hero-actions">
             <button class="btn btn-primary" onclick="document.querySelector('[data-tab=\'player-guide\']').click()" data-i18n="btnOpenPlayer">📖 Citizen Roleplay Manual</button>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'plugins\']').click()">🔌 <span data-i18n="navPlugins">Server Plugins</span> (76)</button>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'commands\']').click()">⚡ <span data-i18n="navCommands">Commands</span> (323)</button>
+            <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'placeholders\']').click()">🧩 <span data-i18n="navPlaceholders">Placeholders</span> (113)</button>
             <button class="btn btn-secondary" onclick="document.querySelector('[data-tab=\'admin-guide\']').click()" data-i18n="btnOpenAdmin">🛡️ Admin & Owner Protocols</button>
-            <a href="https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="btnBuiltByBit">🔗 Official BuiltByBit Resource</a>
           </div>
         </div>
 
@@ -187,27 +191,41 @@
       </section>
 
       <!-- ==================================================================
+           TAB: SERVER PLUGINS ECOSYSTEM (76 PLUGINS)
+           ================================================================== -->
+      <section id="tab-plugins" class="tab-content">
+        <h1 class="hero-title">🔌 <span data-i18n="navPlugins">Server Plugins Ecosystem</span></h1>
+        <p class="hero-subtitle" data-i18n="pluginsSubtitle">Complete catalog of all 76 installed plugins powering Minecity Roleplay. Click any plugin's Commands button to inspect its commands.</p>
+
+        <div class="table-filter-bar">
+          <select id="pluginCategoryFilter" class="filter-select">
+            <option value="ALL">All Categories</option>
+          </select>
+          <input type="text" id="pluginSearchInput" class="search-input" style="max-width: 320px;" placeholder="Search plugin name or feature...">
+          <span id="pluginsCountBadge" class="badge badge-plugin" style="margin-left: auto; font-size: 0.85rem; padding: 6px 12px;">76 / 76</span>
+        </div>
+
+        <div id="pluginsGridContainer" class="card-grid">
+          <!-- Dynamically populated by app.js -->
+        </div>
+      </section>
+
+      <!-- ==================================================================
            TAB 4: MASTER COMMANDS DIRECTORY
            ================================================================== -->
       <section id="tab-commands" class="tab-content">
         <h1 class="hero-title">⚡ <span data-i18n="navCommands">Master Command Registry</span></h1>
-        <p class="hero-subtitle" data-i18n="commandsSubtitle">Interactive, searchable directory of all citizen, officer, medic, real estate, vehicle, and admin commands.</p>
+        <p class="hero-subtitle" data-i18n="commandsSubtitle">Interactive, searchable directory of all 323+ commands across every installed plugin on the server.</p>
 
         <div class="table-filter-bar">
           <select id="cmdCategoryFilter" class="filter-select">
             <option value="ALL">All Categories</option>
-            <option value="Real Estate">Real Estate & Properties</option>
-            <option value="Vehicles">Vehicles & Transport</option>
-            <option value="Police">Police & Law Enforcement</option>
-            <option value="EMS & Hospital">Hospital & Paramedics</option>
-            <option value="Survival">Survival & Hydration</option>
-            <option value="Pets">Tamagotchi Pets</option>
-            <option value="Identity">Identity & ID Card</option>
-            <option value="Communication">Phone & GPS</option>
-            <option value="Roleplay">Roleplay & Emotes</option>
-            <option value="Administration">Administration & Staff</option>
           </select>
-          <input type="text" id="cmdSearchInput" class="search-input" style="max-width: 320px;" placeholder="Search command...">
+          <select id="cmdPluginFilter" class="filter-select">
+            <option value="ALL">All Plugins</option>
+          </select>
+          <input type="text" id="cmdSearchInput" class="search-input" style="max-width: 300px;" placeholder="Search command, alias, plugin...">
+          <span id="commandsCountBadge" class="badge badge-plugin" style="margin-left: auto; font-size: 0.85rem; padding: 6px 12px;">323 / 323</span>
         </div>
 
         <div class="table-responsive">
@@ -233,7 +251,22 @@
            ================================================================== -->
       <section id="tab-permissions" class="tab-content">
         <h1 class="hero-title">🔐 <span data-i18n="navPermissions">Permissions Matrix</span></h1>
-        <p class="hero-subtitle" data-i18n="permissionsSubtitle">LuckPerms permission nodes catalog for civilian ranks, emergency services, and staff hierarchy.</p>
+        <p class="hero-subtitle" data-i18n="permissionsSubtitle">LuckPerms permission nodes catalog across all plugins for civilian ranks, police, paramedics, and admins.</p>
+
+        <div class="table-filter-bar">
+          <select id="permGroupFilter" class="filter-select">
+            <option value="ALL">All LuckPerms Groups</option>
+            <option value="default">Citizen (default)</option>
+            <option value="police">Police Officer (police)</option>
+            <option value="paramedic">Paramedic (paramedic)</option>
+            <option value="admin">Staff / Admin (admin)</option>
+          </select>
+          <select id="permPluginFilter" class="filter-select">
+            <option value="ALL">All Plugins</option>
+          </select>
+          <input type="text" id="permSearchInput" class="search-input" style="max-width: 300px;" placeholder="Search permission node...">
+          <span id="permissionsCountBadge" class="badge badge-plugin" style="margin-left: auto; font-size: 0.85rem; padding: 6px 12px;">363 / 363</span>
+        </div>
 
         <div class="table-responsive">
           <table>
@@ -242,6 +275,7 @@
                 <th data-i18n="tablePermission">Permission</th>
                 <th data-i18n="tableGroup">LuckPerms Group</th>
                 <th data-i18n="tableDefault">Default</th>
+                <th data-i18n="tablePlugin">Plugin</th>
                 <th data-i18n="tableDescription">Description</th>
               </tr>
             </thead>
@@ -257,7 +291,15 @@
            ================================================================== -->
       <section id="tab-placeholders" class="tab-content">
         <h1 class="hero-title">🧩 <span data-i18n="navPlaceholders">Placeholders (PAPI)</span></h1>
-        <p class="hero-subtitle" data-i18n="placeholdersSubtitle">PlaceholderAPI compatible variables for scoreboards, TAB, chat prefixes, and interactive menus.</p>
+        <p class="hero-subtitle" data-i18n="placeholdersSubtitle">Complete PlaceholderAPI variable catalog across all expansions and server plugins for TAB, scoreboards, and DeluxeMenus.</p>
+
+        <div class="table-filter-bar">
+          <select id="phPluginFilter" class="filter-select">
+            <option value="ALL">All Plugins & Expansions</option>
+          </select>
+          <input type="text" id="phSearchInput" class="search-input" style="max-width: 320px;" placeholder="Search %placeholder%...">
+          <span id="placeholdersCountBadge" class="badge badge-plugin" style="margin-left: auto; font-size: 0.85rem; padding: 6px 12px;">113 / 113</span>
+        </div>
 
         <div class="table-responsive">
           <table>

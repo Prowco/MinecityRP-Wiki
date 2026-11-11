@@ -10,39 +10,93 @@ const I18N = {
   locales: {
   "en": {
     "name": "English",
-    "flag": "🇺🇸"
+    "flag": "🇺🇸",
+      "navPlugins": "Server Plugins",
+      "pluginsSubtitle": "Complete catalog of all 76 installed plugins powering Minecity Roleplay. Click any plugin's Commands button to inspect its features.",
+      "navPlayerCasino": "12. Casino, Fishing & Arcade",
+      "commandsSubtitle": "Interactive, searchable directory of all 323+ commands across every installed plugin on the server.",
+      "permissionsSubtitle": "LuckPerms permission nodes catalog across all 76 plugins for civilian ranks, police, paramedics, and admins.",
+      "placeholdersSubtitle": "Complete PlaceholderAPI variable catalog across all expansions and server plugins for TAB, scoreboards, and DeluxeMenus."
   },
   "es": {
     "name": "Español",
-    "flag": "🇪🇸"
+    "flag": "🇪🇸",
+      "navPlugins": "Plugins del Servidor",
+      "pluginsSubtitle": "Catálogo completo de los 76 plugins instalados que impulsan Minecity Roleplay. Pulsa Commands o Perms en cualquier plugin para filtrarlo.",
+      "navPlayerCasino": "12. Casino, Pesca y Arcade",
+      "commandsSubtitle": "Directorio interactivo de más de 323 comandos reales divididos por categoría y plugin.",
+      "permissionsSubtitle": "Matriz de 363+ permisos LuckPerms divididos por rango civil, policía, paramédico, admin y plugin.",
+      "placeholdersSubtitle": "Catálogo completo de más de 113 variables PlaceholderAPI de todas las expansiones y plugins del servidor."
   },
   "de": {
     "name": "Deutsch",
-    "flag": "🇩🇪"
+    "flag": "🇩🇪",
+      "navPlugins": "Server-Plugins",
+      "pluginsSubtitle": "Vollständiger Katalog aller 76 installierten Plugins auf Minecity Roleplay.",
+      "navPlayerCasino": "12. Casino, Angeln & Arcade",
+      "commandsSubtitle": "Durchsuchbares Verzeichnis aller 323+ Befehle aus allen Server-Plugins.",
+      "permissionsSubtitle": "LuckPerms-Berechtigungsmatrix für alle 76 Plugins und Ränge.",
+      "placeholdersSubtitle": "Vollständiger PlaceholderAPI-Variablenkatalog für alle Plugins und Erweiterungen."
   },
   "fr": {
     "name": "Français",
-    "flag": "🇫🇷"
+    "flag": "🇫🇷",
+      "navPlugins": "Plugins du Serveur",
+      "pluginsSubtitle": "Catalogue complet des 76 plugins installés sur Minecity Roleplay.",
+      "navPlayerCasino": "12. Casino, Pêche & Arcade",
+      "commandsSubtitle": "Répertoire interactif de plus de 323 commandes de tous les plugins du serveur.",
+      "permissionsSubtitle": "Matrice de plus de 363 permissions LuckPerms classées par plugin et rang.",
+      "placeholdersSubtitle": "Catalogue complet de plus de 113 variables PlaceholderAPI de tous les plugins."
   },
   "it": {
     "name": "Italiano",
-    "flag": "🇮🇹"
+    "flag": "🇮🇹",
+      "navPlugins": "Plugin del Server",
+      "pluginsSubtitle": "Catalogo completo di tutti i 76 plugin installati su Minecity Roleplay.",
+      "navPlayerCasino": "12. Casinò, Pesca e Arcade",
+      "commandsSubtitle": "Elenco interattivo di oltre 323 comandi di tutti i plugin del server.",
+      "permissionsSubtitle": "Matrice completa di oltre 363 permessi LuckPerms suddivisi per plugin e grado.",
+      "placeholdersSubtitle": "Catalogo completo di oltre 113 variabili PlaceholderAPI per tutti i plugin."
   },
   "pt": {
     "name": "Português",
-    "flag": "🇧🇷"
+    "flag": "🇧🇷",
+      "navPlugins": "Plugins do Servidor",
+      "pluginsSubtitle": "Catálogo completo de todos os 76 plugins instalados no Minecity Roleplay.",
+      "navPlayerCasino": "12. Cassino, Pesca e Arcade",
+      "commandsSubtitle": "Diretório pesquisável de mais de 323 comandos de todos os plugins do servidor.",
+      "permissionsSubtitle": "Matriz de mais de 363 permissões LuckPerms organizadas por plugin e cargo.",
+      "placeholdersSubtitle": "Catálogo completo com mais de 113 variáveis PlaceholderAPI de todos os plugins."
   },
   "zh": {
     "name": "中文",
-    "flag": "🇨🇳"
+    "flag": "🇨🇳",
+      "navPlugins": "服务器插件全览",
+      "pluginsSubtitle": "Minecity Roleplay 全部 76 个已安装插件的完整功能目录。",
+      "navPlayerCasino": "12. 赌场、钓鱼与街机小游戏",
+      "commandsSubtitle": "涵盖服务器全部 76 个插件的 323+ 指令交互式检索目录。",
+      "permissionsSubtitle": "涵盖所有插件和 LuckPerms 身份组的 363+ 权限节点表。",
+      "placeholdersSubtitle": "包含所有扩展插件的 113+ PlaceholderAPI 变量完整列表。"
   },
   "ko": {
     "name": "한국어",
-    "flag": "🇰🇷"
+    "flag": "🇰🇷",
+      "navPlugins": "서버 플러그인 목록",
+      "pluginsSubtitle": "Minecity Roleplay 서버에 설치된 전체 76개 플러그인의 통합 카탈로그입니다.",
+      "navPlayerCasino": "12. 카지노, 낚시 및 아케이드",
+      "commandsSubtitle": "모든 서버 플러그인의 323개 이상 명령어를 검색할 수 있는 통합 디렉토리입니다.",
+      "permissionsSubtitle": "모든 플러그인 및 LuckPerms 등급별 363개 이상의 권한 노드 매트릭스입니다.",
+      "placeholdersSubtitle": "서버의 모든 확장 모듈과 플러그인을 아우르는 113개 이상의 PAPI 변수 목록입니다."
   },
   "ru": {
     "name": "Русский",
-    "flag": "🇷🇺"
+    "flag": "🇷🇺",
+      "navPlugins": "Плагины Сервера",
+      "pluginsSubtitle": "Полный каталог всех 76 установленных плагинов на сервере Minecity Roleplay.",
+      "navPlayerCasino": "12. Казино, Рыбалка и Аркады",
+      "commandsSubtitle": "Интерактивный справочник по 323+ командам всех плагинов сервера.",
+      "permissionsSubtitle": "Матрица 363+ прав доступа LuckPerms по всем плагинам и ролям.",
+      "placeholdersSubtitle": "Полный каталог 113+ переменных PlaceholderAPI всех расширений и плагинов."
   }
 },
   strings: {
@@ -934,6 +988,12 @@ const I18N = {
         "title": "11. Civilian Careers & Income",
         "icon": "💼",
         "content": "\n                <p>If you prefer an honest living, Minecity features diverse well-paying careers:</p>\n                <ul>\n                  <li><strong>Fisher:</strong> Catch custom fish along coastal piers, participate in fishing tournaments, and sell fresh catches at the fish market with <code>/emf shop</code>.</li>\n                  <li><strong>Miner:</strong> Extract valuable ores and raw materials in the industrial quarry.</li>\n                  <li><strong>Truck Driver:</strong> Hitch heavy trailers to commercial freight trucks and deliver goods across the highway for substantial transport bonuses.</li>\n                  <li><strong>Bus Driver:</strong> Operate city transit lines picking up passengers at designated bus stops.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Casino, Banking, Fishing, Gangs & Arcade",
+              "icon": "🎰",
+              "content": "\n                <p>Beyond your daily job, Minecity offers an entire ecosystem of banking, player commerce, underground crime syndicates, casino gambling, sports, and arcades powered by over 76 specialized plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 City Banking, Auction Market & Direct Deposit Salaries</div>\n                  <ul>\n                    <li><strong>City Bank & ATM (<code>/bank</code>):</strong> Store hard-earned cash safely away from muggers, earn periodic savings interest, and manage loans.</li>\n                    <li><strong>Global Auction House (<code>/ah</code> / <code>/ah sell &lt;price&gt;</code>):</strong> Buy and sell rare weapons, car keys, collectibles, and supplies directly with other citizens.</li>\n                    <li><strong>Automatic Paychecks (<code>/salary</code>):</strong> On-duty officers, paramedics, and city employees receive scheduled direct deposits every payday cycle.</li>\n                    <li><strong>Playtime Ranks & RPG Skills (<code>/autorank</code> & <code>/class</code>):</strong> Unlock new citizenship tiers by playing active hours and allocate stamina perks.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Stadium & Recreational Minigames</h3>\n                <ul>\n                  <li><strong>Las Venturas Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Wager casino chips at live Roulette wheels, play 5-card Video Poker, or buy metropolitan lottery jackpot tickets.</li>\n                  <li><strong>Marina Sport Fishing (<code>/emf</code>):</strong> Catch dozens of rare custom fish species at the pier, compete in timed fishing contests, and sell your catch.</li>\n                  <li><strong>City Stadium Soccer (<code>/blockball</code>):</strong> Team up at the downtown soccer pitch for real-time 3D ball matches.</li>\n                  <li><strong>Arcade & Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Play handheld GameBoy cartridges, Snake/2048/Flappy Bird, and tune into city jukebox stations.</li>\n                  <li><strong>Street Gangs, Clans & Contraband (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Form criminal turf gangs with shared safes (<code>/gang vault</code>), crime syndicates, or trade black market goods.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1050,6 +1110,12 @@ const I18N = {
         "title": "11. Carreras Civiles y Empleos Urbanos",
         "icon": "💼",
         "content": "\n                <p>Si prefieres una vida legal y próspera, Minecity cuenta con múltiples profesiones bien remuneradas:</p>\n                <ul>\n                  <li><strong>Pescador:</strong> Captura especies raras en los muelles de la costa, participa en torneos de pesca y vende tu pesca fresca con <code>/emf shop</code>.</li>\n                  <li><strong>Minero:</strong> Extrae minerales pesados y materias primas en la cantera industrial del condado.</li>\n                  <li><strong>Camionero:</strong> Engancha remolques pesados a tu camión y realiza repartos de mercancías por autopistas interurbanas para ganar cuantiosos bonos de transporte.</li>\n                  <li><strong>Conductor de Autobús:</strong> Cumple con las líneas de transporte metropolitano recogiendo pasajeros en cada parada de la ciudad.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Casino, Banco, Pesca, Pandillas y Arcade",
+              "icon": "🎰",
+              "content": "\n                <p>Más allá del trabajo diario, Minecity integra un completo ecosistema bancario, subastas entre jugadores, sindicatos criminales, casino, deportes y videojuegos impulsado por 76 plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 Banca Municipal, Casa de Subastas y Nóminas</div>\n                  <ul>\n                    <li><strong>Banco y Cajeros ATM (<code>/bank</code>):</strong> Protege tu dinero en cuentas bancarias lejos de asaltantes, cobra intereses y gestiona depósitos.</li>\n                    <li><strong>Casa de Subastas Global (<code>/ah</code> / <code>/ah sell &lt;precio&gt;</code>):</strong> Vende y compra armas, llaves de vehículos y objetos raros entre ciudadanos.</li>\n                    <li><strong>Cheques Salariales Automáticos (<code>/salary</code>):</strong> Consulta cuándo cobrarás tu próxima nómina automática por empleo público o privado.</li>\n                    <li><strong>Rangos de Ciudadanía y Habilidades (<code>/autorank</code> y <code>/class</code>):</strong> Sube de rango civil acumulando horas jugadas y mejora tus atributos físicos.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Estadio y Entretenimiento Urbano</h3>\n                <ul>\n                  <li><strong>Casino de Minecity (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Apuesta fichas en mesas de Ruleta en vivo, juega Video Póker o compra billetes de lotería.</li>\n                  <li><strong>Pesca Deportiva en la Marina (<code>/emf</code>):</strong> Atrapa especies exóticas, compite en torneos por tiempo y vende tus capturas.</li>\n                  <li><strong>Estadio de Fútbol (<code>/blockball</code>):</strong> Únete a partidos en la cancha municipal con física de balón en tiempo real.</li>\n                  <li><strong>Arcade y Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Juega cartuchos reales en GameBoy portátil, Snake/2048 y escucha estaciones musicales.</li>\n                  <li><strong>Pandillas, Clanes y Contrabando (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funda bandas callejeras con baúl compartido (<code>/gang vault</code>) o domina el mercado negro.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1166,6 +1232,12 @@ const I18N = {
         "title": "11. Zivile Berufe & Einkommen",
         "icon": "💼",
         "content": "\n                <p>Wenn du ein ehrliches bürgerliches Leben bevorzugst, bietet Minecity vielfältige, lukrative Karrieren:</p>\n                <ul>\n                  <li><strong>Fischer:</strong> Fange seltene Fischarten an den Küstenstegen, nimm an Angelturnieren teil und verkaufe den Fang mit <code>/emf shop</code>.</li>\n                  <li><strong>Bergarbeiter:</strong> Baue schwere Erze und Rohstoffe im Industriesteinbruch ab.</li>\n                  <li><strong>LKW-Fahrer:</strong> Kopple schwere Auflieger an deinen Sattelschlepper und liefere Fracht über die Autobahnen für dicke Lieferprämien.</li>\n                  <li><strong>Busfahrer:</strong> Bediene städtische Nahverkehrslinien und befördere Fahrgäste von Haltestelle zu Haltestelle.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Kasino, Bankwesen, Angeln, Gangs & Spielhalle",
+              "icon": "🎰",
+              "content": "\n                <p>Entdecke das komplette Ökosystem aus Banken, Auktionshaus, Straßengangs, Kasinos, Sport und Minispielen auf Basis von 76 Plugins:</p>\n                <ul>\n                  <li><strong>Bank & Geldautomat (<code>/bank</code>), Auktionen (<code>/ah</code>) & Gehalt (<code>/salary</code>):</strong> Sichere dein Geld vor Räubern, handle global und prüfe deinen nächsten Zahltag.</li>\n                  <li><strong>Kasino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Setze Chips am Roulettetisch, spiele Poker oder kaufe Lottoscheine.</li>\n                  <li><strong>Sport & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Angelturniere, Stadionfußball, GameBoy-Emulator und Stadtradio.</li>\n                  <li><strong>Gangs & Unterwelt (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Gründe Straßengangs mit Gang-Tresor (<code>/gang vault</code>) oder steige in den Schwarzmarkt ein.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1282,6 +1354,12 @@ const I18N = {
         "title": "11. Carrières Civiles & Emplois Rémunérés",
         "icon": "💼",
         "content": "\n                <p>Si vous préférez une vie honnête et prospère, Minecity propose diverses carrières bien rémunérées :</p>\n                <ul>\n                  <li><strong>Pêcheur :</strong> Pêchez des espèces marines rares sur les quais, participez à des concours et vendez vos prises avec <code>/emf shop</code>.</li>\n                  <li><strong>Mineur :</strong> Extrayez des minerais précieux et des matériaux lourds dans la carrière industrielle du comté.</li>\n                  <li><strong>Routier :</strong> Attelez de lourdes remorques à votre camion et assurez des livraisons autoroutières pour toucher d'importantes primes de fret.</li>\n                  <li><strong>Chauffeur de Bus :</strong> Assurez les lignes de transport urbain en prenant en charge les citoyens aux arrêts officiels.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Casino, Banque, Pêche, Gangs & Arcade",
+              "icon": "🎰",
+              "content": "\n                <p>Explorez tout l'écosystème bancaire, commercial, criminel et ludique propulsé par les 76 plugins du serveur :</p>\n                <ul>\n                  <li><strong>Banque & ATM (<code>/bank</code>), Enchères (<code>/ah</code>) & Salaires (<code>/salary</code>) :</strong> Sécurisez vos économies, vendez des objets aux enchères et percevez votre paie.</li>\n                  <li><strong>Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>) :</strong> Misez à la Roulette en direct, au Vidéo Poker ou à la loterie.</li>\n                  <li><strong>Sports & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>) :</strong> Tournois de pêche, football, émulateur GameBoy et radio.</li>\n                  <li><strong>Gangs & Cartels (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>) :</strong> Fondez un gang avec coffre fort partagé (<code>/gang vault</code>) ou rejoignez un syndicat.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1398,6 +1476,12 @@ const I18N = {
         "title": "11. Carriere Civili & Professioni Cittadine",
         "icon": "💼",
         "content": "\n                <p>Se preferisci guadagnarti da vivere onestamente, Minecity offre numerose professioni ben remunerate:</p>\n                <ul>\n                  <li><strong>Pescatore:</strong> Cattura pesci rari dai moli costieri, partecipa a tornei e vendi il pescato con <code>/emf shop</code>.</li>\n                  <li><strong>Minatore:</strong> Estrai minerali pesanti e materie prime nella cava industriale della contea.</li>\n                  <li><strong>Camionista:</strong> Aggancia pesanti rimorchi al tuo camion e consegna merci sulle autostrade per ricche ricompense di trasporto.</li>\n                  <li><strong>Autista di Autobus:</strong> Segui le linee del trasporto pubblico metropolitano facendo salire i passeggeri alle fermate ufficiali.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Casinò, Banca, Pesca, Gang e Sala Giochi",
+              "icon": "🎰",
+              "content": "\n                <p>Esplora l'intero ecosistema bancario, aste, sindacati criminali, casinò e minigiochi supportato dai 76 plugin del server:</p>\n                <ul>\n                  <li><strong>Banca ATM (<code>/bank</code>), Aste (<code>/ah</code>) & Stipendi (<code>/salary</code>):</strong> Proteggi i contanti in banca, commercia all'asta e controlla il prossimo stipendio.</li>\n                  <li><strong>Casinò (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Gioca alla Roulette, Video Poker e acquista biglietti della lotteria.</li>\n                  <li><strong>Pesca, Calcio & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Tornei di pesca, stadio di calcio e radio musicale.</li>\n                  <li><strong>Gang & Clan (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Crea bande di strada con caveau condiviso (<code>/gang vault</code>) e domina il mercato nero.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1514,6 +1598,12 @@ const I18N = {
         "title": "11. Carreiras Civis & Profissões Urbanas",
         "icon": "💼",
         "content": "\n                <p>Se você prefere uma jornada honesta e estruturada, o Minecity dispõe de excelentes empregos:</p>\n                <ul>\n                  <li><strong>Pescador:</strong> Pesque espécies marinhas exóticas nos píeres, dispute torneios e venda seu lote com <code>/emf shop</code>.</li>\n                  <li><strong>Mineiro:</strong> Extraia minérios nobres e insumos industriais na pedreira municipal.</li>\n                  <li><strong>Caminhoneiro:</strong> Engate carretas pesadas no seu cavalo mecânico e faça entregas rodoviárias para lucrar altos bônus de frete.</li>\n                  <li><strong>Motorista de Ônibus:</strong> Conduza os ônibus urbanos transportando passageiros pelas paradas metropolitanas.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Cassino, Banco, Pesca, Gangues e Fliperama",
+              "icon": "🎰",
+              "content": "\n                <p>Explore o ecossistema completo de bancos, leilões, gangues, cassinos e fliperama alimentado por 76 plugins:</p>\n                <ul>\n                  <li><strong>Banco ATM (<code>/bank</code>), Leilões (<code>/ah</code>) & Salários (<code>/salary</code>):</strong> Proteja seu dinheiro contra assaltos, negocie itens e receba pagamentos automáticos.</li>\n                  <li><strong>Cassino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Aposte na Roleta, jogue Video Poker ou tente a sorte na loteria.</li>\n                  <li><strong>Esportes & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Campeonatos de pesca, futebol no estádio e rádio da cidade.</li>\n                  <li><strong>Gangues & Clãs (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funde facções com cofre compartilhado (<code>/gang vault</code>) e domine o submundo.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1630,6 +1720,12 @@ const I18N = {
         "title": "11. 守法职业与稳定收入渠道",
         "icon": "💼",
         "content": "\n                <p>如果您向往安居乐业，都市中提供众多高收入合法职业：</p>\n                <ul>\n                  <li><strong>近海渔夫：</strong> 沿海码头垂钓稀有鱼种，参与垂钓锦标赛，并在海产市场使用 <code>/emf shop</code> 兑换丰厚报酬。</li>\n                  <li><strong>采石矿工：</strong> 在工业采石场开采重金属与建材矿物。</li>\n                  <li><strong>货运卡车司机：</strong> 为重卡挂接拖车货箱，在高速公路上长途运送货物赚取丰厚物流运费。</li>\n                  <li><strong>公交车司机：</strong> 遵照时刻表接送市民乘客，稳定获取公共交通服务报酬。</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. 赌场、银行、海钓、帮派与街机游戏",
+              "icon": "🎰",
+              "content": "\n                <p>除了日常职业，Minecity 还由 76 款专业插件驱动了完整的银行金融、帮派地盘、赌场娱乐和街机体系：</p>\n                <ul>\n                  <li><strong>城市银行与拍卖行（<code>/bank</code>, <code>/ah</code>, <code>/salary</code>）：</strong> 将现金存入 ATM 避免抢劫损失，在全局拍卖行交易稀有物资，领取定期薪水。</li>\n                  <li><strong>拉斯维加斯赌场（<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>）：</strong> 参与轮盘赌博、视频扑克与城市彩票大奖。</li>\n                  <li><strong>海钓锦标赛与娱乐街机（<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>）：</strong> 参加码头钓鱼比赛、体育场足球赛、随身 GameBoy 掌机与城市电台。</li>\n                  <li><strong>街头帮派与黑市（<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>）：</strong> 组建帮派解锁共享金库（<code>/gang vault</code>）并参与黑市走私贸易。</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1746,6 +1842,12 @@ const I18N = {
         "title": "11. 정직한 시민 직업 & 안정적 수입",
         "icon": "💼",
         "content": "\n                <p>합법적이고 풍요로운 삶을 선호한다면 다양한 전문 직업에 종사할 수 있습니다:</p>\n                <ul>\n                  <li><strong>어부:</strong> 해안 부두에서 희귀 어종을 낚아 낚시 대회에 참가하고, 수산 시장에서 <code>/emf shop</code>으로 납품합니다.</li>\n                  <li><strong>광부:</strong> 산업 채석장에서 고부가가치 광물과 건축 자재를 채굴합니다.</li>\n                  <li><strong>트럭 기사:</strong> 대형 트레일러를 연결하고 고속도로 물류를 운송하여 대량의 운송 보너스를 획득합니다.</li>\n                  <li><strong>버스 기사:</strong> 도심 정류장을 순회하며 시민 승객을 운송하고 대중교통 운행 보수를 받습니다.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. 카지노, 은행, 낚시, 갱단 및 아케이드",
+              "icon": "🎰",
+              "content": "\n                <p>직업 활동 외에도 76개의 플러그인으로 구현된 은행, 경매장, 갱단 세력 다툼, 카지노 및 미니게임을 즐길 수 있습니다:</p>\n                <ul>\n                  <li><strong>은행 ATM(<code>/bank</code>), 경매장(<code>/ah</code>) 및 급여(<code>/salary</code>):</strong> 현금을 안전하게 예금하고, 시민들과 아이템을 거래하며 정기 급여를 수령하세요.</li>\n                  <li><strong>카지노(<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> 룰렛, 비디오 포커 및 복권 추첨에 참여하여 대박을 노리세요.</li>\n                  <li><strong>낚시 대회 및 아케이드(<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> 부두 낚시 대회, 경기장 축구, 게임보이 에뮬레이터 및 라디오 방송을 이용하세요.</li>\n                  <li><strong>갱단 및 암시장(<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> 공유 금고(<code>/gang vault</code>)를 갖춘 갱단을 결성하고 뒷골목을 장악하세요.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1862,6 +1964,12 @@ const I18N = {
         "title": "11. Гражданские Профессии и Доходы",
         "icon": "💼",
         "content": "\n                <p>Если вы предпочитаете честную жизнь, в городе доступно множество высокооплачиваемых профессий:</p>\n                <ul>\n                  <li><strong>Рыбак:</strong> Ловите редкую рыбу на пирсах, участвуйте в турнирах и продавайте улов через <code>/emf shop</code>.</li>\n                  <li><strong>Шахтер:</strong> Добывайте ценную руду и камень в промышленном карьере округа.</li>\n                  <li><strong>Дальнобойщик:</strong> Цепляйте тяжелые полуприцепы к тягачу и возите грузы по автомагистралям за щедрые премии.</li>\n                  <li><strong>Водитель Автобуса:</strong> Обслуживайте городские маршруты, забирая жителей на остановках.</li>\n                </ul>\n                "
+      },
+      {
+              "id": "player-casino",
+              "title": "12. Казино, Банки, Рыбалка, Банды и Аркады",
+              "icon": "🎰",
+              "content": "\n                <p>Помимо работы, в Minecity работает полноценная финансовая, криминальная и развлекательная система из 76 плагинов:</p>\n                <ul>\n                  <li><strong>Банк и ATM (<code>/bank</code>), Аукцион (<code>/ah</code>) и Зарплата (<code>/salary</code>):</strong> Защитите сбережения от грабителей, торгуйте на аукционе и проверяйте время до получки.</li>\n                  <li><strong>Казино (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Ставьте фишки в рулетке, играйте в видеопокер или покупайте лотерейные билеты.</li>\n                  <li><strong>Рыбалка, Футбол и Игры (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Турниры по рыбалке, стадионный футбол и эмулятор GameBoy.</li>\n                  <li><strong>Уличные Банды и Кланы (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Создавайте банды с общим хранилищем (<code>/gang vault</code>) и контролируйте черный рынок.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
