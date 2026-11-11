@@ -1,7 +1,8 @@
 /**
- * Minecity Roleplay - Master Server Data Registry
- * Grounded in ALL 76 Server Plugins, Configurations & Real Bytecode
- * 323 Commands • 113 Placeholders • 363 Permissions
+ * Minecity Roleplay - Master Server Encyclopedia Data
+ * Divided cleanly into the 10 Official Server Categories
+ * Grounded in all 77 Server JARs, Configs & Spigot Documentation
+ * 10 System Categories • 359 Commands • 113 Placeholders • 415 Permissions
  */
 
 const MINECITY_DATA = {
@@ -485,4176 +486,4146 @@ const MINECITY_DATA = {
   }
   ],
 
-  // 76 Server Plugins Registry
-  plugins: [
-    {
-        "id": "MinecitySuite",
-        "name": "MinecitySuite",
-        "jar": "MinecitySuite.jar",
-        "category": "Core & Roleplay",
-        "version": "1.0.0",
-        "desc": "Custom GTA core engine: Police (stars/arrests), Paramedics (revive/diseases), Survival (hydration), Pets & Dummies."
-    },
-    {
-        "id": "MinecityFixerAddon",
-        "name": "MinecityFixerAddon",
-        "jar": "MinecityFixerAddon.jar",
-        "category": "Core & Roleplay",
-        "version": "1.0.0",
-        "desc": "Vehicle physics and collision bridge integrating QAV with Purpur 1.21.11."
-    },
-    {
-        "id": "QualityArmoryVehicles2",
-        "name": "QualityArmoryVehicles",
-        "jar": "QualityArmoryVehicles.jar",
-        "category": "Vehicles & Transport",
-        "version": "2.0.86",
-        "desc": "3D drivable sports cars, bikes, trucks, helicopters, personal garages and gas pumps."
-    },
-    {
-        "id": "MTVehicles",
-        "name": "MTVehicles",
-        "jar": "MTVehicles.jar",
-        "category": "Vehicles & Transport",
-        "version": "2.4.4",
-        "desc": "Advanced vehicle license plates, speed curves, fuel economy and custom vehicle models."
-    },
-    {
-        "id": "Elevator",
-        "name": "Elevator",
-        "jar": "Elevator.jar",
-        "category": "Vehicles & Transport",
-        "version": "3.13.0",
-        "desc": "Functional elevators for city skyscrapers, hospitals, and parking garages."
-    },
-    {
-        "id": "QualityArmory",
-        "name": "QualityArmory",
-        "jar": "QualityArmory.jar",
-        "category": "Firearms & Weapons",
-        "version": "2.0.2c",
-        "desc": "Realistic 3D firearms (pistols, SMGs, rifles, shotguns, snipers), ammo magazines and armor."
-    },
-    {
-        "id": "ExecutableItems",
-        "name": "ExecutableItems",
-        "jar": "ExecutableItems.jar",
-        "category": "Firearms & Weapons",
-        "version": "5.3.3",
-        "desc": "Custom interactive roleplay items, weapons, badges, and usable city tools."
-    },
-    {
-        "id": "SCore",
-        "name": "SCore",
-        "jar": "SCore.jar",
-        "category": "Firearms & Weapons",
-        "version": "5.3.3",
-        "desc": "Core library for ExecutableItems and custom damage mechanics."
-    },
-    {
-        "id": "CommandItems",
-        "name": "CommandItems",
-        "jar": "CommandItems.jar",
-        "category": "Firearms & Weapons",
-        "version": "2.1.0",
-        "desc": "Items with embedded executable commands on right/left click."
-    },
-    {
-        "id": "AdvancedRegionMarket",
-        "name": "AdvancedRegionMarket (ARM)",
-        "jar": "ARM.jar",
-        "category": "Real Estate & Housing",
-        "version": "3.3.2",
-        "desc": "Apartments, penthouses, and commercial shops for rent or sale with auto-reset schematics."
-    },
-    {
-        "id": "WorldGuard",
-        "name": "WorldGuard",
-        "jar": "WG.jar",
-        "category": "Real Estate & Housing",
-        "version": "7.0.12",
-        "desc": "City zoning, anti-griefing, safezones, bank robbery vaults, and hospital protection."
-    },
-    {
-        "id": "WorldEdit",
-        "name": "WorldEdit",
-        "jar": "WE.jar",
-        "category": "Real Estate & Housing",
-        "version": "7.3.9",
-        "desc": "City construction, schematic management, and metropolitan terrain modeling."
-    },
-    {
-        "id": "Bank",
-        "name": "Bank Lite",
-        "jar": "Bank Lite.jar",
-        "category": "Economy & Commerce",
-        "version": "4.6.0",
-        "desc": "Personal bank accounts, ATM machines, deposits, withdrawals, interest rates, and loans."
-    },
-    {
-        "id": "CoreBankApi",
-        "name": "CoreBankApi",
-        "jar": "CoreBankApi.jar",
-        "category": "Economy & Commerce",
-        "version": "1.0.0",
-        "desc": "Bank transaction logging and financial infrastructure."
-    },
-    {
-        "id": "AuctionHouse",
-        "name": "AuctionHouse",
-        "jar": "AuctionHouse.jar",
-        "category": "Economy & Commerce",
-        "version": "2.3.8",
-        "desc": "Metropolitan player-to-player marketplace, auction listings, bidding and instant buy."
-    },
-    {
-        "id": "SalaryManager",
-        "name": "SalaryManager",
-        "jar": "SalaryManager.jar",
-        "category": "Economy & Commerce",
-        "version": "1.2.1",
-        "desc": "Automated paychecks and periodic salaries for city jobs, police, and EMS."
-    },
-    {
-        "id": "dtlTraders",
-        "name": "dtlTraders",
-        "jar": "DtlTraders.jar",
-        "category": "Economy & Commerce",
-        "version": "6.2.3",
-        "desc": "Interactive NPC store merchants with custom buy/sell GUIs and dynamic pricing."
-    },
-    {
-        "id": "Shopkeepers",
-        "name": "Shopkeepers",
-        "jar": "Shopkeepers.jar",
-        "category": "Economy & Commerce",
-        "version": "2.19.0",
-        "desc": "Player-owned vendor stalls and custom trade shops in the shopping district."
-    },
-    {
-        "id": "Vault",
-        "name": "Vault",
-        "jar": "Vault.jar",
-        "category": "Economy & Commerce",
-        "version": "1.7.3",
-        "desc": "Universal economy, permissions, and chat abstraction API."
-    },
-    {
-        "id": "KoyaRobbery",
-        "name": "KoyaRobbery",
-        "jar": "KoyaRobbery.jar",
-        "category": "Crime & Gangs",
-        "version": "1.8.4",
-        "desc": "Bank heists, convenience store holdups, vault cracking, and robbery crew management."
-    },
-    {
-        "id": "ExcellentGangs",
-        "name": "ExcellentGangs",
-        "jar": "ExcellentGangs.jar",
-        "category": "Crime & Gangs",
-        "version": "1.3.0",
-        "desc": "Street gangs, turf wars, gang vaults, gang ranks, friendly fire toggle, and gang bank."
-    },
-    {
-        "id": "ClansPlus",
-        "name": "ClansPlus",
-        "jar": "ClansPlus.jar",
-        "category": "Crime & Gangs",
-        "version": "1.4.6",
-        "desc": "Mafia syndicates, crime families, alliances, clan wars, and territory scoring."
-    },
-    {
-        "id": "Drugs",
-        "name": "Drugs",
-        "jar": "Drugs.jar",
-        "category": "Crime & Gangs",
-        "version": "2.2.0",
-        "desc": "Illegal contraband cultivation, chemical processing, drug effects, and black market trade."
-    },
-    {
-        "id": "CustomDeathDrops",
-        "name": "CustomDeathDrops",
-        "jar": "CustomDeathDrops.jar",
-        "category": "Crime & Gangs",
-        "version": "1.1.0",
-        "desc": "Controlled item drops and wallet cash forfeiture upon criminal death."
-    },
-    {
-        "id": "PhoneV2",
-        "name": "PhoneConnect",
-        "jar": "PhoneConnect.jar",
-        "category": "Communication & GPS",
-        "version": "2.0.0",
-        "desc": "Interactive smartphone: SIM cards, voice calls, SMS, contacts, and 911 emergency dispatch."
-    },
-    {
-        "id": "GPS",
-        "name": "GPS",
-        "jar": "GPS.jar",
-        "category": "Communication & GPS",
-        "version": "3.1.0",
-        "desc": "Particle street navigation leading players directly to hospitals, dealerships, and jobs."
-    },
-    {
-        "id": "GPS-Quests",
-        "name": "GPS-Quests",
-        "jar": "GPSQuests.jar",
-        "category": "Communication & GPS",
-        "version": "1.0.0",
-        "desc": "Waypoint navigation guidance for active delivery missions and quest targets."
-    },
-    {
-        "id": "TAB",
-        "name": "TAB",
-        "jar": "TAB.jar",
-        "category": "Communication & GPS",
-        "version": "5.0.4",
-        "desc": "Roleplay scoreboard HUD, bossbar alerts, custom nametags, and player list styling."
-    },
-    {
-        "id": "ChatManager",
-        "name": "ChatManager / EChat",
-        "jar": "EChat.jar",
-        "category": "Communication & GPS",
-        "version": "1.0.0",
-        "desc": "Proximity local chat, shout, whisper, OOC channels, and anti-spam filters."
-    },
-    {
-        "id": "RPTools",
-        "name": "RPTools",
-        "jar": "T-RPTools.jar",
-        "category": "Communication & GPS",
-        "version": "1.2.0",
-        "desc": "Roleplay character identity cards (/card), dice roll (/roll), /me, /do, and emotes."
-    },
-    {
-        "id": "DecentHolograms",
-        "name": "DecentHolograms",
-        "jar": "DecentHolograms.jar",
-        "category": "Communication & GPS",
-        "version": "2.8.12",
-        "desc": "Floating interactive 3D text billboards, price tags, and tutorial guidance."
-    },
-    {
-        "id": "HolographicDisplays",
-        "name": "HolographicDisplays",
-        "jar": "HolographicDisplays.jar",
-        "category": "Communication & GPS",
-        "version": "3.0.4",
-        "desc": "High-visibility informational holograms in spawn terminals and bank lobbies."
-    },
-    {
-        "id": "ImageFrame",
-        "name": "ImageFrame",
-        "jar": "ImageFrame.jar",
-        "category": "Communication & GPS",
-        "version": "1.7.5",
-        "desc": "Custom HD billboards, advertisements, highway road signs, and posters on item frames."
-    },
-    {
-        "id": "Images",
-        "name": "Images",
-        "jar": "Images.jar",
-        "category": "Communication & GPS",
-        "version": "2.1.4",
-        "desc": "In-game PNG/JPEG image rendering for custom city graphics."
-    },
-    {
-        "id": "Quests",
-        "name": "Quests (QuestsMinecity)",
-        "jar": "QuestsMinecity.jar",
-        "category": "Jobs & Missions",
-        "version": "4.0.0",
-        "desc": "Civilian job center: delivery courier, taxi, mining, lumberjack, and criminal contracts."
-    },
-    {
-        "id": "Autorank",
-        "name": "Autorank",
-        "jar": "Autorank.jar",
-        "category": "Jobs & Missions",
-        "version": "4.4.4",
-        "desc": "Playtime-based citizenship progression, unlocking city privileges and tax brackets."
-    },
-    {
-        "id": "ProSkillAPI",
-        "name": "ProSkillAPI",
-        "jar": "ProSkillApi.jar",
-        "category": "Jobs & Missions",
-        "version": "1.1.8",
-        "desc": "RPG skill trees, stamina attributes, driving proficiency, and physical perks."
-    },
-    {
-        "id": "ProMCCore",
-        "name": "ProMCCore",
-        "jar": "ProCore.jar",
-        "category": "Jobs & Missions",
-        "version": "1.0.5",
-        "desc": "Underlying engine powering skill mechanics and RPG stats."
-    },
-    {
-        "id": "RealMines",
-        "name": "RealMines",
-        "jar": "RealMines.jar",
-        "category": "Jobs & Missions",
-        "version": "1.6.0",
-        "desc": "Automated resetting quarries and mines for legal industrial mining jobs."
-    },
-    {
-        "id": "MineResetLite",
-        "name": "MineResetLite",
-        "jar": "MineResetLite.jar",
-        "category": "Jobs & Missions",
-        "version": "0.6.0",
-        "desc": "Sub-quarry area resets for construction resource collection."
-    },
-    {
-        "id": "ServerTutorialPlus",
-        "name": "ServerTutorialPlus",
-        "jar": "ServerTutorialPlus.jar",
-        "category": "Jobs & Missions",
-        "version": "2.1.0",
-        "desc": "Interactive newcomer city tour guiding new citizens from the airport to city hall."
-    },
-    {
-        "id": "EvenMoreFish",
-        "name": "EvenMoreFish",
-        "jar": "EvenMoreFish.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.7.2",
-        "desc": "Marina fishing tournaments, custom fish species, bait, fish monger economy."
-    },
-    {
-        "id": "Roulette",
-        "name": "Roulette",
-        "jar": "Roulette.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.2.0",
-        "desc": "Authentic casino roulette tables with real-time wheel spins and chip betting."
-    },
-    {
-        "id": "VideoPoker",
-        "name": "VideoPoker",
-        "jar": "VideoPoker.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.0.0",
-        "desc": "Casino video poker terminals with Texas Hold'em card payouts."
-    },
-    {
-        "id": "Lottery",
-        "name": "Lottery",
-        "jar": "Lottery.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.0.1",
-        "desc": "Daily and hourly city lottery jackpots funded by citizen ticket purchases."
-    },
-    {
-        "id": "BlockBall",
-        "name": "BlockBall",
-        "jar": "BlockBall.jar",
-        "category": "Entertainment & Casino",
-        "version": "6.28.0",
-        "desc": "Full soccer / football minigame with goals, balls, and teams in the city stadium."
-    },
-    {
-        "id": "Gameboy",
-        "name": "Gameboy Emulator",
-        "jar": "JameboyEmulator.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.1.0",
-        "desc": "Playable GameBoy handheld console emulator rendered on in-game maps."
-    },
-    {
-        "id": "PocketGames",
-        "name": "PocketGames",
-        "jar": "PocketGames.jar",
-        "category": "Entertainment & Casino",
-        "version": "2.2.0",
-        "desc": "GUI arcade games: 2048, Snake, Flappy Bird, Connect 4, and Tic-Tac-Toe."
-    },
-    {
-        "id": "JukeBox",
-        "name": "JukeBox",
-        "jar": "Jukebox.jar",
-        "category": "Entertainment & Casino",
-        "version": "2.1.0",
-        "desc": "City radio stations, nightclub jukebox music, and custom ambient songs."
-    },
-    {
-        "id": "NoteBlockAPI",
-        "name": "NoteBlockAPI",
-        "jar": "NoteBlockAPI.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.6.2",
-        "desc": "Audio playback engine for custom MIDI/NBS radio tracks."
-    },
-    {
-        "id": "GSit",
-        "name": "GSit",
-        "jar": "GSit.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.9.0",
-        "desc": "Roleplay poses: sit on chairs/stairs (/sit), lay on beds (/lay), crawl (/crawl)."
-    },
-    {
-        "id": "GadgetsMenu",
-        "name": "GadgetsMenu",
-        "jar": "GadgetsMenu.jar",
-        "category": "Entertainment & Casino",
-        "version": "5.3.2",
-        "desc": "Civic cosmetics: hats, suits, particle trails, mystery dust, and celebratory fireworks."
-    },
-    {
-        "id": "Gizmo",
-        "name": "Gizmo",
-        "jar": "Gizmo.jar",
-        "category": "Entertainment & Casino",
-        "version": "1.2.0",
-        "desc": "Interactive physical gadgets and decorative urban elements."
-    },
-    {
-        "id": "Citizens",
-        "name": "Citizens",
-        "jar": "Citizens-2.0.41-b4129.jar",
-        "category": "NPCs & City Staff",
-        "version": "2.0.41",
-        "desc": "Interactive NPCs: bank tellers, car dealers, quest givers, and police officers."
-    },
-    {
-        "id": "Denizen",
-        "name": "Denizen",
-        "jar": "Denizen.jar",
-        "category": "NPCs & City Staff",
-        "version": "1.2.9",
-        "desc": "Scripting engine for complex NPC dialogue, cinematic scenes, and interactive triggers."
-    },
-    {
-        "id": "UltimateFood",
-        "name": "UltimateFood",
-        "jar": "UltimateFoods.jar",
-        "category": "Survival & Food",
-        "version": "2.1.0",
-        "desc": "Gourmet restaurant dishes, burgers, coffee, sodas, and hunger/thirst restoration."
-    },
-    {
-        "id": "ExcellentCrates",
-        "name": "ExcellentCrates",
-        "jar": "ExcellentCrates.jar",
-        "category": "Rewards & VIP",
-        "version": "5.2.0",
-        "desc": "Custom loot crates, key vouchers, milestone rewards, and opening animations."
-    },
-    {
-        "id": "PlayerKits2",
-        "name": "PlayerKits2",
-        "jar": "PlayerKits2.jar",
-        "category": "Rewards & VIP",
-        "version": "2.0.0",
-        "desc": "Civilian starter kits, daily kits, and VIP donor care packages."
-    },
-    {
-        "id": "TheRewards",
-        "name": "TheRewards",
-        "jar": "TheRewards.jar",
-        "category": "Rewards & VIP",
-        "version": "1.5.0",
-        "desc": "Daily streak rewards and hourly playtime reward vouchers."
-    },
-    {
-        "id": "DeluxeMenus",
-        "name": "DeluxeMenus",
-        "jar": "DeluxeMenus.jar",
-        "category": "Menus & Interface",
-        "version": "1.14.0",
-        "desc": "Custom GUI menus: City Services, Job Agency, Fast Travel, and Dealerships."
-    },
-    {
-        "id": "MyCommand",
-        "name": "MyCommand",
-        "jar": "MyCommand.jar",
-        "category": "Menus & Interface",
-        "version": "5.7.3",
-        "desc": "Custom commands & aliases: /car, /carcall, /carsit1-3, /car-drive, /crew, /wiki."
-    },
-    {
-        "id": "EssentialsWarpGUI",
-        "name": "EssentialsWarpGUI",
-        "jar": "WarpGUI.jar",
-        "category": "Menus & Interface",
-        "version": "1.4.0",
-        "desc": "Visual warp navigation menu with category icons and teleport previews."
-    },
-    {
-        "id": "Essentials",
-        "name": "EssentialsX / ECore",
-        "jar": "ECore.jar",
-        "category": "Core & Admin",
-        "version": "2.21.0",
-        "desc": "Core server suite: economy (/bal, /pay), teleports (/spawn, /home), and moderation."
-    },
-    {
-        "id": "EssentialsSpawn",
-        "name": "EssentialsSpawn",
-        "jar": "ESpawn.jar",
-        "category": "Core & Admin",
-        "version": "2.21.0",
-        "desc": "Spawn point handling for airport arrivals and respawns."
-    },
-    {
-        "id": "LuckPerms",
-        "name": "LuckPerms",
-        "jar": "LuckPerms.jar",
-        "category": "Core & Admin",
-        "version": "5.4.145",
-        "desc": "Permission nodes, group inheritance, and staff/civilian role hierarchy."
-    },
-    {
-        "id": "PlaceholderAPI",
-        "name": "PlaceholderAPI",
-        "jar": "PlaceholderAPI.jar",
-        "category": "Core & Admin",
-        "version": "2.11.6",
-        "desc": "Universal variable bridging system for scoreboards, HUDs, menus, and chat."
-    },
-    {
-        "id": "PlayerReport",
-        "name": "PlayerReport",
-        "jar": "PlayerReport.jar",
-        "category": "Core & Admin",
-        "version": "1.3.0",
-        "desc": "Civilian report system to notify active police and moderators of rule breaches."
-    },
-    {
-        "id": "Chunky",
-        "name": "Chunky",
-        "jar": "O-Chunky.jar",
-        "category": "Performance & Fixes",
-        "version": "1.4.10",
-        "desc": "World pre-generator ensuring zero lag spikes during high-speed vehicle chases."
-    },
-    {
-        "id": "LagFixer",
-        "name": "LagFixer",
-        "jar": "LagFixer.jar",
-        "category": "Performance & Fixes",
-        "version": "2.8.0",
-        "desc": "Entity limiter, chunk unloader, and server tick rate stabilizer."
-    },
-    {
-        "id": "RoseStacker",
-        "name": "RoseStacker",
-        "jar": "O-RoseStacker.jar",
-        "category": "Performance & Fixes",
-        "version": "1.5.0",
-        "desc": "Item and mob stacker preventing FPS drops in crowded downtown areas."
-    },
-    {
-        "id": "Pl-Hide-Free",
-        "name": "Pl-Hide",
-        "jar": "Pl-Hide.jar",
-        "category": "Security & Network",
-        "version": "1.6.0",
-        "desc": "Command whitelist masking server backend internals from unauthorized players."
-    },
-    {
-        "id": "ForcePack",
-        "name": "ForcePack",
-        "jar": "Forcepack.jar",
-        "category": "Security & Network",
-        "version": "3.1.0",
-        "desc": "Mandatory server resource pack enforcement for 3D vehicles and custom guns."
-    },
-    {
-        "id": "ViaVersion",
-        "name": "ViaVersion",
-        "jar": "ViaVersion-5.12.1.jar",
-        "category": "Security & Network",
-        "version": "5.12.1",
-        "desc": "Multi-version client compatibility layer allowing modern Minecraft clients to join."
-    },
-    {
-        "id": "ViaBackwards",
-        "name": "ViaBackwards",
-        "jar": "ViaBackwards-5.12.1.jar",
-        "category": "Security & Network",
-        "version": "5.12.1",
-        "desc": "Backward compatibility support for older Minecraft versions."
-    },
-    {
-        "id": "ProtocolLib",
-        "name": "ProtocolLib",
-        "jar": "ProtocolLib.jar",
-        "category": "Security & Network",
-        "version": "5.3.0",
-        "desc": "Packet-level packet manipulation library for 3D vehicles and custom animations."
-    },
-    {
-        "id": "Packetevents",
-        "name": "Packetevents",
-        "jar": "Packetevents.jar",
-        "category": "Security & Network",
-        "version": "2.5.0",
-        "desc": "Modern cross-platform networking event handler for Purpur 1.21.11."
+  // Exact 10 Official Server Categories
+  categories: [
+    {
+        "id": "cat-core",
+        "key": "Core & Roleplay",
+        "icon": "⚙️",
+        "title": {
+            "en": "Core & Roleplay Systems",
+            "es": "Core & Rol"
+        },
+        "pluginsList": "MinecitySuite, MinecityFixerAddon, EssentialsX / ECore, EssentialsSpawn, LuckPerms, Vault, MyCommand, DeluxeMenus, PlaceholderAPI",
+        "summary": {
+            "en": "The foundational architecture of Minecity Roleplay. MinecitySuite manages Police arrests/stars, EMS diseases/revival, Survival thirst/hunger, Tamagotchi Pets, and Testing Dummies (/ms). EssentialsX & LuckPerms run spawn arrivals (/spawn), homes, cash (/bal, /pay), and rank permissions, while MyCommand maps friendly shortcuts (/car, /carcall, /crew, /job) and DeluxeMenus + PlaceholderAPI drive custom GUIs and dynamic HUD variables.",
+            "es": "La columna vertebral de Minecity Roleplay. MinecitySuite gestiona Policía, Paramédicos, Supervivencia (sed/hambre), Mascotas y Dummies (/ms). EssentialsX y LuckPerms manejan el aeropuerto (/spawn), dinero (/bal, /pay) y rangos de permisos; MyCommand crea atajos fáciles (/car, /carcall, /crew, /job), y DeluxeMenus junto a PlaceholderAPI conectan todos los menús e indicadores del servidor."
+        },
+        "highlights": [
+            "Police: 6 Wanted Stars, 2-hit arrest baton, iron handcuffs, state prison cells, and 30-min officer salaries.",
+            "EMS / Paramedics: 60s crawling bleedout, Shift+Right-Click with Restoration Vaccine + 30s acceptance prompt ($250 fee to keep inventory), 6 diseases & /pharmacy.",
+            "Custom Aliases: /car (/qav garage), /carcall (/qav callback to store vehicle), /carsit1-3, /car-drive, /crew, /job."
+        ]
+    },
+    {
+        "id": "cat-vehicles",
+        "key": "Vehicles & Transport",
+        "icon": "🏎️",
+        "title": {
+            "en": "Vehicles & Transport",
+            "es": "Vehículos y Transporte"
+        },
+        "pluginsList": "QualityArmoryVehicles, MTVehicles, Elevator",
+        "summary": {
+            "en": "Complete 3D drivable fleet requiring zero client mods: sports cars, police cruisers, ambulances, motorcycles, trucks, and helicopters. Vehicles are purchased at NPC dealerships, spawned from your personal garage (/car), safely stored away via /carcall, shared with passengers (/carsit1-3), refueled at gas stations, and parked inside skyscrapers connected by working Elevators.",
+            "es": "Flota completa de vehículos 3D sin necesidad de mods: deportivos, patrullas, ambulancias, motos, camiones y helicópteros. Se compran en concesionarios, se sacan del garaje con /car, se guardan con /carcall para evitar robos, permiten pasajeros con /carsit1-3, repostan gasolina y usan ascensores funcionales (/elevator) en edificios."
+        },
+        "highlights": [
+            "/car (Garage GUI) & /carcall (Stores active vehicle safely back into garage).",
+            "/carsit1, /carsit2, /carsit3 (Passenger seats) & /car-drive (Return to driver seat).",
+            "MTVehicles: /vehicle public/private, /vehicle addmember, /vehicle fuel, and building elevators (/elevator)."
+        ]
+    },
+    {
+        "id": "cat-weapons",
+        "key": "Firearms & Equipment",
+        "icon": "🔫",
+        "title": {
+            "en": "Firearms & Equipment",
+            "es": "Armas y Equipamiento"
+        },
+        "pluginsList": "QualityArmory, ExecutableItems, SCore, CommandItems",
+        "summary": {
+            "en": "Authentic tactical firepower and custom interactive roleplay tools. QualityArmory renders custom 3D pistols, SMGs, assault rifles, sniper rifles, shotguns, grenades, Kevlar vests, and ammo magazines (/qa, /qa shop, /qa craft). ExecutableItems, SCore, and CommandItems power specialized badges, police tasers, medical syringes, and clickable tools.",
+            "es": "Potencia de fuego táctica y equipamiento especial de rol. QualityArmory ofrece armas de fuego 3D (pistolas, subfusiles, rifles de asalto, francotiradores, escopetas), chalecos antibalas y munición (/qa, /qa shop, /qa craft). ExecutableItems, SCore y CommandItems añaden placas policiales, herramientas interactivas y consumibles ejecutables."
+        },
+        "highlights": [
+            "3D Firearms (/qa shop, /qa craft, /qa give): Right-click zoom/iron sights, Left-click fire, F or drop to reload.",
+            "Custom Tools (/ei, /ci): Executable police items, emergency kits, and custom-bound roleplay gadgets."
+        ]
+    },
+    {
+        "id": "cat-properties",
+        "key": "Properties & Building",
+        "icon": "🏢",
+        "title": {
+            "en": "Properties & Building",
+            "es": "Propiedades y Construcción"
+        },
+        "pluginsList": "AdvancedRegionMarket (ARM), WorldGuard, WorldEdit, ArmorStandTools",
+        "summary": {
+            "en": "Metropolitan real estate market and city zoning protection. Citizens rent studio apartments or buy luxury mansions permanently via /apartments, /rent, /buy, or /arm. WorldGuard defines anti-PvP airport/hospital safezones and heist vaults (/rg), WorldEdit manages schematics and city construction (//wand, //set), and ArmorStandTools decorates shop interiors (/astools).",
+            "es": "Mercado inmobiliario metropolitano y protección urbana. Los ciudadanos alquilan departamentos o compran mansiones permanentes mediante /apartments, /rent, /buy o /arm. WorldGuard protege zonas seguras (/rg flag), WorldEdit construye y restaura esquemas (//wand, //copy) y ArmorStandTools decora maniquíes (/astools)."
+        },
+        "highlights": [
+            "Rent & Buy UI: /apartments, /rent, /buy, /arm info, /arm extend, /arm sellback, /arm addmember <player>.",
+            "Region Protection & Building: /rg define, /rg flag, //wand, //set, //copy, //paste, //schem save/load, /astools."
+        ]
+    },
+    {
+        "id": "cat-economy",
+        "key": "Economy & Banking",
+        "icon": "🏦",
+        "title": {
+            "en": "Economy & Banking",
+            "es": "Economía y Banca"
+        },
+        "pluginsList": "Bank Lite, CoreBankApi, AuctionHouse, SalaryManager, dtlTraders, Shopkeepers",
+        "summary": {
+            "en": "Multi-layered financial economy keeping cash safe from muggers and facilitating citizen commerce. Store savings in ATM bank accounts (/bank) to earn interest, sell rare weapons and car keys globally via AuctionHouse (/ah, /ah sell), receive automated paychecks via SalaryManager (/salary), and buy supplies from NPC merchants (dtlTraders & Shopkeepers).",
+            "es": "Sistema financiero completo para proteger dinero y comerciar en la ciudad. Guarda efectivo en el banco/ATM (/bank) evitando perderlo al morir, comercia objetos globalmente en la Casa de Subastas (/ah, /ah sell), recibe nóminas periódicas (/salary) y compra en tiendas de comerciantes NPC (dtlTraders y Shopkeepers)."
+        },
+        "highlights": [
+            "Bank & ATM (/bank, /bank money open): Deposits, withdrawals, item vaults, and interest payouts.",
+            "Marketplace & Payroll (/ah, /ah sell <price>, /ah expired, /salary, /dtltraders, /shopkeeper)."
+        ]
+    },
+    {
+        "id": "cat-crime",
+        "key": "Crime, Gangs & Heists",
+        "icon": "💰",
+        "title": {
+            "en": "Crime, Gangs & Heists",
+            "es": "Crimen, Pandillas y Atracos"
+        },
+        "pluginsList": "KoyaRobbery, ExcellentGangs, ClansPlus, Drugs, CustomDeathDrops",
+        "summary": {
+            "en": "Underworld organized crime, bank vault heists, street turf wars, and black market contraband. Assemble a heist squad with /crew and crack bank vaults with drills (/robbery), form turf street gangs with shared vaults and banks (/gang), lead crime syndicates in clan wars (/clan), and cultivate contraband narcotics (/drugs, /drugbook).",
+            "es": "Crimen organizado, atracos a bancos, guerras de pandillas y contrabando ilegal. Forma una banda de atraco con /crew y perfora bóvedas (/robbery), crea pandillas callejeras con baúl y banco compartido (/gang), dirige familias criminales (/clan) y elabora drogas ilegales (/drugs, /drugbook)."
+        },
+        "highlights": [
+            "Heists: /crew, /robbery start, /robbery accept, drill vault cracking & police wanted alerts.",
+            "Gangs & Contraband: /gang create, /gang vault, /gang bank, /clan create, /clan openstorage, /drugs, /drugbook."
+        ]
+    },
+    {
+        "id": "cat-comm",
+        "key": "Communication & Navigation",
+        "icon": "📱",
+        "title": {
+            "en": "Communication & Navigation",
+            "es": "Comunicación y Navegación"
+        },
+        "pluginsList": "PhoneConnect (PhoneV2), GPS, GPS-Quests, TAB, EChat / ChatManager, RPTools, DecentHolograms, HolographicDisplays, ImageFrame, Images",
+        "summary": {
+            "en": "Immersive urban connectivity and roleplay atmosphere. Use your interactive smartphone (/phone, /hang) for calls, SMS, and 911 alerts; follow glowing particle arrow navigation (/gps, /compass); showcase character ID cards and emotes (/card, /roll, /me, /do, /whisper, /shout); and read TAB HUD scoreboards, 3D holograms (/dh), and HD map billboards (/imageframe, /image).",
+            "es": "Conectividad urbana e inmersión de rol. Usa el smartphone (/phone, /hang) para llamar, enviar SMS y alertar al 911; sigue rutas GPS con partículas luminosas (/gps, /compass); muestra tu tarjeta de rol (/card), dados (/roll), /me, /do, susurros y gritos; además de scoreboard HUD (TAB), hologramas (/dh) y vallas publicitarias (/imageframe, /image)."
+        },
+        "highlights": [
+            "Mobile & GPS: /phone, /hang, /givesim, /gps, /gps stop, /compass.",
+            "RP Chat & Displays: /card, /roll, /me, /do, /whisper, /shout, /ooc, /dh h create, /imageframe create."
+        ]
+    },
+    {
+        "id": "cat-jobs",
+        "key": "Jobs & Progression",
+        "icon": "💼",
+        "title": {
+            "en": "Jobs & Progression",
+            "es": "Trabajos y Progreso"
+        },
+        "pluginsList": "Quests (QuestsMinecity), Autorank, ProSkillAPI, ProMCCore, RealMines, MineResetLite, ServerTutorialPlus",
+        "summary": {
+            "en": "Legal employment paths and long-term character progression. Take on courier, taxi, construction, or quarry contracts via /job and /quests, earn industrial minerals in auto-resetting quarries (RealMines / MineResetLite), advance civilian ranks automatically via playtime hours (/autorank), allocate RPG stamina/strength perks (/class, /skillapi), and take the guided airport city tour (/st play).",
+            "es": "Empleos legales y evolución del personaje. Acepta misiones de repartidor, taxista o minero (/job, /quests), extrae minerales en canteras auto-reiniciables (RealMines / MineResetLite), asciende rangos de ciudadanía por horas jugadas (/autorank), mejora atributos RPG (/class, /skillapi) y recorre el tutorial guiado (/st play)."
+        },
+        "highlights": [
+            "Employment & Quests: /job, /jobcancel, /quests, /questadmin, /rm create (quarries).",
+            "Progression & Tutorial: /ar check, /ar leaderboard, /ar times, /class, /skillapi, /st play."
+        ]
+    },
+    {
+        "id": "cat-leisure",
+        "key": "Casino, Sports & Leisure",
+        "icon": "🎰",
+        "title": {
+            "en": "Casino, Sports & Leisure",
+            "es": "Casino, Deportes y Ocio"
+        },
+        "pluginsList": "Roulette, VideoPoker, Lottery, BlockBall, EvenMoreFish, Gameboy (JameboyEmulator), PocketGames, JukeBox, NoteBlockAPI, GSit, GadgetsMenu, Gizmo",
+        "summary": {
+            "en": "Vibrant nightlife and recreational entertainment across Los Santos. Bet chips at live Roulette wheels (/roulette), play 5-card Video Poker (/videopoker), enter metropolitan Lottery draws (/lottery), play soccer in the stadium (/blockball), compete in marina fishing contests (/emf), play handheld GameBoy & GUI arcades (/gameboy play, /pocketgames), stream city radio (/music), strike realistic poses (/sit, /lay, /crawl), and wear cosmetics (/gmenu).",
+            "es": "Vida nocturna, apuestas y entretenimiento urbano. Apuesta en mesas de Ruleta (/roulette), Video Póker (/videopoker) y Lotería (/lottery); juega fútbol en el estadio (/blockball); compite en torneos de pesca (/emf shop, /emf top); juega GameBoy portátil (/gameboy play) o arcade (/pocketgames); sintoniza la radio (/music); usa poses reales (/sit, /lay, /crawl) y cosméticos (/gmenu)."
+        },
+        "highlights": [
+            "Casino & Fishing: /roulette, /videopoker, /lottery, /emf shop, /emf top, /emf toggle.",
+            "Poses, Sports & Arcade: /blockball, /gameboy play, /pocketgames, /music, /sit, /lay, /crawl, /spin, /gmenu."
+        ]
+    },
+    {
+        "id": "cat-admin",
+        "key": "NPCs, Rewards & Optimization",
+        "icon": "🛡️",
+        "title": {
+            "en": "NPCs, Rewards & Optimization",
+            "es": "NPCs, Recompensas y Optimización"
+        },
+        "pluginsList": "Citizens, Denizen, UltimateFood, ExcellentCrates, PlayerKits2, TheRewards, PlayerReport, Chunky, LagFixer, RoseStacker, Pl-Hide, ForcePack, ViaVersion, ViaBackwards, ProtocolLib, PacketEvents",
+        "summary": {
+            "en": "City population AI, daily rewards, gastronomy, moderation, and high-FPS infrastructure. Citizens & Denizen power interactive shopkeepers and quest NPCs (/npc); UltimateFood delivers realistic meals & sodas (/uf); ExcellentCrates (/crates, /cratekey), PlayerKits2 (/kit), and TheRewards (/rewards) handle loot crates and daily login streaks; PlayerReport alerts staff (/report); while Chunky, LagFixer, RoseStacker, Pl-Hide, ForcePack, ViaVersion, and ProtocolLib/PacketEvents guarantee 20.0 TPS stability.",
+            "es": "Población NPC, gastronomía, cajas de botín, moderación e infraestructura de alto rendimiento. Citizens y Denizen controlan NPCs interactivos (/npc); UltimateFood añade platos gourmet (/uf); ExcellentCrates (/crates, /cratekey), PlayerKits2 (/kit) y TheRewards (/rewards) entregan recompensas; PlayerReport gestiona reportes (/report); y Chunky, LagFixer, RoseStacker, Pl-Hide, ForcePack, ViaVersion y ProtocolLib garantizan 20 TPS fluidos sin mods."
+        },
+        "highlights": [
+            "Crates, Kits & Rewards: /crates open/preview, /cratekey balance/giveall, /kit claim/preview, /rewards, /streak.",
+            "NPCs, Reports & Performance: /npc create/trait/skin, /report, /chunky start, /abyss, /rs give, /plhide, /forcepack."
+        ]
     }
 ],
 
-  // 323 Master Commands Directory (All Server Plugins)
+  // 359 Real Commands & Subcommands across all 10 Categories
   commands: [
     {
         "command": "/apartments",
-        "aliases": "/apartment, /aparments, /properties",
+        "aliases": "/apartment, /properties",
         "permission": "minecity.apartments",
-        "category": "Real Estate",
-        "plugin": "MinecitySuite & ARM",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Opens the visual real estate menu to rent apartments, buy penthouses, or manage owned properties.",
-            "es": "Abre el menú interactivo para alquilar apartamentos, comprar mansiones o gestionar propiedades."
+            "en": "Opens the apartments & luxury housing market GUI.",
+            "es": "Abre el menú inmobiliario para alquilar departamentos o comprar casas."
         }
     },
     {
         "command": "/rent",
         "aliases": "/rents, /alquiler",
         "permission": "minecity.apartments",
-        "category": "Real Estate",
-        "plugin": "MinecitySuite & ARM",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Quick shortcut to view all available apartments and hotel rooms currently for rent.",
-            "es": "Acceso directo para ver todos los apartamentos y habitaciones disponibles para alquilar."
+            "en": "Quick shortcut for rentable city apartments.",
+            "es": "Acceso directo a los apartamentos disponibles en alquiler."
         }
     },
     {
         "command": "/buy",
-        "aliases": "/houses, /buyhouse, /comprar",
+        "aliases": "/houses, /comprar",
         "permission": "minecity.apartments",
-        "category": "Real Estate",
-        "plugin": "MinecitySuite & ARM",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Quick shortcut to view all permanent luxury houses, commercial shops, and villas for sale.",
-            "es": "Acceso directo para consultar casas de lujo, locales comerciales y villas en venta permanente."
-        }
-    },
-    {
-        "command": "/arm",
-        "aliases": "/regionmarket",
-        "permission": "arm.help",
-        "category": "Real Estate",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Displays the AdvancedRegionMarket master menu, rented region info, and time extensions.",
-            "es": "Muestra el menú principal de ARM, información de regiones alquiladas y extensión de tiempo."
-        }
-    },
-    {
-        "command": "/arm rent",
-        "aliases": "/arm r",
-        "permission": "arm.use",
-        "category": "Real Estate",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Rents the region you are currently standing in if available.",
-            "es": "Alquila la región donde estás parado si se encuentra disponible."
-        }
-    },
-    {
-        "command": "/arm buy",
-        "aliases": "/arm b",
-        "permission": "arm.use",
-        "category": "Real Estate",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Purchases the region you are currently standing in permanently.",
-            "es": "Compra de forma permanente la región o propiedad donde te encuentras."
-        }
-    },
-    {
-        "command": "/arm extend",
-        "aliases": "/arm ext",
-        "permission": "arm.use",
-        "category": "Real Estate",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Extends the rental duration of your active apartment.",
-            "es": "Extiende el tiempo de alquiler de tu departamento antes de que expire."
-        }
-    },
-    {
-        "command": "/arm unrent",
-        "aliases": "/arm terminate",
-        "permission": "arm.use",
-        "category": "Real Estate",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Cancels your active lease agreement and returns the property to the market.",
-            "es": "Cancela el contrato de alquiler y devuelve la propiedad al mercado inmobiliario."
-        }
-    },
-    {
-        "command": "/elevator",
-        "aliases": "/elevators, /se",
-        "permission": "elevator.use",
-        "category": "Real Estate",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Configures and teleports across floors using building elevator blocks.",
-            "es": "Permite desplazarse verticalmente entre pisos en rascacielos mediante bloques elevadores."
-        }
-    },
-    {
-        "command": "/car",
-        "aliases": "/qav garage, /garage",
-        "permission": "None (Everyone)",
-        "category": "Vehicles",
-        "plugin": "MyCommand & QAV",
-        "desc": {
-            "en": "Opens your personal vehicle garage GUI to browse, select, and spawn your owned cars.",
-            "es": "Abre el menú interactivo de tu garaje para ver y sacar cualquiera de tus vehículos."
-        }
-    },
-    {
-        "command": "/carcall",
-        "aliases": "/qav callback",
-        "permission": "None (Everyone)",
-        "category": "Vehicles",
-        "plugin": "MyCommand & QAV",
-        "desc": {
-            "en": "Saves and stores your active vehicle back into your garage to prevent theft or impound.",
-            "es": "Guarda y almacena tu vehículo activo de vuelta en el garaje para evitar robos."
-        }
-    },
-    {
-        "command": "/carsit1",
-        "aliases": "/carsit2, /carsit3",
-        "permission": "None (Everyone)",
-        "category": "Vehicles",
-        "plugin": "MyCommand & QAV",
-        "desc": {
-            "en": "Seats you as a passenger in seat 1, 2, or 3 of a nearby vehicle.",
-            "es": "Te sienta como pasajero en el asiento 1, 2 o 3 de un vehículo cercano."
-        }
-    },
-    {
-        "command": "/car-drive",
-        "aliases": "/qav setaspassager -1",
-        "permission": "None (Everyone)",
-        "category": "Vehicles",
-        "plugin": "MyCommand & QAV",
-        "desc": {
-            "en": "Switches your passenger seat position back to the driver seat.",
-            "es": "Te regresa de copiloto al asiento del conductor para manejar el vehículo."
-        }
-    },
-    {
-        "command": "/qav shop",
-        "aliases": "/vehicleshop",
-        "permission": "qav.shop",
-        "category": "Vehicles",
-        "plugin": "QualityArmoryVehicles",
-        "desc": {
-            "en": "Opens the city vehicle dealership catalog to preview prices and test drives.",
-            "es": "Abre el catálogo del concesionario para consultar precios y modelos de autos."
-        }
-    },
-    {
-        "command": "/mtv vehicle",
-        "aliases": "/mtv",
-        "permission": "mtvehicles.use",
-        "category": "Vehicles",
-        "plugin": "MTVehicles",
-        "desc": {
-            "en": "Displays MTVehicles stats: license plate, fuel percentage, trunk space, and max speed.",
-            "es": "Muestra estadísticas del vehículo: matrícula, combustible, baúl y velocidad punta."
-        }
-    },
-    {
-        "command": "/mtv refuel",
-        "aliases": "/refuel",
-        "permission": "mtvehicles.refuel",
-        "category": "Vehicles",
-        "plugin": "MTVehicles",
-        "desc": {
-            "en": "Refuels the active vehicle using a handheld fuel canister or at a gas pump.",
-            "es": "Llena el tanque de combustible con un bidón de gasolina o en el surtidor."
+            "en": "Quick shortcut for houses and commercial shops for sale.",
+            "es": "Acceso directo a casas de lujo y locales en venta permanente."
         }
     },
     {
         "command": "/police",
         "aliases": "/policia, /pd",
         "permission": "minecity.police",
-        "category": "Police",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Master police command to manage on-duty status, jail suspects, check wanted stars, or issue tickets.",
-            "es": "Comando principal de policía para ponerse de servicio, arrestar sospechosos y ver estrellas."
+            "en": "Police hub: duty toggle, fine suspects, check wanted list.",
+            "es": "Panel principal policial para servicio, multas y criminales."
         }
     },
     {
         "command": "/police top",
         "aliases": "/policetop",
         "permission": "None (Everyone)",
-        "category": "Police",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Displays the public leaderboard of top law enforcement officers with the most arrests.",
-            "es": "Muestra la clasificación pública de los policías con mayor número de arrestos."
+            "en": "Displays the leaderboard of top officers by arrest count.",
+            "es": "Muestra el ranking de policías con más arrestos."
         }
     },
     {
         "command": "/police status",
         "aliases": "/wantedstatus",
         "permission": "None (Everyone)",
-        "category": "Police",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Displays your current wanted level, criminal record, and remaining sentence if jailed.",
-            "es": "Muestra tu nivel de búsqueda actual, antecedentes y tiempo restante de condena."
+            "en": "Displays your wanted stars level and remaining jail time.",
+            "es": "Consulta tus estrellas de búsqueda actuales o condena."
         }
     },
     {
-        "command": "/police jail <player> <minutes>",
-        "aliases": "/arrest <player>",
+        "command": "/police jail <player> <min>",
+        "aliases": "/arrest",
         "permission": "minecity.police.jail",
-        "category": "Police",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Books a handcuffed criminal into the county state penitentiary for the specified sentence.",
-            "es": "Encarcela a un criminal esposado en la prisión estatal por los minutos asignados."
+            "en": "Incarcerates a cuffed suspect in state prison for X minutes.",
+            "es": "Encarcela a un sospechoso esposado por los minutos indicados."
         }
     },
     {
-        "command": "/police addstars <player> <amount>",
+        "command": "/police addstars <player> <n>",
         "aliases": "/addstars",
-        "permission": "minecity.police.admin",
-        "category": "Police",
+        "permission": "mcrppolice.admin",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Manually increases the wanted stars level (1 to 6) of a fugitive player.",
-            "es": "Aumenta manualmente las estrellas de búsqueda (1 a 6) de un jugador fugitivo."
+            "en": "Increases a fugitive's wanted star level (1 to 6).",
+            "es": "Añade estrellas de búsqueda policial (1 a 6) a un jugador."
         }
     },
     {
-        "command": "/police removestars <player> <amount>",
+        "command": "/police removestars <player> <n>",
         "aliases": "/clearstars",
-        "permission": "minecity.police.admin",
-        "category": "Police",
+        "permission": "mcrppolice.admin",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Pardons or reduces the wanted stars level of a citizen.",
-            "es": "Reduce o elimina las estrellas de búsqueda de un ciudadano."
+            "en": "Clears or lowers a player's active wanted stars.",
+            "es": "Reduce o limpia las estrellas de búsqueda de un jugador."
         }
     },
     {
         "command": "/paramedic",
         "aliases": "/ems, /medic",
         "permission": "minecity.paramedic",
-        "category": "EMS & Hospital",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Master paramedic command to toggle on-duty status, view emergency 911 calls, and treat patients.",
-            "es": "Comando principal de paramédicos para entrar de servicio, ver llamadas 911 y atender pacientes."
+            "en": "Paramedic hub: duty toggle, view active 911 emergency calls.",
+            "es": "Menú de paramédicos para servicio y alertas médicas 911."
         }
     },
     {
         "command": "/paramedic revive <player>",
-        "aliases": "/revive <player>",
+        "aliases": "/revive",
         "permission": "minecity.paramedic.revive",
-        "category": "EMS & Hospital",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Revives a downed player using a Restoration Vaccine. Patient must accept prompt to save inventory.",
-            "es": "Reanima a un herido inconsciente con Restoration Vaccine. El paciente debe aceptar para no perder cosas."
+            "en": "Revives a downed citizen with Restoration Vaccine (patient must accept prompt to keep items).",
+            "es": "Reanima a un herido en el suelo (el paciente debe aceptar para guardar su inventario)."
         }
     },
     {
-        "command": "/paramedic duty",
-        "aliases": "/emsduty",
-        "permission": "minecity.paramedic.duty",
-        "category": "EMS & Hospital",
+        "command": "/paramedic menu",
+        "aliases": "/emsmenu",
+        "permission": "minecity.paramedic",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Toggles paramedic active duty status, activating emergency dispatch notifications.",
-            "es": "Activa o desactiva el servicio de paramédico para recibir alertas de emergencias 911."
+            "en": "Opens paramedic medical gear shop (50% discount on vaccines & medkits).",
+            "es": "Abre la tienda exclusiva médica con descuento del 50%."
         }
     },
     {
         "command": "/pharmacy",
         "aliases": "/farmacia",
         "permission": "None (Everyone)",
-        "category": "EMS & Hospital",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Opens the municipal pharmacy store to purchase medicines for fractures, bleeding, and fever.",
-            "es": "Abre la farmacia municipal para comprar medicamentos contra fracturas, sangrado y fiebre."
+            "en": "Opens municipal pharmacy to buy cures for 6 city diseases.",
+            "es": "Abre la farmacia pública para curar fracturas, gripe, migraña, infección o sangrado."
         }
     },
     {
         "command": "/survival",
         "aliases": "/thirst, /sed",
         "permission": "minecity.survival",
-        "category": "Survival",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Displays your exact hydration percentage, hunger level, and physical fatigue indicators.",
-            "es": "Muestra tu porcentaje exacto de hidratación, nivel de hambre e indicadores físicos."
+            "en": "Displays current hydration percentage, hunger, and fatigue.",
+            "es": "Consulta tu nivel exacto de hidratación y hambre."
         }
     },
     {
         "command": "/pet",
         "aliases": "/pets, /mascota",
         "permission": "minecity.pets",
-        "category": "Pets",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Opens the Tamagotchi pet GUI to feed, name, care for, and level up your companion dog or cat.",
-            "es": "Abre el menú de mascotas Tamagotchi para alimentar, nombrar y cuidar a tu compañero."
+            "en": "Opens Tamagotchi companion pet GUI to feed, name, and level up.",
+            "es": "Abre el menú de mascotas Tamagotchi para alimentar y subir de nivel."
         }
     },
     {
-        "command": "/ultimatefood",
-        "aliases": "/uf",
-        "permission": "ultimatefood.use",
-        "category": "Survival",
-        "plugin": "UltimateFood",
+        "command": "/pet shop",
+        "aliases": "/petshop",
+        "permission": "minecity.pets",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Displays the restaurant gourmet recipe book, custom beverages, and nutritional values.",
-            "es": "Muestra el recetario de comida gourmet, bebidas personalizadas y valores nutricionales."
+            "en": "Opens the pet adoption center.",
+            "es": "Abre la tienda de adopción de perros y gatos."
         }
     },
     {
-        "command": "/qa",
-        "aliases": "/QualityArmory",
-        "permission": "qualityarmory.use",
-        "category": "Weapons",
-        "plugin": "QualityArmory",
+        "command": "/ms adddummy <name>",
+        "aliases": "/ms",
+        "permission": "minecity.admin",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Opens the QualityArmory weapons catalog, ammo crafting, attachments, and gun shop.",
-            "es": "Abre el catálogo de armas de fuego 3D, compra de munición, accesorios y armería."
+            "en": "Spawns a controllable test dummy NPC to test weapons, batons, and CPR.",
+            "es": "Crea un dummy de pruebas para testear armas, arrestos y RCP."
         }
     },
     {
-        "command": "/qa craft",
-        "aliases": "/armorycraft",
-        "permission": "qualityarmory.craft",
-        "category": "Weapons",
-        "plugin": "QualityArmory",
+        "command": "/ms removedummy <name>",
+        "aliases": "/ms",
+        "permission": "minecity.admin",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
         "desc": {
-            "en": "Opens the specialized firearm assembly bench to craft ammunition and tactical attachments.",
-            "es": "Abre la mesa de ensamblaje balístico para fabricar cargadores y miras tácticas."
+            "en": "Removes a spawned test dummy.",
+            "es": "Elimina un dummy de pruebas activo."
         }
     },
     {
-        "command": "/ei",
-        "aliases": "/executableitems",
-        "permission": "executableitems.use",
-        "category": "Weapons",
-        "plugin": "ExecutableItems",
+        "command": "/lp editor",
+        "aliases": "/luckperms editor",
+        "permission": "luckperms.editor",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
         "desc": {
-            "en": "Allows interaction with custom RPG weapons, badges, and special roleplay equipment.",
-            "es": "Permite interactuar con objetos ejecutables personalizados, insignias y equipo especial."
+            "en": "Generates a secure LuckPerms web editor session link.",
+            "es": "Genera un enlace seguro para editar rangos y permisos en la web."
         }
     },
     {
-        "command": "/crew",
-        "aliases": "/robbery crew",
-        "permission": "None (Everyone)",
-        "category": "Crime & Gangs",
-        "plugin": "MyCommand & KoyaRobbery",
+        "command": "/lp user <user> info",
+        "aliases": "/lp u info",
+        "permission": "luckperms.user.info",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
         "desc": {
-            "en": "Manages your heist crew for bank robberies, jewelry store holdups, and loot division.",
-            "es": "Gestiona tu equipo de atraco para asaltar bancos, joyerías y repartir el botín."
+            "en": "Inspects a citizen's inherited ranks and active permission nodes.",
+            "es": "Inspecciona los grupos y permisos asignados a un jugador."
         }
     },
     {
-        "command": "/robbery",
-        "aliases": "/heist",
-        "permission": "koyarobbery.use",
-        "category": "Crime & Gangs",
-        "plugin": "KoyaRobbery",
+        "command": "/lp user <user> parent set <group>",
+        "aliases": "/lp u parent",
+        "permission": "luckperms.user.parent.set",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
         "desc": {
-            "en": "Displays active robbery targets, vault hacking status, police response timers, and cooldowns.",
-            "es": "Muestra los objetivos de atraco activos, estado de cajas fuertes y tiempos de respuesta."
+            "en": "Assigns a citizen to a LuckPerms group (e.g., police, paramedic, vip).",
+            "es": "Asigna a un jugador a un rango oficial (policía, médico, vip)."
         }
     },
     {
-        "command": "/gang",
-        "aliases": "/gangs",
-        "permission": "excellentgangs.player",
-        "category": "Crime & Gangs",
-        "plugin": "ExcellentGangs",
+        "command": "/lp group <group> permission set <node>",
+        "aliases": "/lp g perm",
+        "permission": "luckperms.group.permission.set",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
         "desc": {
-            "en": "Opens the street gang management menu: member roster, territory turf wars, and gang vault.",
-            "es": "Abre el menú de pandillas: lista de miembros, guerras de territorio y baúl de banda."
+            "en": "Grants a permission node to a whole LuckPerms rank group.",
+            "es": "Otorga un nodo de permiso a todo un rango de LuckPerms."
         }
     },
     {
-        "command": "/gang create <name>",
-        "aliases": "/gang new",
-        "permission": "excellentgangs.create",
-        "category": "Crime & Gangs",
-        "plugin": "ExcellentGangs",
+        "command": "/lp verbose on",
+        "aliases": "/lp verbose",
+        "permission": "luckperms.verbose",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
         "desc": {
-            "en": "Founds an official new street gang recognized across the city underworld.",
-            "es": "Funda una nueva pandilla callejera oficial en la ciudad."
-        }
-    },
-    {
-        "command": "/gang vault",
-        "aliases": "/gang chest",
-        "permission": "excellentgangs.vault",
-        "category": "Crime & Gangs",
-        "plugin": "ExcellentGangs",
-        "desc": {
-            "en": "Opens your shared gang safe to store illegal weapons, narcotics, and heist cash.",
-            "es": "Abre la caja fuerte compartida de la pandilla para guardar armas y dinero negro."
-        }
-    },
-    {
-        "command": "/gang bank",
-        "aliases": "/gang deposit",
-        "permission": "excellentgangs.bank",
-        "category": "Crime & Gangs",
-        "plugin": "ExcellentGangs",
-        "desc": {
-            "en": "Manages the shared gang bank account to finance turf upgrades and weapon deliveries.",
-            "es": "Gestiona la cuenta bancaria de la pandilla para financiar guerras y suministros."
-        }
-    },
-    {
-        "command": "/clan",
-        "aliases": "/clans",
-        "permission": "clansplus.player",
-        "category": "Crime & Gangs",
-        "plugin": "ClansPlus",
-        "desc": {
-            "en": "Opens the crime syndicate clan menu: hierarchy ranks, clan warpoints, and syndicate base.",
-            "es": "Abre el menú de sindicatos criminales y clanes: rangos, puntos de guerra y base."
-        }
-    },
-    {
-        "command": "/drugs",
-        "aliases": "/contraband",
-        "permission": "drugs.use",
-        "category": "Crime & Gangs",
-        "plugin": "Drugs",
-        "desc": {
-            "en": "Displays recipes for cultivating and processing illegal contraband on the black market.",
-            "es": "Muestra recetas para cultivar y procesar sustancias ilegales en el mercado negro."
-        }
-    },
-    {
-        "command": "/drugbook",
-        "aliases": "/drugsguide",
-        "permission": "drugs.use",
-        "category": "Crime & Gangs",
-        "plugin": "Drugs",
-        "desc": {
-            "en": "Gives the illustrated chemical handbook explaining drug crafting and physical side effects.",
-            "es": "Entrega la guía ilustrada de química para elaboración y efectos secundarios de drogas."
-        }
-    },
-    {
-        "command": "/bank",
-        "aliases": "/atm",
-        "permission": "bank.use",
-        "category": "Economy",
-        "plugin": "Bank Lite",
-        "desc": {
-            "en": "Opens the interactive ATM banking GUI to deposit clean cash, withdraw money, or view interest.",
-            "es": "Abre el cajero automático (ATM) para depositar dinero, retirar efectivo y ver intereses."
-        }
-    },
-    {
-        "command": "/balance",
-        "aliases": "/bal, /money",
-        "permission": "essentials.balance",
-        "category": "Economy",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Checks your active cash on hand in your wallet.",
-            "es": "Consulta la cantidad de dinero en efectivo que tienes en tu billetera."
-        }
-    },
-    {
-        "command": "/pay <player> <amount>",
-        "aliases": "/transfer",
-        "permission": "essentials.pay",
-        "category": "Economy",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Transfers cash directly to another nearby player on the spot.",
-            "es": "Transfiere dinero en efectivo a otro jugador inmediatamente."
-        }
-    },
-    {
-        "command": "/balancetop",
-        "aliases": "/baltop",
-        "permission": "essentials.balancetop",
-        "category": "Economy",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Displays the public city Forbes list of wealthiest citizens and tycoons.",
-            "es": "Muestra la lista de los ciudadanos más ricos y magnates de la ciudad."
-        }
-    },
-    {
-        "command": "/ah",
-        "aliases": "/auction, /auctionhouse",
-        "permission": "auctionhouse.use",
-        "category": "Economy",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Opens the city auction house market to buy items, sell merchandise, and place bids.",
-            "es": "Abre el mercado de subastas de la ciudad para comprar y vender artículos entre jugadores."
-        }
-    },
-    {
-        "command": "/ah sell <price>",
-        "aliases": "/auction sell",
-        "permission": "auctionhouse.sell",
-        "category": "Economy",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Lists the item currently in your main hand on the global Auction House for sale.",
-            "es": "Pone a la venta en la casa de subastas global el objeto que sostienes en tu mano."
-        }
-    },
-    {
-        "command": "/salary",
-        "aliases": "/payday",
-        "permission": "salarymanager.next",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Displays your employment wage breakdown and exact time until your next direct deposit paycheck.",
-            "es": "Muestra el desglose de tu salario laboral y el tiempo exacto para tu próximo pago."
-        }
-    },
-    {
-        "command": "/shopkeeper",
-        "aliases": "/shopkeepers",
-        "permission": "shopkeepers.player",
-        "category": "Economy",
-        "plugin": "Shopkeepers",
-        "desc": {
-            "en": "Manages player-owned merchant shops and trades in designated market stalls.",
-            "es": "Gestiona puestos comerciales y tiendas de intercambio en los mercados de la ciudad."
-        }
-    },
-    {
-        "command": "/phone",
-        "aliases": "/smartphone, /celular",
-        "permission": "phone.use",
-        "category": "Communication",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Opens your interactive 3D smartphone: contacts, text messaging, voice calls, and 911 dispatch.",
-            "es": "Abre tu smartphone: agenda de contactos, mensajes SMS, llamadas de voz y alertas 911."
-        }
-    },
-    {
-        "command": "/hang",
-        "aliases": "/hangup",
-        "permission": "None (Everyone)",
-        "category": "Communication",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Ends and disconnects your active cellular phone call.",
-            "es": "Cuelga y finaliza la llamada telefónica en curso."
-        }
-    },
-    {
-        "command": "/gps",
-        "aliases": "/compass",
-        "permission": "gps.use",
-        "category": "Communication",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Opens the city GPS navigation menu to set particle trail paths to dealerships, hospitals, and banks.",
-            "es": "Abre el menú GPS con flechas de partículas hacia hospitales, bancos y concesionarios."
-        }
-    },
-    {
-        "command": "/gps stop",
-        "aliases": "/gps cancel",
-        "permission": "gps.use",
-        "category": "Communication",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Clears and stops the active GPS navigation trail.",
-            "es": "Cancela y apaga la ruta de navegación GPS activa."
-        }
-    },
-    {
-        "command": "/card",
-        "aliases": "/dni, /id",
-        "permission": "None (Everyone)",
-        "category": "Identity",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Opens and presents your civilian ID card (name, nationality, age, criminal record) to others.",
-            "es": "Muestra tu tarjeta de identidad y DNI civil (nombre, edad, nacionalidad y antecedentes)."
-        }
-    },
-    {
-        "command": "/roll",
-        "aliases": "/dice",
-        "permission": "None (Everyone)",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Rolls an authentic random 6-sided dice for proximity roleplay dispute resolution.",
-            "es": "Lanza un dado al azar del 1 al 6 para resolver situaciones de rol por proximidad."
-        }
-    },
-    {
-        "command": "/me <action>",
-        "aliases": "/action",
-        "permission": "None (Everyone)",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Performs a third-person physical roleplay action visible to nearby players.",
-            "es": "Describe una acción física en tercera persona visible para jugadores cercanos."
-        }
-    },
-    {
-        "command": "/do <state>",
-        "aliases": "/entorno",
-        "permission": "None (Everyone)",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Describes the ambient environmental context or physical state of your character.",
-            "es": "Describe el entorno o estado de tu personaje en el chat de proximidad."
-        }
-    },
-    {
-        "command": "/shout <message>",
-        "aliases": "/gritar",
-        "permission": "None (Everyone)",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Shouts a message with amplified hearing distance across city street blocks.",
-            "es": "Grita un mensaje aumentando el radio de audición por varias calles."
-        }
-    },
-    {
-        "command": "/whisper <player> <message>",
-        "aliases": "/susurrar",
-        "permission": "None (Everyone)",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Whispers a private discreet message in close proximity (1-2 blocks).",
-            "es": "Susurra un mensaje discreto a corta distancia (1-2 bloques)."
-        }
-    },
-    {
-        "command": "/sit",
-        "aliases": "/gsit",
-        "permission": "gsit.sit",
-        "category": "Roleplay",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Sits down realistically on any stair, slab, bench, or flat ground.",
-            "es": "Sienta a tu personaje de forma realista en sillas, bancos o en el suelo."
-        }
-    },
-    {
-        "command": "/lay",
-        "aliases": "/glay",
-        "permission": "gsit.lay",
-        "category": "Roleplay",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Lays down on a bed, couch, or pavement to relax or simulate unconsciousness.",
-            "es": "Acuesta a tu personaje en una cama, sofá o suelo para relajarse o fingir desmayo."
-        }
-    },
-    {
-        "command": "/crawl",
-        "aliases": "/gcrawl",
-        "permission": "gsit.crawl",
-        "category": "Roleplay",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Toggles swimming/crawling animation on dry land to squeeze through 1-block crawlspaces.",
-            "es": "Permite arrastrarse por el suelo para pasar por conductos y huecos de 1 bloque."
-        }
-    },
-    {
-        "command": "/job",
-        "aliases": "/jobs, /quests, /q",
-        "permission": "quests.quest",
-        "category": "Jobs",
-        "plugin": "Quests & MyCommand",
-        "desc": {
-            "en": "Opens the city employment board to pick up courier deliveries, mining, lumberjack, or taxi jobs.",
-            "es": "Abre la bolsa de empleo para iniciar trabajos de repartidor, minero, leñador o taxista."
-        }
-    },
-    {
-        "command": "/jobcancel",
-        "aliases": "/quest quit",
-        "permission": "quests.quest",
-        "category": "Jobs",
-        "plugin": "Quests & MyCommand",
-        "desc": {
-            "en": "Abandons your currently active delivery mission or job task.",
-            "es": "Cancela y abandona la misión o encargo de trabajo que tengas activo."
-        }
-    },
-    {
-        "command": "/autorank",
-        "aliases": "/ar, /level",
-        "permission": "autorank.check",
-        "category": "Jobs",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Checks your citizenship playtime, current civic tier, and requirements for the next civic rank.",
-            "es": "Consulta tus horas jugadas, rango de ciudadanía y requisitos para ascender de nivel."
-        }
-    },
-    {
-        "command": "/class",
-        "aliases": "/skills, /professions",
-        "permission": "skillapi.basic",
-        "category": "Jobs",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "Opens your character RPG skill tree to allocate attribute points and unlock physical perks.",
-            "es": "Abre el árbol de habilidades para asignar puntos de fuerza, agilidad y resistencia."
-        }
-    },
-    {
-        "command": "/roulette",
-        "aliases": "/casino",
-        "permission": "roulette.use",
-        "category": "Entertainment",
-        "plugin": "Roulette",
-        "desc": {
-            "en": "Joins an active casino roulette table, places chip bets on colors/numbers, and spins.",
-            "es": "Permite jugar en las mesas de ruleta del casino apostando fichas a números y colores."
-        }
-    },
-    {
-        "command": "/videopoker",
-        "aliases": "/poker",
-        "permission": "videopoker.use",
-        "category": "Entertainment",
-        "plugin": "VideoPoker",
-        "desc": {
-            "en": "Opens a video poker terminal to play 5-card draw with cash payouts.",
-            "es": "Abre una terminal de video póker para jugar manos de póker y ganar dinero."
-        }
-    },
-    {
-        "command": "/lottery",
-        "aliases": "/lotto",
-        "permission": "lottery.buy",
-        "category": "Entertainment",
-        "plugin": "Lottery",
-        "desc": {
-            "en": "Buys tickets for the metropolitan daily lottery jackpot pool.",
-            "es": "Compra billetes para el sorteo del bote acumulado de la lotería municipal."
-        }
-    },
-    {
-        "command": "/blockball",
-        "aliases": "/bb",
-        "permission": "blockball.user",
-        "category": "Entertainment",
-        "plugin": "BlockBall",
-        "desc": {
-            "en": "Joins or leaves an active soccer match in the Los Santos city stadium.",
-            "es": "Permite unirse o salir de los partidos de fútbol en el estadio de la ciudad."
-        }
-    },
-    {
-        "command": "/gameboy",
-        "aliases": "/jameboy",
-        "permission": "gameboy.use",
-        "category": "Entertainment",
-        "plugin": "Gameboy",
-        "desc": {
-            "en": "Launches the playable handheld GameBoy emulator on an interactive map screen.",
-            "es": "Inicia el emulador interactivo de GameBoy en un mapa portátil."
-        }
-    },
-    {
-        "command": "/pocketgames",
-        "aliases": "/pg",
-        "permission": "pocketgames.play",
-        "category": "Entertainment",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Opens the arcade GUI to play Flappy Bird, Snake, 2048, and Connect 4 with other citizens.",
-            "es": "Abre juegos arcade en menú GUI: Snake, 2048, Flappy Bird y Conecta 4."
-        }
-    },
-    {
-        "command": "/music",
-        "aliases": "/jukebox, /radio",
-        "permission": "music.command",
-        "category": "Entertainment",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Opens the city radio and nightclub jukebox player to select ambient music tracks.",
-            "es": "Abre el menú de radio y música de clubes nocturnos para sintonizar canciones."
-        }
-    },
-    {
-        "command": "/emf",
-        "aliases": "/fish, /pesca",
-        "permission": "evenmorefish.player",
-        "category": "Entertainment",
-        "plugin": "EvenMoreFish",
-        "desc": {
-            "en": "Opens the marina fishing guide, contest standings, and fish market sell shop.",
-            "es": "Abre la guía de pesca deportiva, torneos de la marina y venta de capturas."
-        }
-    },
-    {
-        "command": "/kit",
-        "aliases": "/kits",
-        "permission": "playerkits.use",
-        "category": "Rewards",
-        "plugin": "PlayerKits2",
-        "desc": {
-            "en": "Opens the kit selection menu to claim your daily civilian supplies or VIP donor kits.",
-            "es": "Abre el menú de kits para reclamar tus suministros diarios o paquetes VIP."
-        }
-    },
-    {
-        "command": "/crate",
-        "aliases": "/crates",
-        "permission": "excellentcrates.use",
-        "category": "Rewards",
-        "plugin": "ExcellentCrates",
-        "desc": {
-            "en": "Previews loot crate contents, chances, and unboxes rewards using crate keys.",
-            "es": "Previsualiza contenidos y abre cajas de recompensas con llaves."
-        }
-    },
-    {
-        "command": "/rewards",
-        "aliases": "/daily",
-        "permission": "therewards.use",
-        "category": "Rewards",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "Claims daily login streak rewards and playtime bonus cash vouchers.",
-            "es": "Reclama recompensas por racha de conexión diaria y tiempo de juego."
+            "en": "Monitors live permission checks in chat for real-time debugging.",
+            "es": "Monitorea en vivo qué permisos comprueba cada plugin."
         }
     },
     {
         "command": "/spawn",
-        "aliases": "/aeropuerto",
+        "aliases": "/espawn",
         "permission": "essentials.spawn",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsSpawn",
         "desc": {
-            "en": "Teleports back to the airport arrivals lobby in the safezone.",
-            "es": "Teletransporta a la terminal de llegadas del aeropuerto en zona segura."
+            "en": "Teleports to the Los Santos Airport arrivals safezone.",
+            "es": "Teletransporta a la zona segura del aeropuerto de llegadas."
         }
     },
     {
-        "command": "/warp",
-        "aliases": "/warps",
-        "permission": "essentials.warp",
-        "category": "Teleport",
-        "plugin": "EssentialsWarpGUI",
+        "command": "/setspawn",
+        "aliases": "/esetspawn",
+        "permission": "essentials.setspawn",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsSpawn",
         "desc": {
-            "en": "Opens the graphical city travel menu to warp to the Hospital, Police Dept, Marina, or Bank.",
-            "es": "Abre el menú visual de viajes rápidos hacia Hospital, Comisaría, Banco o Marina."
+            "en": "Sets the main city arrival spawn location.",
+            "es": "Establece el punto principal de aparición del servidor."
         }
     },
     {
-        "command": "/home",
+        "command": "/home [name]",
         "aliases": "/homes",
         "permission": "essentials.home",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsX",
         "desc": {
-            "en": "Teleports to your registered apartment or private home.",
-            "es": "Teletransporta a tu apartamento o casa guardada."
+            "en": "Teleports you to your saved apartment/home point.",
+            "es": "Teletransporta a tu casa o departamento guardado."
         }
     },
     {
         "command": "/sethome [name]",
-        "aliases": "/sethome",
+        "aliases": "/esethome",
         "permission": "essentials.sethome",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsX",
         "desc": {
-            "en": "Registers your current location inside an owned apartment as a personal home point.",
-            "es": "Guarda tu ubicación actual dentro de tu vivienda como punto de casa."
+            "en": "Saves your current location inside an owned property.",
+            "es": "Guarda tu ubicación actual como hogar personal."
+        }
+    },
+    {
+        "command": "/warp [name]",
+        "aliases": "/warps",
+        "permission": "essentials.warp",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsWarpGUI",
+        "desc": {
+            "en": "Opens the visual city travel menu or teleports to a city district.",
+            "es": "Abre el menú visual de warps a zonas de la ciudad (Banco, Hospital, Comisaría)."
         }
     },
     {
         "command": "/tpa <player>",
         "aliases": "/tpask",
         "permission": "essentials.tpa",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsX",
         "desc": {
-            "en": "Sends a polite request to teleport to another citizen's location.",
-            "es": "Envía una solicitud para teletransportarte junto a otro ciudadano."
+            "en": "Requests permission to teleport to another citizen.",
+            "es": "Envía solicitud para teletransportarte hacia otro jugador."
         }
     },
     {
         "command": "/tpaccept",
         "aliases": "/tpyes",
         "permission": "essentials.tpaccept",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsX",
         "desc": {
             "en": "Accepts an incoming teleportation request.",
-            "es": "Acepta la solicitud de teletransporte entrante de un jugador."
-        }
-    },
-    {
-        "command": "/report <player> <reason>",
-        "aliases": "/reportar",
-        "permission": "None (Everyone)",
-        "category": "Administration",
-        "plugin": "PlayerReport",
-        "desc": {
-            "en": "Submits a formal rule-breaking report to all active online moderators.",
-            "es": "Envía una denuncia formal sobre un jugador a los moderadores conectados."
-        }
-    },
-    {
-        "command": "/ms",
-        "aliases": "/minesuite",
-        "permission": "minecity.admin",
-        "category": "Administration",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Admin testing suite: spawns controllable NPC target dummies to test weapons, batons, and CPR.",
-            "es": "Comando de administración para spawnear dummies y probar armas, porras y RCP."
-        }
-    },
-    {
-        "command": "/lp",
-        "aliases": "/luckperms",
-        "permission": "luckperms.admin",
-        "category": "Administration",
-        "plugin": "LuckPerms",
-        "desc": {
-            "en": "Master LuckPerms permission hierarchy command: user groups, node editing, and web editor.",
-            "es": "Comando maestro de LuckPerms para gestionar rangos, permisos y el editor web."
-        }
-    },
-    {
-        "command": "/rg",
-        "aliases": "/region",
-        "permission": "worldguard.region",
-        "category": "Administration",
-        "plugin": "WorldGuard",
-        "desc": {
-            "en": "WorldGuard protection manager: defines safezones, disables PvP, and manages city boundaries.",
-            "es": "Gestor de regiones de WorldGuard: define zonas seguras, banderas y perímetros de la ciudad."
-        }
-    },
-    {
-        "command": "//wand",
-        "aliases": "//wand",
-        "permission": "worldedit.wand",
-        "category": "Administration",
-        "plugin": "WorldEdit",
-        "desc": {
-            "en": "Provides the WorldEdit selection wand tool for architects and builders.",
-            "es": "Entrega la herramienta hacha de selección para arquitectos del servidor."
-        }
-    },
-    {
-        "command": "/dh",
-        "aliases": "/decentholograms",
-        "permission": "dh.admin",
-        "category": "Administration",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Creates and edits floating 3D text holograms in street intersections and shops.",
-            "es": "Crea y edita hologramas flotantes 3D en esquinas, tiendas y accesos."
-        }
-    },
-    {
-        "command": "/tab",
-        "aliases": "/tablist",
-        "permission": "tab.admin",
-        "category": "Administration",
-        "plugin": "TAB",
-        "desc": {
-            "en": "Reloads and debugs the scoreboard HUD, bossbar text, and custom nametags.",
-            "es": "Recarga y configura el HUD del scoreboard, la bossbar y los nametags."
-        }
-    },
-    {
-        "command": "/chunky",
-        "aliases": "/cy",
-        "permission": "chunky.command",
-        "category": "Administration",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Pre-generates metropolitan chunks ahead of time to guarantee seamless vehicle performance.",
-            "es": "Pre-genera los chunks del mapa para garantizar fluidez absoluta al conducir."
-        }
-    },
-    {
-        "command": "/astools",
-        "aliases": "/ast",
-        "permission": "armorstandtools.astools",
-        "category": "Administration",
-        "plugin": "ArmorStandTools",
-        "desc": {
-            "en": "Give yourself the armor stand tools",
-            "es": "[ArmorStandTools] Give yourself the armor stand tools"
-        }
-    },
-    {
-        "command": "/ascmd",
-        "aliases": "-",
-        "permission": "armorstandtools.ascmd",
-        "category": "Administration",
-        "plugin": "ArmorStandTools",
-        "desc": {
-            "en": "List/Add/Remove commands assigned to the nearest armor stand",
-            "es": "[ArmorStandTools] List/Add/Remove commands assigned to the nearest armor stand"
-        }
-    },
-    {
-        "command": "/trait",
-        "aliases": "-",
-        "permission": "citizens.trait.help",
-        "category": "NPCs & City Staff",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Trait commands",
-            "es": "[Citizens] Trait commands"
-        }
-    },
-    {
-        "command": "/citizens",
-        "aliases": "-",
-        "permission": "citizens.citizens.help",
-        "category": "NPCs & City Staff",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Administration commands",
-            "es": "[Citizens] Administration commands"
-        }
-    },
-    {
-        "command": "/npc",
-        "aliases": "-",
-        "permission": "citizens.npc.help",
-        "category": "NPCs & City Staff",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Basic commands for all NPC-related things",
-            "es": "[Citizens] Basic commands for all NPC-related things"
-        }
-    },
-    {
-        "command": "/template",
-        "aliases": "/tpl",
-        "permission": "citizens.templates.help",
-        "category": "NPCs & City Staff",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Template commands",
-            "es": "[Citizens] Template commands"
-        }
-    },
-    {
-        "command": "/waypoints",
-        "aliases": "/wp",
-        "permission": "citizens.waypoints.help",
-        "category": "NPCs & City Staff",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Waypoint commands",
-            "es": "[Citizens] Waypoint commands"
-        }
-    },
-    {
-        "command": "/clanadmin",
-        "aliases": "-",
-        "permission": "clansplus.clanadmin",
-        "category": "Crime & Gangs",
-        "plugin": "ClansPlus",
-        "desc": {
-            "en": "Executes /clanadmin command from ClansPlus.",
-            "es": "[ClansPlus] Executes /clanadmin command from ClansPlus."
-        }
-    },
-    {
-        "command": "/commanditems",
-        "aliases": "/cmditems, /ci",
-        "permission": "commanditems.commanditems",
-        "category": "Weapons",
-        "plugin": "CommandItems",
-        "desc": {
-            "en": "Main command for CommandItems",
-            "es": "[CommandItems] Main command for CommandItems"
-        }
-    },
-    {
-        "command": "/customdeathdrops",
-        "aliases": "-",
-        "permission": "customdeathdrops.customdeathdrops",
-        "category": "Crime & Gangs",
-        "plugin": "CustomDeathDrops",
-        "desc": {
-            "en": "Reloads the plugin!",
-            "es": "[CustomDeathDrops] Reloads the plugin!"
-        }
-    },
-    {
-        "command": "/deluxemenus",
-        "aliases": "/dm, /deluxemenu, /dmenu",
-        "permission": "deluxemenus.deluxemenus",
-        "category": "Menus & Aliases",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "DeluxeMenus main commands",
-            "es": "[DeluxeMenus] DeluxeMenus main commands"
-        }
-    },
-    {
-        "command": "/denizen",
-        "aliases": "-",
-        "permission": "denizen.basic",
-        "category": "NPCs & City Staff",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Lists denizen commands.",
-            "es": "[Denizen] Lists denizen commands."
-        }
-    },
-    {
-        "command": "/denizenclickable",
-        "aliases": "-",
-        "permission": "denizen.clickable",
-        "category": "NPCs & City Staff",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Executes a Denizen clickable command.",
-            "es": "[Denizen] Executes a Denizen clickable command."
-        }
-    },
-    {
-        "command": "/ex",
-        "aliases": "-",
-        "permission": "denizen.ex",
-        "category": "NPCs & City Staff",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Executes a Denizen script command.",
-            "es": "[Denizen] Executes a Denizen script command."
-        }
-    },
-    {
-        "command": "/exs",
-        "aliases": "-",
-        "permission": "denizen.ex",
-        "category": "NPCs & City Staff",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Executes a Denizen script command in a sustained queue.",
-            "es": "[Denizen] Executes a Denizen script command in a sustained queue."
-        }
-    },
-    {
-        "command": "/drl",
-        "aliases": "-",
-        "permission": "drugs.drl",
-        "category": "Crime & Gangs",
-        "plugin": "Drugs",
-        "desc": {
-            "en": "Reloads your Plugin.",
-            "es": "[Drugs] Reloads your Plugin."
-        }
-    },
-    {
-        "command": "/dsc",
-        "aliases": "-",
-        "permission": "drugs.dsc",
-        "category": "Crime & Gangs",
-        "plugin": "Drugs",
-        "desc": {
-            "en": "Server Count",
-            "es": "[Drugs] Server Count"
-        }
-    },
-    {
-        "command": "/dtltraders",
-        "aliases": "/traders, /dtl",
-        "permission": "dtltraders.dtltraders",
-        "category": "Economy",
-        "plugin": "dtlTraders",
-        "desc": {
-            "en": "Executes /dtltraders command from dtlTraders.",
-            "es": "[dtlTraders] Executes /dtltraders command from dtlTraders."
-        }
-    },
-    {
-        "command": "/toggleshout",
-        "aliases": "/etoggleshout",
-        "permission": "essentialschat.toggleshout",
-        "category": "Communication",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Toggles whether you are talking in shout mode",
-            "es": "[EssentialsChat] Toggles whether you are talking in shout mode"
-        }
-    },
-    {
-        "command": "/afk",
-        "aliases": "/eafk, /away, /eaway",
-        "permission": "essentials.afk",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Marks you as away-from-keyboard.",
-            "es": "[Essentials] Marks you as away-from-keyboard."
-        }
-    },
-    {
-        "command": "/antioch",
-        "aliases": "/eantioch, /grenade, /egrenade, /tnt, /etnt",
-        "permission": "essentials.antioch",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "A little surprise for operators.",
-            "es": "[Essentials] A little surprise for operators."
-        }
-    },
-    {
-        "command": "/anvil",
-        "aliases": "/eanvil",
-        "permission": "essentials.anvil",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up an Anvil.",
-            "es": "[Essentials] Opens up an Anvil."
+            "es": "Acepta una solicitud de teletransporte entrante."
         }
     },
     {
         "command": "/back",
-        "aliases": "/eback, /return, /ereturn",
+        "aliases": "/return",
         "permission": "essentials.back",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Teleports you to your location prior to tp/spawn/warp.",
-            "es": "[Essentials] Teleports you to your location prior to tp/spawn/warp."
+            "en": "Returns to your previous location prior to teleportation.",
+            "es": "Regresa a la última posición antes de teletransportarte."
         }
     },
     {
-        "command": "/backup",
-        "aliases": "/ebackup",
-        "permission": "essentials.backup",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/bal",
+        "aliases": "/balance, /money",
+        "permission": "essentials.balance",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Runs the backup if configured.",
-            "es": "[Essentials] Runs the backup if configured."
+            "en": "Checks your current cash balance in your pocket.",
+            "es": "Muestra el dinero en efectivo que llevas en la billetera."
         }
     },
     {
-        "command": "/ban",
-        "aliases": "/eban",
-        "permission": "essentials.ban",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/pay <player> <amount>",
+        "aliases": "/epay",
+        "permission": "essentials.pay",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Bans a player.",
-            "es": "[Essentials] Bans a player."
+            "en": "Pays cash directly to another citizen.",
+            "es": "Transfiere dinero en efectivo directamente a otro jugador."
         }
     },
     {
-        "command": "/banip",
-        "aliases": "/ebanip",
-        "permission": "essentials.banip",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/baltop",
+        "aliases": "/balancetop",
+        "permission": "essentials.balancetop",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Bans an IP address.",
-            "es": "[Essentials] Bans an IP address."
+            "en": "Shows the wealthiest players leaderboard in the city.",
+            "es": "Muestra la clasificación de los ciudadanos con más dinero."
         }
     },
     {
-        "command": "/beezooka",
-        "aliases": "/ebeezooka, /beecannon, /ebeecannon",
-        "permission": "essentials.beezooka",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/msg <player> <text>",
+        "aliases": "/tell, /pm, /w",
+        "permission": "essentials.msg",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Throw an exploding bee at your opponent.",
-            "es": "[Essentials] Throw an exploding bee at your opponent."
+            "en": "Sends a private direct whisper/message to an online player.",
+            "es": "Envía un mensaje privado directo a otro jugador."
         }
     },
     {
-        "command": "/book",
-        "aliases": "/ebook",
-        "permission": "essentials.book",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/afk",
+        "aliases": "/away",
+        "permission": "essentials.afk",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Allows reopening and editing of sealed books.",
-            "es": "[Essentials] Allows reopening and editing of sealed books."
+            "en": "Marks your character as Away From Keyboard.",
+            "es": "Marca tu personaje como ausente (AFK)."
         }
     },
     {
-        "command": "/bottom",
-        "aliases": "/ebottom",
-        "permission": "essentials.bottom",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/nick <nickname>",
+        "aliases": "/enick",
+        "permission": "essentials.nick",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Teleport to the lowest block at your current position.",
-            "es": "[Essentials] Teleport to the lowest block at your current position."
-        }
-    },
-    {
-        "command": "/break",
-        "aliases": "/ebreak",
-        "permission": "essentials.break",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Breaks the block you are looking at.",
-            "es": "[Essentials] Breaks the block you are looking at."
-        }
-    },
-    {
-        "command": "/broadcast",
-        "aliases": "/bc, /ebc, /bcast, /ebcast, /ebroadcast, /shout, /eshout",
-        "permission": "essentials.broadcast",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Broadcasts a message to the entire server.",
-            "es": "[Essentials] Broadcasts a message to the entire server."
-        }
-    },
-    {
-        "command": "/broadcastworld",
-        "aliases": "/bcw, /ebcw, /bcastw, /ebcastw, /ebroadcastworld, /shoutworld, /eshoutworld",
-        "permission": "essentials.broadcastworld",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Broadcasts a message to a world.",
-            "es": "[Essentials] Broadcasts a message to a world."
-        }
-    },
-    {
-        "command": "/bigtree",
-        "aliases": "/ebigtree, /largetree, /elargetree",
-        "permission": "essentials.bigtree",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Spawn a big tree where you are looking.",
-            "es": "[Essentials] Spawn a big tree where you are looking."
-        }
-    },
-    {
-        "command": "/burn",
-        "aliases": "/eburn",
-        "permission": "essentials.burn",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Set a player on fire.",
-            "es": "[Essentials] Set a player on fire."
-        }
-    },
-    {
-        "command": "/cartographytable",
-        "aliases": "/ecartographytable, /carttable, /ecarttable",
-        "permission": "essentials.cartographytable",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a cartography table.",
-            "es": "[Essentials] Opens up a cartography table."
-        }
-    },
-    {
-        "command": "/clearinventory",
-        "aliases": "/ci, /eci, /clean, /eclean, /clear, /eclear, /clearinvent, /eclearinvent, /eclearinventory",
-        "permission": "essentials.clearinventory",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Clear all items in your inventory.",
-            "es": "[Essentials] Clear all items in your inventory."
-        }
-    },
-    {
-        "command": "/clearinventoryconfirmtoggle",
-        "aliases": "/eclearinventoryconfirmtoggle, /clearinventoryconfirmoff, /eclearinventoryconfirmoff, /clearconfirmoff, /eclearconfirmoff, /clearconfirmon, /eclearconfirmon, /clearconfirm, /eclearconfirm",
-        "permission": "essentials.clearinventoryconfirmtoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Toggles whether you are prompted to confirm inventory clears.",
-            "es": "[Essentials] Toggles whether you are prompted to confirm inventory clears."
-        }
-    },
-    {
-        "command": "/condense",
-        "aliases": "/econdense, /compact, /ecompact, /blocks, /eblocks, /toblocks, /etoblocks",
-        "permission": "essentials.condense",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Condenses items into a more compact blocks.",
-            "es": "[Essentials] Condenses items into a more compact blocks."
-        }
-    },
-    {
-        "command": "/compass",
-        "aliases": "/ecompass, /direction, /edirection",
-        "permission": "essentials.compass",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Describes your current bearing.",
-            "es": "[Essentials] Describes your current bearing."
-        }
-    },
-    {
-        "command": "/createkit",
-        "aliases": "/kitcreate, /createk, /kc, /ck",
-        "permission": "essentials.createkit",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Create a kit in game!",
-            "es": "[Essentials] Create a kit in game!"
-        }
-    },
-    {
-        "command": "/customtext",
-        "aliases": "-",
-        "permission": "essentials.customtext",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows you to create custom text commands.",
-            "es": "[Essentials] Allows you to create custom text commands."
-        }
-    },
-    {
-        "command": "/delhome",
-        "aliases": "/edelhome, /remhome, /eremhome, /rmhome, /ermhome",
-        "permission": "essentials.delhome",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Removes a home.",
-            "es": "[Essentials] Removes a home."
-        }
-    },
-    {
-        "command": "/deljail",
-        "aliases": "/edeljail, /remjail, /eremjail, /rmjail, /ermjail",
-        "permission": "essentials.deljail",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Removes a jail.",
-            "es": "[Essentials] Removes a jail."
-        }
-    },
-    {
-        "command": "/delkit",
-        "aliases": "/edelkit, /remkit, /eremkit, /rmkit, /ermkit, /deletekit, /edeletekit",
-        "permission": "essentials.delkit",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Deletes the specified kit.",
-            "es": "[Essentials] Deletes the specified kit."
-        }
-    },
-    {
-        "command": "/delwarp",
-        "aliases": "/edelwarp, /remwarp, /eremwarp, /rmwarp, /ermwarp",
-        "permission": "essentials.delwarp",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Deletes the specified warp.",
-            "es": "[Essentials] Deletes the specified warp."
-        }
-    },
-    {
-        "command": "/depth",
-        "aliases": "/edepth, /height, /eheight",
-        "permission": "essentials.depth",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "States current depth, relative to sea level.",
-            "es": "[Essentials] States current depth, relative to sea level."
-        }
-    },
-    {
-        "command": "/disposal",
-        "aliases": "/edisposal, /trash, /etrash",
-        "permission": "essentials.disposal",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens a portable disposal menu.",
-            "es": "[Essentials] Opens a portable disposal menu."
-        }
-    },
-    {
-        "command": "/eco",
-        "aliases": "/eeco, /economy, /eeconomy",
-        "permission": "essentials.eco",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Manages the server economy.",
-            "es": "[Essentials] Manages the server economy."
-        }
-    },
-    {
-        "command": "/enchant",
-        "aliases": "/eenchant, /enchantment, /eenchantment",
-        "permission": "essentials.enchant",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Enchants the item the user is holding.",
-            "es": "[Essentials] Enchants the item the user is holding."
-        }
-    },
-    {
-        "command": "/enderchest",
-        "aliases": "/echest, /eechest, /eenderchest, /endersee, /eendersee, /ec, /eec",
-        "permission": "essentials.enderchest",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Lets you see inside an enderchest.",
-            "es": "[Essentials] Lets you see inside an enderchest."
-        }
-    },
-    {
-        "command": "/essentials",
-        "aliases": "/eessentials, /ess, /eess, /essversion",
-        "permission": "essentials.essentials",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Reloads essentials.",
-            "es": "[Essentials] Reloads essentials."
-        }
-    },
-    {
-        "command": "/exp",
-        "aliases": "/eexp, /xp",
-        "permission": "essentials.exp",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Give, set, reset, or look at a players experience.",
-            "es": "[Essentials] Give, set, reset, or look at a players experience."
-        }
-    },
-    {
-        "command": "/ext",
-        "aliases": "/eext, /extinguish, /eextinguish",
-        "permission": "essentials.ext",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Extinguish players.",
-            "es": "[Essentials] Extinguish players."
-        }
-    },
-    {
-        "command": "/feed",
-        "aliases": "/eat, /eeat, /efeed",
-        "permission": "essentials.feed",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Satisfy the hunger.",
-            "es": "[Essentials] Satisfy the hunger."
+            "en": "Changes your roleplay display nickname.",
+            "es": "Cambia tu apodo visible en el chat y tabulador."
         }
     },
     {
         "command": "/fly",
         "aliases": "/efly",
         "permission": "essentials.fly",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Take off, and soar!",
-            "es": "[Essentials] Take off, and soar!"
+            "en": "Toggles flight mode (Staff / VIP).",
+            "es": "Activa o desactiva el modo de vuelo."
         }
     },
     {
-        "command": "/fireball",
-        "aliases": "/efireball, /fireentity, /efireentity, /fireskull, /efireskull",
-        "permission": "essentials.fireball",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Throw a fireball or other assorted projectiles.",
-            "es": "[Essentials] Throw a fireball or other assorted projectiles."
-        }
-    },
-    {
-        "command": "/firework",
-        "aliases": "/efirework",
-        "permission": "essentials.firework",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows you to modify a stack of fireworks.",
-            "es": "[Essentials] Allows you to modify a stack of fireworks."
-        }
-    },
-    {
-        "command": "/gamemode",
-        "aliases": "/adventure, /eadventure, /adventuremode, /eadventuremode, /creative, /ecreative, /eecreative, /creativemode, /ecreativemode, /egamemode, /gm, /egm, /gma, /egma, /gmc, /egmc, /gms, /egms, /gmt, /egmt, /survival, /esurvival, /survivalmode, /esurvivalmode, /gmsp, /sp, /egmsp, /spec, /spectator",
-        "permission": "essentials.gamemode",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Change player gamemode.",
-            "es": "[Essentials] Change player gamemode."
-        }
-    },
-    {
-        "command": "/gc",
-        "aliases": "/lag, /elag, /egc, /mem, /emem, /memory, /ememory, /uptime, /euptime, /tps, /etps, /entities, /eentities",
-        "permission": "essentials.gc",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Reports memory, uptime and tick info.",
-            "es": "[Essentials] Reports memory, uptime and tick info."
-        }
-    },
-    {
-        "command": "/getpos",
-        "aliases": "/coords, /egetpos, /position, /eposition, /whereami, /ewhereami, /getlocation, /egetlocation, /getloc, /egetloc",
-        "permission": "essentials.getpos",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Get your current coordinates or those of a player.",
-            "es": "[Essentials] Get your current coordinates or those of a player."
-        }
-    },
-    {
-        "command": "/give",
-        "aliases": "/egive",
-        "permission": "essentials.give",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Give a player an item.",
-            "es": "[Essentials] Give a player an item."
-        }
-    },
-    {
-        "command": "/god",
-        "aliases": "/egod, /godmode, /egodmode, /tgm, /etgm",
-        "permission": "essentials.god",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Enables your godly powers.",
-            "es": "[Essentials] Enables your godly powers."
-        }
-    },
-    {
-        "command": "/grindstone",
-        "aliases": "/egrindstone",
-        "permission": "essentials.grindstone",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a grindstone.",
-            "es": "[Essentials] Opens up a grindstone."
-        }
-    },
-    {
-        "command": "/hat",
-        "aliases": "/ehat, /head, /ehead",
-        "permission": "essentials.hat",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Get some cool new headgear.",
-            "es": "[Essentials] Get some cool new headgear."
-        }
-    },
-    {
-        "command": "/heal",
+        "command": "/heal [player]",
         "aliases": "/eheal",
         "permission": "essentials.heal",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Heals you or the given player.",
-            "es": "[Essentials] Heals you or the given player."
+            "en": "Restores full health and removes negative status effects.",
+            "es": "Restaura la salud al máximo (Staff)."
         }
     },
     {
-        "command": "/help",
-        "aliases": "/ehelp",
-        "permission": "essentials.help",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
+        "command": "/feed [player]",
+        "aliases": "/eat",
+        "permission": "essentials.feed",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Views a list of available commands.",
-            "es": "[Essentials] Views a list of available commands."
-        }
-    },
-    {
-        "command": "/helpop",
-        "aliases": "/ac, /eac, /amsg, /eamsg, /ehelpop",
-        "permission": "essentials.helpop",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Message online admins.",
-            "es": "[Essentials] Message online admins."
-        }
-    },
-    {
-        "command": "/ice",
-        "aliases": "/eice, /efreeze",
-        "permission": "essentials.ice",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Cools a player off.",
-            "es": "[Essentials] Cools a player off."
-        }
-    },
-    {
-        "command": "/ignore",
-        "aliases": "/eignore, /unignore, /eunignore, /delignore, /edelignore, /remignore, /eremignore, /rmignore, /ermignore",
-        "permission": "essentials.ignore",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Ignore or unignore other players.",
-            "es": "[Essentials] Ignore or unignore other players."
-        }
-    },
-    {
-        "command": "/info",
-        "aliases": "/about, /eabout, /ifo, /eifo, /einfo, /inform, /einform, /news, /enews",
-        "permission": "essentials.info",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Shows information set by the server owner.",
-            "es": "[Essentials] Shows information set by the server owner."
-        }
-    },
-    {
-        "command": "/invsee",
-        "aliases": "/einvsee",
-        "permission": "essentials.invsee",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "See the inventory of other players.",
-            "es": "[Essentials] See the inventory of other players."
-        }
-    },
-    {
-        "command": "/item",
-        "aliases": "/i, /eitem, /ei",
-        "permission": "essentials.item",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Spawn an item.",
-            "es": "[Essentials] Spawn an item."
-        }
-    },
-    {
-        "command": "/itemdb",
-        "aliases": "/dura, /edura, /durability, /edurability, /eitemdb, /itemno, /eitemno",
-        "permission": "essentials.itemdb",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Searches for an item.",
-            "es": "[Essentials] Searches for an item."
-        }
-    },
-    {
-        "command": "/itemlore",
-        "aliases": "/lore, /elore, /ilore, /eilore, /eitemlore",
-        "permission": "essentials.itemlore",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Edit the lore of an item.",
-            "es": "[Essentials] Edit the lore of an item."
-        }
-    },
-    {
-        "command": "/itemname",
-        "aliases": "/iname, /einame, /eitemname, /itemrename, /irename, /eitemrename, /eirename",
-        "permission": "essentials.itemname",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Names an item.",
-            "es": "[Essentials] Names an item."
-        }
-    },
-    {
-        "command": "/jailedplayers",
-        "aliases": "/ejailedplayers, /ejailed, /ejp",
-        "permission": "essentials.jailedplayers",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "List all jailed players.",
-            "es": "[Essentials] List all jailed players."
-        }
-    },
-    {
-        "command": "/jails",
-        "aliases": "/ejails",
-        "permission": "essentials.jails",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "List all jails.",
-            "es": "[Essentials] List all jails."
-        }
-    },
-    {
-        "command": "/jump",
-        "aliases": "/j, /ej, /ejump, /jumpto, /ejumpto",
-        "permission": "essentials.jump",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Jumps to the nearest block in the line of sight.",
-            "es": "[Essentials] Jumps to the nearest block in the line of sight."
-        }
-    },
-    {
-        "command": "/kick",
-        "aliases": "/ekick",
-        "permission": "essentials.kick",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Kicks a specified player with a reason.",
-            "es": "[Essentials] Kicks a specified player with a reason."
-        }
-    },
-    {
-        "command": "/kickall",
-        "aliases": "/ekickall",
-        "permission": "essentials.kickall",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Kicks all players off the server except the issuer.",
-            "es": "[Essentials] Kicks all players off the server except the issuer."
-        }
-    },
-    {
-        "command": "/kill",
-        "aliases": "/ekill",
-        "permission": "essentials.kill",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Kills specified player.",
-            "es": "[Essentials] Kills specified player."
-        }
-    },
-    {
-        "command": "/kitreset",
-        "aliases": "/ekitreset, /kitr, /ekitr, /resetkit, /eresetkit",
-        "permission": "essentials.kitreset",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Resets the cooldown on the specified kit.",
-            "es": "[Essentials] Resets the cooldown on the specified kit."
-        }
-    },
-    {
-        "command": "/kittycannon",
-        "aliases": "/ekittycannon",
-        "permission": "essentials.kittycannon",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Throw an exploding kitten at your opponent.",
-            "es": "[Essentials] Throw an exploding kitten at your opponent."
-        }
-    },
-    {
-        "command": "/lightning",
-        "aliases": "/elightning, /shock, /eshock, /smite, /esmite, /strike, /estrike, /thor, /ethor",
-        "permission": "essentials.lightning",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "The power of Thor. Strike at cursor or player.",
-            "es": "[Essentials] The power of Thor. Strike at cursor or player."
-        }
-    },
-    {
-        "command": "/list",
-        "aliases": "/elist, /online, /eonline, /playerlist, /eplayerlist, /plist, /eplist, /who, /ewho",
-        "permission": "essentials.list",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "List all online players.",
-            "es": "[Essentials] List all online players."
-        }
-    },
-    {
-        "command": "/loom",
-        "aliases": "/eloom",
-        "permission": "essentials.loom",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a loom.",
-            "es": "[Essentials] Opens up a loom."
-        }
-    },
-    {
-        "command": "/mail",
-        "aliases": "/email, /eemail, /memo, /ememo",
-        "permission": "essentials.mail",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Manages inter-player, intra-server mail.",
-            "es": "[Essentials] Manages inter-player, intra-server mail."
-        }
-    },
-    {
-        "command": "/more",
-        "aliases": "/emore",
-        "permission": "essentials.more",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Fills the item stack in hand to specified amount, or to maximum size if none is specified.",
-            "es": "[Essentials] Fills the item stack in hand to specified amount, or to maximum size if none is specified."
-        }
-    },
-    {
-        "command": "/motd",
-        "aliases": "/emotd",
-        "permission": "essentials.motd",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Views the Message Of The Day.",
-            "es": "[Essentials] Views the Message Of The Day."
-        }
-    },
-    {
-        "command": "/msg",
-        "aliases": "/w, /m, /t, /pm, /emsg, /epm, /tell, /etell, /whisper, /ewhisper",
-        "permission": "essentials.msg",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Sends a private message to the specified player.",
-            "es": "[Essentials] Sends a private message to the specified player."
-        }
-    },
-    {
-        "command": "/msgtoggle",
-        "aliases": "/emsgtoggle",
-        "permission": "essentials.msgtoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Blocks receiving all private messages.",
-            "es": "[Essentials] Blocks receiving all private messages."
-        }
-    },
-    {
-        "command": "/mute",
-        "aliases": "/emute, /silence, /esilence, /unmute, /eunmute",
-        "permission": "essentials.mute",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Mutes or unmutes a player.",
-            "es": "[Essentials] Mutes or unmutes a player."
-        }
-    },
-    {
-        "command": "/near",
-        "aliases": "/enear, /nearby, /enearby",
-        "permission": "essentials.near",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Lists the players near by or around a player.",
-            "es": "[Essentials] Lists the players near by or around a player."
-        }
-    },
-    {
-        "command": "/nick",
-        "aliases": "/enick, /nickname, /enickname",
-        "permission": "essentials.nick",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Change your nickname or that of another player.",
-            "es": "[Essentials] Change your nickname or that of another player."
-        }
-    },
-    {
-        "command": "/nuke",
-        "aliases": "/enuke",
-        "permission": "essentials.nuke",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "May death rain upon them.",
-            "es": "[Essentials] May death rain upon them."
-        }
-    },
-    {
-        "command": "/tpoffline",
-        "aliases": "/otp, /offlinetp, /tpoff, /tpoffline, /etpoffline",
-        "permission": "essentials.tpoffline",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport to a player's last known logout location",
-            "es": "[Essentials] Teleport to a player's last known logout location"
-        }
-    },
-    {
-        "command": "/paytoggle",
-        "aliases": "/epaytoggle, /payoff, /epayoff, /payon, /epayon",
-        "permission": "essentials.paytoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Toggles whether you are accepting payments.",
-            "es": "[Essentials] Toggles whether you are accepting payments."
-        }
-    },
-    {
-        "command": "/payconfirmtoggle",
-        "aliases": "/epayconfirmtoggle, /payconfirmoff, /epayconfirmoff, /payconfirmon, /epayconfirmon, /payconfirm, /epayconfirm",
-        "permission": "essentials.payconfirmtoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Toggles whether you are prompted to confirm payments.",
-            "es": "[Essentials] Toggles whether you are prompted to confirm payments."
-        }
-    },
-    {
-        "command": "/ping",
-        "aliases": "/echo, /eecho, /eping, /pong, /epong",
-        "permission": "essentials.ping",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Pong!",
-            "es": "[Essentials] Pong!"
-        }
-    },
-    {
-        "command": "/playtime",
-        "aliases": "/eplaytime",
-        "permission": "essentials.playtime",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Shows a player's time played in game",
-            "es": "[Essentials] Shows a player's time played in game"
-        }
-    },
-    {
-        "command": "/potion",
-        "aliases": "/epotion, /elixer, /eelixer",
-        "permission": "essentials.potion",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Adds custom potion effects to a potion.",
-            "es": "[Essentials] Adds custom potion effects to a potion."
-        }
-    },
-    {
-        "command": "/powertool",
-        "aliases": "/epowertool, /pt, /ept",
-        "permission": "essentials.powertool",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Assigns a command to the item in hand.",
-            "es": "[Essentials] Assigns a command to the item in hand."
-        }
-    },
-    {
-        "command": "/powertoollist",
-        "aliases": "/epowertoollist, /ptlist, /eptlist",
-        "permission": "essentials.powertoollist",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Lists all current powertools.",
-            "es": "[Essentials] Lists all current powertools."
-        }
-    },
-    {
-        "command": "/powertooltoggle",
-        "aliases": "/epowertooltoggle, /ptt, /eptt, /pttoggle, /epttoggle",
-        "permission": "essentials.powertooltoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Enables or disables all current powertools.",
-            "es": "[Essentials] Enables or disables all current powertools."
-        }
-    },
-    {
-        "command": "/ptime",
-        "aliases": "/playertime, /eplayertime, /eptime",
-        "permission": "essentials.ptime",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Adjust player's client time. Add @ prefix to fix.",
-            "es": "[Essentials] Adjust player's client time. Add @ prefix to fix."
-        }
-    },
-    {
-        "command": "/pweather",
-        "aliases": "/playerweather, /eplayerweather, /epweather",
-        "permission": "essentials.pweather",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Adjust a player's weather",
-            "es": "[Essentials] Adjust a player's weather"
-        }
-    },
-    {
-        "command": "/r",
-        "aliases": "/er, /reply, /ereply",
-        "permission": "essentials.r",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Quickly reply to the last player to message you.",
-            "es": "[Essentials] Quickly reply to the last player to message you."
-        }
-    },
-    {
-        "command": "/rtoggle",
-        "aliases": "/ertoggle, /replytoggle, /ereplytoggle",
-        "permission": "essentials.rtoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Change whether the recipient of the reply is last recipient or last sender",
-            "es": "[Essentials] Change whether the recipient of the reply is last recipient or last sender"
-        }
-    },
-    {
-        "command": "/realname",
-        "aliases": "/erealname",
-        "permission": "essentials.realname",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Displays the username of a user based on nick.",
-            "es": "[Essentials] Displays the username of a user based on nick."
-        }
-    },
-    {
-        "command": "/recipe",
-        "aliases": "/formula, /eformula, /method, /emethod, /erecipe, /recipes, /erecipes",
-        "permission": "essentials.recipe",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Displays how to craft items.",
-            "es": "[Essentials] Displays how to craft items."
-        }
-    },
-    {
-        "command": "/remove",
-        "aliases": "/eremove, /butcher, /ebutcher, /killall, /ekillall, /mobkill, /emobkill",
-        "permission": "essentials.remove",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Removes entities in your world.",
-            "es": "[Essentials] Removes entities in your world."
-        }
-    },
-    {
-        "command": "/renamehome",
-        "aliases": "/erenamehome",
-        "permission": "essentials.renamehome",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Renames a home.",
-            "es": "[Essentials] Renames a home."
-        }
-    },
-    {
-        "command": "/repair",
-        "aliases": "/fix, /efix, /erepair",
-        "permission": "essentials.repair",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Repairs the durability of one or all items.",
-            "es": "[Essentials] Repairs the durability of one or all items."
-        }
-    },
-    {
-        "command": "/rest",
-        "aliases": "/erest",
-        "permission": "essentials.rest",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Rests you or the given player.",
-            "es": "[Essentials] Rests you or the given player."
-        }
-    },
-    {
-        "command": "/rules",
-        "aliases": "/erules",
-        "permission": "essentials.rules",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Views the server rules.",
-            "es": "[Essentials] Views the server rules."
-        }
-    },
-    {
-        "command": "/seen",
-        "aliases": "/eseen, /ealts, /alts",
-        "permission": "essentials.seen",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Shows the last logout time of a player.",
-            "es": "[Essentials] Shows the last logout time of a player."
-        }
-    },
-    {
-        "command": "/sell",
-        "aliases": "/esell",
-        "permission": "essentials.sell",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Sells the item currently in your hand.",
-            "es": "[Essentials] Sells the item currently in your hand."
-        }
-    },
-    {
-        "command": "/setjail",
-        "aliases": "/esetjail, /createjail, /ecreatejail",
-        "permission": "essentials.setjail",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Creates a jail where you specified named [jailname].",
-            "es": "[Essentials] Creates a jail where you specified named [jailname]."
-        }
-    },
-    {
-        "command": "/settpr",
-        "aliases": "/esettpr, /settprandom, /esettprandom",
-        "permission": "essentials.settpr",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Set the random teleport location and parameters.",
-            "es": "[Essentials] Set the random teleport location and parameters."
-        }
-    },
-    {
-        "command": "/setwarp",
-        "aliases": "/createwarp, /ecreatewarp, /esetwarp",
-        "permission": "essentials.setwarp",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Creates a new warp.",
-            "es": "[Essentials] Creates a new warp."
-        }
-    },
-    {
-        "command": "/setworth",
-        "aliases": "/esetworth",
-        "permission": "essentials.setworth",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Set the sell value of an item.",
-            "es": "[Essentials] Set the sell value of an item."
-        }
-    },
-    {
-        "command": "/showkit",
-        "aliases": "/kitpreview, /preview, /kitshow",
-        "permission": "essentials.showkit",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Show contents of a kit.",
-            "es": "[Essentials] Show contents of a kit."
-        }
-    },
-    {
-        "command": "/editsign",
-        "aliases": "/sign, /esign, /eeditsign",
-        "permission": "essentials.editsign",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Edits a sign in the world.",
-            "es": "[Essentials] Edits a sign in the world."
-        }
-    },
-    {
-        "command": "/skull",
-        "aliases": "/eskull, /playerskull, /eplayerskull, /head, /ehead",
-        "permission": "essentials.skull",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Set the owner of a player skull",
-            "es": "[Essentials] Set the owner of a player skull"
-        }
-    },
-    {
-        "command": "/smithingtable",
-        "aliases": "/esmithingtable, /smithtable, /esmithtable",
-        "permission": "essentials.smithingtable",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a smithing table.",
-            "es": "[Essentials] Opens up a smithing table."
-        }
-    },
-    {
-        "command": "/socialspy",
-        "aliases": "/esocialspy",
-        "permission": "essentials.socialspy",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Toggles if you can see msg/mail commands in chat.",
-            "es": "[Essentials] Toggles if you can see msg/mail commands in chat."
-        }
-    },
-    {
-        "command": "/spawner",
-        "aliases": "/changems, /echangems, /espawner, /mobspawner, /emobspawner",
-        "permission": "essentials.spawner",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Change the mob type of a spawner.",
-            "es": "[Essentials] Change the mob type of a spawner."
-        }
-    },
-    {
-        "command": "/spawnmob",
-        "aliases": "/mob, /emob, /spawnentity, /espawnentity, /espawnmob",
-        "permission": "essentials.spawnmob",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Spawns a mob.",
-            "es": "[Essentials] Spawns a mob."
-        }
-    },
-    {
-        "command": "/speed",
-        "aliases": "/flyspeed, /eflyspeed, /fspeed, /efspeed, /espeed, /walkspeed, /ewalkspeed, /wspeed, /ewspeed",
-        "permission": "essentials.speed",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Change your speed limits.",
-            "es": "[Essentials] Change your speed limits."
-        }
-    },
-    {
-        "command": "/stonecutter",
-        "aliases": "/estonecutter",
-        "permission": "essentials.stonecutter",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a stonecutter.",
-            "es": "[Essentials] Opens up a stonecutter."
-        }
-    },
-    {
-        "command": "/sudo",
-        "aliases": "/esudo",
-        "permission": "essentials.sudo",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Make another user perform a command.",
-            "es": "[Essentials] Make another user perform a command."
-        }
-    },
-    {
-        "command": "/suicide",
-        "aliases": "/esuicide",
-        "permission": "essentials.suicide",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Causes you to perish.",
-            "es": "[Essentials] Causes you to perish."
-        }
-    },
-    {
-        "command": "/tempban",
-        "aliases": "/etempban",
-        "permission": "essentials.tempban",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Temporary ban a user.",
-            "es": "[Essentials] Temporary ban a user."
-        }
-    },
-    {
-        "command": "/tempbanip",
-        "aliases": "/etempbanip",
-        "permission": "essentials.tempbanip",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Temporarily ban an IP Address.",
-            "es": "[Essentials] Temporarily ban an IP Address."
-        }
-    },
-    {
-        "command": "/thunder",
-        "aliases": "/ethunder",
-        "permission": "essentials.thunder",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Enable/disable thunder.",
-            "es": "[Essentials] Enable/disable thunder."
-        }
-    },
-    {
-        "command": "/time",
-        "aliases": "/day, /eday, /night, /enight, /etime",
-        "permission": "essentials.time",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Display/Change the world time. Defaults to current world.",
-            "es": "[Essentials] Display/Change the world time. Defaults to current world."
-        }
-    },
-    {
-        "command": "/togglejail",
-        "aliases": "/jail, /ejail, /tjail, /etjail, /etogglejail, /unjail, /eunjail",
-        "permission": "essentials.togglejail",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Jails/Unjails a player, TPs them to the jail specified.",
-            "es": "[Essentials] Jails/Unjails a player, TPs them to the jail specified."
-        }
-    },
-    {
-        "command": "/top",
-        "aliases": "/etop",
-        "permission": "essentials.top",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport to the highest block at your current position.",
-            "es": "[Essentials] Teleport to the highest block at your current position."
-        }
-    },
-    {
-        "command": "/tp",
-        "aliases": "/tele, /etele, /teleport, /eteleport, /etp, /tp2p, /etp2p",
-        "permission": "essentials.tp",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport to a player.",
-            "es": "[Essentials] Teleport to a player."
-        }
-    },
-    {
-        "command": "/tpaall",
-        "aliases": "/etpaall",
-        "permission": "essentials.tpaall",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Requests all players online to teleport to you.",
-            "es": "[Essentials] Requests all players online to teleport to you."
-        }
-    },
-    {
-        "command": "/tpahere",
-        "aliases": "/etpahere",
-        "permission": "essentials.tpahere",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Request that the specified player teleport to you.",
-            "es": "[Essentials] Request that the specified player teleport to you."
-        }
-    },
-    {
-        "command": "/tpall",
-        "aliases": "/etpall",
-        "permission": "essentials.tpall",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport all online players to another player.",
-            "es": "[Essentials] Teleport all online players to another player."
-        }
-    },
-    {
-        "command": "/tpauto",
-        "aliases": "/etpauto",
-        "permission": "essentials.tpauto",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Automatically accept teleportation requests.",
-            "es": "[Essentials] Automatically accept teleportation requests."
-        }
-    },
-    {
-        "command": "/tpacancel",
-        "aliases": "/etpacancel",
-        "permission": "essentials.tpacancel",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Cancel all outstanding teleport requests. Specify [player] to cancel requests with them.",
-            "es": "[Essentials] Cancel all outstanding teleport requests. Specify [player] to cancel requests with them."
-        }
-    },
-    {
-        "command": "/tpdeny",
-        "aliases": "/etpdeny, /tpno, /etpno",
-        "permission": "essentials.tpdeny",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Rejects teleport requests.",
-            "es": "[Essentials] Rejects teleport requests."
-        }
-    },
-    {
-        "command": "/tphere",
-        "aliases": "/s, /etphere",
-        "permission": "essentials.tphere",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport a player to you.",
-            "es": "[Essentials] Teleport a player to you."
-        }
-    },
-    {
-        "command": "/tpo",
-        "aliases": "/etpo",
-        "permission": "essentials.tpo",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport override for tptoggle.",
-            "es": "[Essentials] Teleport override for tptoggle."
-        }
-    },
-    {
-        "command": "/tpohere",
-        "aliases": "/etpohere",
-        "permission": "essentials.tpohere",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport here override for tptoggle.",
-            "es": "[Essentials] Teleport here override for tptoggle."
-        }
-    },
-    {
-        "command": "/tppos",
-        "aliases": "/etppos",
-        "permission": "essentials.tppos",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport to coordinates.",
-            "es": "[Essentials] Teleport to coordinates."
-        }
-    },
-    {
-        "command": "/tpr",
-        "aliases": "/etpr, /tprandom, /etprandom",
-        "permission": "essentials.tpr",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Teleport randomly.",
-            "es": "[Essentials] Teleport randomly."
-        }
-    },
-    {
-        "command": "/tptoggle",
-        "aliases": "/etptoggle",
-        "permission": "essentials.tptoggle",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Blocks all forms of teleportation.",
-            "es": "[Essentials] Blocks all forms of teleportation."
-        }
-    },
-    {
-        "command": "/tree",
-        "aliases": "/etree",
-        "permission": "essentials.tree",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Spawn a tree where you are looking.",
-            "es": "[Essentials] Spawn a tree where you are looking."
-        }
-    },
-    {
-        "command": "/unban",
-        "aliases": "/pardon, /eunban, /epardon",
-        "permission": "essentials.unban",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Unbans the specified player.",
-            "es": "[Essentials] Unbans the specified player."
-        }
-    },
-    {
-        "command": "/unbanip",
-        "aliases": "/eunbanip, /pardonip, /epardonip",
-        "permission": "essentials.unbanip",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Unbans the specified IP address.",
-            "es": "[Essentials] Unbans the specified IP address."
-        }
-    },
-    {
-        "command": "/unlimited",
-        "aliases": "/eunlimited, /ul, /unl, /eul, /eunl",
-        "permission": "essentials.unlimited",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows the unlimited placing of items.",
-            "es": "[Essentials] Allows the unlimited placing of items."
+            "en": "Restores hunger bar to full.",
+            "es": "Rellena la barra de hambre al máximo."
         }
     },
     {
         "command": "/vanish",
-        "aliases": "/v, /ev, /evanish",
+        "aliases": "/v",
         "permission": "essentials.vanish",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Hide yourself from other players.",
-            "es": "[Essentials] Hide yourself from other players."
-        }
-    },
-    {
-        "command": "/warpinfo",
-        "aliases": "/ewarpinfo",
-        "permission": "essentials.warpinfo",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Finds location information for a specified warp.",
-            "es": "[Essentials] Finds location information for a specified warp."
-        }
-    },
-    {
-        "command": "/weather",
-        "aliases": "/rain, /erain, /sky, /esky, /storm, /estorm, /sun, /esun, /eweather",
-        "permission": "essentials.weather",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Sets the weather.",
-            "es": "[Essentials] Sets the weather."
-        }
-    },
-    {
-        "command": "/whois",
-        "aliases": "/ewhois",
-        "permission": "essentials.whois",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Determine basic information about the specified player.",
-            "es": "[Essentials] Determine basic information about the specified player."
-        }
-    },
-    {
-        "command": "/workbench",
-        "aliases": "/craft, /ecraft, /wb, /ewb, /wbench, /ewbench, /eworkbench",
-        "permission": "essentials.workbench",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Opens up a workbench.",
-            "es": "[Essentials] Opens up a workbench."
-        }
-    },
-    {
-        "command": "/world",
-        "aliases": "/eworld",
-        "permission": "essentials.world",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Switch between worlds.",
-            "es": "[Essentials] Switch between worlds."
-        }
-    },
-    {
-        "command": "/worth",
-        "aliases": "/eprice, /price, /eworth",
-        "permission": "essentials.worth",
-        "category": "Core & Teleport",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Calculates the worth of items in hand or as specified.",
-            "es": "[Essentials] Calculates the worth of items in hand or as specified."
-        }
-    },
-    {
-        "command": "/setspawn",
-        "aliases": "/esetspawn",
-        "permission": "essentialsspawn.setspawn",
-        "category": "Teleport",
-        "plugin": "EssentialsSpawn",
-        "desc": {
-            "en": "Sets the spawn point to your current position.",
-            "es": "[EssentialsSpawn] Sets the spawn point to your current position."
-        }
-    },
-    {
-        "command": "/elevatoradmin",
-        "aliases": "/simpleelevatorsadmin, /elevatorsadmin, /elevatoradmin, /sea",
-        "permission": "elevator.elevatoradmin",
-        "category": "Real Estate",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Admin elevator commands",
-            "es": "[Elevator] Admin elevator commands"
-        }
-    },
-    {
-        "command": "/globalpositioningsystem",
-        "aliases": "/gps",
-        "permission": "gps.globalpositioningsystem",
-        "category": "Communication",
-        "plugin": "GPS",
-        "desc": {
-            "en": "GPS",
-            "es": "[GPS] GPS"
-        }
-    },
-    {
-        "command": "/gpsconfigurator",
-        "aliases": "/gpsconfig, /gpsconf, /gpscon, /gpsc",
-        "permission": "gps.gpsconfigurator",
-        "category": "Communication",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Ingame GPS configurator",
-            "es": "[GPS] Ingame GPS configurator"
-        }
-    },
-    {
-        "command": "/gpsadmin",
-        "aliases": "/gpsad, /gpsa",
-        "permission": "gps.gpsadmin",
-        "category": "Communication",
-        "plugin": "GPS",
-        "desc": {
-            "en": "GPS Admin commands",
-            "es": "[GPS] GPS Admin commands"
-        }
-    },
-    {
-        "command": "/gadgetsmenu",
-        "aliases": "/gmenu",
-        "permission": "gadgetsmenu.gadgetsmenu",
-        "category": "Entertainment",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "GadgetsMenu main command.",
-            "es": "[GadgetsMenu] GadgetsMenu main command."
-        }
-    },
-    {
-        "command": "/gmysteryboxes",
-        "aliases": "/gmysterybox, /gmb",
-        "permission": "gadgetsmenu.gmysteryboxes",
-        "category": "Entertainment",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "GadgetsMenu mystery boxes command.",
-            "es": "[GadgetsMenu] GadgetsMenu mystery boxes command."
-        }
-    },
-    {
-        "command": "/mysterydust",
-        "aliases": "/dust",
-        "permission": "gadgetsmenu.mysterydust",
-        "category": "Entertainment",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "GadgetsMenu mystery dust command.",
-            "es": "[GadgetsMenu] GadgetsMenu mystery dust command."
-        }
-    },
-    {
-        "command": "/gizmo",
-        "aliases": "/g",
-        "permission": "gizmo.gizmo",
-        "category": "Entertainment",
-        "plugin": "Gizmo",
-        "desc": {
-            "en": "Executes /gizmo command from Gizmo.",
-            "es": "[Gizmo] Executes /gizmo command from Gizmo."
-        }
-    },
-    {
-        "command": "/imageframe",
-        "aliases": "/iframe, /if, /frame",
-        "permission": "imageframe.imageframe",
-        "category": "Communication",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Plugin main command",
-            "es": "[ImageFrame] Plugin main command"
-        }
-    },
-    {
-        "command": "/image",
-        "aliases": "/customimage, /images, /img",
-        "permission": "images.image",
-        "category": "Communication",
-        "plugin": "Images",
-        "desc": {
-            "en": "Manage custom images.",
-            "es": "[Images] Manage custom images."
-        }
-    },
-    {
-        "command": "/adminmusic",
-        "aliases": "/amusic",
-        "permission": "music.command.admin",
-        "category": "Entertainment",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Admin command for musics",
-            "es": "[JukeBox] Admin command for musics"
-        }
-    },
-    {
-        "command": "/luckperms",
-        "aliases": "/lp, /perm, /perms, /permission, /permissions",
-        "permission": "luckperms.luckperms",
-        "category": "Administration",
-        "plugin": "LuckPerms",
-        "desc": {
-            "en": "Manage permissions",
-            "es": "[LuckPerms] Manage permissions"
-        }
-    },
-    {
-        "command": "/minetopiavehicles",
-        "aliases": "/mtv, /minetopiav, /mtvehicles, /mtvehicle, /vehicle",
-        "permission": "mtvehicles.minetopiavehicles",
-        "category": "Vehicles",
-        "plugin": "MTVehicles",
-        "desc": {
-            "en": "Executes /minetopiavehicles command from MTVehicles.",
-            "es": "[MTVehicles] Executes /minetopiavehicles command from MTVehicles."
-        }
-    },
-    {
-        "command": "/vehicle",
-        "aliases": "-",
-        "permission": "minecityfixeraddon.vehicle",
         "category": "Core & Roleplay",
-        "plugin": "MinecityFixerAddon",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Obtain a physical QAV vehicle model item for decoration",
-            "es": "[MinecityFixerAddon] Obtain a physical QAV vehicle model item for decoration"
+            "en": "Makes staff invisible to normal citizens for stealth moderation.",
+            "es": "Hace invisible al staff para moderar sin ser visto."
         }
     },
     {
-        "command": "/mycommand",
-        "aliases": "-",
-        "permission": "mycommand.mycommand",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/invsee <player>",
+        "aliases": "/einvsee",
+        "permission": "essentials.invsee",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Credits command.",
-            "es": "[MyCommand] Credits command."
+            "en": "Inspects and moderates another player's inventory.",
+            "es": "Inspecciona el inventario de otro ciudadano (Staff)."
         }
     },
     {
-        "command": "/mycmd",
-        "aliases": "-",
-        "permission": "mycommand.mycmd",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/kick <player> [reason]",
+        "aliases": "/ekick",
+        "permission": "essentials.kick",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Main help and utilities",
-            "es": "[MyCommand] Main help and utilities"
+            "en": "Disconnects a player from the server with a notice.",
+            "es": "Expulsa a un jugador del servidor."
         }
     },
     {
-        "command": "/mycmd-reload",
-        "aliases": "-",
-        "permission": "mycommand.reload",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/ban <player> [reason]",
+        "aliases": "/eban",
+        "permission": "essentials.ban",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "Reload config files.",
-            "es": "[MyCommand] Reload config files."
+            "en": "Permanently bans a rulebreaker from the server.",
+            "es": "Banea permanentemente a un jugador infractor."
         }
     },
     {
-        "command": "/mycmd-edit",
-        "aliases": "-",
-        "permission": "mycommand.edit",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/mute <player> [time]",
+        "aliases": "/emute",
+        "permission": "essentials.mute",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsX",
         "desc": {
-            "en": "In-Game config editor.",
-            "es": "[MyCommand] In-Game config editor."
+            "en": "Silences a disruptive player in chat channels.",
+            "es": "Silencia a un jugador en el chat público."
         }
     },
     {
-        "command": "/mycmd-runas",
-        "aliases": "-",
-        "permission": "mycommand.runas",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/deluxemenus open <menu>",
+        "aliases": "/dm open",
+        "permission": "deluxemenus.open",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
         "desc": {
-            "en": "Run commands as someone else",
-            "es": "[MyCommand] Run commands as someone else"
+            "en": "Opens custom city service GUIs and interactive menus.",
+            "es": "Abre menús personalizados de servicios de la ciudad."
         }
     },
     {
-        "command": "/mycmd-itemset",
-        "aliases": "-",
-        "permission": "mycommand.item.set",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
+        "command": "/deluxemenus reload",
+        "aliases": "/dm reload",
+        "permission": "deluxemenus.reload",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
         "desc": {
-            "en": "Set-up commands to be run through items.",
-            "es": "[MyCommand] Set-up commands to be run through items."
+            "en": "Reloads all custom GUI configurations.",
+            "es": "Recarga las configuraciones de menús GUI."
         }
     },
     {
-        "command": "/mycmd-blockset",
-        "aliases": "-",
-        "permission": "mycommand.block.set",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Set-up commands to be run through blocks.",
-            "es": "[MyCommand] Set-up commands to be run through blocks."
-        }
-    },
-    {
-        "command": "/mycmd-signset",
-        "aliases": "-",
-        "permission": "mycommand.sign.set",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Create list's who can be run through the signs.",
-            "es": "[MyCommand] Create list's who can be run through the signs."
-        }
-    },
-    {
-        "command": "/mycmd-scheduler",
-        "aliases": "-",
-        "permission": "mycommand.scheduler",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Manage the Scheduler.",
-            "es": "[MyCommand] Manage the Scheduler."
-        }
-    },
-    {
-        "command": "/mycmd-variables",
-        "aliases": "-",
-        "permission": "mycommand.variables",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Create and manage new variables or placeholders.",
-            "es": "[MyCommand] Create and manage new variables or placeholders."
-        }
-    },
-    {
-        "command": "/mycmd-playerdata",
-        "aliases": "-",
-        "permission": "mycommand.playerdata",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Manage custom database for players.",
-            "es": "[MyCommand] Manage custom database for players."
-        }
-    },
-    {
-        "command": "/mycmd-npcs",
-        "aliases": "-",
-        "permission": "mycommand.npcs",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Run commands through NPC's.",
-            "es": "[MyCommand] Run commands through NPC's."
-        }
-    },
-    {
-        "command": "/emptycommand",
-        "aliases": "-",
-        "permission": "mycommand.emptycommand",
-        "category": "Menus & Aliases",
-        "plugin": "MyCommand",
-        "desc": {
-            "en": "Used to cancel the console event",
-            "es": "[MyCommand] Used to cancel the console event"
-        }
-    },
-    {
-        "command": "/givesim",
-        "aliases": "-",
-        "permission": "phone.givesim",
-        "category": "Communication",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Executes /givesim command from PhoneV2.",
-            "es": "[PhoneV2] Executes /givesim command from PhoneV2."
-        }
-    },
-    {
-        "command": "/customsim",
-        "aliases": "-",
-        "permission": "phone.customsim",
-        "category": "Communication",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Executes /customsim command from PhoneV2.",
-            "es": "[PhoneV2] Executes /customsim command from PhoneV2."
-        }
-    },
-    {
-        "command": "/plhide",
-        "aliases": "-",
-        "permission": "pl-hide-free.plhide",
-        "category": "Administration",
-        "plugin": "Pl-Hide-Free",
-        "desc": {
-            "en": "Reloads the Pl-Hide Plugin",
-            "es": "[Pl-Hide-Free] Reloads the Pl-Hide Plugin"
-        }
-    },
-    {
-        "command": "/placeholderapi",
-        "aliases": "/papi",
-        "permission": "placeholderapi.placeholderapi",
-        "category": "Administration",
+        "command": "/papi ecloud download <exp>",
+        "aliases": "/placeholderapi",
+        "permission": "placeholderapi.ecloud.download",
+        "category": "Core & Roleplay",
         "plugin": "PlaceholderAPI",
         "desc": {
-            "en": "PlaceholderAPI Command",
-            "es": "[PlaceholderAPI] PlaceholderAPI Command"
+            "en": "Downloads and installs official PlaceholderAPI expansions.",
+            "es": "Descarga e instala expansiones de PlaceholderAPI."
         }
     },
     {
-        "command": "/reports",
-        "aliases": "-",
-        "permission": "playerreport.reports",
-        "category": "Administration",
-        "plugin": "PlayerReport",
+        "command": "/papi parse me <placeholder>",
+        "aliases": "/papi parse",
+        "permission": "placeholderapi.parse",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
         "desc": {
-            "en": "Displays the reports made by players.",
-            "es": "[PlayerReport] Displays the reports made by players."
+            "en": "Tests and previews live placeholder output in chat.",
+            "es": "Prueba y previsualiza el resultado real de cualquier variable PAPI."
         }
     },
     {
-        "command": "/pocketgamesadmin",
-        "aliases": "/pga, /pocketa, /pocketga, /pgamesa",
-        "permission": "pocketgames.admin",
-        "category": "Entertainment",
-        "plugin": "PocketGames",
+        "command": "/papi reload",
+        "aliases": "/placeholderapi reload",
+        "permission": "placeholderapi.reload",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
         "desc": {
-            "en": "Pocket Games Admin Commands.",
-            "es": "[PocketGames] Pocket Games Admin Commands."
-        }
-    },
-    {
-        "command": "/protocol",
-        "aliases": "-",
-        "permission": "protocol.admin",
-        "category": "Administration",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Performs administrative tasks regarding ProtocolLib.",
-            "es": "[ProtocolLib] Performs administrative tasks regarding ProtocolLib."
-        }
-    },
-    {
-        "command": "/packet",
-        "aliases": "-",
-        "permission": "protocol.admin",
-        "category": "Administration",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Add or remove a simple packet listener.",
-            "es": "[ProtocolLib] Add or remove a simple packet listener."
-        }
-    },
-    {
-        "command": "/filter",
-        "aliases": "/packet_filter",
-        "permission": "protocol.admin",
-        "category": "Administration",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Add or remove programmable filters to the packet listeners.",
-            "es": "[ProtocolLib] Add or remove programmable filters to the packet listeners."
-        }
-    },
-    {
-        "command": "/packetlog",
-        "aliases": "-",
-        "permission": "protocol.admin",
-        "category": "Administration",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Logs hex representations of packets to a file or console",
-            "es": "[ProtocolLib] Logs hex representations of packets to a file or console"
-        }
-    },
-    {
-        "command": "/QualityArmory",
-        "aliases": "/qa",
-        "permission": "qualityarmory.QualityArmory",
-        "category": "Weapons",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Main command for QA",
-            "es": "[QualityArmory] Main command for QA"
-        }
-    },
-    {
-        "command": "/QualityArmoryVehicles",
-        "aliases": "/qav",
-        "permission": "qualityarmoryvehicles2.QualityArmoryVehicles",
-        "category": "Vehicles",
-        "plugin": "QualityArmoryVehicles2",
-        "desc": {
-            "en": "The main plugin command to manage vehicles",
-            "es": "[QualityArmoryVehicles2] The main plugin command to manage vehicles"
-        }
-    },
-    {
-        "command": "/garage",
-        "aliases": "-",
-        "permission": "qualityarmoryvehicles2.garage",
-        "category": "Vehicles",
-        "plugin": "QualityArmoryVehicles2",
-        "desc": {
-            "en": "Open the garage",
-            "es": "[QualityArmoryVehicles2] Open the garage"
-        }
-    },
-    {
-        "command": "/quests",
-        "aliases": "/qs",
-        "permission": "quests.quests",
-        "category": "Jobs",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Quests command",
-            "es": "[Quests] Quests command"
-        }
-    },
-    {
-        "command": "/questadmin",
-        "aliases": "/questsadmin, /qa",
-        "permission": "quests.admin",
-        "category": "Jobs",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Quests admin command",
-            "es": "[Quests] Quests admin command"
-        }
-    },
-    {
-        "command": "/quest",
-        "aliases": "/q, /job",
-        "permission": "quests.quest",
-        "category": "Jobs",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Quest command",
-            "es": "[Quests] Quest command"
-        }
-    },
-    {
-        "command": "/score",
-        "aliases": "-",
-        "permission": "score.score",
-        "category": "Weapons",
-        "plugin": "SCore",
-        "desc": {
-            "en": "score command",
-            "es": "[SCore] score command"
-        }
-    },
-    {
-        "command": "/salarypay",
-        "aliases": "-",
-        "permission": "salarymanager.pay",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Pay all online players",
-            "es": "[SalaryManager] Pay all online players"
-        }
-    },
-    {
-        "command": "/salarylist",
-        "aliases": "/listslary",
-        "permission": "salarymanager.list",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "List salaries of groups or players",
-            "es": "[SalaryManager] List salaries of groups or players"
-        }
-    },
-    {
-        "command": "/salarysetperiod",
-        "aliases": "-",
-        "permission": "salarymanager.setperiod",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Set the period in seconds",
-            "es": "[SalaryManager] Set the period in seconds"
-        }
-    },
-    {
-        "command": "/salarynext",
-        "aliases": "/payday, /nextsalary",
-        "permission": "salarymanager.next",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "When is your next payday",
-            "es": "[SalaryManager] When is your next payday"
-        }
-    },
-    {
-        "command": "/salaryreload",
-        "aliases": "-",
-        "permission": "salarymanager.reload",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Reload the config",
-            "es": "[SalaryManager] Reload the config"
-        }
-    },
-    {
-        "command": "/salaryfrom",
-        "aliases": "-",
-        "permission": "salarymanager.from",
-        "category": "Economy",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Setup an account where the money comes from",
-            "es": "[SalaryManager] Setup an account where the money comes from"
-        }
-    },
-    {
-        "command": "/servertutorial",
-        "aliases": "/st",
-        "permission": "servertutorialplus.servertutorial",
-        "category": "Jobs",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "All the servertutorial plus commands",
-            "es": "[ServerTutorialPlus] All the servertutorial plus commands"
-        }
-    },
-    {
-        "command": "/ooc",
-        "aliases": "-",
-        "permission": "rptools.ooc",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Toggles OOC",
-            "es": "[RPTools] Toggles OOC"
-        }
-    },
-    {
-        "command": "/rp",
-        "aliases": "-",
-        "permission": "rptools.rp",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Toggles RP",
-            "es": "[RPTools] Toggles RP"
-        }
-    },
-    {
-        "command": "/acard",
-        "aliases": "-",
-        "permission": "rptools.acard",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "An admin command.",
-            "es": "[RPTools] An admin command."
-        }
-    },
-    {
-        "command": "/w",
-        "aliases": "-",
-        "permission": "rptools.w",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Allows you to whisper to a nearby character.",
-            "es": "[RPTools] Allows you to whisper to a nearby character."
-        }
-    },
-    {
-        "command": "/s",
-        "aliases": "-",
-        "permission": "rptools.s",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Allows you to shout to a nearby character.",
-            "es": "[RPTools] Allows you to shout to a nearby character."
-        }
-    },
-    {
-        "command": "/graylist",
-        "aliases": "-",
-        "permission": "rptools.graylist",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Allows admins to graylist players.",
-            "es": "[RPTools] Allows admins to graylist players."
-        }
-    },
-    {
-        "command": "/rptools",
-        "aliases": "-",
-        "permission": "rptools.rptools",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Starting point for players and admins.",
-            "es": "[RPTools] Starting point for players and admins."
-        }
-    },
-    {
-        "command": "/discord",
-        "aliases": "-",
-        "permission": "rptools.discord",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Shows the servers discord link.",
-            "es": "[RPTools] Shows the servers discord link."
-        }
-    },
-    {
-        "command": "/website",
-        "aliases": "-",
-        "permission": "rptools.website",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Shows the servers website link.",
-            "es": "[RPTools] Shows the servers website link."
-        }
-    },
-    {
-        "command": "/countdown",
-        "aliases": "-",
-        "permission": "rptools.countdown",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Starts a countdown with a desired amount of seconds.",
-            "es": "[RPTools] Starts a countdown with a desired amount of seconds."
-        }
-    },
-    {
-        "command": "/scene",
-        "aliases": "-",
-        "permission": "rptools.scene",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Allows for a global description of a custom scene.",
-            "es": "[RPTools] Allows for a global description of a custom scene."
-        }
-    },
-    {
-        "command": "/skill",
-        "aliases": "-",
-        "permission": "rptools.skill",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "A set of skill commands.",
-            "es": "[RPTools] A set of skill commands."
-        }
-    },
-    {
-        "command": "/enchanter",
-        "aliases": "-",
-        "permission": "rptools.enchanter",
-        "category": "Roleplay",
-        "plugin": "RPTools",
-        "desc": {
-            "en": "Opens the enchanting table.",
-            "es": "[RPTools] Opens the enchanting table."
-        }
-    },
-    {
-        "command": "/uf",
-        "aliases": "-",
-        "permission": "ultimatefood.uf",
-        "category": "Survival",
-        "plugin": "UltimateFood",
-        "desc": {
-            "en": "The Ultimate Food plugin ;)",
-            "es": "[UltimateFood] The Ultimate Food plugin ;)"
+            "en": "Reloads PlaceholderAPI configuration and expansions.",
+            "es": "Recarga las variables y expansiones de PlaceholderAPI."
         }
     },
     {
         "command": "/vault-info",
         "aliases": "-",
         "permission": "vault.admin",
-        "category": "Economy",
+        "category": "Core & Roleplay",
         "plugin": "Vault",
         "desc": {
-            "en": "Displays information about Vault",
-            "es": "[Vault] Displays information about Vault"
+            "en": "Displays active Vault economy and permission providers.",
+            "es": "Muestra el proveedor de economía y permisos enlazado a Vault."
+        }
+    },
+    {
+        "command": "/mycmd reload",
+        "aliases": "/mycommand",
+        "permission": "mycommand.admin",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Reloads all custom command aliases (/car, /carcall, /crew).",
+            "es": "Recarga todos los alias y comandos personalizados."
+        }
+    },
+    {
+        "command": "/car",
+        "aliases": "/qav garage, /garage",
+        "permission": "qualityarmoryvehicles.garage",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Opens your personal vehicle garage GUI to view and spawn owned cars.",
+            "es": "Abre tu garaje personal para ver y sacar tus vehículos propios."
+        }
+    },
+    {
+        "command": "/carcall",
+        "aliases": "/qav callback",
+        "permission": "qualityarmoryvehicles.callback",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Saves and stores your active vehicle safely back into your garage.",
+            "es": "Guarda y almacena tu vehículo activo de vuelta en el garaje para evitar robos."
+        }
+    },
+    {
+        "command": "/carsit1",
+        "aliases": "/carsit2, /carsit3",
+        "permission": "qualityarmoryvehicles.setaspassager",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Seats you inside passenger seat 1, 2, or 3 of a vehicle.",
+            "es": "Te sienta como pasajero en los asientos 1, 2 o 3 del vehículo."
+        }
+    },
+    {
+        "command": "/car-drive",
+        "aliases": "/qav setaspassager -1",
+        "permission": "qualityarmoryvehicles.setaspassager",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Switches your position back into the driver's seat.",
+            "es": "Te mueve de copiloto al asiento del conductor."
+        }
+    },
+    {
+        "command": "/qav shop",
+        "aliases": "/vehicleshop",
+        "permission": "qualityarmoryvehicles.shop",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Opens the official dealership vehicle catalog.",
+            "es": "Abre el catálogo de compra de vehículos del concesionario."
+        }
+    },
+    {
+        "command": "/qav give <vehicle> <player>",
+        "aliases": "/qav",
+        "permission": "qualityarmoryvehicles.give",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Grants a vehicle voucher/item directly to a citizen.",
+            "es": "Entrega un vehículo directamente a un ciudadano (Admin)."
+        }
+    },
+    {
+        "command": "/qav spawnVehicle <vehicle>",
+        "aliases": "/qav",
+        "permission": "qualityarmoryvehicles.spawn",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Spawns a physical 3D vehicle instance at your coordinates.",
+            "es": "Spawnea un vehículo 3D directamente en tu ubicación (Admin)."
+        }
+    },
+    {
+        "command": "/qav callbackAll",
+        "aliases": "/qav",
+        "permission": "qualityarmoryvehicles.admin",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Safely recalls every active spawned vehicle on the server back to garages.",
+            "es": "Recoge y devuelve al garaje todos los vehículos activos del mapa."
+        }
+    },
+    {
+        "command": "/qav removeNearbyVehicles <r>",
+        "aliases": "/qav",
+        "permission": "qualityarmoryvehicles.removenearbyvehicles",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles",
+        "desc": {
+            "en": "Clears abandoned or glitched vehicles within a radius.",
+            "es": "Elimina vehículos abandonados o trabados dentro de un radio."
+        }
+    },
+    {
+        "command": "/vehicle info",
+        "aliases": "/mtv info",
+        "permission": "None (Everyone)",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Displays fuel percentage, license plate, owner, and speed stats.",
+            "es": "Muestra matrícula, combustible, dueño y velocidad del vehículo."
+        }
+    },
+    {
+        "command": "/vehicle public",
+        "aliases": "/mtv public",
+        "permission": "None (Everyone)",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Allows any player to enter your vehicle as a passenger.",
+            "es": "Desbloquea el vehículo para que cualquier pasajero pueda subir."
+        }
+    },
+    {
+        "command": "/vehicle private",
+        "aliases": "/mtv private",
+        "permission": "None (Everyone)",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Locks your vehicle so only authorized riders/members can enter.",
+            "es": "Bloquea el vehículo solo para miembros autorizados."
+        }
+    },
+    {
+        "command": "/vehicle addmember <player>",
+        "aliases": "/mtv addmember",
+        "permission": "None (Everyone)",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Authorizes a friend to ride and access your vehicle.",
+            "es": "Añade a un amigo como miembro autorizado de tu vehículo."
+        }
+    },
+    {
+        "command": "/vehicle repair",
+        "aliases": "/mtv repair",
+        "permission": "mtvehicles.repair",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Repairs collision damage on an owned vehicle.",
+            "es": "Repara los daños mecánicos del vehículo."
+        }
+    },
+    {
+        "command": "/vehicle benzine",
+        "aliases": "/mtv refuel",
+        "permission": "mtvehicles.benzine",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Opens fuel canister purchase menu and refuels tank.",
+            "es": "Abre el menú de bidones de gasolina y repostaje."
+        }
+    },
+    {
+        "command": "/vehicle menu",
+        "aliases": "/mtv menu",
+        "permission": "mtvehicles.menu",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Opens full admin catalog of all MTVehicles models.",
+            "es": "Abre el catálogo maestro administrativo de modelos MTVehicles."
+        }
+    },
+    {
+        "command": "/vehicle givecar <player>",
+        "aliases": "/mtv givecar",
+        "permission": "mtvehicles.givecar",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Spawns and gives an MTVehicles vehicle to a player.",
+            "es": "Entrega un coche de MTVehicles a un jugador (Admin)."
+        }
+    },
+    {
+        "command": "/elevator",
+        "aliases": "/elevators, /se",
+        "permission": "elevator.use",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Creates or lists functional elevators for multi-story buildings.",
+            "es": "Lista y configura elevadores funcionales en edificios de la ciudad."
+        }
+    },
+    {
+        "command": "/elevatoradmin reload",
+        "aliases": "/seadmin",
+        "permission": "elevator.admin",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Reloads Elevator settings and elevator distances.",
+            "es": "Recarga las configuraciones de ascensores."
+        }
+    },
+    {
+        "command": "/qa",
+        "aliases": "/QualityArmory",
+        "permission": "qualityarmory.default",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Main firearms hub for 3D guns, ammo, and attachments.",
+            "es": "Menú principal de armas de fuego 3D y accesorios."
+        }
+    },
+    {
+        "command": "/qa shop",
+        "aliases": "/gunshop",
+        "permission": "qualityarmory.shop",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Opens the Ammu-Nation weapon shop GUI to buy guns and ammo.",
+            "es": "Abre la armería Ammu-Nation para comprar armas, balas y chalecos."
+        }
+    },
+    {
+        "command": "/qa craft",
+        "aliases": "/gunsmith",
+        "permission": "qualityarmory.craft",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Opens firearm crafting bench to assemble weapons and magazines.",
+            "es": "Abre la mesa de fabricación balística para crear munición."
+        }
+    },
+    {
+        "command": "/qa give <player> <item>",
+        "aliases": "/qa",
+        "permission": "qualityarmory.give",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Gives any custom firearm, grenade, or attachment to a player.",
+            "es": "Entrega cualquier arma, granada o mira táctica (Admin)."
+        }
+    },
+    {
+        "command": "/qa giveAmmo <ammo>",
+        "aliases": "/qa",
+        "permission": "qualityarmory.give",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Spawns a full stack of ammunition rounds.",
+            "es": "Entrega un cargador completo de munición (Admin)."
+        }
+    },
+    {
+        "command": "/qa listItemIds",
+        "aliases": "/qa",
+        "permission": "qualityarmory.admin",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Prints all internal firearm and ammo identifiers.",
+            "es": "Lista los IDs internos de todas las armas de QualityArmory."
+        }
+    },
+    {
+        "command": "/ei editor",
+        "aliases": "/executableitems",
+        "permission": "ei.cmd.editor",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Opens the in-game custom executable item creator GUI.",
+            "es": "Abre el editor visual para crear armas, placas y objetos personalizados."
+        }
+    },
+    {
+        "command": "/ei give <player> <item>",
+        "aliases": "/ei give",
+        "permission": "ei.cmd.give",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Gives a custom ExecutableItem (police badge, contraband kit, etc.).",
+            "es": "Entrega un objeto ejecutable especial a un jugador."
+        }
+    },
+    {
+        "command": "/ci give <item>",
+        "aliases": "/commanditems",
+        "permission": "commanditems.admin",
+        "category": "Firearms & Equipment",
+        "plugin": "CommandItems",
+        "desc": {
+            "en": "Gives a clickable command-bound roleplay item.",
+            "es": "Entrega un ítem con comandos vinculados al hacer clic."
+        }
+    },
+    {
+        "command": "/arm",
+        "aliases": "/regionmarket",
+        "permission": "arm.member.gui",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Opens the real estate region management GUI.",
+            "es": "Abre el menú gráfico de gestión inmobiliaria de ARM."
+        }
+    },
+    {
+        "command": "/arm info",
+        "aliases": "/arm i",
+        "permission": "arm.member.info",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Shows lease status, price, owner, and expiry of current property.",
+            "es": "Muestra dueño, precio y vencimiento de la propiedad donde estás."
+        }
+    },
+    {
+        "command": "/arm listregions",
+        "aliases": "/arm list",
+        "permission": "arm.member.listregions",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Lists all apartments and shops you currently rent or own.",
+            "es": "Lista todos tus apartamentos y locales alquilados o propios."
+        }
+    },
+    {
+        "command": "/arm tp <region>",
+        "aliases": "/arm teleport",
+        "permission": "arm.member.tp",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Teleports directly to the front door of your rented property.",
+            "es": "Te teletransporta directamente a la puerta de tu apartamento."
+        }
+    },
+    {
+        "command": "/arm extend",
+        "aliases": "/arm ext",
+        "permission": "arm.member.extend",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Extends the rental contract period of your apartment.",
+            "es": "Renueva y extiende el tiempo de alquiler de tu vivienda."
+        }
+    },
+    {
+        "command": "/arm addmember <player>",
+        "aliases": "/arm add",
+        "permission": "arm.member.addmember",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Grants roommates/friends build & chest access inside your property.",
+            "es": "Añade a un compañero de piso para darle acceso a cofres y puertas."
+        }
+    },
+    {
+        "command": "/arm removemember <player>",
+        "aliases": "/arm remove",
+        "permission": "arm.member.removemember",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Revokes a roommate's access to your property.",
+            "es": "Revoca el acceso de un miembro a tu vivienda."
+        }
+    },
+    {
+        "command": "/arm sellback",
+        "aliases": "/arm unrent",
+        "permission": "arm.member.sellback",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Terminates your property lease or sells your house back to the city.",
+            "es": "Cancela el alquiler o vende tu casa de vuelta al mercado."
+        }
+    },
+    {
+        "command": "/arm restore",
+        "aliases": "/arm reset",
+        "permission": "arm.member.resetregionblocks",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Restores your property interior back to its original schematic.",
+            "es": "Restaura los bloques del apartamento a su diseño original."
+        }
+    },
+    {
+        "command": "/arm create <type> <region>",
+        "aliases": "/arm",
+        "permission": "arm.admin.create.rentregion",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Creates a new rentable or sellable ARM property region (Admin).",
+            "es": "Crea una nueva propiedad en alquiler o venta en ARM (Admin)."
+        }
+    },
+    {
+        "command": "/arm setprice <region> <price>",
+        "aliases": "/arm",
+        "permission": "arm.admin.setprice",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Updates the purchase or rental price of a property region.",
+            "es": "Modifica el precio de venta o renta de una propiedad."
+        }
+    },
+    {
+        "command": "/rg define <id>",
+        "aliases": "/region define",
+        "permission": "worldguard.region.define",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Defines a new protected WorldGuard city zone from WorldEdit selection.",
+            "es": "Crea una zona protegida de WorldGuard con tu selección."
+        }
+    },
+    {
+        "command": "/rg flag <id> <flag> <val>",
+        "aliases": "/region flag",
+        "permission": "worldguard.region.flag",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Configures zone flags (e.g., pvp deny, entry, chest-access).",
+            "es": "Configura banderas de seguridad (pvp deny, build, entry)."
+        }
+    },
+    {
+        "command": "/rg info [id]",
+        "aliases": "/region info",
+        "permission": "worldguard.region.info",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Displays protection flags, owners, and priority of current zone.",
+            "es": "Muestra banderas, dueños y prioridad de la zona actual."
+        }
+    },
+    {
+        "command": "//wand",
+        "aliases": "-",
+        "permission": "worldedit.wand",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Gives the WorldEdit wooden axe selection wand.",
+            "es": "Entrega el hacha de selección espacial de WorldEdit."
+        }
+    },
+    {
+        "command": "//set <block>",
+        "aliases": "-",
+        "permission": "worldedit.region.set",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Fills the selected volume with the specified block type.",
+            "es": "Rellena toda la región seleccionada con un bloque."
+        }
+    },
+    {
+        "command": "//copy",
+        "aliases": "-",
+        "permission": "worldedit.clipboard.copy",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Copies selected building architecture to your clipboard.",
+            "es": "Copia edificios o estructuras al portapapeles."
+        }
+    },
+    {
+        "command": "//paste",
+        "aliases": "-",
+        "permission": "worldedit.clipboard.paste",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Pastes copied architecture at your location.",
+            "es": "Pega la estructura copiada en tu ubicación."
+        }
+    },
+    {
+        "command": "//undo",
+        "aliases": "-",
+        "permission": "worldedit.history.undo",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Reverts the last architectural edit made.",
+            "es": "Deshace el último cambio de construcción realizado."
+        }
+    },
+    {
+        "command": "/astools",
+        "aliases": "/ast",
+        "permission": "astools.use",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Opens ArmorStand pose/equipment editor for shop mannequins.",
+            "es": "Abre el editor de ArmorStands para crear maniquíes decorativos."
+        }
+    },
+    {
+        "command": "/bank",
+        "aliases": "/atm",
+        "permission": "banklite.use",
+        "category": "Economy & Banking",
+        "plugin": "Bank Lite",
+        "desc": {
+            "en": "Opens your interactive ATM bank account GUI for cash & savings.",
+            "es": "Abre tu cuenta bancaria ATM para depositar dinero y evitar robos."
+        }
+    },
+    {
+        "command": "/bank money open",
+        "aliases": "/bank deposit",
+        "permission": "banklite.use",
+        "category": "Economy & Banking",
+        "plugin": "Bank Lite",
+        "desc": {
+            "en": "Opens direct money deposit/withdrawal menu.",
+            "es": "Abre directamente el menú de depósitos y retiros de efectivo."
+        }
+    },
+    {
+        "command": "/bank admin",
+        "aliases": "/banklite",
+        "permission": "banklite.admin",
+        "category": "Economy & Banking",
+        "plugin": "Bank Lite",
+        "desc": {
+            "en": "Admin management for city bank vaults and player balances.",
+            "es": "Gestión administrativa de cuentas y bóvedas bancarias."
+        }
+    },
+    {
+        "command": "/ah",
+        "aliases": "/auctionhouse, /auction",
+        "permission": "auctionhouse.use",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Opens the metropolitan player Auction House market.",
+            "es": "Abre la Casa de Subastas global entre jugadores."
+        }
+    },
+    {
+        "command": "/ah list <price>",
+        "aliases": "/ah sell <price>",
+        "permission": "auctionhouse.sell",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Lists the item held in your main hand on the auction market.",
+            "es": "Publica en venta en subastas el objeto que tienes en la mano."
+        }
+    },
+    {
+        "command": "/ah expired",
+        "aliases": "/ah return",
+        "permission": "auctionhouse.expired",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Reclaims unsold items that expired from the auction market.",
+            "es": "Recupera objetos no vendidos cuyo tiempo en subasta expiró."
+        }
+    },
+    {
+        "command": "/ah cancel",
+        "aliases": "-",
+        "permission": "auctionhouse.cancel",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Cancels your active listings on the Auction House.",
+            "es": "Cancela tus artículos actualmente publicados en subastas."
+        }
+    },
+    {
+        "command": "/salary",
+        "aliases": "/salarynext, /payday",
+        "permission": "salarymanager.next",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Shows your scheduled wage and time until next paycheck deposit.",
+            "es": "Muestra cuánto cobrarás y cuánto falta para tu próximo sueldo."
+        }
+    },
+    {
+        "command": "/salarylist",
+        "aliases": "/listsalary",
+        "permission": "salarymanager.list",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Lists configured salary tiers across all city groups/jobs.",
+            "es": "Lista los sueldos configurados por rango o empleo en la ciudad."
+        }
+    },
+    {
+        "command": "/salarypay",
+        "aliases": "-",
+        "permission": "salarymanager.pay",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Forces an immediate payroll payout to all online employees (Admin).",
+            "es": "Ejecuta el pago inmediato de nómina a todos los conectados."
+        }
+    },
+    {
+        "command": "/dtltraders list",
+        "aliases": "/traders, /dtl",
+        "permission": "dtlTraders.commands.list",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Lists all NPC commercial shops configured across the city.",
+            "es": "Lista todas las tiendas de comerciantes NPC configuradas."
+        }
+    },
+    {
+        "command": "/dtltraders editshop [name]",
+        "aliases": "/dtl editshop",
+        "permission": "dtlTraders.commands.edit",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Opens the GUI merchant editor to adjust buy/sell prices.",
+            "es": "Abre el editor visual para cambiar precios de tiendas NPC."
+        }
+    },
+    {
+        "command": "/shopkeeper",
+        "aliases": "/shopkeepers",
+        "permission": "shopkeeper.create",
+        "category": "Economy & Banking",
+        "plugin": "Shopkeepers",
+        "desc": {
+            "en": "Creates and manages custom player villager market stalls.",
+            "es": "Crea y gestiona puestos de venta propios con aldeanos."
+        }
+    },
+    {
+        "command": "/crew",
+        "aliases": "/robbery crew",
+        "permission": "robbery.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
+        "desc": {
+            "en": "Creates or joins a heist crew for bank & jewelry store robberies.",
+            "es": "Crea o únete a un equipo para coordinar atracos a bancos y joyerías."
+        }
+    },
+    {
+        "command": "/robbery start",
+        "aliases": "/robbery",
+        "permission": "robbery.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
+        "desc": {
+            "en": "Initiates an armed robbery on an eligible bank vault or shop.",
+            "es": "Inicia un atraco armado en una bóveda o tienda autorizada."
+        }
+    },
+    {
+        "command": "/robbery accept",
+        "aliases": "/robbery help",
+        "permission": "robbery.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
+        "desc": {
+            "en": "Accepts a robbery crew invitation from a gang leader.",
+            "es": "Acepta la invitación para integrarte a un equipo de atraco."
+        }
+    },
+    {
+        "command": "/gang",
+        "aliases": "/gangs",
+        "permission": "excellentgangs.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ExcellentGangs",
+        "desc": {
+            "en": "Opens street gang dashboard: roster, gang bank, vault, and turf stats.",
+            "es": "Abre el panel de pandillas: miembros, banco de banda, baúl y territorio."
+        }
+    },
+    {
+        "command": "/gang create <name>",
+        "aliases": "/gang new",
+        "permission": "excellentgangs.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ExcellentGangs",
+        "desc": {
+            "en": "Establishes a new street gang.",
+            "es": "Funda una nueva pandilla callejera en la ciudad."
+        }
+    },
+    {
+        "command": "/gang vault",
+        "aliases": "/gang chest",
+        "permission": "excellentgangs.use",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ExcellentGangs",
+        "desc": {
+            "en": "Opens the shared contraband chest for your street gang.",
+            "es": "Abre el baúl compartido para guardar armas y botín de tu banda."
+        }
+    },
+    {
+        "command": "/clan",
+        "aliases": "/clansplus, /clans",
+        "permission": "None (Everyone)",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Opens the crime syndicate menu: alliance wars, upgrades & chat.",
+            "es": "Abre el menú principal de sindicatos y familias criminales."
+        }
+    },
+    {
+        "command": "/clan create <name>",
+        "aliases": "/clansplus create",
+        "permission": "None (Everyone)",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Creates an official crime family clan.",
+            "es": "Crea una nueva familia criminal o clan."
+        }
+    },
+    {
+        "command": "/clan openstorage",
+        "aliases": "/clan storage",
+        "permission": "None (Everyone)",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Opens the crime syndicate's shared storage vault.",
+            "es": "Abre el almacén compartido del clan."
+        }
+    },
+    {
+        "command": "/clan chat",
+        "aliases": "/clan pvp",
+        "permission": "None (Everyone)",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Toggles private syndicate radio chat or friendly fire.",
+            "es": "Activa el chat privado del clan o alterna el fuego amigo."
+        }
+    },
+    {
+        "command": "/clansplusadmin",
+        "aliases": "/clanadmin",
+        "permission": "clanplus.admin",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Admin tools to edit, delete, or inspect clan data and storage.",
+            "es": "Herramientas de administrador para gestionar o auditar clanes."
+        }
+    },
+    {
+        "command": "/drugs",
+        "aliases": "/drugbook",
+        "permission": "drugs.get",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "Drugs",
+        "desc": {
+            "en": "Opens contraband crafting handbook and chemical recipes.",
+            "es": "Entrega la guía de elaboración y efectos de drogas ilegales."
+        }
+    },
+    {
+        "command": "/phone",
+        "aliases": "/Phone",
+        "permission": "phone.use",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneConnect",
+        "desc": {
+            "en": "Opens interactive 3D smartphone: calls, SMS, contacts & 911.",
+            "es": "Abre tu smartphone interactivo: llamadas, mensajes, contactos y 911."
+        }
+    },
+    {
+        "command": "/hang",
+        "aliases": "-",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneConnect",
+        "desc": {
+            "en": "Hangs up and ends your current voice/phone call.",
+            "es": "Cuelga la llamada telefónica activa."
+        }
+    },
+    {
+        "command": "/givesim <player>",
+        "aliases": "/customsim <num>",
+        "permission": "phone.givesim",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneConnect",
+        "desc": {
+            "en": "Issues a SIM card or custom vanity phone number (Admin).",
+            "es": "Entrega tarjetas SIM o asigna números de teléfono personalizados."
+        }
+    },
+    {
+        "command": "/gps",
+        "aliases": "/compass",
+        "permission": "gps.commands.start",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Opens city GPS waypoints menu to start particle street directions.",
+            "es": "Abre el menú de rutas GPS con flechas de partículas por las calles."
+        }
+    },
+    {
+        "command": "/gps stop",
+        "aliases": "/gps cancel",
+        "permission": "gps.commands.stop",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Stops active particle road navigation.",
+            "es": "Detiene y oculta la ruta de navegación GPS."
+        }
+    },
+    {
+        "command": "/gps list",
+        "aliases": "/gps help",
+        "permission": "gps.commands.list",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Lists all available saved city GPS landmarks.",
+            "es": "Lista todos los puntos de interés guardados en el GPS."
+        }
+    },
+    {
+        "command": "/card",
+        "aliases": "/card name, /card age",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Displays or edits your civilian roleplay ID card profile.",
+            "es": "Muestra o edita los datos de tu tarjeta de identidad / DNI de rol."
+        }
+    },
+    {
+        "command": "/roll [max]",
+        "aliases": "/dice",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Rolls a random roleplay dice (default 1-6).",
+            "es": "Tira un dado aleatorio de rol en el chat cercano."
+        }
+    },
+    {
+        "command": "/me <action>",
+        "aliases": "/do <state>",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Performs third-person physical actions or ambient scene states.",
+            "es": "Describe acciones físicas en tercera persona (/me) o entorno (/do)."
+        }
+    },
+    {
+        "command": "/whisper <msg>",
+        "aliases": "/w, /shout <msg>",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Whispers privately (2m) or shouts loudly down the block.",
+            "es": "Susurra en voz baja (2m) o grita a varias calles de distancia."
+        }
+    },
+    {
+        "command": "/ooc",
+        "aliases": "/rp",
+        "permission": "None (Everyone)",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Toggles Out-Of-Character chat channels.",
+            "es": "Activa o silencia el chat fuera de rol (OOC)."
+        }
+    },
+    {
+        "command": "/dh list",
+        "aliases": "/decentholograms",
+        "permission": "dh.admin",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Lists all 3D text holograms placed in the city.",
+            "es": "Lista todos los hologramas 3D colocados en el servidor."
+        }
+    },
+    {
+        "command": "/dh h create <name> <text>",
+        "aliases": "/dh create",
+        "permission": "dh.command.hologram.create",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Creates a new floating hologram at your coordinates.",
+            "es": "Crea un nuevo holograma flotante en tus coordenadas."
+        }
+    },
+    {
+        "command": "/dh reload",
+        "aliases": "/dh",
+        "permission": "dh.command.reload",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Reloads all holograms and display entities.",
+            "es": "Recarga todos los hologramas y displays 3D."
+        }
+    },
+    {
+        "command": "/imageframe create <name> <url>",
+        "aliases": "/iframe",
+        "permission": "imageframe.create",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Creates HD static or animated billboards from image URLs.",
+            "es": "Crea vallas publicitarias o posters HD en marcos desde una URL."
+        }
+    },
+    {
+        "command": "/image create <url>",
+        "aliases": "/images",
+        "permission": "images.command.create",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Places custom wall-sized PNG murals on city buildings.",
+            "es": "Coloca murales y carteles personalizados de pared."
+        }
+    },
+    {
+        "command": "/tab reload",
+        "aliases": "/tab cpu, /tab bossbar",
+        "permission": "tab.admin",
+        "category": "Communication & Navigation",
+        "plugin": "TAB",
+        "desc": {
+            "en": "Reloads scoreboard HUD, bossbar, and nametag configuration.",
+            "es": "Recarga el HUD del scoreboard, barra superior (bossbar) y nametags."
+        }
+    },
+    {
+        "command": "/job",
+        "aliases": "/quests, /quest, /q",
+        "permission": "quests.quest",
+        "category": "Jobs & Progression",
+        "plugin": "QuestsMinecity",
+        "desc": {
+            "en": "Opens civilian employment GUI: courier deliveries, mining & taxi.",
+            "es": "Abre la bolsa de empleo para misiones de repartidor, minero y taxi."
+        }
+    },
+    {
+        "command": "/jobcancel",
+        "aliases": "/quest quit",
+        "permission": "quests.quest",
+        "category": "Jobs & Progression",
+        "plugin": "QuestsMinecity",
+        "desc": {
+            "en": "Cancels your currently active delivery job contract.",
+            "es": "Abandona el encargo o trabajo activo actual."
+        }
+    },
+    {
+        "command": "/questadmin give <player> <q>",
+        "aliases": "/qaadmin",
+        "permission": "quests.admin",
+        "category": "Jobs & Progression",
+        "plugin": "QuestsMinecity",
+        "desc": {
+            "en": "Admin command to assign, finish, or award quest points.",
+            "es": "Asigna misiones o otorga puntos de misión a ciudadanos (Admin)."
+        }
+    },
+    {
+        "command": "/ar check",
+        "aliases": "/autorank, /level",
+        "permission": "autorank.check",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Checks your playtime hours and progress toward next civic rank.",
+            "es": "Revisa tus horas jugadas y requisitos para ascender de rango."
+        }
+    },
+    {
+        "command": "/ar leaderboard",
+        "aliases": "/ar times",
+        "permission": "autorank.check",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Views citizens with the most active playtime hours.",
+            "es": "Muestra el ranking de ciudadanos con más horas en la ciudad."
+        }
+    },
+    {
+        "command": "/class",
+        "aliases": "/skillapi",
+        "permission": "skillapi.basic",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Opens RPG character class, attribute points, and stamina skill tree.",
+            "es": "Abre el árbol de habilidades para subir fuerza, agilidad y resistencia."
+        }
+    },
+    {
+        "command": "/rm create <name>",
+        "aliases": "/realmines",
+        "permission": "realmines.admin",
+        "category": "Jobs & Progression",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Creates or resets automated industrial mining quarries (Admin).",
+            "es": "Crea y gestiona las canteras automáticas de minería (Admin)."
+        }
+    },
+    {
+        "command": "/st play <id>",
+        "aliases": "/servertutorial",
+        "permission": "servertutorialplus.command.play",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "Starts the interactive guided tour of Los Santos landmarks.",
+            "es": "Inicia el tour guiado oficial por los edificios de la ciudad."
+        }
+    },
+    {
+        "command": "/roulette",
+        "aliases": "/casino",
+        "permission": "roulette.help",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Joins a live spinning roulette table in the Las Venturas casino.",
+            "es": "Permite jugar y apostar fichas en mesas de Ruleta del casino."
+        }
+    },
+    {
+        "command": "/videopoker",
+        "aliases": "/poker",
+        "permission": "videopoker.play",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "VideoPoker",
+        "desc": {
+            "en": "Plays 5-card draw video poker at casino machines.",
+            "es": "Inicia partidas en máquinas de Video Póker en el casino."
+        }
+    },
+    {
+        "command": "/lottery",
+        "aliases": "/lotto",
+        "permission": "lottery.gui",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Lottery",
+        "desc": {
+            "en": "Buys city lottery tickets for hourly/daily cash jackpots.",
+            "es": "Compra boletos para el bote acumulado de la lotería municipal."
+        }
+    },
+    {
+        "command": "/blockball",
+        "aliases": "/blockball club join",
+        "permission": "blockball.command",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Joins stadium soccer matches with realistic ball physics.",
+            "es": "Únete a partidos de fútbol 3D en el estadio municipal."
+        }
+    },
+    {
+        "command": "/emf shop",
+        "aliases": "/emf",
+        "permission": "emf.shop",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Sells custom caught marina fish for cash payouts.",
+            "es": "Abre la lonja de pescado para vender capturas raras por dinero."
+        }
+    },
+    {
+        "command": "/emf top",
+        "aliases": "/emf help",
+        "permission": "emf.top",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Checks current leaders in active marina fishing competitions.",
+            "es": "Muestra la tabla de líderes del torneo de pesca deportiva."
+        }
+    },
+    {
+        "command": "/emf toggle",
+        "aliases": "-",
+        "permission": "emf.toggle",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Toggles custom fish bossbars and competition announcements.",
+            "es": "Activa o desactiva avisos y bossbar de torneos de pesca."
+        }
+    },
+    {
+        "command": "/emf admin competition start",
+        "aliases": "/emf admin",
+        "permission": "emf.admin",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Starts, stops, or reloads marina fishing competitions (Admin).",
+            "es": "Inicia o gestiona competencias de pesca deportiva (Admin)."
+        }
+    },
+    {
+        "command": "/gameboy play",
+        "aliases": "/gameboy stop",
+        "permission": "None (Everyone)",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Gameboy",
+        "desc": {
+            "en": "Launches playable GameBoy ROMs on an interactive handheld map.",
+            "es": "Inicia cartuchos jugables en una consola GameBoy dentro del juego."
+        }
+    },
+    {
+        "command": "/pocketgames",
+        "aliases": "/pg",
+        "permission": "pocketgames.commands.menu",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Opens GUI arcade minigames: Snake, 2048, Flappy Bird & Connect 4.",
+            "es": "Abre minijuegos arcade en menú: Snake, 2048, Flappy Bird y Conecta 4."
+        }
+    },
+    {
+        "command": "/music",
+        "aliases": "/jukebox, /radio",
+        "permission": "music.command",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Tunes into custom city radio tracks and club jukebox playlists.",
+            "es": "Abre el reproductor de radio y música ambiental de clubes."
+        }
+    },
+    {
+        "command": "/sit",
+        "aliases": "/gsit",
+        "permission": "GSit.Sit",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Sits realistically on chairs, stairs, benches, or ground.",
+            "es": "Permite sentarse en sillas, escaleras, bancas o en el suelo."
+        }
+    },
+    {
+        "command": "/lay",
+        "aliases": "/glay",
+        "permission": "GSit.Lay",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Lays down horizontally on beds, couches, or pavement.",
+            "es": "Acuesta al personaje sobre camas o superficies planas."
+        }
+    },
+    {
+        "command": "/crawl",
+        "aliases": "/gcrawl",
+        "permission": "GSit.Crawl",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Crawls prone to pass through 1-block vents and tunnels.",
+            "es": "Permite arrastrarse boca abajo por conductos de 1 bloque."
+        }
+    },
+    {
+        "command": "/spin",
+        "aliases": "/bellyflop, /legsup",
+        "permission": "GSit.Spin",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Performs extra acrobatic roleplay poses on command.",
+            "es": "Realiza poses adicionales (girar, panzazo, piernas arriba)."
+        }
+    },
+    {
+        "command": "/gmenu",
+        "aliases": "/cosmetics, /gmenu main",
+        "permission": "gadgetsmenu.menu",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Opens cosmetics GUI: hats, particles, suits, and gadgets.",
+            "es": "Abre el menú de cosméticos: sombreros, partículas y trajes."
+        }
+    },
+    {
+        "command": "/gmysteryboxes",
+        "aliases": "/mysterydust",
+        "permission": "gadgetsmenu.mysteryboxes",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Opens and manages cosmetic mystery vaults and dust.",
+            "es": "Gestiona cajas misteriosas cosméticas y polvo mágico."
+        }
+    },
+    {
+        "command": "/gizmo",
+        "aliases": "/g",
+        "permission": "gizmo.show",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Gizmo",
+        "desc": {
+            "en": "Spawns visual interactive decorative gadgets.",
+            "es": "Activa accesorios visuales decorativos en el mundo."
+        }
+    },
+    {
+        "command": "/npc create <name>",
+        "aliases": "/citizens",
+        "permission": "citizens.npc.create",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Creates an interactive city NPC at your coordinates.",
+            "es": "Crea un nuevo NPC ciudadano, cajero o vendedor."
+        }
+    },
+    {
+        "command": "/npc skin <player>",
+        "aliases": "/npc look, /npc type",
+        "permission": "citizens.npc.skin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Customizes an NPC's skin, mob type, or eye-tracking behavior.",
+            "es": "Personaliza la skin, tipo de entidad y mirada del NPC."
+        }
+    },
+    {
+        "command": "/npc trait <name>",
+        "aliases": "/trait",
+        "permission": "citizens.npc.trait",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Attaches functional plugin traits (shopkeeper, sentinel, trader).",
+            "es": "Vincula funciones (vendedor, guardia, misiones) al NPC."
+        }
+    },
+    {
+        "command": "/citizens reload",
+        "aliases": "/denizen, /ex",
+        "permission": "citizens.admin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens & Denizen",
+        "desc": {
+            "en": "Reloads all city NPCs and Denizen interactive scripts.",
+            "es": "Recarga todos los NPCs y scripts interactivos de Denizen."
+        }
+    },
+    {
+        "command": "/uf",
+        "aliases": "/ultimatefood",
+        "permission": "uf.menu",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
+        "desc": {
+            "en": "Opens custom gourmet food & beverage catalog.",
+            "es": "Abre el catálogo de alimentos gourmet, café, sodas y hamburguesas."
+        }
+    },
+    {
+        "command": "/crates open <crate>",
+        "aliases": "/crates preview",
+        "permission": "excellentcrates.crates.command.open",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Opens or previews reward loot crates.",
+            "es": "Abre o previsualiza los premios de las cajas de botín."
+        }
+    },
+    {
+        "command": "/crates editor",
+        "aliases": "/crates give",
+        "permission": "excellentcrates.crates.command.editor",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Opens live in-game crate & reward probability editor (Admin).",
+            "es": "Abre el editor de cajas y probabilidades dentro del juego (Admin)."
+        }
+    },
+    {
+        "command": "/cratekey balance",
+        "aliases": "/cratekey giveall",
+        "permission": "excellentcrates.keys.command.balance",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Checks virtual key balance or distributes keys server-wide.",
+            "es": "Consulta tu saldo de llaves o reparte llaves a todo el servidor."
+        }
+    },
+    {
+        "command": "/kit [name]",
+        "aliases": "/kit claim, /kit preview",
+        "permission": "playerkits.use",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Claims starter citizen gear, daily rations, or VIP kits.",
+            "es": "Reclama kits iniciales de ciudadano, raciones diarias o kits VIP."
+        }
+    },
+    {
+        "command": "/rewards",
+        "aliases": "/streak",
+        "permission": "therewards.use",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
+        "desc": {
+            "en": "Claims daily login streak bonuses and playtime rewards.",
+            "es": "Reclama recompensas diarias por racha de conexión."
+        }
+    },
+    {
+        "command": "/report <player> <reason>",
+        "aliases": "/reports",
+        "permission": "None (Everyone)",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerReport",
+        "desc": {
+            "en": "Submits rulebreaker reports directly to online staff.",
+            "es": "Envía reportes de jugadores infractores al staff conectado."
+        }
+    },
+    {
+        "command": "/chunky start",
+        "aliases": "/chunky radius, /chunky pause",
+        "permission": "chunky.command.start",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Pre-generates map chunks ahead of time for lag-free driving.",
+            "es": "Pre-genera los chunks del mapa para evitar tirones al conducir."
+        }
+    },
+    {
+        "command": "/abyss",
+        "aliases": "/lagfixer",
+        "permission": "lagfixer.command",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Clears dropped clutter entities safely to maintain 20.0 TPS.",
+            "es": "Limpia objetos tirados en el suelo manteniendo estables los 20 TPS."
+        }
+    },
+    {
+        "command": "/rs give",
+        "aliases": "/rosestacker",
+        "permission": "rosestacker.give",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Manages stacked items/entities to preserve FPS in downtown areas.",
+            "es": "Gestiona el apilado de ítems y entidades para proteger tus FPS."
+        }
+    },
+    {
+        "command": "/plhide reload",
+        "aliases": "/forcepack",
+        "permission": "plhide.reload",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Pl-Hide & ForcePack",
+        "desc": {
+            "en": "Reloads command security mask and mandatory 3D resource pack.",
+            "es": "Recarga el ocultamiento de comandos y el paquete de texturas 3D."
+        }
+    },
+    {
+        "command": "/autorank",
+        "aliases": "/ar, /rank, /level",
+        "permission": "autorank.autorank",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Master command of AutoRank",
+            "es": "[Jobs & Progression] Master command of AutoRank"
+        }
+    },
+    {
+        "command": "/trait",
+        "aliases": "-",
+        "permission": "citizens.trait.help",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Trait commands",
+            "es": "[NPCs, Rewards & Optimization] Trait commands"
+        }
+    },
+    {
+        "command": "/template",
+        "aliases": "/tpl",
+        "permission": "citizens.templates.help",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Template commands",
+            "es": "[NPCs, Rewards & Optimization] Template commands"
+        }
+    },
+    {
+        "command": "/waypoints",
+        "aliases": "/wp",
+        "permission": "citizens.waypoints.help",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Waypoint commands",
+            "es": "[NPCs, Rewards & Optimization] Waypoint commands"
+        }
+    },
+    {
+        "command": "/clanadmin",
+        "aliases": "-",
+        "permission": "clansplus.clanadmin",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Executes /clanadmin command.",
+            "es": "[Crime, Gangs & Heists] Executes /clanadmin command."
+        }
+    },
+    {
+        "command": "/commanditems",
+        "aliases": "/cmditems, /ci",
+        "permission": "commanditems.commanditems",
+        "category": "Firearms & Equipment",
+        "plugin": "CommandItems",
+        "desc": {
+            "en": "Main command for CommandItems",
+            "es": "[Firearms & Equipment] Main command for CommandItems"
+        }
+    },
+    {
+        "command": "/customdeathdrops",
+        "aliases": "-",
+        "permission": "customdeathdrops.customdeathdrops",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "CustomDeathDrops",
+        "desc": {
+            "en": "Reloads the plugin!",
+            "es": "[Crime, Gangs & Heists] Reloads the plugin!"
+        }
+    },
+    {
+        "command": "/denizen",
+        "aliases": "-",
+        "permission": "denizen.basic",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Lists denizen commands.",
+            "es": "[NPCs, Rewards & Optimization] Lists denizen commands."
+        }
+    },
+    {
+        "command": "/denizenclickable",
+        "aliases": "-",
+        "permission": "denizen.clickable",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Executes a Denizen clickable command.",
+            "es": "[NPCs, Rewards & Optimization] Executes a Denizen clickable command."
+        }
+    },
+    {
+        "command": "/ex",
+        "aliases": "-",
+        "permission": "denizen.ex",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Executes a Denizen script command.",
+            "es": "[NPCs, Rewards & Optimization] Executes a Denizen script command."
+        }
+    },
+    {
+        "command": "/exs",
+        "aliases": "-",
+        "permission": "denizen.ex",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Executes a Denizen script command in a sustained queue.",
+            "es": "[NPCs, Rewards & Optimization] Executes a Denizen script command in a sustained queue."
+        }
+    },
+    {
+        "command": "/drugbook",
+        "aliases": "-",
+        "permission": "drugs.drugbook",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "Drugs",
+        "desc": {
+            "en": "Gives you the Drugbook to receive Drugs/craft Drugs.",
+            "es": "[Crime, Gangs & Heists] Gives you the Drugbook to receive Drugs/craft Drugs."
+        }
+    },
+    {
+        "command": "/drl",
+        "aliases": "-",
+        "permission": "drugs.drl",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "Drugs",
+        "desc": {
+            "en": "Reloads your Plugin.",
+            "es": "[Crime, Gangs & Heists] Reloads your Plugin."
+        }
+    },
+    {
+        "command": "/dsc",
+        "aliases": "-",
+        "permission": "drugs.dsc",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "Drugs",
+        "desc": {
+            "en": "Server Count",
+            "es": "[Crime, Gangs & Heists] Server Count"
+        }
+    },
+    {
+        "command": "/toggleshout",
+        "aliases": "/etoggleshout",
+        "permission": "essentialschat.toggleshout",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Toggles whether you are talking in shout mode",
+            "es": "[Communication & Navigation] Toggles whether you are talking in shout mode"
+        }
+    },
+    {
+        "command": "/antioch",
+        "aliases": "/eantioch, /grenade, /egrenade, /tnt, /etnt",
+        "permission": "essentials.antioch",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "A little surprise for operators.",
+            "es": "[Core & Roleplay] A little surprise for operators."
+        }
+    },
+    {
+        "command": "/anvil",
+        "aliases": "/eanvil",
+        "permission": "essentials.anvil",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up an Anvil.",
+            "es": "[Core & Roleplay] Opens up an Anvil."
+        }
+    },
+    {
+        "command": "/backup",
+        "aliases": "/ebackup",
+        "permission": "essentials.backup",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Runs the backup if configured.",
+            "es": "[Core & Roleplay] Runs the backup if configured."
+        }
+    },
+    {
+        "command": "/balance",
+        "aliases": "/bal, /ebal, /ebalance, /money, /emoney",
+        "permission": "essentials.balance",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "States the current balance of a player.",
+            "es": "[Core & Roleplay] States the current balance of a player."
+        }
+    },
+    {
+        "command": "/balancetop",
+        "aliases": "/ebalancetop, /baltop, /ebaltop",
+        "permission": "essentials.balancetop",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Gets the top balance values.",
+            "es": "[Core & Roleplay] Gets the top balance values."
+        }
+    },
+    {
+        "command": "/banip",
+        "aliases": "/ebanip",
+        "permission": "essentials.banip",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Bans an IP address.",
+            "es": "[Core & Roleplay] Bans an IP address."
+        }
+    },
+    {
+        "command": "/beezooka",
+        "aliases": "/ebeezooka, /beecannon, /ebeecannon",
+        "permission": "essentials.beezooka",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Throw an exploding bee at your opponent.",
+            "es": "[Core & Roleplay] Throw an exploding bee at your opponent."
+        }
+    },
+    {
+        "command": "/book",
+        "aliases": "/ebook",
+        "permission": "essentials.book",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Allows reopening and editing of sealed books.",
+            "es": "[Core & Roleplay] Allows reopening and editing of sealed books."
+        }
+    },
+    {
+        "command": "/bottom",
+        "aliases": "/ebottom",
+        "permission": "essentials.bottom",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport to the lowest block at your current position.",
+            "es": "[Core & Roleplay] Teleport to the lowest block at your current position."
+        }
+    },
+    {
+        "command": "/break",
+        "aliases": "/ebreak",
+        "permission": "essentials.break",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Breaks the block you are looking at.",
+            "es": "[Core & Roleplay] Breaks the block you are looking at."
+        }
+    },
+    {
+        "command": "/broadcast",
+        "aliases": "/bc, /ebc, /bcast, /ebcast, /ebroadcast, /shout, /eshout",
+        "permission": "essentials.broadcast",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Broadcasts a message to the entire server.",
+            "es": "[Core & Roleplay] Broadcasts a message to the entire server."
+        }
+    },
+    {
+        "command": "/broadcastworld",
+        "aliases": "/bcw, /ebcw, /bcastw, /ebcastw, /ebroadcastworld, /shoutworld, /eshoutworld",
+        "permission": "essentials.broadcastworld",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Broadcasts a message to a world.",
+            "es": "[Core & Roleplay] Broadcasts a message to a world."
+        }
+    },
+    {
+        "command": "/bigtree",
+        "aliases": "/ebigtree, /largetree, /elargetree",
+        "permission": "essentials.bigtree",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Spawn a big tree where you are looking.",
+            "es": "[Core & Roleplay] Spawn a big tree where you are looking."
+        }
+    },
+    {
+        "command": "/burn",
+        "aliases": "/eburn",
+        "permission": "essentials.burn",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Set a player on fire.",
+            "es": "[Core & Roleplay] Set a player on fire."
+        }
+    },
+    {
+        "command": "/cartographytable",
+        "aliases": "/ecartographytable, /carttable, /ecarttable",
+        "permission": "essentials.cartographytable",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a cartography table.",
+            "es": "[Core & Roleplay] Opens up a cartography table."
+        }
+    },
+    {
+        "command": "/clearinventory",
+        "aliases": "/ci, /eci, /clean, /eclean, /clear, /eclear, /clearinvent, /eclearinvent, /eclearinventory",
+        "permission": "essentials.clearinventory",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Clear all items in your inventory.",
+            "es": "[Core & Roleplay] Clear all items in your inventory."
+        }
+    },
+    {
+        "command": "/clearinventoryconfirmtoggle",
+        "aliases": "/eclearinventoryconfirmtoggle, /clearinventoryconfirmoff, /eclearinventoryconfirmoff, /clearconfirmoff, /eclearconfirmoff, /clearconfirmon, /eclearconfirmon, /clearconfirm, /eclearconfirm",
+        "permission": "essentials.clearinventoryconfirmtoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Toggles whether you are prompted to confirm inventory clears.",
+            "es": "[Core & Roleplay] Toggles whether you are prompted to confirm inventory clears."
+        }
+    },
+    {
+        "command": "/condense",
+        "aliases": "/econdense, /compact, /ecompact, /blocks, /eblocks, /toblocks, /etoblocks",
+        "permission": "essentials.condense",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Condenses items into a more compact blocks.",
+            "es": "[Core & Roleplay] Condenses items into a more compact blocks."
+        }
+    },
+    {
+        "command": "/compass",
+        "aliases": "/ecompass, /direction, /edirection",
+        "permission": "essentials.compass",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Describes your current bearing.",
+            "es": "[Core & Roleplay] Describes your current bearing."
+        }
+    },
+    {
+        "command": "/createkit",
+        "aliases": "/kitcreate, /createk, /kc, /ck",
+        "permission": "essentials.createkit",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Create a kit in game!",
+            "es": "[Core & Roleplay] Create a kit in game!"
+        }
+    },
+    {
+        "command": "/customtext",
+        "aliases": "-",
+        "permission": "essentials.customtext",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Allows you to create custom text commands.",
+            "es": "[Core & Roleplay] Allows you to create custom text commands."
+        }
+    },
+    {
+        "command": "/delhome",
+        "aliases": "/edelhome, /remhome, /eremhome, /rmhome, /ermhome",
+        "permission": "essentials.delhome",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Removes a home.",
+            "es": "[Core & Roleplay] Removes a home."
+        }
+    },
+    {
+        "command": "/deljail",
+        "aliases": "/edeljail, /remjail, /eremjail, /rmjail, /ermjail",
+        "permission": "essentials.deljail",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Removes a jail.",
+            "es": "[Core & Roleplay] Removes a jail."
+        }
+    },
+    {
+        "command": "/delkit",
+        "aliases": "/edelkit, /remkit, /eremkit, /rmkit, /ermkit, /deletekit, /edeletekit",
+        "permission": "essentials.delkit",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Deletes the specified kit.",
+            "es": "[Core & Roleplay] Deletes the specified kit."
+        }
+    },
+    {
+        "command": "/delwarp",
+        "aliases": "/edelwarp, /remwarp, /eremwarp, /rmwarp, /ermwarp",
+        "permission": "essentials.delwarp",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Deletes the specified warp.",
+            "es": "[Core & Roleplay] Deletes the specified warp."
+        }
+    },
+    {
+        "command": "/depth",
+        "aliases": "/edepth, /height, /eheight",
+        "permission": "essentials.depth",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "States current depth, relative to sea level.",
+            "es": "[Core & Roleplay] States current depth, relative to sea level."
+        }
+    },
+    {
+        "command": "/disposal",
+        "aliases": "/edisposal, /trash, /etrash",
+        "permission": "essentials.disposal",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens a portable disposal menu.",
+            "es": "[Core & Roleplay] Opens a portable disposal menu."
+        }
+    },
+    {
+        "command": "/eco",
+        "aliases": "/eeco, /economy, /eeconomy",
+        "permission": "essentials.eco",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Manages the server economy.",
+            "es": "[Core & Roleplay] Manages the server economy."
+        }
+    },
+    {
+        "command": "/enchant",
+        "aliases": "/eenchant, /enchantment, /eenchantment",
+        "permission": "essentials.enchant",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Enchants the item the user is holding.",
+            "es": "[Core & Roleplay] Enchants the item the user is holding."
+        }
+    },
+    {
+        "command": "/enderchest",
+        "aliases": "/echest, /eechest, /eenderchest, /endersee, /eendersee, /ec, /eec",
+        "permission": "essentials.enderchest",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Lets you see inside an enderchest.",
+            "es": "[Core & Roleplay] Lets you see inside an enderchest."
+        }
+    },
+    {
+        "command": "/essentials",
+        "aliases": "/eessentials, /ess, /eess, /essversion",
+        "permission": "essentials.essentials",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Reloads essentials.",
+            "es": "[Core & Roleplay] Reloads essentials."
+        }
+    },
+    {
+        "command": "/exp",
+        "aliases": "/eexp, /xp",
+        "permission": "essentials.exp",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Give, set, reset, or look at a players experience.",
+            "es": "[Core & Roleplay] Give, set, reset, or look at a players experience."
+        }
+    },
+    {
+        "command": "/ext",
+        "aliases": "/eext, /extinguish, /eextinguish",
+        "permission": "essentials.ext",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Extinguish players.",
+            "es": "[Core & Roleplay] Extinguish players."
+        }
+    },
+    {
+        "command": "/fireball",
+        "aliases": "/efireball, /fireentity, /efireentity, /fireskull, /efireskull",
+        "permission": "essentials.fireball",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Throw a fireball or other assorted projectiles.",
+            "es": "[Core & Roleplay] Throw a fireball or other assorted projectiles."
+        }
+    },
+    {
+        "command": "/firework",
+        "aliases": "/efirework",
+        "permission": "essentials.firework",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Allows you to modify a stack of fireworks.",
+            "es": "[Core & Roleplay] Allows you to modify a stack of fireworks."
+        }
+    },
+    {
+        "command": "/gamemode",
+        "aliases": "/adventure, /eadventure, /adventuremode, /eadventuremode, /creative, /ecreative, /eecreative, /creativemode, /ecreativemode, /egamemode, /gm, /egm, /gma, /egma, /gmc, /egmc, /gms, /egms, /gmt, /egmt, /survival, /esurvival, /survivalmode, /esurvivalmode, /gmsp, /sp, /egmsp, /spec, /spectator",
+        "permission": "essentials.gamemode",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Change player gamemode.",
+            "es": "[Core & Roleplay] Change player gamemode."
+        }
+    },
+    {
+        "command": "/gc",
+        "aliases": "/lag, /elag, /egc, /mem, /emem, /memory, /ememory, /uptime, /euptime, /tps, /etps, /entities, /eentities",
+        "permission": "essentials.gc",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Reports memory, uptime and tick info.",
+            "es": "[Core & Roleplay] Reports memory, uptime and tick info."
+        }
+    },
+    {
+        "command": "/getpos",
+        "aliases": "/coords, /egetpos, /position, /eposition, /whereami, /ewhereami, /getlocation, /egetlocation, /getloc, /egetloc",
+        "permission": "essentials.getpos",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Get your current coordinates or those of a player.",
+            "es": "[Core & Roleplay] Get your current coordinates or those of a player."
+        }
+    },
+    {
+        "command": "/give",
+        "aliases": "/egive",
+        "permission": "essentials.give",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Give a player an item.",
+            "es": "[Core & Roleplay] Give a player an item."
+        }
+    },
+    {
+        "command": "/god",
+        "aliases": "/egod, /godmode, /egodmode, /tgm, /etgm",
+        "permission": "essentials.god",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Enables your godly powers.",
+            "es": "[Core & Roleplay] Enables your godly powers."
+        }
+    },
+    {
+        "command": "/grindstone",
+        "aliases": "/egrindstone",
+        "permission": "essentials.grindstone",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a grindstone.",
+            "es": "[Core & Roleplay] Opens up a grindstone."
+        }
+    },
+    {
+        "command": "/hat",
+        "aliases": "/ehat, /head, /ehead",
+        "permission": "essentials.hat",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Get some cool new headgear.",
+            "es": "[Core & Roleplay] Get some cool new headgear."
+        }
+    },
+    {
+        "command": "/help",
+        "aliases": "/ehelp",
+        "permission": "essentials.help",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Views a list of available commands.",
+            "es": "[Core & Roleplay] Views a list of available commands."
+        }
+    },
+    {
+        "command": "/helpop",
+        "aliases": "/ac, /eac, /amsg, /eamsg, /ehelpop",
+        "permission": "essentials.helpop",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Message online admins.",
+            "es": "[Core & Roleplay] Message online admins."
+        }
+    },
+    {
+        "command": "/ice",
+        "aliases": "/eice, /efreeze",
+        "permission": "essentials.ice",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Cools a player off.",
+            "es": "[Core & Roleplay] Cools a player off."
+        }
+    },
+    {
+        "command": "/ignore",
+        "aliases": "/eignore, /unignore, /eunignore, /delignore, /edelignore, /remignore, /eremignore, /rmignore, /ermignore",
+        "permission": "essentials.ignore",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Ignore or unignore other players.",
+            "es": "[Core & Roleplay] Ignore or unignore other players."
+        }
+    },
+    {
+        "command": "/info",
+        "aliases": "/about, /eabout, /ifo, /eifo, /einfo, /inform, /einform, /news, /enews",
+        "permission": "essentials.info",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Shows information set by the server owner.",
+            "es": "[Core & Roleplay] Shows information set by the server owner."
+        }
+    },
+    {
+        "command": "/item",
+        "aliases": "/i, /eitem, /ei",
+        "permission": "essentials.item",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Spawn an item.",
+            "es": "[Core & Roleplay] Spawn an item."
+        }
+    },
+    {
+        "command": "/itemdb",
+        "aliases": "/dura, /edura, /durability, /edurability, /eitemdb, /itemno, /eitemno",
+        "permission": "essentials.itemdb",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Searches for an item.",
+            "es": "[Core & Roleplay] Searches for an item."
+        }
+    },
+    {
+        "command": "/itemlore",
+        "aliases": "/lore, /elore, /ilore, /eilore, /eitemlore",
+        "permission": "essentials.itemlore",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Edit the lore of an item.",
+            "es": "[Core & Roleplay] Edit the lore of an item."
+        }
+    },
+    {
+        "command": "/itemname",
+        "aliases": "/iname, /einame, /eitemname, /itemrename, /irename, /eitemrename, /eirename",
+        "permission": "essentials.itemname",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Names an item.",
+            "es": "[Core & Roleplay] Names an item."
+        }
+    },
+    {
+        "command": "/jailedplayers",
+        "aliases": "/ejailedplayers, /ejailed, /ejp",
+        "permission": "essentials.jailedplayers",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "List all jailed players.",
+            "es": "[Core & Roleplay] List all jailed players."
+        }
+    },
+    {
+        "command": "/jails",
+        "aliases": "/ejails",
+        "permission": "essentials.jails",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "List all jails.",
+            "es": "[Core & Roleplay] List all jails."
+        }
+    },
+    {
+        "command": "/jump",
+        "aliases": "/j, /ej, /ejump, /jumpto, /ejumpto",
+        "permission": "essentials.jump",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Jumps to the nearest block in the line of sight.",
+            "es": "[Core & Roleplay] Jumps to the nearest block in the line of sight."
+        }
+    },
+    {
+        "command": "/kickall",
+        "aliases": "/ekickall",
+        "permission": "essentials.kickall",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Kicks all players off the server except the issuer.",
+            "es": "[Core & Roleplay] Kicks all players off the server except the issuer."
+        }
+    },
+    {
+        "command": "/kill",
+        "aliases": "/ekill",
+        "permission": "essentials.kill",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Kills specified player.",
+            "es": "[Core & Roleplay] Kills specified player."
+        }
+    },
+    {
+        "command": "/kitreset",
+        "aliases": "/ekitreset, /kitr, /ekitr, /resetkit, /eresetkit",
+        "permission": "essentials.kitreset",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Resets the cooldown on the specified kit.",
+            "es": "[Core & Roleplay] Resets the cooldown on the specified kit."
+        }
+    },
+    {
+        "command": "/kittycannon",
+        "aliases": "/ekittycannon",
+        "permission": "essentials.kittycannon",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Throw an exploding kitten at your opponent.",
+            "es": "[Core & Roleplay] Throw an exploding kitten at your opponent."
+        }
+    },
+    {
+        "command": "/lightning",
+        "aliases": "/elightning, /shock, /eshock, /smite, /esmite, /strike, /estrike, /thor, /ethor",
+        "permission": "essentials.lightning",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "The power of Thor. Strike at cursor or player.",
+            "es": "[Core & Roleplay] The power of Thor. Strike at cursor or player."
+        }
+    },
+    {
+        "command": "/list",
+        "aliases": "/elist, /online, /eonline, /playerlist, /eplayerlist, /plist, /eplist, /who, /ewho",
+        "permission": "essentials.list",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "List all online players.",
+            "es": "[Core & Roleplay] List all online players."
+        }
+    },
+    {
+        "command": "/loom",
+        "aliases": "/eloom",
+        "permission": "essentials.loom",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a loom.",
+            "es": "[Core & Roleplay] Opens up a loom."
+        }
+    },
+    {
+        "command": "/mail",
+        "aliases": "/email, /eemail, /memo, /ememo",
+        "permission": "essentials.mail",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Manages inter-player, intra-server mail.",
+            "es": "[Core & Roleplay] Manages inter-player, intra-server mail."
+        }
+    },
+    {
+        "command": "/more",
+        "aliases": "/emore",
+        "permission": "essentials.more",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Fills the item stack in hand to specified amount, or to maximum size if none is specified.",
+            "es": "[Core & Roleplay] Fills the item stack in hand to specified amount, or to maximum size if none is specified."
+        }
+    },
+    {
+        "command": "/motd",
+        "aliases": "/emotd",
+        "permission": "essentials.motd",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Views the Message Of The Day.",
+            "es": "[Core & Roleplay] Views the Message Of The Day."
+        }
+    },
+    {
+        "command": "/msgtoggle",
+        "aliases": "/emsgtoggle",
+        "permission": "essentials.msgtoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Blocks receiving all private messages.",
+            "es": "[Core & Roleplay] Blocks receiving all private messages."
+        }
+    },
+    {
+        "command": "/near",
+        "aliases": "/enear, /nearby, /enearby",
+        "permission": "essentials.near",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Lists the players near by or around a player.",
+            "es": "[Core & Roleplay] Lists the players near by or around a player."
+        }
+    },
+    {
+        "command": "/nuke",
+        "aliases": "/enuke",
+        "permission": "essentials.nuke",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "May death rain upon them.",
+            "es": "[Core & Roleplay] May death rain upon them."
+        }
+    },
+    {
+        "command": "/tpoffline",
+        "aliases": "/otp, /offlinetp, /tpoff, /tpoffline, /etpoffline",
+        "permission": "essentials.tpoffline",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport to a player's last known logout location",
+            "es": "[Core & Roleplay] Teleport to a player's last known logout location"
+        }
+    },
+    {
+        "command": "/paytoggle",
+        "aliases": "/epaytoggle, /payoff, /epayoff, /payon, /epayon",
+        "permission": "essentials.paytoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Toggles whether you are accepting payments.",
+            "es": "[Core & Roleplay] Toggles whether you are accepting payments."
+        }
+    },
+    {
+        "command": "/payconfirmtoggle",
+        "aliases": "/epayconfirmtoggle, /payconfirmoff, /epayconfirmoff, /payconfirmon, /epayconfirmon, /payconfirm, /epayconfirm",
+        "permission": "essentials.payconfirmtoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Toggles whether you are prompted to confirm payments.",
+            "es": "[Core & Roleplay] Toggles whether you are prompted to confirm payments."
+        }
+    },
+    {
+        "command": "/ping",
+        "aliases": "/echo, /eecho, /eping, /pong, /epong",
+        "permission": "essentials.ping",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Pong!",
+            "es": "[Core & Roleplay] Pong!"
+        }
+    },
+    {
+        "command": "/playtime",
+        "aliases": "/eplaytime",
+        "permission": "essentials.playtime",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Shows a player's time played in game",
+            "es": "[Core & Roleplay] Shows a player's time played in game"
+        }
+    },
+    {
+        "command": "/potion",
+        "aliases": "/epotion, /elixer, /eelixer",
+        "permission": "essentials.potion",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Adds custom potion effects to a potion.",
+            "es": "[Core & Roleplay] Adds custom potion effects to a potion."
+        }
+    },
+    {
+        "command": "/powertool",
+        "aliases": "/epowertool, /pt, /ept",
+        "permission": "essentials.powertool",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Assigns a command to the item in hand.",
+            "es": "[Core & Roleplay] Assigns a command to the item in hand."
+        }
+    },
+    {
+        "command": "/powertoollist",
+        "aliases": "/epowertoollist, /ptlist, /eptlist",
+        "permission": "essentials.powertoollist",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Lists all current powertools.",
+            "es": "[Core & Roleplay] Lists all current powertools."
+        }
+    },
+    {
+        "command": "/powertooltoggle",
+        "aliases": "/epowertooltoggle, /ptt, /eptt, /pttoggle, /epttoggle",
+        "permission": "essentials.powertooltoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Enables or disables all current powertools.",
+            "es": "[Core & Roleplay] Enables or disables all current powertools."
+        }
+    },
+    {
+        "command": "/ptime",
+        "aliases": "/playertime, /eplayertime, /eptime",
+        "permission": "essentials.ptime",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Adjust player's client time. Add @ prefix to fix.",
+            "es": "[Core & Roleplay] Adjust player's client time. Add @ prefix to fix."
+        }
+    },
+    {
+        "command": "/pweather",
+        "aliases": "/playerweather, /eplayerweather, /epweather",
+        "permission": "essentials.pweather",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Adjust a player's weather",
+            "es": "[Core & Roleplay] Adjust a player's weather"
+        }
+    },
+    {
+        "command": "/r",
+        "aliases": "/er, /reply, /ereply",
+        "permission": "essentials.r",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Quickly reply to the last player to message you.",
+            "es": "[Core & Roleplay] Quickly reply to the last player to message you."
+        }
+    },
+    {
+        "command": "/rtoggle",
+        "aliases": "/ertoggle, /replytoggle, /ereplytoggle",
+        "permission": "essentials.rtoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Change whether the recipient of the reply is last recipient or last sender",
+            "es": "[Core & Roleplay] Change whether the recipient of the reply is last recipient or last sender"
+        }
+    },
+    {
+        "command": "/realname",
+        "aliases": "/erealname",
+        "permission": "essentials.realname",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Displays the username of a user based on nick.",
+            "es": "[Core & Roleplay] Displays the username of a user based on nick."
+        }
+    },
+    {
+        "command": "/recipe",
+        "aliases": "/formula, /eformula, /method, /emethod, /erecipe, /recipes, /erecipes",
+        "permission": "essentials.recipe",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Displays how to craft items.",
+            "es": "[Core & Roleplay] Displays how to craft items."
+        }
+    },
+    {
+        "command": "/remove",
+        "aliases": "/eremove, /butcher, /ebutcher, /killall, /ekillall, /mobkill, /emobkill",
+        "permission": "essentials.remove",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Removes entities in your world.",
+            "es": "[Core & Roleplay] Removes entities in your world."
+        }
+    },
+    {
+        "command": "/renamehome",
+        "aliases": "/erenamehome",
+        "permission": "essentials.renamehome",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Renames a home.",
+            "es": "[Core & Roleplay] Renames a home."
+        }
+    },
+    {
+        "command": "/repair",
+        "aliases": "/fix, /efix, /erepair",
+        "permission": "essentials.repair",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Repairs the durability of one or all items.",
+            "es": "[Core & Roleplay] Repairs the durability of one or all items."
+        }
+    },
+    {
+        "command": "/rest",
+        "aliases": "/erest",
+        "permission": "essentials.rest",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Rests you or the given player.",
+            "es": "[Core & Roleplay] Rests you or the given player."
+        }
+    },
+    {
+        "command": "/rules",
+        "aliases": "/erules",
+        "permission": "essentials.rules",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Views the server rules.",
+            "es": "[Core & Roleplay] Views the server rules."
+        }
+    },
+    {
+        "command": "/seen",
+        "aliases": "/eseen, /ealts, /alts",
+        "permission": "essentials.seen",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Shows the last logout time of a player.",
+            "es": "[Core & Roleplay] Shows the last logout time of a player."
+        }
+    },
+    {
+        "command": "/sell",
+        "aliases": "/esell",
+        "permission": "essentials.sell",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Sells the item currently in your hand.",
+            "es": "[Core & Roleplay] Sells the item currently in your hand."
+        }
+    },
+    {
+        "command": "/setjail",
+        "aliases": "/esetjail, /createjail, /ecreatejail",
+        "permission": "essentials.setjail",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Creates a jail where you specified named [jailname].",
+            "es": "[Core & Roleplay] Creates a jail where you specified named [jailname]."
+        }
+    },
+    {
+        "command": "/settpr",
+        "aliases": "/esettpr, /settprandom, /esettprandom",
+        "permission": "essentials.settpr",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Set the random teleport location and parameters.",
+            "es": "[Core & Roleplay] Set the random teleport location and parameters."
+        }
+    },
+    {
+        "command": "/setwarp",
+        "aliases": "/createwarp, /ecreatewarp, /esetwarp",
+        "permission": "essentials.setwarp",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Creates a new warp.",
+            "es": "[Core & Roleplay] Creates a new warp."
+        }
+    },
+    {
+        "command": "/setworth",
+        "aliases": "/esetworth",
+        "permission": "essentials.setworth",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Set the sell value of an item.",
+            "es": "[Core & Roleplay] Set the sell value of an item."
+        }
+    },
+    {
+        "command": "/showkit",
+        "aliases": "/kitpreview, /preview, /kitshow",
+        "permission": "essentials.showkit",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Show contents of a kit.",
+            "es": "[Core & Roleplay] Show contents of a kit."
+        }
+    },
+    {
+        "command": "/editsign",
+        "aliases": "/sign, /esign, /eeditsign",
+        "permission": "essentials.editsign",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Edits a sign in the world.",
+            "es": "[Core & Roleplay] Edits a sign in the world."
+        }
+    },
+    {
+        "command": "/skull",
+        "aliases": "/eskull, /playerskull, /eplayerskull, /head, /ehead",
+        "permission": "essentials.skull",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Set the owner of a player skull",
+            "es": "[Core & Roleplay] Set the owner of a player skull"
+        }
+    },
+    {
+        "command": "/smithingtable",
+        "aliases": "/esmithingtable, /smithtable, /esmithtable",
+        "permission": "essentials.smithingtable",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a smithing table.",
+            "es": "[Core & Roleplay] Opens up a smithing table."
+        }
+    },
+    {
+        "command": "/socialspy",
+        "aliases": "/esocialspy",
+        "permission": "essentials.socialspy",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Toggles if you can see msg/mail commands in chat.",
+            "es": "[Core & Roleplay] Toggles if you can see msg/mail commands in chat."
+        }
+    },
+    {
+        "command": "/spawner",
+        "aliases": "/changems, /echangems, /espawner, /mobspawner, /emobspawner",
+        "permission": "essentials.spawner",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Change the mob type of a spawner.",
+            "es": "[Core & Roleplay] Change the mob type of a spawner."
+        }
+    },
+    {
+        "command": "/spawnmob",
+        "aliases": "/mob, /emob, /spawnentity, /espawnentity, /espawnmob",
+        "permission": "essentials.spawnmob",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Spawns a mob.",
+            "es": "[Core & Roleplay] Spawns a mob."
+        }
+    },
+    {
+        "command": "/speed",
+        "aliases": "/flyspeed, /eflyspeed, /fspeed, /efspeed, /espeed, /walkspeed, /ewalkspeed, /wspeed, /ewspeed",
+        "permission": "essentials.speed",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Change your speed limits.",
+            "es": "[Core & Roleplay] Change your speed limits."
+        }
+    },
+    {
+        "command": "/stonecutter",
+        "aliases": "/estonecutter",
+        "permission": "essentials.stonecutter",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a stonecutter.",
+            "es": "[Core & Roleplay] Opens up a stonecutter."
+        }
+    },
+    {
+        "command": "/sudo",
+        "aliases": "/esudo",
+        "permission": "essentials.sudo",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Make another user perform a command.",
+            "es": "[Core & Roleplay] Make another user perform a command."
+        }
+    },
+    {
+        "command": "/suicide",
+        "aliases": "/esuicide",
+        "permission": "essentials.suicide",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Causes you to perish.",
+            "es": "[Core & Roleplay] Causes you to perish."
+        }
+    },
+    {
+        "command": "/tempban",
+        "aliases": "/etempban",
+        "permission": "essentials.tempban",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Temporary ban a user.",
+            "es": "[Core & Roleplay] Temporary ban a user."
+        }
+    },
+    {
+        "command": "/tempbanip",
+        "aliases": "/etempbanip",
+        "permission": "essentials.tempbanip",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Temporarily ban an IP Address.",
+            "es": "[Core & Roleplay] Temporarily ban an IP Address."
+        }
+    },
+    {
+        "command": "/thunder",
+        "aliases": "/ethunder",
+        "permission": "essentials.thunder",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Enable/disable thunder.",
+            "es": "[Core & Roleplay] Enable/disable thunder."
+        }
+    },
+    {
+        "command": "/time",
+        "aliases": "/day, /eday, /night, /enight, /etime",
+        "permission": "essentials.time",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Display/Change the world time. Defaults to current world.",
+            "es": "[Core & Roleplay] Display/Change the world time. Defaults to current world."
+        }
+    },
+    {
+        "command": "/togglejail",
+        "aliases": "/jail, /ejail, /tjail, /etjail, /etogglejail, /unjail, /eunjail",
+        "permission": "essentials.togglejail",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Jails/Unjails a player, TPs them to the jail specified.",
+            "es": "[Core & Roleplay] Jails/Unjails a player, TPs them to the jail specified."
+        }
+    },
+    {
+        "command": "/top",
+        "aliases": "/etop",
+        "permission": "essentials.top",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport to the highest block at your current position.",
+            "es": "[Core & Roleplay] Teleport to the highest block at your current position."
+        }
+    },
+    {
+        "command": "/tp",
+        "aliases": "/tele, /etele, /teleport, /eteleport, /etp, /tp2p, /etp2p",
+        "permission": "essentials.tp",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport to a player.",
+            "es": "[Core & Roleplay] Teleport to a player."
+        }
+    },
+    {
+        "command": "/tpaall",
+        "aliases": "/etpaall",
+        "permission": "essentials.tpaall",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Requests all players online to teleport to you.",
+            "es": "[Core & Roleplay] Requests all players online to teleport to you."
+        }
+    },
+    {
+        "command": "/tpahere",
+        "aliases": "/etpahere",
+        "permission": "essentials.tpahere",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Request that the specified player teleport to you.",
+            "es": "[Core & Roleplay] Request that the specified player teleport to you."
+        }
+    },
+    {
+        "command": "/tpall",
+        "aliases": "/etpall",
+        "permission": "essentials.tpall",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport all online players to another player.",
+            "es": "[Core & Roleplay] Teleport all online players to another player."
+        }
+    },
+    {
+        "command": "/tpauto",
+        "aliases": "/etpauto",
+        "permission": "essentials.tpauto",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Automatically accept teleportation requests.",
+            "es": "[Core & Roleplay] Automatically accept teleportation requests."
+        }
+    },
+    {
+        "command": "/tpacancel",
+        "aliases": "/etpacancel",
+        "permission": "essentials.tpacancel",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Cancel all outstanding teleport requests. Specify [player] to cancel requests with them.",
+            "es": "[Core & Roleplay] Cancel all outstanding teleport requests. Specify [player] to cancel requests with them."
+        }
+    },
+    {
+        "command": "/tpdeny",
+        "aliases": "/etpdeny, /tpno, /etpno",
+        "permission": "essentials.tpdeny",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Rejects teleport requests.",
+            "es": "[Core & Roleplay] Rejects teleport requests."
+        }
+    },
+    {
+        "command": "/tphere",
+        "aliases": "/s, /etphere",
+        "permission": "essentials.tphere",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport a player to you.",
+            "es": "[Core & Roleplay] Teleport a player to you."
+        }
+    },
+    {
+        "command": "/tpo",
+        "aliases": "/etpo",
+        "permission": "essentials.tpo",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport override for tptoggle.",
+            "es": "[Core & Roleplay] Teleport override for tptoggle."
+        }
+    },
+    {
+        "command": "/tpohere",
+        "aliases": "/etpohere",
+        "permission": "essentials.tpohere",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport here override for tptoggle.",
+            "es": "[Core & Roleplay] Teleport here override for tptoggle."
+        }
+    },
+    {
+        "command": "/tppos",
+        "aliases": "/etppos",
+        "permission": "essentials.tppos",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport to coordinates.",
+            "es": "[Core & Roleplay] Teleport to coordinates."
+        }
+    },
+    {
+        "command": "/tpr",
+        "aliases": "/etpr, /tprandom, /etprandom",
+        "permission": "essentials.tpr",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Teleport randomly.",
+            "es": "[Core & Roleplay] Teleport randomly."
+        }
+    },
+    {
+        "command": "/tptoggle",
+        "aliases": "/etptoggle",
+        "permission": "essentials.tptoggle",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Blocks all forms of teleportation.",
+            "es": "[Core & Roleplay] Blocks all forms of teleportation."
+        }
+    },
+    {
+        "command": "/tree",
+        "aliases": "/etree",
+        "permission": "essentials.tree",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Spawn a tree where you are looking.",
+            "es": "[Core & Roleplay] Spawn a tree where you are looking."
+        }
+    },
+    {
+        "command": "/unban",
+        "aliases": "/pardon, /eunban, /epardon",
+        "permission": "essentials.unban",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Unbans the specified player.",
+            "es": "[Core & Roleplay] Unbans the specified player."
+        }
+    },
+    {
+        "command": "/unbanip",
+        "aliases": "/eunbanip, /pardonip, /epardonip",
+        "permission": "essentials.unbanip",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Unbans the specified IP address.",
+            "es": "[Core & Roleplay] Unbans the specified IP address."
+        }
+    },
+    {
+        "command": "/unlimited",
+        "aliases": "/eunlimited, /ul, /unl, /eul, /eunl",
+        "permission": "essentials.unlimited",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Allows the unlimited placing of items.",
+            "es": "[Core & Roleplay] Allows the unlimited placing of items."
+        }
+    },
+    {
+        "command": "/warpinfo",
+        "aliases": "/ewarpinfo",
+        "permission": "essentials.warpinfo",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Finds location information for a specified warp.",
+            "es": "[Core & Roleplay] Finds location information for a specified warp."
+        }
+    },
+    {
+        "command": "/weather",
+        "aliases": "/rain, /erain, /sky, /esky, /storm, /estorm, /sun, /esun, /eweather",
+        "permission": "essentials.weather",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Sets the weather.",
+            "es": "[Core & Roleplay] Sets the weather."
+        }
+    },
+    {
+        "command": "/whois",
+        "aliases": "/ewhois",
+        "permission": "essentials.whois",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Determine basic information about the specified player.",
+            "es": "[Core & Roleplay] Determine basic information about the specified player."
+        }
+    },
+    {
+        "command": "/workbench",
+        "aliases": "/craft, /ecraft, /wb, /ewb, /wbench, /ewbench, /eworkbench",
+        "permission": "essentials.workbench",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Opens up a workbench.",
+            "es": "[Core & Roleplay] Opens up a workbench."
+        }
+    },
+    {
+        "command": "/world",
+        "aliases": "/eworld",
+        "permission": "essentials.world",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Switch between worlds.",
+            "es": "[Core & Roleplay] Switch between worlds."
+        }
+    },
+    {
+        "command": "/worth",
+        "aliases": "/eprice, /price, /eworth",
+        "permission": "essentials.worth",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Calculates the worth of items in hand or as specified.",
+            "es": "[Core & Roleplay] Calculates the worth of items in hand or as specified."
+        }
+    },
+    {
+        "command": "/globalpositioningsystem",
+        "aliases": "/gps",
+        "permission": "gps.globalpositioningsystem",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "GPS",
+            "es": "[Communication & Navigation] GPS"
+        }
+    },
+    {
+        "command": "/gpsconfigurator",
+        "aliases": "/gpsconfig, /gpsconf, /gpscon, /gpsc",
+        "permission": "gps.gpsconfigurator",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Ingame GPS configurator",
+            "es": "[Communication & Navigation] Ingame GPS configurator"
+        }
+    },
+    {
+        "command": "/gpsadmin",
+        "aliases": "/gpsad, /gpsa",
+        "permission": "gps.gpsadmin",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "GPS Admin commands",
+            "es": "[Communication & Navigation] GPS Admin commands"
+        }
+    },
+    {
+        "command": "/gadgetsmenu",
+        "aliases": "/gmenu",
+        "permission": "gadgetsmenu.gadgetsmenu",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "GadgetsMenu main command.",
+            "es": "[Casino, Sports & Leisure] GadgetsMenu main command."
+        }
+    },
+    {
+        "command": "/mysterydust",
+        "aliases": "/dust",
+        "permission": "gadgetsmenu.mysterydust",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "GadgetsMenu mystery dust command.",
+            "es": "[Casino, Sports & Leisure] GadgetsMenu mystery dust command."
+        }
+    },
+    {
+        "command": "/adminmusic",
+        "aliases": "/amusic",
+        "permission": "music.command.admin",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Admin command for musics",
+            "es": "[Casino, Sports & Leisure] Admin command for musics"
+        }
+    },
+    {
+        "command": "/luckperms",
+        "aliases": "/lp, /perm, /perms, /permission, /permissions",
+        "permission": "luckperms.luckperms",
+        "category": "Core & Roleplay",
+        "plugin": "LuckPerms",
+        "desc": {
+            "en": "Manage permissions",
+            "es": "[Core & Roleplay] Manage permissions"
+        }
+    },
+    {
+        "command": "/minetopiavehicles",
+        "aliases": "/mtv, /minetopiav, /mtvehicles, /mtvehicle, /vehicle",
+        "permission": "mtvehicles.minetopiavehicles",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Executes /minetopiavehicles command.",
+            "es": "[Vehicles & Transport] Executes /minetopiavehicles command."
+        }
+    },
+    {
+        "command": "/customsim",
+        "aliases": "-",
+        "permission": "phone.customsim",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Executes /customsim command.",
+            "es": "[Communication & Navigation] Executes /customsim command."
+        }
+    },
+    {
+        "command": "/placeholderapi",
+        "aliases": "/papi",
+        "permission": "placeholderapi.placeholderapi",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "PlaceholderAPI Command",
+            "es": "[Core & Roleplay] PlaceholderAPI Command"
+        }
+    },
+    {
+        "command": "/pocketgamesadmin",
+        "aliases": "/pga, /pocketa, /pocketga, /pgamesa",
+        "permission": "pocketgames.admin",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Pocket Games Admin Commands.",
+            "es": "[Casino, Sports & Leisure] Pocket Games Admin Commands."
+        }
+    },
+    {
+        "command": "/protocol",
+        "aliases": "-",
+        "permission": "protocol.admin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Performs administrative tasks regarding ProtocolLib.",
+            "es": "[NPCs, Rewards & Optimization] Performs administrative tasks regarding ProtocolLib."
+        }
+    },
+    {
+        "command": "/packet",
+        "aliases": "-",
+        "permission": "protocol.admin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Add or remove a simple packet listener.",
+            "es": "[NPCs, Rewards & Optimization] Add or remove a simple packet listener."
+        }
+    },
+    {
+        "command": "/filter",
+        "aliases": "/packet_filter",
+        "permission": "protocol.admin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Add or remove programmable filters to the packet listeners.",
+            "es": "[NPCs, Rewards & Optimization] Add or remove programmable filters to the packet listeners."
+        }
+    },
+    {
+        "command": "/packetlog",
+        "aliases": "-",
+        "permission": "protocol.admin",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Logs hex representations of packets to a file or console",
+            "es": "[NPCs, Rewards & Optimization] Logs hex representations of packets to a file or console"
+        }
+    },
+    {
+        "command": "/QualityArmory",
+        "aliases": "/qa",
+        "permission": "qualityarmory.QualityArmory",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Main command for QA",
+            "es": "[Firearms & Equipment] Main command for QA"
+        }
+    },
+    {
+        "command": "/QualityArmoryVehicles",
+        "aliases": "/qav",
+        "permission": "qualityarmoryvehicles2.QualityArmoryVehicles",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "The main plugin command to manage vehicles",
+            "es": "[Vehicles & Transport] The main plugin command to manage vehicles"
+        }
+    },
+    {
+        "command": "/garage",
+        "aliases": "-",
+        "permission": "qualityarmoryvehicles2.garage",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Open the garage",
+            "es": "[Vehicles & Transport] Open the garage"
+        }
+    },
+    {
+        "command": "/score",
+        "aliases": "-",
+        "permission": "score.score",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "score command",
+            "es": "[Firearms & Equipment] score command"
+        }
+    },
+    {
+        "command": "/salarysetperiod",
+        "aliases": "-",
+        "permission": "salarymanager.setperiod",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Set the period in seconds",
+            "es": "[Economy & Banking] Set the period in seconds"
+        }
+    },
+    {
+        "command": "/salarynext",
+        "aliases": "/payday, /nextsalary",
+        "permission": "salarymanager.next",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "When is your next payday",
+            "es": "[Economy & Banking] When is your next payday"
+        }
+    },
+    {
+        "command": "/salaryreload",
+        "aliases": "-",
+        "permission": "salarymanager.reload",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Reload the config",
+            "es": "[Economy & Banking] Reload the config"
+        }
+    },
+    {
+        "command": "/salaryfrom",
+        "aliases": "-",
+        "permission": "salarymanager.from",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Setup an account where the money comes from",
+            "es": "[Economy & Banking] Setup an account where the money comes from"
+        }
+    },
+    {
+        "command": "/servertutorial",
+        "aliases": "/st",
+        "permission": "servertutorialplus.servertutorial",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "All the servertutorial plus commands",
+            "es": "[Jobs & Progression] All the servertutorial plus commands"
+        }
+    },
+    {
+        "command": "/ultimatefood",
+        "aliases": "-",
+        "permission": "ultimatefood.ultimatefood",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
+        "desc": {
+            "en": "The Ultimate Food plugin ;)",
+            "es": "[NPCs, Rewards & Optimization] The Ultimate Food plugin ;)"
         }
     },
     {
         "command": "/vault-convert",
         "aliases": "-",
         "permission": "vault.admin",
-        "category": "Economy",
+        "category": "Core & Roleplay",
         "plugin": "Vault",
         "desc": {
             "en": "Converts all data in economy1 and dumps it into economy2",
-            "es": "[Vault] Converts all data in economy1 and dumps it into economy2"
+            "es": "[Core & Roleplay] Converts all data in economy1 and dumps it into economy2"
         }
     },
     {
         "command": "/viaversion",
         "aliases": "/viaver, /vvbukkit",
         "permission": "viaversion.command # The permission is also referenced here to filter root suggestions (/via<tab>)",
-        "category": "Administration",
+        "category": "NPCs, Rewards & Optimization",
         "plugin": "ViaVersion",
         "desc": {
             "en": "Shows ViaVersion Version and more.",
-            "es": "[ViaVersion] Shows ViaVersion Version and more."
+            "es": "[NPCs, Rewards & Optimization] Shows ViaVersion Version and more."
         }
     },
     {
         "command": "/warpcfg",
         "aliases": "/warpconfig, /warpscfg, /warpsconfig",
         "permission": "essentialswarpgui.warpcfg",
-        "category": "Teleport",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsWarpGUI",
         "desc": {
             "en": "Modify the look-and-feel of the warps",
-            "es": "[EssentialsWarpGUI] Modify the look-and-feel of the warps"
+            "es": "[Core & Roleplay] Modify the look-and-feel of the warps"
         }
     }
 ],
 
-  // 113 Master Placeholders Directory (PAPI & All Plugins)
+  // 113 Verified PlaceholderAPI Variables
   placeholders: [
     {
         "placeholder": "%mcrppolice_stars%",
@@ -4663,7 +4634,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Raw integer count of player's active wanted stars (0 to 6).",
             "es": "Número entero de estrellas de búsqueda activas del jugador (0 a 6)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_stars_colored%",
@@ -4672,7 +4644,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Full visual 6-star gauge with gold active stars and gray inactive stars.",
             "es": "Barra visual completa de 6 estrellas con estrellas doradas y vacías."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_stars_display%",
@@ -4681,7 +4654,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Visual display showing only the active earned stars.",
             "es": "Muestra visual únicamente de las estrellas activas obtenidas."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_max_stars%",
@@ -4690,7 +4664,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Maximum allowed wanted stars configured on the server (6).",
             "es": "Máximo número de estrellas configurado en el servidor (6)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_is_wanted%",
@@ -4699,7 +4674,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Returns Yes or No indicating if the player is actively pursued by police.",
             "es": "Devuelve Yes o No según si el jugador es buscado por la policía."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_wanted_status%",
@@ -4708,7 +4684,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Formatted red bold wanted banner suitable for scoreboard HUDs.",
             "es": "Texto formateado en rojo y negrita ideal para el scoreboard."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_is_jailed%",
@@ -4717,7 +4694,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Boolean indicating whether the player is currently serving a prison sentence.",
             "es": "Indica si el jugador se encuentra actualmente preso en la cárcel."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_jail_time_formatted%",
@@ -4726,7 +4704,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Remaining jail sentence formatted in minutes and seconds.",
             "es": "Tiempo restante de condena en prisión formateado en minutos y segundos."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrppolice_is_police%",
@@ -4735,7 +4714,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks if the player is an authorized law enforcement officer.",
             "es": "Comprueba si el jugador es un agente de policía oficial."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_is_paramedic%",
@@ -4744,7 +4724,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks if the player belongs to the emergency medical rescue service.",
             "es": "Comprueba si el jugador forma parte del cuerpo de paramédicos."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_is_on_duty%",
@@ -4753,7 +4734,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Boolean indicating if the paramedic is clocked in and active on duty.",
             "es": "Indica si el paramédico está de servicio activo para recibir emergencias."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_is_sick%",
@@ -4762,7 +4744,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates if the player is infected with a contagious disease or fracture.",
             "es": "Indica si el jugador tiene alguna enfermedad, sangrado o fractura."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_disease_formatted%",
@@ -4771,7 +4754,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of active disease (Stomach Ache, Broken Leg, Sepsis) formatted with color.",
             "es": "Nombre coloreado de la enfermedad que padece el paciente."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_is_downed%",
@@ -4780,7 +4764,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates if the player is in the 60-second crawling incapacitated state.",
             "es": "Indica si el jugador está inconsciente en el suelo esperando reanimación."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_downed_seconds%",
@@ -4789,7 +4774,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Countdown seconds remaining before the downed player bleeds out permanently.",
             "es": "Segundos restantes de reanimación antes de que el jugador muera."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpparamedic_active_calls%",
@@ -4798,7 +4784,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Number of outstanding 911 medical emergency calls waiting for EMS.",
             "es": "Número de llamadas de emergencia 911 activas esperando respuesta médica."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpsurvival_hydration%",
@@ -4807,7 +4794,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current hydration decimal percentage (0.0% to 100.0%).",
             "es": "Porcentaje decimal exacto de hidratación del jugador (0.0% a 100.0%)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpsurvival_hydration_percentage%",
@@ -4816,7 +4804,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Rounded hydration percentage with percent sign.",
             "es": "Porcentaje redondeado de hidratación con símbolo %."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpsurvival_hydration_bar%",
@@ -4825,7 +4814,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Visual 10-segment water hydration bar for actionbars and scoreboards.",
             "es": "Barra visual de 10 segmentos de agua para actionbar o HUD."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpsurvival_is_dehydrated%",
@@ -4834,7 +4824,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Returns true when hydration drops to 0%, triggering damage ticks.",
             "es": "Indica si el jugador está al 0% de hidratación sufriendo deshidratación severa."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%mcrpsurvival_is_starving%",
@@ -4843,7 +4834,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Returns true when hunger reaches 0%, triggering collapse damage.",
             "es": "Indica si el jugador está famélico al 0% de comida sufriendo daño."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%vault_eco_balance%",
@@ -4852,7 +4844,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's total active cash balance in their pocket/wallet.",
             "es": "Balance total de dinero en efectivo que lleva el jugador encima."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%vault_eco_balance_formatted%",
@@ -4861,7 +4854,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Formatted wallet balance with dollar symbol and commas.",
             "es": "Saldo en efectivo con símbolo de dólar y separador de miles."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%vault_prefix%",
@@ -4870,7 +4864,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Primary group chat/tab prefix assigned by permissions.",
             "es": "Prefijo principal asignado al jugador por su rango en LuckPerms."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%vault_suffix%",
@@ -4879,7 +4874,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Primary group suffix assigned by permissions.",
             "es": "Sufijo del rango de permisos del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%vault_group%",
@@ -4888,7 +4884,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Primary LuckPerms permission group name.",
             "es": "Nombre del grupo de permisos principal del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%bank_balance%",
@@ -4897,7 +4894,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total savings securely deposited in the city bank account.",
             "es": "Total de dinero seguro depositado en la cuenta de ahorros del banco."
-        }
+        },
+        "category": "Economy & Banking"
     },
     {
         "placeholder": "%bank_items_count_<material>%",
@@ -4906,7 +4904,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Count of physical bullion or items stored inside safe deposit boxes.",
             "es": "Cantidad de lingotes o items guardados en la caja fuerte del banco."
-        }
+        },
+        "category": "Economy & Banking"
     },
     {
         "placeholder": "%salarymanager_salary%",
@@ -4915,7 +4914,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Amount of cash earned per paycheck in your current job.",
             "es": "Monto de dinero a recibir en el próximo cheque salarial de tu empleo."
-        }
+        },
+        "category": "Economy & Banking"
     },
     {
         "placeholder": "%salarymanager_time_remaining%",
@@ -4924,7 +4924,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Countdown time until the next municipal payroll payout.",
             "es": "Tiempo restante para el cobro automático de la próxima nómina."
-        }
+        },
+        "category": "Economy & Banking"
     },
     {
         "placeholder": "%arm_region%",
@@ -4933,7 +4934,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Identifier of the property region the player is currently standing inside.",
             "es": "Identificador de la propiedad o apartamento donde está parado el jugador."
-        }
+        },
+        "category": "Properties & Building"
     },
     {
         "placeholder": "%arm_price%",
@@ -4942,7 +4944,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Rental or purchase price of the current property region.",
             "es": "Precio de venta o costo de alquiler de la propiedad actual."
-        }
+        },
+        "category": "Properties & Building"
     },
     {
         "placeholder": "%arm_renttime%",
@@ -4951,7 +4954,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Remaining rental duration before the property lease expires.",
             "es": "Tiempo de alquiler restante antes de que venza el contrato."
-        }
+        },
+        "category": "Properties & Building"
     },
     {
         "placeholder": "%arm_owner%",
@@ -4960,7 +4964,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the citizen who currently owns or leases the property.",
             "es": "Nombre del ciudadano que posee o alquila actualmente la propiedad."
-        }
+        },
+        "category": "Properties & Building"
     },
     {
         "placeholder": "%mtv_vehicle_name%",
@@ -4969,7 +4974,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the vehicle the player is currently operating.",
             "es": "Nombre del vehículo en el que se encuentra subido el jugador."
-        }
+        },
+        "category": "Vehicles & Transport"
     },
     {
         "placeholder": "%mtv_vehicle_licensePlate%",
@@ -4978,7 +4984,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Official state vehicle registration license plate.",
             "es": "Matrícula oficial de registro vehicular emitida por el estado."
-        }
+        },
+        "category": "Vehicles & Transport"
     },
     {
         "placeholder": "%mtv_vehicle_fuel%",
@@ -4987,7 +4994,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current gas tank fuel percentage.",
             "es": "Porcentaje actual de combustible en el tanque de gasolina."
-        }
+        },
+        "category": "Vehicles & Transport"
     },
     {
         "placeholder": "%mtv_vehicle_speed%",
@@ -4996,7 +5004,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Real-time velocity speed of the vehicle.",
             "es": "Velocidad en tiempo real del vehículo en bloques por segundo."
-        }
+        },
+        "category": "Vehicles & Transport"
     },
     {
         "placeholder": "%gang_name%",
@@ -5005,7 +5014,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the street gang the player belongs to.",
             "es": "Nombre de la pandilla callejera a la que pertenece el jugador."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%gang_level_name%",
@@ -5014,7 +5024,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Gang level name reflecting territorial influence and unlocked perks.",
             "es": "Nivel de la pandilla según su influencia territorial y mejoras."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%gang_vault_size%",
@@ -5023,7 +5034,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Slot capacity of the shared gang contraband storage vault.",
             "es": "Capacidad de ranuras del baúl de contrabando de la banda."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%clanplus_clan_name%",
@@ -5032,7 +5044,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the player's crime family or syndicate clan.",
             "es": "Nombre de la familia criminal o clan del jugador."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%clanplus_player_rank%",
@@ -5041,7 +5054,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's official rank inside the crime family hierarchy.",
             "es": "Rango oficial del jugador en la jerarquía de la familia criminal."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%clanplus_clan_warpoint%",
@@ -5050,7 +5064,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Warpoints scored by the clan during turf skirmishes and battles.",
             "es": "Puntos de guerra acumulados en enfrentamientos por el control de zonas."
-        }
+        },
+        "category": "Crime, Gangs & Heists"
     },
     {
         "placeholder": "%phone_number%",
@@ -5059,7 +5074,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's personal assigned mobile phone number.",
             "es": "Número de teléfono celular personal asignado al jugador."
-        }
+        },
+        "category": "Communication & Navigation"
     },
     {
         "placeholder": "%phone_battery%",
@@ -5068,7 +5084,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Smartphone battery charge percentage.",
             "es": "Porcentaje de batería restante del smartphone."
-        }
+        },
+        "category": "Communication & Navigation"
     },
     {
         "placeholder": "%autorank_local_time%",
@@ -5077,7 +5094,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total time played in the city by the player.",
             "es": "Tiempo total acumulado jugado en la ciudad por el usuario."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%autorank_current_rank%",
@@ -5086,7 +5104,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current unlocked citizenship civil rank.",
             "es": "Rango de ciudadanía actual desbloqueado en la ciudad."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%autorank_next_rank%",
@@ -5095,7 +5114,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Next citizenship rank in the progression tree.",
             "es": "Siguiente rango cívico en el árbol de progresión."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%quests_player_quest_points%",
@@ -5104,7 +5124,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total quest reputation points earned from municipal delivery jobs.",
             "es": "Puntos de reputación obtenidos completando trabajos y misiones."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%quests_player_has_journal%",
@@ -5113,7 +5134,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates if the player carries their official mission ledger.",
             "es": "Indica si el jugador tiene su cuaderno de misiones y entregas."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%emf_competition_time_left%",
@@ -5122,7 +5144,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Time remaining in the current active marina fishing tournament.",
             "es": "Tiempo restante en el torneo de pesca deportiva de la marina."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     },
     {
         "placeholder": "%emf_competition_place_1_player%",
@@ -5131,7 +5154,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current first-place leader in the active fishing contest.",
             "es": "Jugador que va en primer lugar en el torneo de pesca actual."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     },
     {
         "placeholder": "%blockball_player_teamDisplayName%",
@@ -5140,7 +5164,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Display name of the soccer team the player is currently playing for.",
             "es": "Nombre del equipo de fútbol en el que juega actualmente el usuario."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     },
     {
         "placeholder": "%crate_effective_cooldown%",
@@ -5149,7 +5174,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Cooldown time remaining before claiming the next free reward crate.",
             "es": "Tiempo de espera para abrir la siguiente caja de recompensas gratis."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%auctionhouse_active_listings%",
@@ -5158,7 +5184,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Number of active auctions currently listed by the player.",
             "es": "Número de artículos puestos a la venta por el jugador en subastas."
-        }
+        },
+        "category": "Economy & Banking"
     },
     {
         "placeholder": "%tab_tabprefix%",
@@ -5167,7 +5194,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Full formatted player prefix in the tablist.",
             "es": "Prefijo formateado del jugador en la lista de jugadores (Tab)."
-        }
+        },
+        "category": "Communication & Navigation"
     },
     {
         "placeholder": "%tab_scoreboard_name%",
@@ -5176,7 +5204,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Identifier of the active scoreboard layout being rendered.",
             "es": "Identificador del diseño de scoreboard activo que se muestra."
-        }
+        },
+        "category": "Communication & Navigation"
     },
     {
         "placeholder": "%worldguard_region_name%",
@@ -5185,7 +5214,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the WorldGuard region the player is currently located in.",
             "es": "Nombre de la zona protegida de WorldGuard donde está el jugador."
-        }
+        },
+        "category": "Properties & Building"
     },
     {
         "placeholder": "%localtime_time%",
@@ -5194,7 +5224,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Real server clock time formatted in 24-hour format.",
             "es": "Hora local real del servidor en formato de 24 horas."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_tps_1_colored%",
@@ -5203,7 +5234,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Server tick-rate performance indicator colored green/yellow/red.",
             "es": "Rendimiento de TPS del servidor coloreado en verde, amarillo o rojo."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_online%",
@@ -5212,7 +5244,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current count of online citizens connected to Minecity.",
             "es": "Cantidad actual de ciudadanos conectados en línea en el servidor."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_uptime%",
@@ -5221,7 +5254,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Time elapsed since the last server startup.",
             "es": "Tiempo transcurrido desde el último reinicio del servidor."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_name%",
@@ -5230,7 +5264,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's exact Minecraft username.",
             "es": "Nombre de usuario exacto del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_displayname%",
@@ -5239,7 +5274,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's display name including prefix/nickname.",
             "es": "Nombre mostrado incluyendo prefijo y apodo."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_uuid%",
@@ -5248,7 +5284,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's unique UUID string.",
             "es": "Identificador único UUID del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_health%",
@@ -5257,7 +5294,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current player health points (0 to 20).",
             "es": "Puntos de vida actuales del jugador (0 a 20)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_max_health%",
@@ -5266,7 +5304,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's maximum health points.",
             "es": "Vida máxima actual del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_food_level%",
@@ -5275,7 +5314,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Vanilla hunger level (0 to 20).",
             "es": "Nivel de hambre actual (0 a 20)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_ping%",
@@ -5284,7 +5324,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Network connection latency in milliseconds.",
             "es": "Latencia de conexión en milisegundos (ms)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_colored_ping%",
@@ -5293,7 +5334,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Ping colored green/yellow/red based on quality.",
             "es": "Ping coloreado en verde/amarillo/rojo según calidad."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_world%",
@@ -5302,7 +5344,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of the world the player is currently in.",
             "es": "Nombre del mundo en el que se encuentra el jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_x%",
@@ -5311,7 +5354,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current X block coordinate.",
             "es": "Coordenada espacial X del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_y%",
@@ -5320,7 +5364,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current Y altitude coordinate.",
             "es": "Coordenada de altura Y del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_z%",
@@ -5329,7 +5374,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Current Z block coordinate.",
             "es": "Coordenada espacial Z del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_level%",
@@ -5338,7 +5384,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player experience level.",
             "es": "Nivel de experiencia del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_gamemode%",
@@ -5347,7 +5394,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's active Minecraft gamemode.",
             "es": "Modo de juego actual del jugador."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%player_ip%",
@@ -5356,7 +5404,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's connection IP address (Admin only).",
             "es": "Dirección IP de conexión (Solo Admins)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_name%",
@@ -5365,7 +5414,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Configured server name.",
             "es": "Nombre configurado del servidor."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_max_players%",
@@ -5374,7 +5424,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Maximum server player slot limit.",
             "es": "Límite máximo de jugadores del servidor."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_ram_used%",
@@ -5383,7 +5434,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Server JVM RAM memory currently used (MB).",
             "es": "Memoria RAM utilizada actualmente (MB)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_ram_max%",
@@ -5392,7 +5444,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Maximum allocated JVM RAM memory (MB).",
             "es": "Memoria RAM máxima asignada al servidor (MB)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_tps_1%",
@@ -5401,7 +5454,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "1-minute average server TPS.",
             "es": "TPS promedio del servidor en el último minuto."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_tps_5%",
@@ -5410,7 +5464,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "5-minute average server TPS.",
             "es": "TPS promedio en los últimos 5 minutos."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_tps_15%",
@@ -5419,7 +5474,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "15-minute average server TPS.",
             "es": "TPS promedio en los últimos 15 minutos."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%server_unique_joins%",
@@ -5428,7 +5484,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total unique citizens who have joined since launch.",
             "es": "Total de jugadores únicos históricos registrados."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_prefix%",
@@ -5437,7 +5494,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's active chat/tab prefix from LuckPerms.",
             "es": "Prefijo activo asignado en LuckPerms."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_suffix%",
@@ -5446,7 +5504,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's active suffix from LuckPerms.",
             "es": "Sufijo activo asignado en LuckPerms."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_primary_group_name%",
@@ -5455,7 +5514,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Primary group name of the player.",
             "es": "Nombre del grupo de rango primario."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_highest_group_by_weight%",
@@ -5464,7 +5524,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Highest weighted permission group inherited.",
             "es": "Rango de mayor peso jerárquico heredado."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_in_group_<group>%",
@@ -5473,7 +5534,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks if player is directly in a specific group.",
             "es": "Comprueba si el usuario pertenece al grupo indicado."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_inherits_group_<group>%",
@@ -5482,7 +5544,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks if player inherits a specific rank group.",
             "es": "Comprueba si el usuario hereda permisos del grupo."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%luckperms_check_permission_<perm>%",
@@ -5491,7 +5554,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks whether player holds a specific permission node.",
             "es": "Evalúa si el jugador tiene un nodo de permiso."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_nickname%",
@@ -5500,7 +5564,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's custom roleplay nickname.",
             "es": "Apodo personalizado de rol en Essentials."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_vanished%",
@@ -5509,7 +5574,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates whether staff member is currently vanished.",
             "es": "Indica si un miembro del staff está oculto (vanish)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_afk%",
@@ -5518,7 +5584,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates whether citizen is currently AFK.",
             "es": "Indica si el ciudadano está ausente (AFK)."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_afk_player_count%",
@@ -5527,7 +5594,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total count of currently AFK players.",
             "es": "Cantidad de jugadores actualmente ausentes."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_homes_set%",
@@ -5536,7 +5604,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Number of homes registered by the player.",
             "es": "Número de casas o departamentos guardados."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_homes_max%",
@@ -5545,7 +5614,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Maximum allowed homes for player's rank.",
             "es": "Límite máximo de hogares permitidos para su rango."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_kit_is_available_<kit>%",
@@ -5554,7 +5624,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Checks if a kit cooldown is ready to be claimed.",
             "es": "Comprueba si el kit está disponible para reclamar."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%essentials_jailed_time_remaining%",
@@ -5563,7 +5634,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Remaining Essentials jail sentence time.",
             "es": "Tiempo restante de condena en prisión Essentials."
-        }
+        },
+        "category": "Core & Roleplay"
     },
     {
         "placeholder": "%skillapi_level%",
@@ -5572,7 +5644,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Player's active RPG profession level.",
             "es": "Nivel actual de la profesión RPG del personaje."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%skillapi_points%",
@@ -5581,7 +5654,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Unspent skill points available to upgrade perks.",
             "es": "Puntos de habilidad disponibles para gastar."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%skillapi_max_mana%",
@@ -5590,7 +5664,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Maximum stamina/mana pool capacity.",
             "es": "Capacidad máxima de energía o estamina."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%skillapi_attribute_points%",
@@ -5599,7 +5674,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Available character attribute points.",
             "es": "Puntos de atributo de personaje disponibles."
-        }
+        },
+        "category": "Jobs & Progression"
     },
     {
         "placeholder": "%key_balance%",
@@ -5608,7 +5684,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Total crate keys carried by the player.",
             "es": "Cantidad de llaves de cajas que posee el usuario."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%crate_milestones_repeatable%",
@@ -5617,7 +5694,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Count of crate opening milestone rewards reached.",
             "es": "Progreso acumulado de recompensas por abrir cajas."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%therewards_player_available_rewards%",
@@ -5626,7 +5704,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Number of unclaimed daily/playtime rewards ready.",
             "es": "Cantidad de recompensas diarias listas para reclamar."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%gsit_is_sitting%",
@@ -5635,7 +5714,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates if player is sitting down.",
             "es": "Indica si el jugador se encuentra sentado."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     },
     {
         "placeholder": "%gsit_is_crawling%",
@@ -5644,7 +5724,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Indicates if player is crawling.",
             "es": "Indica si el jugador está arrastrándose por el suelo."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     },
     {
         "placeholder": "%citizens_selected_npc_name%",
@@ -5653,7 +5734,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of currently selected NPC.",
             "es": "Nombre del NPC seleccionado actualmente."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%citizens_nearest_npc_id%",
@@ -5662,7 +5744,8 @@ const MINECITY_DATA = {
         "desc": {
             "en": "ID number of nearest NPC entity.",
             "es": "ID numérico del NPC más cercano al jugador."
-        }
+        },
+        "category": "NPCs, Rewards & Optimization"
     },
     {
         "placeholder": "%jukebox_active_title%",
@@ -5671,3640 +5754,4576 @@ const MINECITY_DATA = {
         "desc": {
             "en": "Name of currently playing radio music track.",
             "es": "Título de la pista musical o radio reproduciéndose."
-        }
+        },
+        "category": "Casino, Sports & Leisure"
     }
 ],
 
-  // 363 Master Permissions Matrix (LuckPerms & All Plugins)
+  // 415 Real Permissions across all 10 Categories & LuckPerms Groups
   permissions: [
     {
         "node": "minecity.player",
         "group": "default",
         "defaultState": "True",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Base access to citizen ID card, roleplay chat, survival stats, and phone.",
-            "es": "Acceso base a DNI, chat de rol, estadísticas de supervivencia y teléfono."
+            "en": "Base civilian roleplay access (ID, chat, survival stats).",
+            "es": "Acceso civil base a DNI, chat y estadísticas."
         }
     },
     {
         "node": "minecity.apartments",
         "group": "default",
         "defaultState": "True",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Allows browsing, renting apartments, and purchasing houses.",
-            "es": "Permite ver el catálogo, alquilar apartamentos y comprar casas."
+            "en": "Allows browsing and renting/buying apartments via /apartments.",
+            "es": "Permite ver, alquilar y comprar viviendas con /apartments."
         }
     },
     {
         "node": "minecity.pets",
         "group": "default",
         "defaultState": "True",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Allows adopting, naming, and feeding Tamagotchi companion pets.",
-            "es": "Permite adoptar, nombrar y cuidar mascotas de compañía."
-        }
-    },
-    {
-        "node": "minecity.survival",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Access to check personal hydration, hunger, and fatigue status.",
-            "es": "Permite consultar niveles de sed, hambre y estado físico."
-        }
-    },
-    {
-        "node": "arm.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Allows clicking ARM signs to rent or buy property regions.",
-            "es": "Permite interactuar con carteles de ARM para alquilar o comprar."
-        }
-    },
-    {
-        "node": "bank.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Bank Lite",
-        "desc": {
-            "en": "Access to ATM banking interfaces, cash deposits, and withdrawals.",
-            "es": "Permite usar cajeros automáticos, depositar y retirar dinero."
-        }
-    },
-    {
-        "node": "auctionhouse.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Allows viewing and bidding on items in the player auction house.",
-            "es": "Permite consultar y pujar por artículos en la casa de subastas."
-        }
-    },
-    {
-        "node": "auctionhouse.sell",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Allows listing owned items for sale on the auction market.",
-            "es": "Permite publicar artículos propios a la venta en el mercado."
-        }
-    },
-    {
-        "node": "phone.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Access to operate the personal smartphone, dial numbers, and send SMS.",
-            "es": "Permite usar el smartphone para llamar, enviar mensajes y ver contactos."
-        }
-    },
-    {
-        "node": "gps.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Enables turn-by-turn particle road guidance across city streets.",
-            "es": "Permite activar rutas de navegación con partículas por la ciudad."
-        }
-    },
-    {
-        "node": "koyarobbery.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "KoyaRobbery",
-        "desc": {
-            "en": "Allows joining robbery crews and attempting bank/store holdups.",
-            "es": "Permite participar en asaltos y robos organizados con un equipo."
-        }
-    },
-    {
-        "node": "excellentgangs.player",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ExcellentGangs",
-        "desc": {
-            "en": "Allows joining street gangs, accessing gang chat, and gang vaults.",
-            "es": "Permite unirse a bandas, usar el chat de pandilla y su baúl."
-        }
-    },
-    {
-        "node": "clansplus.player",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ClansPlus",
-        "desc": {
-            "en": "Allows joining crime syndicates, participating in wars, and scoring.",
-            "es": "Permite formar parte de familias criminales y participar en guerras."
-        }
-    },
-    {
-        "node": "drugs.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Drugs",
-        "desc": {
-            "en": "Allows harvesting, brewing, consuming, and dealing contraband drugs.",
-            "es": "Permite cosechar, fabricar, consumir y comerciar sustancias ilegales."
-        }
-    },
-    {
-        "node": "qualityarmory.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Allows firing, reloading, and maintaining 3D firearms.",
-            "es": "Permite disparar, recargar y usar armas de fuego 3D."
-        }
-    },
-    {
-        "node": "qualityarmory.craft",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Allows crafting ammo magazines and attachments on weapon workbenches.",
-            "es": "Permite fabricar munición y cargadores en bancos de trabajo."
-        }
-    },
-    {
-        "node": "mtvehicles.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "MTVehicles",
-        "desc": {
-            "en": "Allows operating personal sports cars, motorbikes, and helicopters.",
-            "es": "Permite conducir vehículos deportivos, motos y volar helicópteros."
-        }
-    },
-    {
-        "node": "mtvehicles.refuel",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "MTVehicles",
-        "desc": {
-            "en": "Allows purchasing fuel at gas stations and filling vehicle tanks.",
-            "es": "Permite abastecer combustible en gasolineras o con bidones."
-        }
-    },
-    {
-        "node": "quests.quest",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Allows accepting and completing civilian job delivery contracts.",
-            "es": "Permite aceptar y completar encargos y contratos laborales."
-        }
-    },
-    {
-        "node": "autorank.check",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows checking personal civic rank progression requirements.",
-            "es": "Permite revisar horas jugadas y requisitos de ascenso civil."
-        }
-    },
-    {
-        "node": "gsit.sit",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Allows sitting down on stairs, benches, chairs, and rugs.",
-            "es": "Permite sentarse en escaleras, bancos, sillas y alfombras."
-        }
-    },
-    {
-        "node": "gsit.lay",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Allows laying down on beds or flat pavement surfaces.",
-            "es": "Permite recostarse en camas o en el suelo."
-        }
-    },
-    {
-        "node": "gsit.crawl",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Allows crawling through narrow 1-block shafts and tunnels.",
-            "es": "Permite arrastrarse por huecos de un bloque de altura."
-        }
-    },
-    {
-        "node": "roulette.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Roulette",
-        "desc": {
-            "en": "Allows placing chip bets on casino roulette tables.",
-            "es": "Permite apostar fichas en las mesas de ruleta del casino."
-        }
-    },
-    {
-        "node": "videopoker.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "VideoPoker",
-        "desc": {
-            "en": "Allows playing video poker terminals in casino lounges.",
-            "es": "Permite jugar en terminales de video póker."
-        }
-    },
-    {
-        "node": "lottery.buy",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Lottery",
-        "desc": {
-            "en": "Allows purchasing lottery jackpot tickets at convenience stores.",
-            "es": "Permite comprar billetes de lotería en tiendas de conveniencia."
-        }
-    },
-    {
-        "node": "blockball.user",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "BlockBall",
-        "desc": {
-            "en": "Allows joining soccer games and kicking the ball in city stadiums.",
-            "es": "Permite jugar al fútbol y patear el balón en el estadio."
-        }
-    },
-    {
-        "node": "gameboy.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Gameboy",
-        "desc": {
-            "en": "Allows playing on handheld GameBoy consoles in game maps.",
-            "es": "Permite jugar en consolas GameBoy dentro del juego."
-        }
-    },
-    {
-        "node": "pocketgames.play",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Allows playing Snake, Flappy Bird, and 2048 in GUI menus.",
-            "es": "Permite jugar a minijuegos arcade desde la interfaz."
-        }
-    },
-    {
-        "node": "music.command",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows selecting radio stations and jukebox music tracks.",
-            "es": "Permite elegir estaciones de radio y pistas musicales en clubes."
-        }
-    },
-    {
-        "node": "evenmorefish.player",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EvenMoreFish",
-        "desc": {
-            "en": "Allows catching custom fish species and entering tournaments.",
-            "es": "Permite pescar peces especiales y participar en competencias."
-        }
-    },
-    {
-        "node": "playerkits.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "PlayerKits2",
-        "desc": {
-            "en": "Allows claiming civilian starter and daily supply kits.",
-            "es": "Permite reclamar kits de inicio y raciones diarias de ciudadano."
-        }
-    },
-    {
-        "node": "therewards.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "Allows claiming daily login streak vouchers and playtime rewards.",
-            "es": "Permite reclamar recompensas diarias por racha de conexión."
-        }
-    },
-    {
-        "node": "essentials.spawn",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsSpawn",
-        "desc": {
-            "en": "Allows teleporting to the airport arrivals safezone spawn point.",
-            "es": "Permite volver al punto de spawn del aeropuerto en zona segura."
-        }
-    },
-    {
-        "node": "essentials.home",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Allows teleporting to your registered private home location.",
-            "es": "Permite teletransportarse a la vivienda registrada."
-        }
-    },
-    {
-        "node": "essentials.sethome",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Allows setting a home point inside owned apartment regions.",
-            "es": "Permite fijar un punto de casa en un apartamento propio."
-        }
-    },
-    {
-        "node": "essentials.tpa",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Allows sending teleport requests to other citizens.",
-            "es": "Permite enviar solicitudes de teletransporte a otros jugadores."
-        }
-    },
-    {
-        "node": "essentials.pay",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Allows transferring cash directly to other players.",
-            "es": "Permite transferir dinero directamente a otros jugadores."
-        }
-    },
-    {
-        "node": "essentials.balance",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsX",
-        "desc": {
-            "en": "Allows checking wallet cash balance.",
-            "es": "Permite ver el saldo de efectivo en la cartera."
+            "en": "Allows adopting, naming, and training Tamagotchi pets.",
+            "es": "Permite adoptar y cuidar mascotas."
         }
     },
     {
         "node": "minecity.police",
         "group": "police",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Base access to police tools: baton, handcuffs, and patrol car.",
-            "es": "Acceso base a herramientas policiales: porra, esposas y patrulla."
+            "en": "Access to police baton, cuffs, patrol gear, and arrest commands.",
+            "es": "Acceso a equipamiento policial, porra, esposas y arrestos."
         }
     },
     {
         "node": "minecity.police.jail",
         "group": "police",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Allows incarcerating handcuffed criminals in state prison cells.",
-            "es": "Permite encarcelar criminales esposados en las celdas de prisión."
-        }
-    },
-    {
-        "node": "minecity.police.duty",
-        "group": "police",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Allows clocking in on-duty to receive 911 dispatch calls.",
-            "es": "Permite ponerse de servicio oficial y recibir alertas 911."
-        }
-    },
-    {
-        "node": "minecity.police.frisk",
-        "group": "police",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Allows conducting physical pat-downs for contraband firearms and drugs.",
-            "es": "Permite registrar e incautar armas y drogas a sospechosos."
+            "en": "Allows jailing suspects inside penitentiary cells.",
+            "es": "Permite encarcelar criminales en la prisión."
         }
     },
     {
         "node": "minecity.paramedic",
         "group": "paramedic",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Base access to paramedic emergency kit and municipal ambulance.",
-            "es": "Acceso base al kit de paramédico y ambulancia municipal."
+            "en": "Access to paramedic uniform, ambulances, and 911 medical calls.",
+            "es": "Acceso al uniforme médico, ambulancias y alertas 911."
         }
     },
     {
         "node": "minecity.paramedic.revive",
         "group": "paramedic",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Allows reviving downed players using the Restoration Vaccine.",
-            "es": "Permite reanimar jugadores inconscientes con la vacuna médica."
-        }
-    },
-    {
-        "node": "minecity.paramedic.duty",
-        "group": "paramedic",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Allows clocking in on-duty to receive 911 medical alerts.",
-            "es": "Permite ponerse de servicio de emergencias médicas 911."
+            "en": "Allows reviving downed citizens with Restoration Vaccine.",
+            "es": "Permite reanimar jugadores inconscientes con la vacuna."
         }
     },
     {
         "node": "minecity.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "MinecitySuite",
         "desc": {
-            "en": "Full administrative override for dummy simulation, police, and EMS.",
-            "es": "Acceso total administrativo para dummies, policía y servicios médicos."
+            "en": "Full admin bypass, dummy spawning (/ms), and module control.",
+            "es": "Acceso total administrativo y dummies (/ms)."
         }
     },
     {
         "node": "luckperms.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "LuckPerms",
         "desc": {
-            "en": "Full administrative access to manage groups, users, and permissions.",
-            "es": "Acceso administrativo para gestionar rangos, permisos y el editor web."
-        }
-    },
-    {
-        "node": "worldguard.region",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "WorldGuard",
-        "desc": {
-            "en": "Allows defining, redefining, and flagging city protection regions.",
-            "es": "Permite crear, redefinir y configurar banderas de regiones en la ciudad."
-        }
-    },
-    {
-        "node": "worldedit.wand",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "WorldEdit",
-        "desc": {
-            "en": "Allows using the selection wand to modify metropolitan architecture.",
-            "es": "Permite usar la varita de selección para construir y editar mapas."
-        }
-    },
-    {
-        "node": "arm.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Allows creating new rentable apartments and restoring schematics.",
-            "es": "Permite crear nuevos apartamentos en alquiler y restaurar schematics."
-        }
-    },
-    {
-        "node": "dh.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows creating, moving, and editing floating 3D text holograms.",
-            "es": "Permite crear, mover y editar hologramas de texto flotante en 3D."
-        }
-    },
-    {
-        "node": "chunky.command",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Allows executing chunk pre-generation tasks to eliminate driving lag.",
-            "es": "Permite pre-generar chunks del mapa para eliminar tirones al conducir."
-        }
-    },
-    {
-        "node": "tab.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TAB",
-        "desc": {
-            "en": "Allows reloading, configuring, and parsing scoreboard HUD layouts.",
-            "es": "Permite recargar y depurar el scoreboard, la bossbar y los nametags."
-        }
-    },
-    {
-        "node": "arm.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Give access to all commands of AdvancedRegionMarket",
-            "es": "[AdvancedRegionMarket] Give access to all commands of AdvancedRegionMarket"
-        }
-    },
-    {
-        "node": "arm.member.*",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Give access to all commands for normal players without subregion commands and halp commands",
-            "es": "[AdvancedRegionMarket] Give access to all commands for normal players without subregion commands and halp commands"
-        }
-    },
-    {
-        "node": "arm.subregion.*",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Give access to all commands for subregions",
-            "es": "[AdvancedRegionMarket] Give access to all commands for subregions"
-        }
-    },
-    {
-        "node": "arm.admin.setinactivityreset",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Allows to enable and disable inactivityreset for specific regions",
-            "es": "[AdvancedRegionMarket] Allows to enable and disable inactivityreset for specific regions"
-        }
-    },
-    {
-        "node": "arm.admin.stoptime",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Stops/Starts all region-contdowns",
-            "es": "[AdvancedRegionMarket] Stops/Starts all region-contdowns"
-        }
-    },
-    {
-        "node": "arm.admin.addtime",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Extends a sold region for a specific amount of time",
-            "es": "[AdvancedRegionMarket] Extends a sold region for a specific amount of time"
-        }
-    },
-    {
-        "node": "arm.admin.settplocation",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Allows admins to set a teleport-location for all regions",
-            "es": "[AdvancedRegionMarket] Allows admins to set a teleport-location for all regions"
-        }
-    },
-    {
-        "node": "arm.admin.setprotectionofcontinuance",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "AdvancedRegionMarket",
-        "desc": {
-            "en": "Allows to enable the protection of continuance for specific regions",
-            "es": "[AdvancedRegionMarket] Allows to enable the protection of continuance for specific regions"
-        }
-    },
-    {
-        "node": "auctionhouse.reload",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /auctionhouse reload command",
-            "es": "[AuctionHouse] Enables the /auctionhouse reload command"
-        }
-    },
-    {
-        "node": "auctionhouse.menu",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah menu command",
-            "es": "[AuctionHouse] Enables the /ah menu command"
-        }
-    },
-    {
-        "node": "auctionhouse.search",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah search command",
-            "es": "[AuctionHouse] Enables the /ah search command"
-        }
-    },
-    {
-        "node": "auctionhouse.selling",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah selling command",
-            "es": "[AuctionHouse] Enables the /ah selling command"
-        }
-    },
-    {
-        "node": "auctionhouse.sold",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah sold command",
-            "es": "[AuctionHouse] Enables the /ah sold command"
-        }
-    },
-    {
-        "node": "auctionhouse.trigger.block",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables triggering menu on interaction with named block",
-            "es": "[AuctionHouse] Enables triggering menu on interaction with named block"
-        }
-    },
-    {
-        "node": "auctionhouse.trigger.entity",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables triggering menu on interaction with named entity",
-            "es": "[AuctionHouse] Enables triggering menu on interaction with named entity"
-        }
-    },
-    {
-        "node": "auctionhouse.trigger.sign",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables triggering menu on interaction with sign",
-            "es": "[AuctionHouse] Enables triggering menu on interaction with sign"
-        }
-    },
-    {
-        "node": "auctionhouse.expired",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah expired command",
-            "es": "[AuctionHouse] Enables the /ah expired command"
-        }
-    },
-    {
-        "node": "auctionhouse.cancel",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah cancel command",
-            "es": "[AuctionHouse] Enables the /ah cancel command"
-        }
-    },
-    {
-        "node": "auctionhouse.return",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah return command",
-            "es": "[AuctionHouse] Enables the /ah return command"
-        }
-    },
-    {
-        "node": "auctionhouse.expire.others",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables expiring other's listing",
-            "es": "[AuctionHouse] Enables expiring other's listing"
-        }
-    },
-    {
-        "node": "auctionhouse.cancel.others",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables cancelling other's listing",
-            "es": "[AuctionHouse] Enables cancelling other's listing"
-        }
-    },
-    {
-        "node": "auctionhouse.list",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah list command",
-            "es": "[AuctionHouse] Enables the /ah list command"
-        }
-    },
-    {
-        "node": "auctionhouse.ulist",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah ulist command",
-            "es": "[AuctionHouse] Enables the /ah ulist command"
-        }
-    },
-    {
-        "node": "auctionhouse.pick",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables picking items from the auction for inspection",
-            "es": "[AuctionHouse] Enables picking items from the auction for inspection"
-        }
-    },
-    {
-        "node": "auctionhouse.purge",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "AuctionHouse",
-        "desc": {
-            "en": "Enables the /ah purge <player> command",
-            "es": "[AuctionHouse] Enables the /ah purge <player> command"
-        }
-    },
-    {
-        "node": "autorank.add",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows adding to playtimes.",
-            "es": "[Autorank] Allows adding to playtimes."
-        }
-    },
-    {
-        "node": "autorank.backup.data",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows a player to backup storage files",
-            "es": "[Autorank] Allows a player to backup storage files"
-        }
-    },
-    {
-        "node": "autorank.checkothers",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows checking the recommended rank of other players.",
-            "es": "[Autorank] Allows checking the recommended rank of other players."
-        }
-    },
-    {
-        "node": "autorank.choose",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows choosing ranking paths",
-            "es": "[Autorank] Allows choosing ranking paths"
-        }
-    },
-    {
-        "node": "autorank.complete",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows a player to do /ar complete",
-            "es": "[Autorank] Allows a player to do /ar complete"
-        }
-    },
-    {
-        "node": "autorank.deactivate",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows a player to deactivate a path",
-            "es": "[Autorank] Allows a player to deactivate a path"
-        }
-    },
-    {
-        "node": "autorank.debug",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Displays debugging information.",
-            "es": "[Autorank] Displays debugging information."
-        }
-    },
-    {
-        "node": "autorank.editor.complete.path",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Autorank",
-        "desc": {
-            "en": "Allows a player to complete a path for another player.",
-            "es": "[Autorank] Allows a player to complete a path for another player."
-        }
-    },
-    {
-        "node": "citizens.citizens.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.citizens.help).",
-            "es": "[Citizens] Permission node for Citizens (citizens.citizens.help)."
-        }
-    },
-    {
-        "node": "citizens.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.admin).",
-            "es": "[Citizens] Permission node for Citizens (citizens.admin)."
-        }
-    },
-    {
-        "node": "citizens.npc.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.help).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.help)."
-        }
-    },
-    {
-        "node": "citizens.npc.info",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.info).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.info)."
-        }
-    },
-    {
-        "node": "citizens.npc.activationrange",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.activationrange).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.activationrange)."
-        }
-    },
-    {
-        "node": "citizens.npc.age",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.age).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.age)."
-        }
-    },
-    {
-        "node": "citizens.npc.aggressive",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.aggressive).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.aggressive)."
-        }
-    },
-    {
-        "node": "citizens.npc.ai",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Citizens",
-        "desc": {
-            "en": "Permission node for Citizens (citizens.npc.ai).",
-            "es": "[Citizens] Permission node for Citizens (citizens.npc.ai)."
-        }
-    },
-    {
-        "node": "dh.default",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to see the version after using '/decentholograms'.",
-            "es": "[DecentHolograms] Allows player to see the version after using '/decentholograms'."
-        }
-    },
-    {
-        "node": "dh.command",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use all commands of DecentHolograms",
-            "es": "[DecentHolograms] Allows player to use all commands of DecentHolograms"
-        }
-    },
-    {
-        "node": "dh.command.decentholograms",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/decentholograms",
-            "es": "[DecentHolograms] Allows player to use the command '/decentholograms"
-        }
-    },
-    {
-        "node": "dh.command.version",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/dh version",
-            "es": "[DecentHolograms] Allows player to use the command '/dh version"
-        }
-    },
-    {
-        "node": "dh.command.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/dh reload",
-            "es": "[DecentHolograms] Allows player to use the command '/dh reload"
-        }
-    },
-    {
-        "node": "dh.command.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/dh list [page]",
-            "es": "[DecentHolograms] Allows player to use the command '/dh list [page]"
-        }
-    },
-    {
-        "node": "dh.command.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/dh help",
-            "es": "[DecentHolograms] Allows player to use the command '/dh help"
-        }
-    },
-    {
-        "node": "dh.command.convert",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DecentHolograms",
-        "desc": {
-            "en": "Allows player to use the command '/dh convert <plugin>",
-            "es": "[DecentHolograms] Allows player to use the command '/dh convert <plugin>"
-        }
-    },
-    {
-        "node": "deluxemenus.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "admin commands",
-            "es": "[DeluxeMenus] admin commands"
-        }
-    },
-    {
-        "node": "deluxemenus.open",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "open a menu with /dm open <menu>",
-            "es": "[DeluxeMenus] open a menu with /dm open <menu>"
-        }
-    },
-    {
-        "node": "deluxemenus.open.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "open a menu with /dm open <menu> <player>",
-            "es": "[DeluxeMenus] open a menu with /dm open <menu> <player>"
-        }
-    },
-    {
-        "node": "deluxemenus.open.bypass",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "attempt to open a menu for a viewer skipping view requirement checking for the player",
-            "es": "[DeluxeMenus] attempt to open a menu for a viewer skipping view requirement checking for the player"
-        }
-    },
-    {
-        "node": "deluxemenus.menu.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "permission for all menus",
-            "es": "[DeluxeMenus] permission for all menus"
-        }
-    },
-    {
-        "node": "deluxemenus.openrequirement.bypass.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "Allows the viewer to bypass all menu open requirements",
-            "es": "[DeluxeMenus] Allows the viewer to bypass all menu open requirements"
-        }
-    },
-    {
-        "node": "deluxemenus.placeholdersfor",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "permission to parse menu placeholders with /dm open <menu> p:<player>",
-            "es": "[DeluxeMenus] permission to parse menu placeholders with /dm open <menu> p:<player>"
-        }
-    },
-    {
-        "node": "deluxemenus.placeholdersfor.exempt",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "DeluxeMenus",
-        "desc": {
-            "en": "exempt from placeholders being parsed when targeted with /dm open <menu p:<player> for players with this permission",
-            "es": "[DeluxeMenus] exempt from placeholders being parsed when targeted with /dm open <menu p:<player> for players with this permission"
-        }
-    },
-    {
-        "node": "denizen.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Gives access to Denizen commands",
-            "es": "[Denizen] Gives access to Denizen commands"
-        }
-    },
-    {
-        "node": "denizen.npc.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Denizen",
-        "desc": {
-            "en": "Gives access to the /npc commands added by Denizen",
-            "es": "[Denizen] Gives access to the /npc commands added by Denizen"
-        }
-    },
-    {
-        "node": "essentials.chat.color",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending color codes in chat",
-            "es": "[EssentialsChat] Allows access to sending color codes in chat"
-        }
-    },
-    {
-        "node": "essentials.chat.format",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending format codes in chat",
-            "es": "[EssentialsChat] Allows access to sending format codes in chat"
-        }
-    },
-    {
-        "node": "essentials.chat.magic",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending magic codes in chat",
-            "es": "[EssentialsChat] Allows access to sending magic codes in chat"
-        }
-    },
-    {
-        "node": "essentials.chat.rgb",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending RGB codes in chat",
-            "es": "[EssentialsChat] Allows access to sending RGB codes in chat"
-        }
-    },
-    {
-        "node": "essentials.chat.url",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending URLs in chat",
-            "es": "[EssentialsChat] Allows access to sending URLs in chat"
-        }
-    },
-    {
-        "node": "essentials.toggleshout",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to the /toggleshout command",
-            "es": "[EssentialsChat] Allows access to the /toggleshout command"
-        }
-    },
-    {
-        "node": "essentials.toggleshout.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to the /toggleshout command for other players",
-            "es": "[EssentialsChat] Allows access to the /toggleshout command for other players"
-        }
-    },
-    {
-        "node": "essentials.chat.question",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending global questions in chat when chat radius is enabled",
-            "es": "[EssentialsChat] Allows access to sending global questions in chat when chat radius is enabled"
-        }
-    },
-    {
-        "node": "essentials.chat.shout",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending shout messages",
-            "es": "[EssentialsChat] Allows access to sending shout messages"
-        }
-    },
-    {
-        "node": "essentials.chat.local",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to sending local chat messages",
-            "es": "[EssentialsChat] Allows access to sending local chat messages"
-        }
-    },
-    {
-        "node": "essentials.chat.receive.local",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to receiving local chat messages",
-            "es": "[EssentialsChat] Allows access to receiving local chat messages"
-        }
-    },
-    {
-        "node": "essentials.chat.receive.shout",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to receiving shout chat messages",
-            "es": "[EssentialsChat] Allows access to receiving shout chat messages"
-        }
-    },
-    {
-        "node": "essentials.chat.receive.question",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "EssentialsChat",
-        "desc": {
-            "en": "Allows access to receiving global question chat messages",
-            "es": "[EssentialsChat] Allows access to receiving global question chat messages"
-        }
-    },
-    {
-        "node": "essentials.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Give players with op everything by default",
-            "es": "[Essentials] Give players with op everything by default"
-        }
-    },
-    {
-        "node": "essentials.afk",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows access to the /afk command",
-            "es": "[Essentials] Allows access to the /afk command"
-        }
-    },
-    {
-        "node": "essentials.afk.message",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows the player to set a custom AFK message",
-            "es": "[Essentials] Allows the player to set a custom AFK message"
-        }
-    },
-    {
-        "node": "essentials.afk.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows the player to set another player's AFK status",
-            "es": "[Essentials] Allows the player to set another player's AFK status"
-        }
-    },
-    {
-        "node": "essentials.afk.auto",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Players with this permission will be set to afk after a period of inaction as defined in the config file",
-            "es": "[Essentials] Players with this permission will be set to afk after a period of inaction as defined in the config file"
-        }
-    },
-    {
-        "node": "essentials.afk.kickexempt",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Players with this permission will not be kicked for being AFK",
-            "es": "[Essentials] Players with this permission will not be kicked for being AFK"
-        }
-    },
-    {
-        "node": "essentials.antioch",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows access to the /antioch command",
-            "es": "[Essentials] Allows access to the /antioch command"
-        }
-    },
-    {
-        "node": "essentials.back",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Essentials",
-        "desc": {
-            "en": "Allows access to the /back command",
-            "es": "[Essentials] Allows access to the /back command"
-        }
-    },
-    {
-        "node": "essentials.spawn.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsSpawn",
-        "desc": {
-            "en": "Allows access to the /spawn command for other players",
-            "es": "[EssentialsSpawn] Allows access to the /spawn command for other players"
-        }
-    },
-    {
-        "node": "essentials.setspawn",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "EssentialsSpawn",
-        "desc": {
-            "en": "Allows access to the /setspawn command",
-            "es": "[EssentialsSpawn] Allows access to the /setspawn command"
-        }
-    },
-    {
-        "node": "essentials.spawn-on-join.exempt",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "EssentialsSpawn",
-        "desc": {
-            "en": "Bypass spawn teleportation on join when spawn-on-join is true",
-            "es": "[EssentialsSpawn] Bypass spawn teleportation on join when spawn-on-join is true"
-        }
-    },
-    {
-        "node": "elevator.commands",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use commands.",
-            "es": "[Elevator] Permission to use commands."
-        }
-    },
-    {
-        "node": "elevator.commands.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use the help command.",
-            "es": "[Elevator] Permission to use the help command."
-        }
-    },
-    {
-        "node": "elevator.commands.create",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use the create command.",
-            "es": "[Elevator] Permission to use the create command."
-        }
-    },
-    {
-        "node": "elevator.commands.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use the list command.",
-            "es": "[Elevator] Permission to use the list command."
-        }
-    },
-    {
-        "node": "elevator.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use admin commands.",
-            "es": "[Elevator] Permission to use admin commands."
-        }
-    },
-    {
-        "node": "elevator.update",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to receive update notifications.",
-            "es": "[Elevator] Permission to receive update notifications."
-        }
-    },
-    {
-        "node": "elevator.bypass.cooldown",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to bypass cooldown.",
-            "es": "[Elevator] Permission to bypass cooldown."
-        }
-    },
-    {
-        "node": "elevator.bypass.distance",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to bypass distance.",
-            "es": "[Elevator] Permission to bypass distance."
-        }
-    },
-    {
-        "node": "elevator.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Elevator",
-        "desc": {
-            "en": "Permission to use elevators.",
-            "es": "[Elevator] Permission to use elevators."
-        }
-    },
-    {
-        "node": "ei.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "ExecutableItems permission",
-            "es": "[ExecutableItems] ExecutableItems permission"
-        }
-    },
-    {
-        "node": "ei.item.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows you to use all ExecutableItems",
-            "es": "[ExecutableItems] Allows you to use all ExecutableItems"
-        }
-    },
-    {
-        "node": "ei.cmds",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows ExecutableItems commands",
-            "es": "[ExecutableItems] Allows ExecutableItems commands"
-        }
-    },
-    {
-        "node": "ei.cmd.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows the command /ei reload",
-            "es": "[ExecutableItems] Allows the command /ei reload"
-        }
-    },
-    {
-        "node": "ei.cmd.give",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows the command /ei give {PlayerName} {ItemID} {quantity}",
-            "es": "[ExecutableItems] Allows the command /ei give {PlayerName} {ItemID} {quantity}"
-        }
-    },
-    {
-        "node": "ei.cmd.giveusage",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows the command /ei giveusage {PlayerName} {ItemID} {quantity} {usage}",
-            "es": "[ExecutableItems] Allows the command /ei giveusage {PlayerName} {ItemID} {quantity} {usage}"
-        }
-    },
-    {
-        "node": "ei.cmd.giveallusage",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows the command /ei giveallusage {ItemID} {quantity} [world] {usage}",
-            "es": "[ExecutableItems] Allows the command /ei giveallusage {ItemID} {quantity} [world] {usage}"
-        }
-    },
-    {
-        "node": "ei.cmd.giveslot",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ExecutableItems",
-        "desc": {
-            "en": "Allows the command /ei giveslot {playername} {id} {quantity} {slot} [usage]",
-            "es": "[ExecutableItems] Allows the command /ei giveslot {playername} {id} {quantity} {slot} [usage]"
-        }
-    },
-    {
-        "node": "gps.commands",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Required to be able to use any command.",
-            "es": "[GPS] Required to be able to use any command."
-        }
-    },
-    {
-        "node": "gps.commands.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the help command.",
-            "es": "[GPS] Permission to use the help command."
-        }
-    },
-    {
-        "node": "gps.commands.start",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the start command.",
-            "es": "[GPS] Permission to use the start command."
-        }
-    },
-    {
-        "node": "gps.commands.move",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the move command.",
-            "es": "[GPS] Permission to use the move command."
-        }
-    },
-    {
-        "node": "gps.commands.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the list command.",
-            "es": "[GPS] Permission to use the list command."
-        }
-    },
-    {
-        "node": "gps.commands.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use commands as others.",
-            "es": "[GPS] Permission to use commands as others."
-        }
-    },
-    {
-        "node": "gps.commands.stop",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the stop command.",
-            "es": "[GPS] Permission to use the stop command."
-        }
-    },
-    {
-        "node": "gps.commands.toggle",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the toggle command.",
-            "es": "[GPS] Permission to use the toggle command."
-        }
-    },
-    {
-        "node": "gps.commands.show",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Permission to use the show command.",
-            "es": "[GPS] Permission to use the show command."
-        }
-    },
-    {
-        "node": "gps.commands.configurator",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Allows usage of /gpsc.",
-            "es": "[GPS] Allows usage of /gpsc."
-        }
-    },
-    {
-        "node": "gps.commands.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Allows usage og /gpsa.",
-            "es": "[GPS] Allows usage og /gpsa."
-        }
-    },
-    {
-        "node": "gps.update",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Receive notifications of new update.",
-            "es": "[GPS] Receive notifications of new update."
-        }
-    },
-    {
-        "node": "gps.hunger.ignore",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Disable hunger usage when the GPS is active.",
-            "es": "[GPS] Disable hunger usage when the GPS is active."
-        }
-    },
-    {
-        "node": "gps.startonrespawn",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GPS",
-        "desc": {
-            "en": "Start the Compass targetting your death location when you respawn.",
-            "es": "[GPS] Start the Compass targetting your death location when you respawn."
-        }
-    },
-    {
-        "node": "GSit.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GSit",
-        "desc": {
-            "en": "OP-Permission for all Commands and Functions for GSit",
-            "es": "[GSit] OP-Permission for all Commands and Functions for GSit"
-        }
-    },
-    {
-        "node": "GSit.Toggle",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Toggle Sit-Ability | Permission",
-            "es": "[GSit] Toggle Sit-Ability | Permission"
-        }
-    },
-    {
-        "node": "GSit.Kick",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Seat-Kick | Permission",
-            "es": "[GSit] Seat-Kick | Permission"
-        }
-    },
-    {
-        "node": "GSit.Update",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Get-Update-Notification | Permission",
-            "es": "[GSit] Get-Update-Notification | Permission"
-        }
-    },
-    {
-        "node": "GSit.GSitReload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GSit",
-        "desc": {
-            "en": "Config-Reload-Command | Permission",
-            "es": "[GSit] Config-Reload-Command | Permission"
-        }
-    },
-    {
-        "node": "gadgetsmenu.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Permission node for GadgetsMenu (gadgetsmenu.*).",
-            "es": "[GadgetsMenu] Permission node for GadgetsMenu (gadgetsmenu.*)."
-        }
-    },
-    {
-        "node": "gadgetsmenu.cosmetics.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Permission node for GadgetsMenu (gadgetsmenu.cosmetics.*).",
-            "es": "[GadgetsMenu] Permission node for GadgetsMenu (gadgetsmenu.cosmetics.*)."
-        }
-    },
-    {
-        "node": "gadgetsmenu.commands.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all GadgetsMenu commands.",
-            "es": "[GadgetsMenu] Let a player to use all GadgetsMenu commands."
-        }
-    },
-    {
-        "node": "gadgetsmenu.autoequip.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Automatic equip cosmetic item.",
-            "es": "[GadgetsMenu] Automatic equip cosmetic item."
-        }
-    },
-    {
-        "node": "gadgetsmenu.bypassduration.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Allows a player to bypass the song duration.",
-            "es": "[GadgetsMenu] Allows a player to bypass the song duration."
-        }
-    },
-    {
-        "node": "gadgetsmenu.mysteryboxes.open.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Allows a player to open all mystery boxes.",
-            "es": "[GadgetsMenu] Allows a player to open all mystery boxes."
-        }
-    },
-    {
-        "node": "gadgetsmenu.animations.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Allows a player to access all mystery vault animations.",
-            "es": "[GadgetsMenu] Allows a player to access all mystery vault animations."
-        }
-    },
-    {
-        "node": "gadgetsmenu.multipleboxes.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Allows a player to open multiple mystery boxes at one time.",
-            "es": "[GadgetsMenu] Allows a player to open multiple mystery boxes at one time."
-        }
-    },
-    {
-        "node": "gadgetsmenu.discount.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Allows a player to discount the item cost.",
-            "es": "[GadgetsMenu] Allows a player to discount the item cost."
-        }
-    },
-    {
-        "node": "gadgetsmenu.hats.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Hats.",
-            "es": "[GadgetsMenu] Let a player to use all Hats."
-        }
-    },
-    {
-        "node": "gadgetsmenu.animatedhats.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all animated Hats.",
-            "es": "[GadgetsMenu] Let a player to use all animated Hats."
-        }
-    },
-    {
-        "node": "gadgetsmenu.particles.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Particles.",
-            "es": "[GadgetsMenu] Let a player to use all Particles."
-        }
-    },
-    {
-        "node": "gadgetsmenu.suits.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Suits.",
-            "es": "[GadgetsMenu] Let a player to use all Suits."
-        }
-    },
-    {
-        "node": "gadgetsmenu.gadgets.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all gadgets.",
-            "es": "[GadgetsMenu] Let a player to use all gadgets."
-        }
-    },
-    {
-        "node": "gadgetsmenu.pets.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Pets.",
-            "es": "[GadgetsMenu] Let a player to use all Pets."
-        }
-    },
-    {
-        "node": "gadgetsmenu.morphs.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Morphs.",
-            "es": "[GadgetsMenu] Let a player to use all Morphs."
-        }
-    },
-    {
-        "node": "gadgetsmenu.banners.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Banners.",
-            "es": "[GadgetsMenu] Let a player to use all Banners."
-        }
-    },
-    {
-        "node": "gadgetsmenu.emotes.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Emotes.",
-            "es": "[GadgetsMenu] Let a player to use all Emotes."
-        }
-    },
-    {
-        "node": "gadgetsmenu.cloaks.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "GadgetsMenu",
-        "desc": {
-            "en": "Let a player to use all Emotes.",
-            "es": "[GadgetsMenu] Let a player to use all Emotes."
-        }
-    },
-    {
-        "node": "imageframe.create",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to create new image maps",
-            "es": "[ImageFrame] Allow players to create new image maps"
-        }
-    },
-    {
-        "node": "imageframe.create.animated",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to create new animated image maps",
-            "es": "[ImageFrame] Allow players to create new animated image maps"
-        }
-    },
-    {
-        "node": "imageframe.create.others",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to create image maps for other players, applies to overlay and clone, bypasses owning limit",
-            "es": "[ImageFrame] Allow players to create image maps for other players, applies to overlay and clone, bypasses owning limit"
-        }
-    },
-    {
-        "node": "imageframe.overlay",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to overlay images on Vanilla maps",
-            "es": "[ImageFrame] Allow players to overlay images on Vanilla maps"
-        }
-    },
-    {
-        "node": "imageframe.clone",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to make deep copies of their own image maps",
-            "es": "[ImageFrame] Allow players to make deep copies of their own image maps"
-        }
-    },
-    {
-        "node": "imageframe.playback",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to pause or set position of playback of their own animated image maps",
-            "es": "[ImageFrame] Allow players to pause or set position of playback of their own animated image maps"
-        }
-    },
-    {
-        "node": "imageframe.select",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to select item frames",
-            "es": "[ImageFrame] Allow players to select item frames"
-        }
-    },
-    {
-        "node": "imageframe.marker",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ImageFrame",
-        "desc": {
-            "en": "Allow players to add and remove markers on image maps",
-            "es": "[ImageFrame] Allow players to add and remove markers on image maps"
-        }
-    },
-    {
-        "node": "music.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Give access to JukeBox whole",
-            "es": "[JukeBox] Give access to JukeBox whole"
-        }
-    },
-    {
-        "node": "music.random",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to play random song",
-            "es": "[JukeBox] Allows player to play random song"
-        }
-    },
-    {
-        "node": "music.radio",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to listen to the Radio",
-            "es": "[JukeBox] Allows player to listen to the Radio"
-        }
-    },
-    {
-        "node": "music.favorites",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to listen and manage their Favorites playlist",
-            "es": "[JukeBox] Allows player to listen and manage their Favorites playlist"
-        }
-    },
-    {
-        "node": "music.particles",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to enable particles effect",
-            "es": "[JukeBox] Allows player to enable particles effect"
-        }
-    },
-    {
-        "node": "music.play-on-join",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to enable the \"play on join\" option",
-            "es": "[JukeBox] Allows player to enable the \"play on join\" option"
-        }
-    },
-    {
-        "node": "music.shuffle",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to enable the \"shuffle\" option",
-            "es": "[JukeBox] Allows player to enable the \"shuffle\" option"
-        }
-    },
-    {
-        "node": "music.loop",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Allows player to enable the \"loop\" option",
-            "es": "[JukeBox] Allows player to enable the \"loop\" option"
-        }
-    },
-    {
-        "node": "music.save-datas",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Required for the plugin to save player's data after logout",
-            "es": "[JukeBox] Required for the plugin to save player's data after logout"
-        }
-    },
-    {
-        "node": "music.command.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Give access to /adminmusic",
-            "es": "[JukeBox] Give access to /adminmusic"
-        }
-    },
-    {
-        "node": "music.adminItem",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "JukeBox",
-        "desc": {
-            "en": "Changes item format",
-            "es": "[JukeBox] Changes item format"
-        }
-    },
-    {
-        "node": "robbery.use",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "KoyaRobbery",
-        "desc": {
-            "en": "Allows players to use robbery commands",
-            "es": "[KoyaRobbery] Allows players to use robbery commands"
-        }
-    },
-    {
-        "node": "robbery.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "KoyaRobbery",
-        "desc": {
-            "en": "Allows players to use admin commands",
-            "es": "[KoyaRobbery] Allows players to use admin commands"
-        }
-    },
-    {
-        "node": "minecity.vehicle.model",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecityFixerAddon",
-        "desc": {
-            "en": "Allows obtaining physical vehicle model items for decoration via /vehicle model get",
-            "es": "[MinecityFixerAddon] Allows obtaining physical vehicle model items for decoration via /vehicle model get"
-        }
-    },
-    {
-        "node": "minesuite.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Permission to spawn, remove, and control MinecitySuite dummy players (/ms)",
-            "es": "[MinecitySuite] Permission to spawn, remove, and control MinecitySuite dummy players (/ms)"
-        }
-    },
-    {
-        "node": "police.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Full admin access to all /police commands (createkit, unjail, forcejail, jail, setpolice, setexit, setjail, etc.)",
-            "es": "[MinecitySuite] Full admin access to all /police commands (createkit, unjail, forcejail, jail, setpolice, setexit, setjail, etc.)"
-        }
-    },
-    {
-        "node": "police.chief",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Police Chief permission to promote/remove police officers (setpolice, removepolice) and manage police",
-            "es": "[MinecitySuite] Police Chief permission to promote/remove police officers (setpolice, removepolice) and manage police"
-        }
-    },
-    {
-        "node": "police.officer",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Standard Police Officer permission (addstars, removestars, status, policekit, jailstick, handcuffs)",
-            "es": "[MinecitySuite] Standard Police Officer permission (addstars, removestars, status, policekit, jailstick, handcuffs)"
-        }
-    },
-    {
-        "node": "police.handcuffs",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Permission to use Police Handcuffs",
-            "es": "[MinecitySuite] Permission to use Police Handcuffs"
-        }
-    },
-    {
-        "node": "minecity.survival.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Permission to manage player hydration and hunger (/survival set, /survival reset, /survival reload)",
-            "es": "[MinecitySuite] Permission to manage player hydration and hunger (/survival set, /survival reset, /survival reload)"
-        }
-    },
-    {
-        "node": "paramedic.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Full admin access to Paramedic commands (/paramedic revive, editkit, cure, reload)",
-            "es": "[MinecitySuite] Full admin access to Paramedic commands (/paramedic revive, editkit, cure, reload)"
-        }
-    },
-    {
-        "node": "paramedic.chief",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Paramedic Chief permission to hire and fire paramedics (setparamedic, removeparamedic)",
-            "es": "[MinecitySuite] Paramedic Chief permission to hire and fire paramedics (setparamedic, removeparamedic)"
-        }
-    },
-    {
-        "node": "paramedic.duty",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "MinecitySuite",
-        "desc": {
-            "en": "Paramedic on-duty permission to respond to emergencies and treat patients",
-            "es": "[MinecitySuite] Paramedic on-duty permission to respond to emergencies and treat patients"
-        }
-    },
-    {
-        "node": "chunky.command.border",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.border).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.border)."
-        }
-    },
-    {
-        "node": "chunky.command.cancel",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.cancel).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.cancel)."
-        }
-    },
-    {
-        "node": "chunky.command.center",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.center).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.center)."
-        }
-    },
-    {
-        "node": "chunky.command.confirm",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.confirm).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.confirm)."
-        }
-    },
-    {
-        "node": "chunky.command.continue",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.continue).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.continue)."
-        }
-    },
-    {
-        "node": "chunky.command.corners",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.corners).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.corners)."
-        }
-    },
-    {
-        "node": "chunky.command.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.help).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.help)."
-        }
-    },
-    {
-        "node": "chunky.command.pattern",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "Chunky",
-        "desc": {
-            "en": "Permission node for Chunky (chunky.command.pattern).",
-            "es": "[Chunky] Permission node for Chunky (chunky.command.pattern)."
-        }
-    },
-    {
-        "node": "rosestacker.basecommand",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "The base command permission for being able to see the RoseStacker command",
-            "es": "[RoseStacker] The base command permission for being able to see the RoseStacker command"
-        }
-    },
-    {
-        "node": "rosestacker.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Inherits all plugin permissions",
-            "es": "[RoseStacker] Inherits all plugin permissions"
-        }
-    },
-    {
-        "node": "rosestacker.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the reload command",
-            "es": "[RoseStacker] Allows using the reload command"
-        }
-    },
-    {
-        "node": "rosestacker.give",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the give command",
-            "es": "[RoseStacker] Allows using the give command"
-        }
-    },
-    {
-        "node": "rosestacker.clearall",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the clearall command",
-            "es": "[RoseStacker] Allows using the clearall command"
-        }
-    },
-    {
-        "node": "rosestacker.stats",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the stats command",
-            "es": "[RoseStacker] Allows using the stats command"
-        }
-    },
-    {
-        "node": "rosestacker.translate",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the translate command",
-            "es": "[RoseStacker] Allows using the translate command"
-        }
-    },
-    {
-        "node": "rosestacker.stacktool",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the stacking tool",
-            "es": "[RoseStacker] Allows using the stacking tool"
-        }
-    },
-    {
-        "node": "rosestacker.stacktool.give",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows using the stacktool command",
-            "es": "[RoseStacker] Allows using the stacktool command"
-        }
-    },
-    {
-        "node": "rosestacker.silktouch",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows picking up spawners with silk touch",
-            "es": "[RoseStacker] Allows picking up spawners with silk touch"
-        }
-    },
-    {
-        "node": "rosestacker.spawnerconvert",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows converting spawners with mob spawn eggs",
-            "es": "[RoseStacker] Allows converting spawners with mob spawn eggs"
-        }
-    },
-    {
-        "node": "rosestacker.killentirestack",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "RoseStacker",
-        "desc": {
-            "en": "Allows killing an entire stack of mobs at once",
-            "es": "[RoseStacker] Allows killing an entire stack of mobs at once"
-        }
-    },
-    {
-        "node": "phone.police",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Allows players to use police functions.",
-            "es": "[PhoneV2] Allows players to use police functions."
-        }
-    },
-    {
-        "node": "phone.firefighter",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Allows players to use firefighter functions.",
-            "es": "[PhoneV2] Allows players to use firefighter functions."
-        }
-    },
-    {
-        "node": "phone.medic",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PhoneV2",
-        "desc": {
-            "en": "Allows players to use medic functions.",
-            "es": "[PhoneV2] Allows players to use medic functions."
-        }
-    },
-    {
-        "node": "placeholderapi.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Ability to use all PAPI commands",
-            "es": "[PlaceholderAPI] Ability to use all PAPI commands"
-        }
-    },
-    {
-        "node": "placeholderapi.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Ability to use all PAPI commands",
-            "es": "[PlaceholderAPI] Ability to use all PAPI commands"
-        }
-    },
-    {
-        "node": "placeholderapi.ecloud.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Ability to use all PAPI ecloud commands",
-            "es": "[PlaceholderAPI] Ability to use all PAPI ecloud commands"
-        }
-    },
-    {
-        "node": "placeholderapi.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Allows you to view the list of PAPI commands",
-            "es": "[PlaceholderAPI] Allows you to view the list of PAPI commands"
-        }
-    },
-    {
-        "node": "placeholderapi.info",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Allows you to view expansion information",
-            "es": "[PlaceholderAPI] Allows you to view expansion information"
-        }
-    },
-    {
-        "node": "placeholderapi.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Allows you to list active expansions",
-            "es": "[PlaceholderAPI] Allows you to list active expansions"
-        }
-    },
-    {
-        "node": "placeholderapi.ecloud",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Allows you to access PAPI eCloud",
-            "es": "[PlaceholderAPI] Allows you to access PAPI eCloud"
-        }
-    },
-    {
-        "node": "placeholderapi.parse",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PlaceholderAPI",
-        "desc": {
-            "en": "Allows you to parse placeholders",
-            "es": "[PlaceholderAPI] Allows you to parse placeholders"
-        }
-    },
-    {
-        "node": "pocketgames.commands",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Required to be able to use any command.",
-            "es": "[PocketGames] Required to be able to use any command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the list command.",
-            "es": "[PocketGames] Permission to use the list command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.menu",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the menu command.",
-            "es": "[PocketGames] Permission to use the menu command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the help command.",
-            "es": "[PocketGames] Permission to use the help command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.check",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the check command.",
-            "es": "[PocketGames] Permission to use the check command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.multiplayer",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the multiplayer command.",
-            "es": "[PocketGames] Permission to use the multiplayer command."
-        }
-    },
-    {
-        "node": "pocketgames.commands.duel",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the duel command.",
-            "es": "[PocketGames] Permission to use the duel command."
-        }
-    },
-    {
-        "node": "pocketgames.bypass.enabled",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Bypass disabled games.",
-            "es": "[PocketGames] Bypass disabled games."
-        }
-    },
-    {
-        "node": "pocketgames.bypass.world",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Bypass disabled games.",
-            "es": "[PocketGames] Bypass disabled games."
-        }
-    },
-    {
-        "node": "pocketgames.restart",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use the game restart button.",
-            "es": "[PocketGames] Permission to use the game restart button."
-        }
-    },
-    {
-        "node": "pocketgames.sudo",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to execute commands for other people.",
-            "es": "[PocketGames] Permission to execute commands for other people."
-        }
-    },
-    {
-        "node": "pocketgames.spectate",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to specate other active games.",
-            "es": "[PocketGames] Permission to specate other active games."
-        }
-    },
-    {
-        "node": "pocketgames.multiplayer",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to open the multiplayer menu.",
-            "es": "[PocketGames] Permission to open the multiplayer menu."
-        }
-    },
-    {
-        "node": "pocketgames.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Permission to use admin commnads.",
-            "es": "[PocketGames] Permission to use admin commnads."
-        }
-    },
-    {
-        "node": "pocketgames.update",
-        "group": "admin",
-        "defaultState": "False",
-        "plugin": "PocketGames",
-        "desc": {
-            "en": "Receive notifications of new updates.",
-            "es": "[PocketGames] Receive notifications of new updates."
-        }
-    },
-    {
-        "node": "skillapi.basic",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to skill trees and using skills",
-            "es": "[ProSkillAPI] access to skill trees and using skills"
-        }
-    },
-    {
-        "node": "skillapi.reset",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to resetting your class",
-            "es": "[ProSkillAPI] access to resetting your class"
-        }
-    },
-    {
-        "node": "skillapi.exp",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to gaining exp",
-            "es": "[ProSkillAPI] access to gaining exp"
-        }
-    },
-    {
-        "node": "skillapi.level",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to using the level and exp commands",
-            "es": "[ProSkillAPI] access to using the level and exp commands"
-        }
-    },
-    {
-        "node": "skillapi.mana",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to using the mana command",
-            "es": "[ProSkillAPI] access to using the mana command"
-        }
-    },
-    {
-        "node": "skillapi.points",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to using the points command",
-            "es": "[ProSkillAPI] access to using the points command"
-        }
-    },
-    {
-        "node": "skillapi.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to using the reload command",
-            "es": "[ProSkillAPI] access to using the reload command"
-        }
-    },
-    {
-        "node": "skillapi.class",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to all classes",
-            "es": "[ProSkillAPI] access to all classes"
-        }
-    },
-    {
-        "node": "skillapi.skill",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to all skills",
-            "es": "[ProSkillAPI] access to all skills"
-        }
-    },
-    {
-        "node": "skillapi.lore",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to all lore commands",
-            "es": "[ProSkillAPI] access to all lore commands"
-        }
-    },
-    {
-        "node": "skillapi.force",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to force commands",
-            "es": "[ProSkillAPI] access to force commands"
-        }
-    },
-    {
-        "node": "skillapi.attrib",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to giving attribute points",
-            "es": "[ProSkillAPI] access to giving attribute points"
-        }
-    },
-    {
-        "node": "skillapi.gui",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to GUI editor menu",
-            "es": "[ProSkillAPI] access to GUI editor menu"
-        }
-    },
-    {
-        "node": "skillapi.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProSkillAPI",
-        "desc": {
-            "en": "access to all commands and features",
-            "es": "[ProSkillAPI] access to all commands and features"
-        }
-    },
-    {
-        "node": "protocol.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Gives access to everything.",
-            "es": "[ProtocolLib] Gives access to everything."
-        }
-    },
-    {
-        "node": "protocol.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Able to initiate the update process, and can configure debug mode.",
-            "es": "[ProtocolLib] Able to initiate the update process, and can configure debug mode."
-        }
-    },
-    {
-        "node": "protocol.info",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ProtocolLib",
-        "desc": {
-            "en": "Can read update notifications and error reports.",
-            "es": "[ProtocolLib] Can read update notifications and error reports."
-        }
-    },
-    {
-        "node": "qualityarmory.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Gives access to all QualityArmory commands",
-            "es": "[QualityArmory] Gives access to all QualityArmory commands"
-        }
-    },
-    {
-        "node": "qualityarmory.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Gives access to all admin commands for QA",
-            "es": "[QualityArmory] Gives access to all admin commands for QA"
-        }
-    },
-    {
-        "node": "qualityarmory.default",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmory",
-        "desc": {
-            "en": "Gives access to all QualityArmory default commands such as shooting crafting and shopping",
-            "es": "[QualityArmory] Gives access to all QualityArmory default commands such as shooting crafting and shopping"
-        }
-    },
-    {
-        "node": "qualityarmoryvehicles.*",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmoryVehicles2",
-        "desc": {
-            "en": "Gives access to all QAV perms",
-            "es": "[QualityArmoryVehicles2] Gives access to all QAV perms"
-        }
-    },
-    {
-        "node": "qualityarmoryvehicles.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmoryVehicles2",
-        "desc": {
-            "en": "Gives access to all QAV admin perms",
-            "es": "[QualityArmoryVehicles2] Gives access to all QAV admin perms"
-        }
-    },
-    {
-        "node": "qualityarmoryvehicles.tracks.admin",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "QualityArmoryVehicles2",
-        "desc": {
-            "en": "Allows admins to configure tram/underground tracks",
-            "es": "[QualityArmoryVehicles2] Allows admins to configure tram/underground tracks"
+            "en": "Full LuckPerms rank & permission management.",
+            "es": "Gestión total de rangos y permisos en LuckPerms."
         }
     },
     {
         "node": "qualityarmoryvehicles.default",
         "group": "default",
         "defaultState": "True",
+        "category": "Vehicles & Transport",
         "plugin": "QualityArmoryVehicles2",
         "desc": {
-            "en": "Default to all QAV perms",
-            "es": "[QualityArmoryVehicles2] Default to all QAV perms"
+            "en": "Default access to enter vehicles, open garage (/car), and use /carcall.",
+            "es": "Acceso base a vehículos, abrir garaje (/car) y usar /carcall."
         }
     },
     {
-        "node": "quests.questinfo",
+        "node": "qualityarmoryvehicles.shop",
         "group": "default",
         "defaultState": "True",
-        "plugin": "Quests",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
         "desc": {
-            "en": "View information about a quest",
-            "es": "[Quests] View information about a quest"
+            "en": "Allows purchasing vehicles from dealerships.",
+            "es": "Permite comprar vehículos en concesionarios."
         }
     },
     {
-        "node": "quests.quests",
+        "node": "qualityarmoryvehicles.vehiclelimit.1",
         "group": "default",
         "defaultState": "True",
-        "plugin": "Quests",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
         "desc": {
-            "en": "Display plugin help",
-            "es": "[Quests] Display plugin help"
+            "en": "Allows spawning 1 active vehicle simultaneously.",
+            "es": "Permite tener 1 vehículo activo al mismo tiempo."
         }
     },
     {
-        "node": "quests.list",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "List available quests",
-            "es": "[Quests] List available quests"
-        }
-    },
-    {
-        "node": "quests.take",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Accept a quest via command",
-            "es": "[Quests] Accept a quest via command"
-        }
-    },
-    {
-        "node": "quests.quit",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "Quit a current quest",
-            "es": "[Quests] Quit a current quest"
-        }
-    },
-    {
-        "node": "quests.stats",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "View quest statistics",
-            "es": "[Quests] View quest statistics"
-        }
-    },
-    {
-        "node": "quests.top",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "View plugin leaderboards",
-            "es": "[Quests] View plugin leaderboards"
-        }
-    },
-    {
-        "node": "quests.info",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Quests",
-        "desc": {
-            "en": "View plugin information",
-            "es": "[Quests] View plugin information"
-        }
-    },
-    {
-        "node": "score.*",
+        "node": "qualityarmoryvehicles.unlimitedvehicles",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "SCore",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
         "desc": {
-            "en": "SCore permission",
-            "es": "[SCore] SCore permission"
+            "en": "Bypasses active vehicle spawn limit.",
+            "es": "Anula el límite de vehículos activos simultáneos."
         }
     },
     {
-        "node": "score.cmds",
+        "node": "qualityarmoryvehicles.admin",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "SCore",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
         "desc": {
-            "en": "Allows SCore commands",
-            "es": "[SCore] Allows SCore commands"
+            "en": "Full vehicle admin spawning, cleanup, and callbacks.",
+            "es": "Administración total de vehículos QAV."
         }
     },
     {
-        "node": "score.cmd.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "SCore",
+        "node": "Cars.type.*",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
         "desc": {
-            "en": "Allows the command /score reload",
-            "es": "[SCore] Allows the command /score reload"
+            "en": "Allows driving all standard ground cars.",
+            "es": "Permite conducir todos los coches terrestres."
         }
     },
     {
-        "node": "score.cmd.inspect-loop",
-        "group": "admin",
+        "node": "Helicopters.type.*",
+        "group": "vip",
         "defaultState": "Op Only",
-        "plugin": "SCore",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
         "desc": {
-            "en": "Allows the command /score inspect-loop",
-            "es": "[SCore] Allows the command /score inspect-loop"
+            "en": "Allows piloting city helicopters.",
+            "es": "Permite pilotar helicópteros en la ciudad."
         }
     },
     {
-        "node": "score.cmd.particles-toggle",
+        "node": "mtvehicles.admin",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "SCore",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
         "desc": {
-            "en": "Allows the command /score particles-toggle (self)",
-            "es": "[SCore] Allows the command /score particles-toggle (self)"
+            "en": "Admin editing, giving cars, and fuel settings.",
+            "es": "Administración total de MTVehicles."
         }
     },
     {
-        "node": "salarymanager.set",
+        "node": "elevator.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Allows riding building elevators between floors.",
+            "es": "Permite usar los elevadores en rascacielos y garajes."
+        }
+    },
+    {
+        "node": "qualityarmory.usegun",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Allows firing and reloading 3D firearms.",
+            "es": "Permite disparar y recargar armas 3D."
+        }
+    },
+    {
+        "node": "qualityarmory.shop",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Allows buying guns and ammunition in /qa shop.",
+            "es": "Permite comprar armas y balas en /qa shop."
+        }
+    },
+    {
+        "node": "qualityarmory.craft",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Allows crafting ammo and weapon parts in /qa craft.",
+            "es": "Permite fabricar cargadores en /qa craft."
+        }
+    },
+    {
+        "node": "qualityarmory.give",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Allows giving firearms/ammo via /qa give.",
+            "es": "Permite entregar armas mediante comandos."
+        }
+    },
+    {
+        "node": "ei.cmd.editor",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Opens custom ExecutableItems creator.",
+            "es": "Permite editar objetos ejecutables especiales."
+        }
+    },
+    {
+        "node": "arm.member.gui",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Allows using /arm GUI and managing owned regions.",
+            "es": "Permite usar el menú de propiedades /arm."
+        }
+    },
+    {
+        "node": "arm.member.buy",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Allows renting and buying properties via ARM.",
+            "es": "Permite alquilar y comprar viviendas y locales."
+        }
+    },
+    {
+        "node": "arm.member.extend",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Allows extending apartment rent durations.",
+            "es": "Permite extender el contrato de alquiler."
+        }
+    },
+    {
+        "node": "arm.member.sellback",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Allows terminating leases or selling property back.",
+            "es": "Permite cancelar alquiler o vender tu vivienda."
+        }
+    },
+    {
+        "node": "arm.admin.create.rentregion",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Allows creating new rentable apartment regions.",
+            "es": "Permite crear nuevas regiones en alquiler."
+        }
+    },
+    {
+        "node": "arm.admin.bypasslimit",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Bypasses maximum property ownership limit.",
+            "es": "Anula el límite máximo de propiedades por jugador."
+        }
+    },
+    {
+        "node": "worldguard.region.define",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Allows creating new WorldGuard protection zones.",
+            "es": "Permite definir nuevas regiones de protección WorldGuard."
+        }
+    },
+    {
+        "node": "worldedit.wand",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Allows using //wand and architecture tools.",
+            "es": "Permite usar la varita de construcción WorldEdit."
+        }
+    },
+    {
+        "node": "banklite.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access to ATM banking deposits, withdrawals & interest.",
+            "es": "Acceso al banco ATM para depósitos, retiros e intereses."
+        }
+    },
+    {
+        "node": "bank.tabs.1",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Grants 1 personal safe-deposit storage tab in the bank.",
+            "es": "Otorga 1 pestaña de bóveda personal en el banco."
+        }
+    },
+    {
+        "node": "auctionhouse.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Allows browsing and purchasing from the Auction House (/ah).",
+            "es": "Permite usar y comprar en la Casa de Subastas (/ah)."
+        }
+    },
+    {
+        "node": "auctionhouse.sell",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Allows listing items for sale via /ah sell.",
+            "es": "Permite poner objetos en venta mediante /ah sell."
+        }
+    },
+    {
+        "node": "salarymanager.next",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
         "plugin": "SalaryManager",
         "desc": {
-            "en": "Allow seting of salaries",
-            "es": "[SalaryManager] Allow seting of salaries"
-        }
-    },
-    {
-        "node": "salarymanager.set.offline",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "SalaryManager",
-        "desc": {
-            "en": "Allow seting of offline salaries",
-            "es": "[SalaryManager] Allow seting of offline salaries"
+            "en": "Allows checking time until next paycheck (/salary).",
+            "es": "Permite consultar cuándo llega el próximo sueldo (/salary)."
         }
     },
     {
         "node": "salarymanager.pay",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "SalaryManager",
         "desc": {
-            "en": "Allow paying of salaries",
-            "es": "[SalaryManager] Allow paying of salaries"
+            "en": "Forces payroll payout to all online workers.",
+            "es": "Fuerza el pago salarial a los trabajadores conectados."
         }
     },
     {
-        "node": "salarymanager.get",
+        "node": "shopkeeper.create",
         "group": "default",
         "defaultState": "True",
-        "plugin": "SalaryManager",
+        "category": "Economy & Banking",
+        "plugin": "Shopkeepers",
         "desc": {
-            "en": "Allow seting of salaries",
-            "es": "[SalaryManager] Allow seting of salaries"
+            "en": "Allows creating player shopkeeper trade stalls.",
+            "es": "Permite abrir tiendas de aldeanos propias."
         }
     },
     {
-        "node": "salarymanager.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "SalaryManager",
+        "node": "robbery.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
         "desc": {
-            "en": "Allow reloading the config",
-            "es": "[SalaryManager] Allow reloading the config"
+            "en": "Allows joining heist crews (/crew) and robbing banks/shops.",
+            "es": "Permite participar en atracos a bancos y tiendas (/crew)."
         }
     },
     {
-        "node": "salarymanager.list",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "SalaryManager",
+        "node": "robbery.use.drill",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
         "desc": {
-            "en": "Allow listing the salaries",
-            "es": "[SalaryManager] Allow listing the salaries"
+            "en": "Allows using thermal drills to crack bank vaults.",
+            "es": "Permite usar taladros para abrir cajas fuertes de bancos."
         }
     },
     {
-        "node": "salarymanager.setperiod",
+        "node": "robbery.admin",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "SalaryManager",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "KoyaRobbery",
         "desc": {
-            "en": "Allow setting of the period",
-            "es": "[SalaryManager] Allow setting of the period"
+            "en": "Configures heist locations, timers, and vault loot.",
+            "es": "Configura los puntos de atraco y botín."
         }
     },
     {
-        "node": "salarymanager.notify",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "SalaryManager",
+        "node": "excellentgangs.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ExcellentGangs",
         "desc": {
-            "en": "Get notified of payments same (totals and nr of people getting paid)",
-            "es": "[SalaryManager] Get notified of payments same (totals and nr of people getting paid)"
+            "en": "Allows joining street gangs, gang banks, and vaults (/gang).",
+            "es": "Permite unirse a pandillas, usar su banco y baúl (/gang)."
         }
     },
     {
-        "node": "salarymanager.from",
+        "node": "clanplus.setspawn",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Allows clan leaders to set their syndicate base spawn.",
+            "es": "Permite fijar el punto base del sindicato/clan."
+        }
+    },
+    {
+        "node": "clanplus.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Full administrative management of all server clans.",
+            "es": "Administración total de clanes en ClansPlus."
+        }
+    },
+    {
+        "node": "drugs.get",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "Drugs",
+        "desc": {
+            "en": "Allows viewing drug crafting recipes (/drugbook).",
+            "es": "Permite consultar recetas ilegales (/drugbook)."
+        }
+    },
+    {
+        "node": "phone.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Allows opening and operating personal smartphone (/phone).",
+            "es": "Permite usar el teléfono celular (/phone) para llamadas y SMS."
+        }
+    },
+    {
+        "node": "phone.police",
+        "group": "police",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Routes incoming 911 police dispatch alerts to officer's phone.",
+            "es": "Recibe llamadas 911 policiales directamente en el celular."
+        }
+    },
+    {
+        "node": "phone.medic",
+        "group": "paramedic",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Routes incoming 911 medical emergencies to paramedic's phone.",
+            "es": "Recibe alertas médicas 911 en el teléfono."
+        }
+    },
+    {
+        "node": "gps.commands.start",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Allows activating turn-by-turn particle street guidance.",
+            "es": "Permite activar rutas de navegación GPS por la ciudad."
+        }
+    },
+    {
+        "node": "dh.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Full hologram creation & display entity editing.",
+            "es": "Permite crear y editar todos los hologramas 3D."
+        }
+    },
+    {
+        "node": "imageframe.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Allows generating custom HD billboards and posters.",
+            "es": "Permite crear vallas y carteles HD con imágenes."
+        }
+    },
+    {
+        "node": "tab.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "TAB",
+        "desc": {
+            "en": "Allows reloading scoreboard HUD, bossbar, and nametags.",
+            "es": "Permite recargar el HUD del scoreboard y nametags."
+        }
+    },
+    {
+        "node": "quests.quest",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Allows accepting and completing civilian delivery/job contracts.",
+            "es": "Permite aceptar trabajos y misiones en /job."
+        }
+    },
+    {
+        "node": "quests.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Allows editing quests, stages, and assigning points.",
+            "es": "Permite editar misiones y asignar puntos (Admin)."
+        }
+    },
+    {
+        "node": "autorank.check",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Allows checking playtime progression ranks (/ar check).",
+            "es": "Permite ver tu progreso de rango por horas (/ar check)."
+        }
+    },
+    {
+        "node": "skillapi.basic",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Allows using RPG skill points and perks (/class).",
+            "es": "Permite asignar puntos de habilidad RPG (/class)."
+        }
+    },
+    {
+        "node": "realmines.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Allows configuring auto-resetting quarry mines.",
+            "es": "Permite crear y configurar las minas de trabajo."
+        }
+    },
+    {
+        "node": "servertutorialplus.command.play",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "Allows replaying the city onboarding tour (/st play).",
+            "es": "Permite iniciar el recorrido tutorial por la ciudad."
+        }
+    },
+    {
+        "node": "roulette.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Allows participating in casino roulette tables.",
+            "es": "Permite jugar en las mesas de ruleta del casino."
+        }
+    },
+    {
+        "node": "videopoker.play",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "VideoPoker",
+        "desc": {
+            "en": "Allows playing casino video poker terminals.",
+            "es": "Permite jugar máquinas de video póker."
+        }
+    },
+    {
+        "node": "lottery.gui",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Lottery",
+        "desc": {
+            "en": "Allows buying metropolitan lottery tickets.",
+            "es": "Permite comprar billetes de lotería."
+        }
+    },
+    {
+        "node": "blockball.command",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Allows joining soccer matches in city stadiums.",
+            "es": "Permite jugar partidos de fútbol en el estadio."
+        }
+    },
+    {
+        "node": "emf.shop",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Allows selling custom caught fish at the marina shop.",
+            "es": "Permite vender capturas en la tienda de pesca (/emf shop)."
+        }
+    },
+    {
+        "node": "emf.top",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Allows viewing fishing tournament leaderboards.",
+            "es": "Permite ver la tabla de líderes de torneos de pesca."
+        }
+    },
+    {
+        "node": "emf.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Allows starting/stopping fishing contests & reloading fish configs.",
+            "es": "Permite iniciar torneos de pesca y recargar configuración."
+        }
+    },
+    {
+        "node": "GSit.Sit",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Allows sitting on chairs/stairs or using /sit.",
+            "es": "Permite sentarse en sillas, escaleras y usar /sit."
+        }
+    },
+    {
+        "node": "GSit.Lay",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Allows using /lay pose on beds and floors.",
+            "es": "Permite acostarse usando /lay."
+        }
+    },
+    {
+        "node": "GSit.Crawl",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Allows crawling through 1-block spaces (/crawl).",
+            "es": "Permite arrastrarse por conductos (/crawl)."
+        }
+    },
+    {
+        "node": "music.command",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Allows listening and changing radio tracks (/music).",
+            "es": "Permite cambiar la música de radio con /music."
+        }
+    },
+    {
+        "node": "gadgetsmenu.menu",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Allows opening cosmetic hats & particle menu (/gmenu).",
+            "es": "Permite abrir el menú de cosméticos (/gmenu)."
+        }
+    },
+    {
+        "node": "citizens.npc.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Allows spawning and configuring NPC shopkeepers and staff.",
+            "es": "Permite crear y configurar NPCs vendedores y policías."
+        }
+    },
+    {
+        "node": "excellentcrates.crates.command.open",
+        "group": "default",
+        "defaultState": "True",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Allows opening reward crates with keys (/crates open).",
+            "es": "Permite abrir cajas de botín con llaves (/crates open)."
+        }
+    },
+    {
+        "node": "excellentcrates.crates.command.editor",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Opens the live in-game crates editor.",
+            "es": "Abre el editor de cajas y recompensas dentro del juego."
+        }
+    },
+    {
+        "node": "playerkits.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Allows claiming starter and daily kits (/kit).",
+            "es": "Permite reclamar kits de inicio y diarios (/kit)."
+        }
+    },
+    {
+        "node": "therewards.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
+        "desc": {
+            "en": "Allows claiming daily login streaks (/rewards).",
+            "es": "Permite reclamar recompensas por racha diaria (/rewards)."
+        }
+    },
+    {
+        "node": "chunky.command.start",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Runs pre-generation chunk tasks for lag-free roads.",
+            "es": "Ejecuta la pre-generación de chunks para carreteras sin lag."
+        }
+    },
+    {
+        "node": "lagfixer.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Manages automatic dropped item cleanup (/abyss).",
+            "es": "Gestiona limpieza de entidades tiradas para mantener 20 TPS."
+        }
+    },
+    {
+        "node": "forcepack.bypass",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ForcePack",
+        "desc": {
+            "en": "Allows bypassing mandatory 3D resource pack check.",
+            "es": "Permite omitir la verificación obligatoria del texture pack."
+        }
+    },
+    {
+        "node": "arm.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.*).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.*)."
+        }
+    },
+    {
+        "node": "arm.admin.addmember",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.admin.addmember).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.admin.addmember)."
+        }
+    },
+    {
+        "node": "arm.admin.addtime",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.admin.addtime).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.admin.addtime)."
+        }
+    },
+    {
+        "node": "arm.admin.buildeverywhere",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.admin.buildeverywhere).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.admin.buildeverywhere)."
+        }
+    },
+    {
+        "node": "arm.admin.bypassteleportercooldown",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.admin.bypassteleportercooldown).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.admin.bypassteleportercooldown)."
+        }
+    },
+    {
+        "node": "arm.admin.create.contractregion",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "AdvancedRegionMarket",
+        "desc": {
+            "en": "Access permission for AdvancedRegionMarket (arm.admin.create.contractregion).",
+            "es": "[Properties & Building] Permiso de AdvancedRegionMarket (arm.admin.create.contractregion)."
+        }
+    },
+    {
+        "node": "astools.ascmd.add.bungee",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.add.bungee).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.add.bungee)."
+        }
+    },
+    {
+        "node": "astools.ascmd.add.console",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.add.console).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.add.console)."
+        }
+    },
+    {
+        "node": "astools.ascmd.add.player",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.add.player).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.add.player)."
+        }
+    },
+    {
+        "node": "astools.ascmd.cooldown",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.cooldown).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.cooldown)."
+        }
+    },
+    {
+        "node": "astools.ascmd.execute",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.execute).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.execute)."
+        }
+    },
+    {
+        "node": "astools.ascmd.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "ArmorStandTools",
+        "desc": {
+            "en": "Access permission for ArmorStandTools (astools.ascmd.list).",
+            "es": "[Properties & Building] Permiso de ArmorStandTools (astools.ascmd.list)."
+        }
+    },
+    {
+        "node": "auctionhouse.cancel",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.cancel).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.cancel)."
+        }
+    },
+    {
+        "node": "auctionhouse.cancel.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.cancel.others).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.cancel.others)."
+        }
+    },
+    {
+        "node": "auctionhouse.expire.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.expire.others).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.expire.others)."
+        }
+    },
+    {
+        "node": "auctionhouse.expired",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.expired).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.expired)."
+        }
+    },
+    {
+        "node": "auctionhouse.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.list).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.list)."
+        }
+    },
+    {
+        "node": "auctionhouse.menu",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "AuctionHouse",
+        "desc": {
+            "en": "Access permission for AuctionHouse (auctionhouse.menu).",
+            "es": "[Economy & Banking] Permiso de AuctionHouse (auctionhouse.menu)."
+        }
+    },
+    {
+        "node": "autorank.add",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.add).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.add)."
+        }
+    },
+    {
+        "node": "autorank.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.admin).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.admin)."
+        }
+    },
+    {
+        "node": "autorank.backup.data",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.backup.data).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.backup.data)."
+        }
+    },
+    {
+        "node": "autorank.backup.storage",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.backup.storage).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.backup.storage)."
+        }
+    },
+    {
+        "node": "autorank.checkothers",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.checkothers).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.checkothers)."
+        }
+    },
+    {
+        "node": "autorank.choose",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Autorank",
+        "desc": {
+            "en": "Access permission for Autorank (autorank.choose).",
+            "es": "[Jobs & Progression] Permiso de Autorank (autorank.choose)."
+        }
+    },
+    {
+        "node": "bank.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin)."
+        }
+    },
+    {
+        "node": "bank.admin.block",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin.block).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin.block)."
+        }
+    },
+    {
+        "node": "bank.admin.block.add",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin.block.add).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin.block.add)."
+        }
+    },
+    {
+        "node": "bank.admin.block.remove",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin.block.remove).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin.block.remove)."
+        }
+    },
+    {
+        "node": "bank.admin.debug",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin.debug).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin.debug)."
+        }
+    },
+    {
+        "node": "bank.admin.debug.item",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Bank",
+        "desc": {
+            "en": "Access permission for Bank (bank.admin.debug.item).",
+            "es": "[Economy & Banking] Permiso de Bank (bank.admin.debug.item)."
+        }
+    },
+    {
+        "node": "blockball.cloud",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.cloud).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.cloud)."
+        }
+    },
+    {
+        "node": "blockball.command.staff",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.command.staff).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.command.staff)."
+        }
+    },
+    {
+        "node": "blockball.edit",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.edit).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.edit)."
+        }
+    },
+    {
+        "node": "blockball.referee.join",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.referee.join).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.referee.join)."
+        }
+    },
+    {
+        "node": "blockball.shycommandsigns.add",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.shycommandsigns.add).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.shycommandsigns.add)."
+        }
+    },
+    {
+        "node": "blockball.shycommandsigns.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "BlockBall",
+        "desc": {
+            "en": "Access permission for BlockBall (blockball.shycommandsigns.command).",
+            "es": "[Casino, Sports & Leisure] Permiso de BlockBall (blockball.shycommandsigns.command)."
+        }
+    },
+    {
+        "node": "citizens.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.*)."
+        }
+    },
+    {
+        "node": "citizens.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.admin).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.admin)."
+        }
+    },
+    {
+        "node": "citizens.admin.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.admin.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.admin.*)."
+        }
+    },
+    {
+        "node": "citizens.admin.avoid-limits",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.admin.avoid-limits).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.admin.avoid-limits)."
+        }
+    },
+    {
+        "node": "citizens.admin.remove.all",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.admin.remove.all).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.admin.remove.all)."
+        }
+    },
+    {
+        "node": "citizens.citizens.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Citizens",
+        "desc": {
+            "en": "Access permission for Citizens (citizens.citizens.help).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Citizens (citizens.citizens.help)."
+        }
+    },
+    {
+        "node": "clanplus.setpermission",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (clanplus.setpermission).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (clanplus.setpermission)."
+        }
+    },
+    {
+        "node": "items.reset.lore",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (items.reset.lore).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (items.reset.lore)."
+        }
+    },
+    {
+        "node": "items.reset.name",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (items.reset.name).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (items.reset.name)."
+        }
+    },
+    {
+        "node": "items.reset.slot",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (items.reset.slot).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (items.reset.slot)."
+        }
+    },
+    {
+        "node": "items.reset.type",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (items.reset.type).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (items.reset.type)."
+        }
+    },
+    {
+        "node": "items.reset.value",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "ClansPlus",
+        "desc": {
+            "en": "Access permission for ClansPlus (items.reset.value).",
+            "es": "[Crime, Gangs & Heists] Permiso de ClansPlus (items.reset.value)."
+        }
+    },
+    {
+        "node": "craftorithm.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command)."
+        }
+    },
+    {
+        "node": "craftorithm.command.openmenu",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command.openmenu).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command.openmenu)."
+        }
+    },
+    {
+        "node": "craftorithm.command.recipebook",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command.recipebook).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command.recipebook)."
+        }
+    },
+    {
+        "node": "craftorithm.command.reload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command.reload).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command.reload)."
+        }
+    },
+    {
+        "node": "craftorithm.command.script",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command.script).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command.script)."
+        }
+    },
+    {
+        "node": "craftorithm.command.version",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Craftorithm",
+        "desc": {
+            "en": "Access permission for Craftorithm (craftorithm.command.version).",
+            "es": "[Core & Roleplay] Permiso de Craftorithm (craftorithm.command.version)."
+        }
+    },
+    {
+        "node": "customdeathdrops.reload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Crime, Gangs & Heists",
+        "plugin": "CustomDeathDrops",
+        "desc": {
+            "en": "Access permission for CustomDeathDrops (customdeathdrops.reload).",
+            "es": "[Crime, Gangs & Heists] Permiso de CustomDeathDrops (customdeathdrops.reload)."
+        }
+    },
+    {
+        "node": "dh.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command)."
+        }
+    },
+    {
+        "node": "dh.command.convert",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command.convert).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command.convert)."
+        }
+    },
+    {
+        "node": "dh.command.decentholograms",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command.decentholograms).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command.decentholograms)."
+        }
+    },
+    {
+        "node": "dh.command.displays",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command.displays).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command.displays)."
+        }
+    },
+    {
+        "node": "dh.command.displays.attribute",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command.displays.attribute).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command.displays.attribute)."
+        }
+    },
+    {
+        "node": "dh.command.displays.center",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "DecentHolograms",
+        "desc": {
+            "en": "Access permission for DecentHolograms (dh.command.displays.center).",
+            "es": "[Communication & Navigation] Permiso de DecentHolograms (dh.command.displays.center)."
+        }
+    },
+    {
+        "node": "deluxemenus.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.admin).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.admin)."
+        }
+    },
+    {
+        "node": "deluxemenus.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.list).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.list)."
+        }
+    },
+    {
+        "node": "deluxemenus.menu.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.menu.*).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.menu.*)."
+        }
+    },
+    {
+        "node": "deluxemenus.open",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.open).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.open)."
+        }
+    },
+    {
+        "node": "deluxemenus.open.bypass",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.open.bypass).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.open.bypass)."
+        }
+    },
+    {
+        "node": "deluxemenus.open.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "DeluxeMenus",
+        "desc": {
+            "en": "Access permission for DeluxeMenus (deluxemenus.open.others).",
+            "es": "[Core & Roleplay] Permiso de DeluxeMenus (deluxemenus.open.others)."
+        }
+    },
+    {
+        "node": "denizen.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.*)."
+        }
+    },
+    {
+        "node": "denizen.basic",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.basic).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.basic)."
+        }
+    },
+    {
+        "node": "denizen.debug",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.debug).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.debug)."
+        }
+    },
+    {
+        "node": "denizen.dscript",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.dscript).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.dscript)."
+        }
+    },
+    {
+        "node": "denizen.ex",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.ex).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.ex)."
+        }
+    },
+    {
+        "node": "denizen.npc.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Denizen",
+        "desc": {
+            "en": "Access permission for Denizen (denizen.npc.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Denizen (denizen.npc.*)."
+        }
+    },
+    {
+        "node": "commands.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.create).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.create)."
+        }
+    },
+    {
+        "node": "commands.delete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.delete).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.delete)."
+        }
+    },
+    {
+        "node": "commands.edit",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.edit).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.edit)."
+        }
+    },
+    {
+        "node": "commands.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.help).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.help)."
+        }
+    },
+    {
+        "node": "commands.info",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.info).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.info)."
+        }
+    },
+    {
+        "node": "commands.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "dtlTraders",
+        "desc": {
+            "en": "Access permission for dtlTraders (commands.list).",
+            "es": "[Economy & Banking] Permiso de dtlTraders (commands.list)."
+        }
+    },
+    {
+        "node": "essentials.chat.color",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.color).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.color)."
+        }
+    },
+    {
+        "node": "essentials.chat.format",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.format).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.format)."
+        }
+    },
+    {
+        "node": "essentials.chat.local",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.local).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.local)."
+        }
+    },
+    {
+        "node": "essentials.chat.magic",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.magic).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.magic)."
+        }
+    },
+    {
+        "node": "essentials.chat.question",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.question).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.question)."
+        }
+    },
+    {
+        "node": "essentials.chat.receive.local",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "EssentialsChat",
+        "desc": {
+            "en": "Access permission for EssentialsChat (essentials.chat.receive.local).",
+            "es": "[Communication & Navigation] Permiso de EssentialsChat (essentials.chat.receive.local)."
+        }
+    },
+    {
+        "node": "essentials.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.*).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.*)."
+        }
+    },
+    {
+        "node": "essentials.afk",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.afk).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.afk)."
+        }
+    },
+    {
+        "node": "essentials.afk.auto",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.afk.auto).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.afk.auto)."
+        }
+    },
+    {
+        "node": "essentials.afk.kickexempt",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.afk.kickexempt).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.afk.kickexempt)."
+        }
+    },
+    {
+        "node": "essentials.afk.message",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.afk.message).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.afk.message)."
+        }
+    },
+    {
+        "node": "essentials.afk.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Essentials",
+        "desc": {
+            "en": "Access permission for Essentials (essentials.afk.others).",
+            "es": "[Core & Roleplay] Permiso de Essentials (essentials.afk.others)."
+        }
+    },
+    {
+        "node": "essentials.setspawn",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsSpawn",
+        "desc": {
+            "en": "Access permission for EssentialsSpawn (essentials.setspawn).",
+            "es": "[Core & Roleplay] Permiso de EssentialsSpawn (essentials.setspawn)."
+        }
+    },
+    {
+        "node": "essentials.spawn",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsSpawn",
+        "desc": {
+            "en": "Access permission for EssentialsSpawn (essentials.spawn).",
+            "es": "[Core & Roleplay] Permiso de EssentialsSpawn (essentials.spawn)."
+        }
+    },
+    {
+        "node": "essentials.spawn-on-join.exempt",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsSpawn",
+        "desc": {
+            "en": "Access permission for EssentialsSpawn (essentials.spawn-on-join.exempt).",
+            "es": "[Core & Roleplay] Permiso de EssentialsSpawn (essentials.spawn-on-join.exempt)."
+        }
+    },
+    {
+        "node": "essentials.spawn.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "EssentialsSpawn",
+        "desc": {
+            "en": "Access permission for EssentialsSpawn (essentials.spawn.others).",
+            "es": "[Core & Roleplay] Permiso de EssentialsSpawn (essentials.spawn.others)."
+        }
+    },
+    {
+        "node": "elevator.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.admin).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.admin)."
+        }
+    },
+    {
+        "node": "elevator.bypass.cooldown",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.bypass.cooldown).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.bypass.cooldown)."
+        }
+    },
+    {
+        "node": "elevator.bypass.distance",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.bypass.distance).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.bypass.distance)."
+        }
+    },
+    {
+        "node": "elevator.commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.commands).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.commands)."
+        }
+    },
+    {
+        "node": "elevator.commands.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.commands.create).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.commands.create)."
+        }
+    },
+    {
+        "node": "elevator.commands.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Vehicles & Transport",
+        "plugin": "Elevator",
+        "desc": {
+            "en": "Access permission for Elevator (elevator.commands.help).",
+            "es": "[Vehicles & Transport] Permiso de Elevator (elevator.commands.help)."
+        }
+    },
+    {
+        "node": "emf.admin.debug.database",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.admin.debug.database).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.admin.debug.database)."
+        }
+    },
+    {
+        "node": "emf.admin.migrate",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.admin.migrate).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.admin.migrate)."
+        }
+    },
+    {
+        "node": "emf.admin.update.notify",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.admin.update.notify).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.admin.update.notify)."
+        }
+    },
+    {
+        "node": "emf.applybaits",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.applybaits).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.applybaits)."
+        }
+    },
+    {
+        "node": "emf.gui",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.gui).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.gui)."
+        }
+    },
+    {
+        "node": "emf.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "EvenMoreFish",
+        "desc": {
+            "en": "Access permission for EvenMoreFish (emf.help).",
+            "es": "[Casino, Sports & Leisure] Permiso de EvenMoreFish (emf.help)."
+        }
+    },
+    {
+        "node": "auto.redeem",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (auto.redeem).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (auto.redeem)."
+        }
+    },
+    {
+        "node": "balance.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (balance.others).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (balance.others)."
+        }
+    },
+    {
+        "node": "block.place",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (block.place).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (block.place)."
+        }
+    },
+    {
+        "node": "block.remove",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (block.remove).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (block.remove)."
+        }
+    },
+    {
+        "node": "crates.commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (crates.commands).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (crates.commands)."
+        }
+    },
+    {
+        "node": "giveall.included",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ExcellentCrates",
+        "desc": {
+            "en": "Access permission for ExcellentCrates (giveall.included).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ExcellentCrates (giveall.included)."
+        }
+    },
+    {
+        "node": "ei.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.*).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.*)."
+        }
+    },
+    {
+        "node": "ei.cmd.actionbar",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.cmd.actionbar).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.cmd.actionbar)."
+        }
+    },
+    {
+        "node": "ei.cmd.clear",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.cmd.clear).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.cmd.clear)."
+        }
+    },
+    {
+        "node": "ei.cmd.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.cmd.create).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.cmd.create)."
+        }
+    },
+    {
+        "node": "ei.cmd.customprojectiles",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.cmd.customprojectiles).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.cmd.customprojectiles)."
+        }
+    },
+    {
+        "node": "ei.cmd.delete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "ExecutableItems",
+        "desc": {
+            "en": "Access permission for ExecutableItems (ei.cmd.delete).",
+            "es": "[Firearms & Equipment] Permiso de ExecutableItems (ei.cmd.delete)."
+        }
+    },
+    {
+        "node": "gps.commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands)."
+        }
+    },
+    {
+        "node": "gps.commands.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands.admin).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands.admin)."
+        }
+    },
+    {
+        "node": "gps.commands.configurator",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands.configurator).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands.configurator)."
+        }
+    },
+    {
+        "node": "gps.commands.help",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands.help).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands.help)."
+        }
+    },
+    {
+        "node": "gps.commands.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands.list).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands.list)."
+        }
+    },
+    {
+        "node": "gps.commands.move",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "GPS",
+        "desc": {
+            "en": "Access permission for GPS (gps.commands.move).",
+            "es": "[Communication & Navigation] Permiso de GPS (gps.commands.move)."
+        }
+    },
+    {
+        "node": "GSit.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Access permission for GSit (GSit.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de GSit (GSit.*)."
+        }
+    },
+    {
+        "node": "GSit.GSitReload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Access permission for GSit (GSit.GSitReload).",
+            "es": "[Casino, Sports & Leisure] Permiso de GSit (GSit.GSitReload)."
+        }
+    },
+    {
+        "node": "GSit.Kick",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Access permission for GSit (GSit.Kick).",
+            "es": "[Casino, Sports & Leisure] Permiso de GSit (GSit.Kick)."
+        }
+    },
+    {
+        "node": "GSit.Toggle",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Access permission for GSit (GSit.Toggle).",
+            "es": "[Casino, Sports & Leisure] Permiso de GSit (GSit.Toggle)."
+        }
+    },
+    {
+        "node": "GSit.Update",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GSit",
+        "desc": {
+            "en": "Access permission for GSit (GSit.Update).",
+            "es": "[Casino, Sports & Leisure] Permiso de GSit (GSit.Update)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.*)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.animatedhats.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.animatedhats.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.animatedhats.*)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.animations.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.animations.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.animations.*)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.animations.random",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.animations.random).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.animations.random)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.autoequip.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.autoequip.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.autoequip.*)."
+        }
+    },
+    {
+        "node": "gadgetsmenu.autoequip.foundloot",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "GadgetsMenu",
+        "desc": {
+            "en": "Access permission for GadgetsMenu (gadgetsmenu.autoequip.foundloot).",
+            "es": "[Casino, Sports & Leisure] Permiso de GadgetsMenu (gadgetsmenu.autoequip.foundloot)."
+        }
+    },
+    {
+        "node": "gizmo.fade",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Gizmo",
+        "desc": {
+            "en": "Access permission for Gizmo (gizmo.fade).",
+            "es": "[Casino, Sports & Leisure] Permiso de Gizmo (gizmo.fade)."
+        }
+    },
+    {
+        "node": "gizmo.reload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Gizmo",
+        "desc": {
+            "en": "Access permission for Gizmo (gizmo.reload).",
+            "es": "[Casino, Sports & Leisure] Permiso de Gizmo (gizmo.reload)."
+        }
+    },
+    {
+        "node": "gizmo.show",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Gizmo",
+        "desc": {
+            "en": "Access permission for Gizmo (gizmo.show).",
+            "es": "[Casino, Sports & Leisure] Permiso de Gizmo (gizmo.show)."
+        }
+    },
+    {
+        "node": "imageframe.adminbypass",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.adminbypass).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.adminbypass)."
+        }
+    },
+    {
+        "node": "imageframe.admindelete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.admindelete).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.admindelete)."
+        }
+    },
+    {
+        "node": "imageframe.adminmigrate",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.adminmigrate).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.adminmigrate)."
+        }
+    },
+    {
+        "node": "imageframe.adminsetcreator",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.adminsetcreator).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.adminsetcreator)."
+        }
+    },
+    {
+        "node": "imageframe.clone",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.clone).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.clone)."
+        }
+    },
+    {
+        "node": "imageframe.create.animated",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "ImageFrame",
+        "desc": {
+            "en": "Access permission for ImageFrame (imageframe.create.animated).",
+            "es": "[Communication & Navigation] Permiso de ImageFrame (imageframe.create.animated)."
+        }
+    },
+    {
+        "node": "image.command.resize",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (image.command.resize).",
+            "es": "[Communication & Navigation] Permiso de Images (image.command.resize)."
+        }
+    },
+    {
+        "node": "image.command.size",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (image.command.size).",
+            "es": "[Communication & Navigation] Permiso de Images (image.command.size)."
+        }
+    },
+    {
+        "node": "images.cimg",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (images.cimg).",
+            "es": "[Communication & Navigation] Permiso de Images (images.cimg)."
+        }
+    },
+    {
+        "node": "images.command.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (images.command.create).",
+            "es": "[Communication & Navigation] Permiso de Images (images.command.create)."
+        }
+    },
+    {
+        "node": "images.command.create.url",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (images.command.create.url).",
+            "es": "[Communication & Navigation] Permiso de Images (images.command.create.url)."
+        }
+    },
+    {
+        "node": "images.command.delete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "Images",
+        "desc": {
+            "en": "Access permission for Images (images.command.delete).",
+            "es": "[Communication & Navigation] Permiso de Images (images.command.delete)."
+        }
+    },
+    {
+        "node": "music.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.*).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.*)."
+        }
+    },
+    {
+        "node": "music.adminItem",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.adminItem).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.adminItem)."
+        }
+    },
+    {
+        "node": "music.command.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.command.admin).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.command.admin)."
+        }
+    },
+    {
+        "node": "music.favorites",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.favorites).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.favorites)."
+        }
+    },
+    {
+        "node": "music.loop",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.loop).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.loop)."
+        }
+    },
+    {
+        "node": "music.particles",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "JukeBox",
+        "desc": {
+            "en": "Access permission for JukeBox (music.particles).",
+            "es": "[Casino, Sports & Leisure] Permiso de JukeBox (music.particles)."
+        }
+    },
+    {
+        "node": "lagfixer.updater",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (lagfixer.updater).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (lagfixer.updater)."
+        }
+    },
+    {
+        "node": "main.command_aliases",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (main.command_aliases).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (main.command_aliases)."
+        }
+    },
+    {
+        "node": "main.config_formatter",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (main.config_formatter).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (main.config_formatter)."
+        }
+    },
+    {
+        "node": "main.errors_reporter",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (main.errors_reporter).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (main.errors_reporter)."
+        }
+    },
+    {
+        "node": "main.monitor.map.enabled",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (main.monitor.map.enabled).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (main.monitor.map.enabled)."
+        }
+    },
+    {
+        "node": "main.monitor.map.id",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "LagFixer",
+        "desc": {
+            "en": "Access permission for LagFixer (main.monitor.map.id).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de LagFixer (main.monitor.map.id)."
+        }
+    },
+    {
+        "node": "lottery.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Lottery",
+        "desc": {
+            "en": "Access permission for Lottery (lottery.admin).",
+            "es": "[Casino, Sports & Leisure] Permiso de Lottery (lottery.admin)."
+        }
+    },
+    {
+        "node": "lottery.draw",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Lottery",
+        "desc": {
+            "en": "Access permission for Lottery (lottery.draw).",
+            "es": "[Casino, Sports & Leisure] Permiso de Lottery (lottery.draw)."
+        }
+    },
+    {
+        "node": "mtvehicles.anwb",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.anwb).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.anwb)."
+        }
+    },
+    {
+        "node": "mtvehicles.benzine",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.benzine).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.benzine)."
+        }
+    },
+    {
+        "node": "mtvehicles.benzinesize",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.benzinesize).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.benzinesize)."
+        }
+    },
+    {
+        "node": "mtvehicles.benzineval",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.benzineval).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.benzineval)."
+        }
+    },
+    {
+        "node": "mtvehicles.buycar",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.buycar).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.buycar)."
+        }
+    },
+    {
+        "node": "mtvehicles.buyvoucher",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Vehicles & Transport",
+        "plugin": "MTVehicles",
+        "desc": {
+            "en": "Access permission for MTVehicles (mtvehicles.buyvoucher).",
+            "es": "[Vehicles & Transport] Permiso de MTVehicles (mtvehicles.buyvoucher)."
+        }
+    },
+    {
+        "node": "minecity.vehicle.model",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecityFixerAddon",
+        "desc": {
+            "en": "Access permission for MinecityFixerAddon (minecity.vehicle.model).",
+            "es": "[Core & Roleplay] Permiso de MinecityFixerAddon (minecity.vehicle.model)."
+        }
+    },
+    {
+        "node": "arm.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (arm.admin).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (arm.admin)."
+        }
+    },
+    {
+        "node": "arm.admin.remove",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (arm.admin.remove).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (arm.admin.remove)."
+        }
+    },
+    {
+        "node": "broadcast.on-arrest",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (broadcast.on-arrest).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (broadcast.on-arrest)."
+        }
+    },
+    {
+        "node": "jail.blacklisted-items",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (jail.blacklisted-items).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (jail.blacklisted-items)."
+        }
+    },
+    {
+        "node": "jail.blocked-commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (jail.blocked-commands).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (jail.blocked-commands)."
+        }
+    },
+    {
+        "node": "jail.exit-location.pitch",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MinecitySuite",
+        "desc": {
+            "en": "Access permission for MinecitySuite (jail.exit-location.pitch).",
+            "es": "[Core & Roleplay] Permiso de MinecitySuite (jail.exit-location.pitch)."
+        }
+    },
+    {
+        "node": "mycmd.log",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycmd.log).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycmd.log)."
+        }
+    },
+    {
+        "node": "mycommand.antitab.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycommand.antitab.).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycommand.antitab.)."
+        }
+    },
+    {
+        "node": "mycommand.antitab.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycommand.antitab.admin).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycommand.antitab.admin)."
+        }
+    },
+    {
+        "node": "mycommand.block.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycommand.block.).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycommand.block.)."
+        }
+    },
+    {
+        "node": "mycommand.block.all.use",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycommand.block.all.use).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycommand.block.all.use)."
+        }
+    },
+    {
+        "node": "mycommand.block.break",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "MyCommand",
+        "desc": {
+            "en": "Access permission for MyCommand (mycommand.block.break).",
+            "es": "[Core & Roleplay] Permiso de MyCommand (mycommand.block.break)."
+        }
+    },
+    {
+        "node": "colors.old",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (colors.old).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (colors.old)."
+        }
+    },
+    {
+        "node": "nightcore.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (nightcore.*).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (nightcore.*)."
+        }
+    },
+    {
+        "node": "nightcore.command.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (nightcore.command.).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (nightcore.command.)."
+        }
+    },
+    {
+        "node": "nightcore.command.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (nightcore.command.*).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (nightcore.command.*)."
+        }
+    },
+    {
+        "node": "nightcore.command.checkperm",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (nightcore.command.checkperm).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (nightcore.command.checkperm)."
+        }
+    },
+    {
+        "node": "nightcore.command.dumpitem",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Nightcore",
+        "desc": {
+            "en": "Access permission for Nightcore (nightcore.command.dumpitem).",
+            "es": "[Core & Roleplay] Permiso de Nightcore (nightcore.command.dumpitem)."
+        }
+    },
+    {
+        "node": "chunky.chunky",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.chunky).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.chunky)."
+        }
+    },
+    {
+        "node": "chunky.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.command).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.command)."
+        }
+    },
+    {
+        "node": "chunky.command.border",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.command.border).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.command.border)."
+        }
+    },
+    {
+        "node": "chunky.command.cancel",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.command.cancel).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.command.cancel)."
+        }
+    },
+    {
+        "node": "chunky.command.center",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.command.center).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.command.center)."
+        }
+    },
+    {
+        "node": "chunky.command.confirm",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Chunky",
+        "desc": {
+            "en": "Access permission for Chunky (chunky.command.confirm).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Chunky (chunky.command.confirm)."
+        }
+    },
+    {
+        "node": "rosegarden.rwd",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosegarden.rwd).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosegarden.rwd)."
+        }
+    },
+    {
+        "node": "rosegarden.updates",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosegarden.updates).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosegarden.updates)."
+        }
+    },
+    {
+        "node": "rosestacker.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosestacker.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosestacker.*)."
+        }
+    },
+    {
+        "node": "rosestacker.basecommand",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosestacker.basecommand).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosestacker.basecommand)."
+        }
+    },
+    {
+        "node": "rosestacker.clearall",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosestacker.clearall).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosestacker.clearall)."
+        }
+    },
+    {
+        "node": "rosestacker.give",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "RoseStacker",
+        "desc": {
+            "en": "Access permission for RoseStacker (rosestacker.give).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de RoseStacker (rosestacker.give)."
+        }
+    },
+    {
+        "node": "phone.customsim",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Access permission for PhoneV2 (phone.customsim).",
+            "es": "[Communication & Navigation] Permiso de PhoneV2 (phone.customsim)."
+        }
+    },
+    {
+        "node": "phone.firefighter",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Access permission for PhoneV2 (phone.firefighter).",
+            "es": "[Communication & Navigation] Permiso de PhoneV2 (phone.firefighter)."
+        }
+    },
+    {
+        "node": "phone.givesim",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "PhoneV2",
+        "desc": {
+            "en": "Access permission for PhoneV2 (phone.givesim).",
+            "es": "[Communication & Navigation] Permiso de PhoneV2 (phone.givesim)."
+        }
+    },
+    {
+        "node": "plhide.bypass.pl-message",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Pl-Hide-Free",
+        "desc": {
+            "en": "Access permission for Pl-Hide-Free (plhide.bypass.pl-message).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Pl-Hide-Free (plhide.bypass.pl-message)."
+        }
+    },
+    {
+        "node": "plhide.reload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Pl-Hide-Free",
+        "desc": {
+            "en": "Access permission for Pl-Hide-Free (plhide.reload).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Pl-Hide-Free (plhide.reload)."
+        }
+    },
+    {
+        "node": "user.home",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "Pl-Hide-Free",
+        "desc": {
+            "en": "Access permission for Pl-Hide-Free (user.home).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de Pl-Hide-Free (user.home)."
+        }
+    },
+    {
+        "node": "placeholderapi.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.*).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.*)."
+        }
+    },
+    {
+        "node": "placeholderapi.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.admin).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.admin)."
+        }
+    },
+    {
+        "node": "placeholderapi.ecloud",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.ecloud).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.ecloud)."
+        }
+    },
+    {
+        "node": "placeholderapi.ecloud.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.ecloud.).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.ecloud.)."
+        }
+    },
+    {
+        "node": "placeholderapi.ecloud.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.ecloud.*).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.ecloud.*)."
+        }
+    },
+    {
+        "node": "placeholderapi.ecloud.clear",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "PlaceholderAPI",
+        "desc": {
+            "en": "Access permission for PlaceholderAPI (placeholderapi.ecloud.clear).",
+            "es": "[Core & Roleplay] Permiso de PlaceholderAPI (placeholderapi.ecloud.clear)."
+        }
+    },
+    {
+        "node": "display.cooldown",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (display.cooldown).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (display.cooldown)."
+        }
+    },
+    {
+        "node": "display.default",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (display.default).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (display.default)."
+        }
+    },
+    {
+        "node": "display.no_permission",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (display.no_permission).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (display.no_permission)."
+        }
+    },
+    {
+        "node": "display.one_time",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (display.one_time).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (display.one_time)."
+        }
+    },
+    {
+        "node": "display.one_time_requirements",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (display.one_time_requirements).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (display.one_time_requirements)."
+        }
+    },
+    {
+        "node": "requirements.actions_on_buy",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "PlayerKits2",
+        "desc": {
+            "en": "Access permission for PlayerKits2 (requirements.actions_on_buy).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de PlayerKits2 (requirements.actions_on_buy)."
+        }
+    },
+    {
+        "node": "pocketgames.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.admin).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.admin)."
+        }
+    },
+    {
+        "node": "pocketgames.bypass.enabled",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.bypass.enabled).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.bypass.enabled)."
+        }
+    },
+    {
+        "node": "pocketgames.bypass.world",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.bypass.world).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.bypass.world)."
+        }
+    },
+    {
+        "node": "pocketgames.commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.commands).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.commands)."
+        }
+    },
+    {
+        "node": "pocketgames.commands.check",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.commands.check).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.commands.check)."
+        }
+    },
+    {
+        "node": "pocketgames.commands.duel",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "PocketGames",
+        "desc": {
+            "en": "Access permission for PocketGames (pocketgames.commands.duel).",
+            "es": "[Casino, Sports & Leisure] Permiso de PocketGames (pocketgames.commands.duel)."
+        }
+    },
+    {
+        "node": "conditions.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Core & Roleplay",
+        "plugin": "ProCore",
+        "desc": {
+            "en": "Access permission for ProCore (conditions.list).",
+            "es": "[Core & Roleplay] Permiso de ProCore (conditions.list)."
+        }
+    },
+    {
+        "node": "core.lang",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "ProCore",
+        "desc": {
+            "en": "Access permission for ProCore (core.lang).",
+            "es": "[Core & Roleplay] Permiso de ProCore (core.lang)."
+        }
+    },
+    {
+        "node": "fcore.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "ProCore",
+        "desc": {
+            "en": "Access permission for ProCore (fcore.admin).",
+            "es": "[Core & Roleplay] Permiso de ProCore (fcore.admin)."
+        }
+    },
+    {
+        "node": "skillapi.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.*).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.*)."
+        }
+    },
+    {
+        "node": "skillapi.attrib",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.attrib).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.attrib)."
+        }
+    },
+    {
+        "node": "skillapi.backup",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.backup).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.backup)."
+        }
+    },
+    {
+        "node": "skillapi.class",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.class).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.class)."
+        }
+    },
+    {
+        "node": "skillapi.exp",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.exp).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.exp)."
+        }
+    },
+    {
+        "node": "skillapi.force",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ProSkillAPI",
+        "desc": {
+            "en": "Access permission for ProSkillAPI (skillapi.force).",
+            "es": "[Jobs & Progression] Permiso de ProSkillAPI (skillapi.force)."
+        }
+    },
+    {
+        "node": "disconnect.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Access permission for ProtocolLib (disconnect.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ProtocolLib (disconnect.*)."
+        }
+    },
+    {
+        "node": "protocol.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Access permission for ProtocolLib (protocol.*).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ProtocolLib (protocol.*)."
+        }
+    },
+    {
+        "node": "protocol.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Access permission for ProtocolLib (protocol.admin).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ProtocolLib (protocol.admin)."
+        }
+    },
+    {
+        "node": "protocol.info",
+        "group": "default",
+        "defaultState": "True",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ProtocolLib",
+        "desc": {
+            "en": "Access permission for ProtocolLib (protocol.info).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ProtocolLib (protocol.info)."
+        }
+    },
+    {
+        "node": "categories.crafting",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (categories.crafting).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (categories.crafting)."
+        }
+    },
+    {
+        "node": "categories.shop",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (categories.shop).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (categories.shop)."
+        }
+    },
+    {
+        "node": "qualityarmory.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (qualityarmory.*).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (qualityarmory.*)."
+        }
+    },
+    {
+        "node": "qualityarmory.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (qualityarmory.admin).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (qualityarmory.admin)."
+        }
+    },
+    {
+        "node": "qualityarmory.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (qualityarmory.create).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (qualityarmory.create)."
+        }
+    },
+    {
+        "node": "qualityarmory.createnewitem",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "QualityArmory",
+        "desc": {
+            "en": "Access permission for QualityArmory (qualityarmory.createnewitem).",
+            "es": "[Firearms & Equipment] Permiso de QualityArmory (qualityarmory.createnewitem)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.*).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.*)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.addvehicle",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.addvehicle).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.addvehicle)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.callback",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.callback).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.callback)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.callbackAll",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.callbackAll).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.callbackAll)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.candrive.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.candrive.).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.candrive.)."
+        }
+    },
+    {
+        "node": "qualityarmoryvehicles.craft",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Vehicles & Transport",
+        "plugin": "QualityArmoryVehicles2",
+        "desc": {
+            "en": "Access permission for QualityArmoryVehicles2 (qualityarmoryvehicles.craft).",
+            "es": "[Vehicles & Transport] Permiso de QualityArmoryVehicles2 (qualityarmoryvehicles.craft)."
+        }
+    },
+    {
+        "node": "quests.actions.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.actions.*).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.actions.*)."
+        }
+    },
+    {
+        "node": "quests.actions.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.actions.create).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.actions.create)."
+        }
+    },
+    {
+        "node": "quests.actions.delete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.actions.delete).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.actions.delete)."
+        }
+    },
+    {
+        "node": "quests.actions.edit",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.actions.edit).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.actions.edit)."
+        }
+    },
+    {
+        "node": "quests.actions.editor",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.actions.editor).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.actions.editor)."
+        }
+    },
+    {
+        "node": "quests.admin.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "Quests",
+        "desc": {
+            "en": "Access permission for Quests (quests.admin.*).",
+            "es": "[Jobs & Progression] Permiso de Quests (quests.admin.*)."
+        }
+    },
+    {
+        "node": "private.platform-width",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (private.platform-width).",
+            "es": "[Core & Roleplay] Permiso de RealMines (private.platform-width)."
+        }
+    },
+    {
+        "node": "private.shell-bounds",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (private.shell-bounds).",
+            "es": "[Core & Roleplay] Permiso de RealMines (private.shell-bounds)."
+        }
+    },
+    {
+        "node": "realmines.privatemines",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (realmines.privatemines).",
+            "es": "[Core & Roleplay] Permiso de RealMines (realmines.privatemines)."
+        }
+    },
+    {
+        "node": "realmines.privatemines.admin",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (realmines.privatemines.admin).",
+            "es": "[Core & Roleplay] Permiso de RealMines (realmines.privatemines.admin)."
+        }
+    },
+    {
+        "node": "realmines.privatemines.free",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (realmines.privatemines.free).",
+            "es": "[Core & Roleplay] Permiso de RealMines (realmines.privatemines.free)."
+        }
+    },
+    {
+        "node": "reset.commands",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "RealMines",
+        "desc": {
+            "en": "Access permission for RealMines (reset.commands).",
+            "es": "[Core & Roleplay] Permiso de RealMines (reset.commands)."
+        }
+    },
+    {
+        "node": "roulette.create",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.create).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.create)."
+        }
+    },
+    {
+        "node": "roulette.delete",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.delete).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.delete)."
+        }
+    },
+    {
+        "node": "roulette.delete.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.delete.others).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.delete.others)."
+        }
+    },
+    {
+        "node": "roulette.edit",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.edit).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.edit)."
+        }
+    },
+    {
+        "node": "roulette.edit.others",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.edit.others).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.edit.others)."
+        }
+    },
+    {
+        "node": "roulette.force",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "Roulette",
+        "desc": {
+            "en": "Access permission for Roulette (roulette.force).",
+            "es": "[Casino, Sports & Leisure] Permiso de Roulette (roulette.force)."
+        }
+    },
+    {
+        "node": "score.*",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.*).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.*)."
+        }
+    },
+    {
+        "node": "score.cmd.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.cmd.).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.cmd.)."
+        }
+    },
+    {
+        "node": "score.cmd.inspect-loop",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.cmd.inspect-loop).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.cmd.inspect-loop)."
+        }
+    },
+    {
+        "node": "score.cmd.particles-toggle",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.cmd.particles-toggle).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.cmd.particles-toggle)."
+        }
+    },
+    {
+        "node": "score.cmd.reload",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.cmd.reload).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.cmd.reload)."
+        }
+    },
+    {
+        "node": "score.cmds",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Firearms & Equipment",
+        "plugin": "SCore",
+        "desc": {
+            "en": "Access permission for SCore (score.cmds).",
+            "es": "[Firearms & Equipment] Permiso de SCore (score.cmds)."
+        }
+    },
+    {
+        "node": "salary.got",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "SalaryManager",
         "desc": {
-            "en": "Allow changing the money source",
-            "es": "[SalaryManager] Allow changing the money source"
+            "en": "Access permission for SalaryManager (salary.got).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.got)."
+        }
+    },
+    {
+        "node": "salary.list-group-item",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Access permission for SalaryManager (salary.list-group-item).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.list-group-item)."
+        }
+    },
+    {
+        "node": "salary.list-none-found",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Access permission for SalaryManager (salary.list-none-found).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.list-none-found)."
+        }
+    },
+    {
+        "node": "salary.list-player-item",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Access permission for SalaryManager (salary.list-player-item).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.list-player-item)."
+        }
+    },
+    {
+        "node": "salary.list-start",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Access permission for SalaryManager (salary.list-start).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.list-start)."
+        }
+    },
+    {
+        "node": "salary.no-player-or-group",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "SalaryManager",
+        "desc": {
+            "en": "Access permission for SalaryManager (salary.no-player-or-group).",
+            "es": "[Economy & Banking] Permiso de SalaryManager (salary.no-player-or-group)."
+        }
+    },
+    {
+        "node": "npc.retry-time",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "Access permission for ServerTutorialPlus (npc.retry-time).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (npc.retry-time)."
+        }
+    },
+    {
+        "node": "servertutorial.tutorial.bypass",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "Access permission for ServerTutorialPlus (servertutorial.tutorial.bypass).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (servertutorial.tutorial.bypass)."
+        }
+    },
+    {
+        "node": "servertutorialplus.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Jobs & Progression",
+        "plugin": "ServerTutorialPlus",
+        "desc": {
+            "en": "Access permission for ServerTutorialPlus (servertutorialplus.command).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (servertutorialplus.command)."
         }
     },
     {
         "node": "servertutorialplus.command.*",
         "group": "admin",
-        "defaultState": "False",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to use administrative ST+ commands.",
-            "es": "[ServerTutorialPlus] Allows you to use administrative ST+ commands."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.help",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to view ST+ help.",
-            "es": "[ServerTutorialPlus] Allows you to view ST+ help."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.create",
-        "group": "admin",
         "defaultState": "Op Only",
+        "category": "Jobs & Progression",
         "plugin": "ServerTutorialPlus",
         "desc": {
-            "en": "Allows you to create ST+ tutorials.",
-            "es": "[ServerTutorialPlus] Allows you to create ST+ tutorials."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.remove",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to remove ST+ tutorials.",
-            "es": "[ServerTutorialPlus] Allows you to remove ST+ tutorials."
+            "en": "Access permission for ServerTutorialPlus (servertutorialplus.command.*).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (servertutorialplus.command.*)."
         }
     },
     {
         "node": "servertutorialplus.command.addpoint",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Jobs & Progression",
         "plugin": "ServerTutorialPlus",
         "desc": {
-            "en": "Allows you to add a point in an existing ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to add a point in an existing ST+ tutorial."
+            "en": "Access permission for ServerTutorialPlus (servertutorialplus.command.addpoint).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (servertutorialplus.command.addpoint)."
         }
     },
     {
-        "node": "servertutorialplus.command.removepoint",
+        "node": "servertutorialplus.command.create",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Jobs & Progression",
         "plugin": "ServerTutorialPlus",
         "desc": {
-            "en": "Allows you to remove a point in an existing ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to remove a point in an existing ST+ tutorial."
+            "en": "Access permission for ServerTutorialPlus (servertutorialplus.command.create).",
+            "es": "[Jobs & Progression] Permiso de ServerTutorialPlus (servertutorialplus.command.create)."
         }
     },
     {
-        "node": "servertutorialplus.command.play",
+        "node": "# shopkeeper.entity.<mob-type>",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to play an existing ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to play an existing ST+ tutorial."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.player",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you view the ST+ stats of a player.",
-            "es": "[ServerTutorialPlus] Allows you view the ST+ stats of a player."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.quit",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to quit the current tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to quit the current tutorial."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.playpoint",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to play a single point of an existing ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to play a single point of an existing ST+ tutorial."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.setblock",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to set a block which will play an existing ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to set a block which will play an existing ST+ tutorial."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.edit",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to modify settings for an entire ST+ tutorial.",
-            "es": "[ServerTutorialPlus] Allows you to modify settings for an entire ST+ tutorial."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.npc",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to create, modify, and delete ST+ NPCs.",
-            "es": "[ServerTutorialPlus] Allows you to create, modify, and delete ST+ NPCs."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.info",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to list all ST+ tutorials, or info on a specific one.",
-            "es": "[ServerTutorialPlus] Allows you to list all ST+ tutorials, or info on a specific one."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.reload",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to reload the ST+ config, overwriting pending changes.",
-            "es": "[ServerTutorialPlus] Allows you to reload the ST+ config, overwriting pending changes."
-        }
-    },
-    {
-        "node": "servertutorialplus.command.save",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "ServerTutorialPlus",
-        "desc": {
-            "en": "Allows you to overwrite the config with the current state.",
-            "es": "[ServerTutorialPlus] Allows you to overwrite the config with the current state."
-        }
-    },
-    {
-        "node": "shopkeeper.help",
-        "group": "default",
-        "defaultState": "True",
+        "category": "Economy & Banking",
         "plugin": "Shopkeepers",
         "desc": {
-            "en": "Display the command help",
-            "es": "[Shopkeepers] Display the command help"
+            "en": "Access permission for Shopkeepers (# shopkeeper.entity.<mob-type>).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (# shopkeeper.entity.<mob-type>)."
         }
     },
     {
-        "node": "shopkeeper.reload",
+        "node": "shopkeeper.*",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "Shopkeepers",
         "desc": {
-            "en": "Reload the plugin",
-            "es": "[Shopkeepers] Reload the plugin"
+            "en": "Access permission for Shopkeepers (shopkeeper.*).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (shopkeeper.*)."
         }
     },
     {
-        "node": "shopkeeper.debug",
+        "node": "shopkeeper.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "Shopkeepers",
         "desc": {
-            "en": "Toggle debug mode and access debugging commands",
-            "es": "[Shopkeepers] Toggle debug mode and access debugging commands"
+            "en": "Access permission for Shopkeepers (shopkeeper.admin).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (shopkeeper.admin)."
         }
     },
     {
-        "node": "shopkeeper.delete-unspawnable-shopkeepers",
+        "node": "shopkeeper.bypass",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "Shopkeepers",
         "desc": {
-            "en": "Delete unspawnable shopkeepers via command",
-            "es": "[Shopkeepers] Delete unspawnable shopkeepers via command"
+            "en": "Access permission for Shopkeepers (shopkeeper.bypass).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (shopkeeper.bypass)."
+        }
+    },
+    {
+        "node": "shopkeeper.citizen",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Economy & Banking",
+        "plugin": "Shopkeepers",
+        "desc": {
+            "en": "Access permission for Shopkeepers (shopkeeper.citizen).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (shopkeeper.citizen)."
         }
     },
     {
         "node": "shopkeeper.cleanup-citizen-shopkeepers",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Economy & Banking",
         "plugin": "Shopkeepers",
         "desc": {
-            "en": "Delete invalid Citizen shopkeepers via command",
-            "es": "[Shopkeepers] Delete invalid Citizen shopkeepers via command"
+            "en": "Access permission for Shopkeepers (shopkeeper.cleanup-citizen-shopkeepers).",
+            "es": "[Economy & Banking] Permiso de Shopkeepers (shopkeeper.cleanup-citizen-shopkeepers)."
         }
     },
     {
-        "node": "shopkeeper.list.own",
-        "group": "default",
-        "defaultState": "True",
-        "plugin": "Shopkeepers",
-        "desc": {
-            "en": "List your own player shops",
-            "es": "[Shopkeepers] List your own player shops"
-        }
-    },
-    {
-        "node": "shopkeeper.list.others",
+        "node": "rptools.admin",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "Shopkeepers",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
         "desc": {
-            "en": "List the player shops of other players",
-            "es": "[Shopkeepers] List the player shops of other players"
+            "en": "Access permission for RPTools (rptools.admin).",
+            "es": "[Communication & Navigation] Permiso de RPTools (rptools.admin)."
         }
     },
     {
-        "node": "shopkeeper.list.admin",
+        "node": "rptools.enchanter",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "Shopkeepers",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
         "desc": {
-            "en": "List the admin shops",
-            "es": "[Shopkeepers] List the admin shops"
+            "en": "Access permission for RPTools (rptools.enchanter).",
+            "es": "[Communication & Navigation] Permiso de RPTools (rptools.enchanter)."
         }
     },
     {
-        "node": "tab.tabcomplete",
+        "node": "rptools.graylist.bypass",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Access permission for RPTools (rptools.graylist.bypass).",
+            "es": "[Communication & Navigation] Permiso de RPTools (rptools.graylist.bypass)."
+        }
+    },
+    {
+        "node": "rptools.skill.",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Access permission for RPTools (rptools.skill.).",
+            "es": "[Communication & Navigation] Permiso de RPTools (rptools.skill.)."
+        }
+    },
+    {
+        "node": "rptools.skill.volley",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
+        "plugin": "RPTools",
+        "desc": {
+            "en": "Access permission for RPTools (rptools.skill.volley).",
+            "es": "[Communication & Navigation] Permiso de RPTools (rptools.skill.volley)."
+        }
+    },
+    {
+        "node": "errors.log",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to complete all TAB commands",
-            "es": "[TAB] Allows player to complete all TAB commands"
+            "en": "Access permission for TAB (errors.log).",
+            "es": "[Communication & Navigation] Permiso de TAB (errors.log)."
         }
     },
     {
-        "node": "tab.reload",
+        "node": "tab.announce.bar",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to run /tab reload",
-            "es": "[TAB] Allows player to run /tab reload"
+            "en": "Access permission for TAB (tab.announce.bar).",
+            "es": "[Communication & Navigation] Permiso de TAB (tab.announce.bar)."
         }
     },
     {
-        "node": "tab.cpu",
+        "node": "tab.announce.scoreboard",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to run /tab cpu",
-            "es": "[TAB] Allows player to run /tab cpu"
+            "en": "Access permission for TAB (tab.announce.scoreboard).",
+            "es": "[Communication & Navigation] Permiso de TAB (tab.announce.scoreboard)."
         }
     },
     {
-        "node": "tab.dump",
+        "node": "tab.bossbar.toggle",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to run /tab dump <player>",
-            "es": "[TAB] Allows player to run /tab dump <player>"
+            "en": "Access permission for TAB (tab.bossbar.toggle).",
+            "es": "[Communication & Navigation] Permiso de TAB (tab.bossbar.toggle)."
         }
     },
     {
-        "node": "tab.groupinfo",
+        "node": "tab.bossbar.toggle.other",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to run /tab group <group>",
-            "es": "[TAB] Allows player to run /tab group <group>"
+            "en": "Access permission for TAB (tab.bossbar.toggle.other).",
+            "es": "[Communication & Navigation] Permiso de TAB (tab.bossbar.toggle.other)."
         }
     },
     {
-        "node": "tab.grouplist",
+        "node": "tab.bypass",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Communication & Navigation",
         "plugin": "TAB",
         "desc": {
-            "en": "Allows player to run /tab groups",
-            "es": "[TAB] Allows player to run /tab groups"
+            "en": "Access permission for TAB (tab.bypass).",
+            "es": "[Communication & Navigation] Permiso de TAB (tab.bypass)."
         }
     },
     {
-        "node": "tab.parse",
+        "node": "inventories.streak.rewards.days",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TAB",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
         "desc": {
-            "en": "Allows player to run /tab parse <player> <placeholder>",
-            "es": "[TAB] Allows player to run /tab parse <player> <placeholder>"
+            "en": "Access permission for TheRewards (inventories.streak.rewards.days).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (inventories.streak.rewards.days)."
         }
     },
     {
-        "node": "tab.setcollision",
+        "node": "require_permission.enabled",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TAB",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
         "desc": {
-            "en": "Allows player to run /tab setcollision <player> <true/false>",
-            "es": "[TAB] Allows player to run /tab setcollision <player> <true/false>"
+            "en": "Access permission for TheRewards (require_permission.enabled).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (require_permission.enabled)."
+        }
+    },
+    {
+        "node": "require_permission.message",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
+        "desc": {
+            "en": "Access permission for TheRewards (require_permission.message).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (require_permission.message)."
+        }
+    },
+    {
+        "node": "require_permission.permission",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "TheRewards",
+        "desc": {
+            "en": "Access permission for TheRewards (require_permission.permission).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (require_permission.permission)."
         }
     },
     {
         "node": "therewards.addons",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
         "plugin": "TheRewards",
         "desc": {
-            "en": "You will be able to manage installed addons",
-            "es": "[TheRewards] You will be able to manage installed addons"
-        }
-    },
-    {
-        "node": "therewards.forceclaim",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "You may force the claiming of a reward from a player.",
-            "es": "[TheRewards] You may force the claiming of a reward from a player."
-        }
-    },
-    {
-        "node": "therewards.help",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "You will be able to get general help for the plugin, such as its command list.",
-            "es": "[TheRewards] You will be able to get general help for the plugin, such as its command list."
+            "en": "Access permission for TheRewards (therewards.addons).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (therewards.addons)."
         }
     },
     {
         "node": "therewards.export",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
         "plugin": "TheRewards",
         "desc": {
-            "en": "Save database data in a json file",
-            "es": "[TheRewards] Save database data in a json file"
+            "en": "Access permission for TheRewards (therewards.export).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de TheRewards (therewards.export)."
         }
     },
     {
-        "node": "therewards.import",
+        "node": "uf.create",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TheRewards",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
         "desc": {
-            "en": "Import json file to mysql or sqlite",
-            "es": "[TheRewards] Import json file to mysql or sqlite"
+            "en": "Access permission for UltimateFood (uf.create).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de UltimateFood (uf.create)."
         }
     },
     {
-        "node": "therewards.reset",
+        "node": "uf.edit",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TheRewards",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
         "desc": {
-            "en": "May remove streak or rewards (cooldown or more).",
-            "es": "[TheRewards] May remove streak or rewards (cooldown or more)."
+            "en": "Access permission for UltimateFood (uf.edit).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de UltimateFood (uf.edit)."
         }
     },
     {
-        "node": "therewards.transfer",
+        "node": "uf.get",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TheRewards",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
         "desc": {
-            "en": "Transferring data from one player to another",
-            "es": "[TheRewards] Transferring data from one player to another"
+            "en": "Access permission for UltimateFood (uf.get).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de UltimateFood (uf.get)."
         }
     },
     {
-        "node": "therewards.info",
+        "node": "uf.menu",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TheRewards",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
         "desc": {
-            "en": "Obtain information on player rewards.",
-            "es": "[TheRewards] Obtain information on player rewards."
+            "en": "Access permission for UltimateFood (uf.menu).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de UltimateFood (uf.menu)."
         }
     },
     {
-        "node": "therewards.reload",
+        "node": "uf.reload",
         "group": "admin",
         "defaultState": "Op Only",
-        "plugin": "TheRewards",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "UltimateFood",
         "desc": {
-            "en": "Reload the plugin configuration",
-            "es": "[TheRewards] Reload the plugin configuration"
-        }
-    },
-    {
-        "node": "therewards.remove",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "Eliminating a player's streak or rewards",
-            "es": "[TheRewards] Eliminating a player's streak or rewards"
-        }
-    },
-    {
-        "node": "therewards.removeall",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "Eliminates all the player's rewards as well as his streak.",
-            "es": "[TheRewards] Eliminates all the player's rewards as well as his streak."
-        }
-    },
-    {
-        "node": "therewards.updatechecker",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "You will be notified of updates when you log in to the server.",
-            "es": "[TheRewards] You will be notified of updates when you log in to the server."
-        }
-    },
-    {
-        "node": "therewards.set",
-        "group": "admin",
-        "defaultState": "Op Only",
-        "plugin": "TheRewards",
-        "desc": {
-            "en": "You will be notified of updates when you log in to the server.",
-            "es": "[TheRewards] You will be notified of updates when you log in to the server."
+            "en": "Access permission for UltimateFood (uf.reload).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de UltimateFood (uf.reload)."
         }
     },
     {
         "node": "vault.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "Vault",
         "desc": {
-            "en": "Notifies the player when vault is in need of an update.",
-            "es": "[Vault] Notifies the player when vault is in need of an update."
+            "en": "Access permission for Vault (vault.admin).",
+            "es": "[Core & Roleplay] Permiso de Vault (vault.admin)."
+        }
+    },
+    {
+        "node": "vault.update",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Core & Roleplay",
+        "plugin": "Vault",
+        "desc": {
+            "en": "Access permission for Vault (vault.update).",
+            "es": "[Core & Roleplay] Permiso de Vault (vault.update)."
+        }
+    },
+    {
+        "node": "generic.armor",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ViaVersion",
+        "desc": {
+            "en": "Access permission for ViaVersion (generic.armor).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (generic.armor)."
         }
     },
     {
         "node": "viaversion.admin",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
         "plugin": "ViaVersion",
         "desc": {
-            "en": "Permission node for ViaVersion (viaversion.admin).",
-            "es": "[ViaVersion] Permission node for ViaVersion (viaversion.admin)."
+            "en": "Access permission for ViaVersion (viaversion.admin).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (viaversion.admin)."
+        }
+    },
+    {
+        "node": "viaversion.command",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ViaVersion",
+        "desc": {
+            "en": "Access permission for ViaVersion (viaversion.command).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (viaversion.command)."
+        }
+    },
+    {
+        "node": "viaversion.command.autoteam",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ViaVersion",
+        "desc": {
+            "en": "Access permission for ViaVersion (viaversion.command.autoteam).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (viaversion.command.autoteam)."
+        }
+    },
+    {
+        "node": "viaversion.command.debug",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ViaVersion",
+        "desc": {
+            "en": "Access permission for ViaVersion (viaversion.command.debug).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (viaversion.command.debug)."
+        }
+    },
+    {
+        "node": "viaversion.command.displayleaks",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "NPCs, Rewards & Optimization",
+        "plugin": "ViaVersion",
+        "desc": {
+            "en": "Access permission for ViaVersion (viaversion.command.displayleaks).",
+            "es": "[NPCs, Rewards & Optimization] Permiso de ViaVersion (viaversion.command.displayleaks)."
+        }
+    },
+    {
+        "node": "videopoker.play.player",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Casino, Sports & Leisure",
+        "plugin": "VideoPoker",
+        "desc": {
+            "en": "Access permission for VideoPoker (videopoker.play.player).",
+            "es": "[Casino, Sports & Leisure] Permiso de VideoPoker (videopoker.play.player)."
+        }
+    },
+    {
+        "node": "groups.admins.permissions",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (groups.admins.permissions).",
+            "es": "[Properties & Building] Permiso de WorldEdit (groups.admins.permissions)."
+        }
+    },
+    {
+        "node": "groups.default.permissions",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (groups.default.permissions).",
+            "es": "[Properties & Building] Permiso de WorldEdit (groups.default.permissions)."
+        }
+    },
+    {
+        "node": "permissions.groups",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (permissions.groups).",
+            "es": "[Properties & Building] Permiso de WorldEdit (permissions.groups)."
+        }
+    },
+    {
+        "node": "permissions.users",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (permissions.users).",
+            "es": "[Properties & Building] Permiso de WorldEdit (permissions.users)."
+        }
+    },
+    {
+        "node": "resolvers.disabled",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (resolvers.disabled).",
+            "es": "[Properties & Building] Permiso de WorldEdit (resolvers.disabled)."
+        }
+    },
+    {
+        "node": "resolvers.enabled",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldEdit",
+        "desc": {
+            "en": "Access permission for WorldEdit (resolvers.enabled).",
+            "es": "[Properties & Building] Permiso de WorldEdit (resolvers.enabled)."
+        }
+    },
+    {
+        "node": "flag.regions",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (flag.regions).",
+            "es": "[Properties & Building] Permiso de WorldGuard (flag.regions)."
+        }
+    },
+    {
+        "node": "region.claim",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (region.claim).",
+            "es": "[Properties & Building] Permiso de WorldGuard (region.claim)."
+        }
+    },
+    {
+        "node": "region.define",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (region.define).",
+            "es": "[Properties & Building] Permiso de WorldGuard (region.define)."
+        }
+    },
+    {
+        "node": "region.list",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (region.list).",
+            "es": "[Properties & Building] Permiso de WorldGuard (region.list)."
+        }
+    },
+    {
+        "node": "region.list.own",
+        "group": "default",
+        "defaultState": "True",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (region.list.own).",
+            "es": "[Properties & Building] Permiso de WorldGuard (region.list.own)."
+        }
+    },
+    {
+        "node": "region.load",
+        "group": "admin",
+        "defaultState": "Op Only",
+        "category": "Properties & Building",
+        "plugin": "WorldGuard",
+        "desc": {
+            "en": "Access permission for WorldGuard (region.load).",
+            "es": "[Properties & Building] Permiso de WorldGuard (region.load)."
         }
     },
     {
         "node": "warpcfg.cfg",
         "group": "admin",
         "defaultState": "Op Only",
+        "category": "Core & Roleplay",
         "plugin": "EssentialsWarpGUI",
         "desc": {
-            "en": "Grants access to the \\\"/warpcfg\\\" command",
-            "es": "[EssentialsWarpGUI] Grants access to the \\\"/warpcfg\\\" command"
+            "en": "Access permission for EssentialsWarpGUI (warpcfg.cfg).",
+            "es": "[Core & Roleplay] Permiso de EssentialsWarpGUI (warpcfg.cfg)."
         }
     }
 ]

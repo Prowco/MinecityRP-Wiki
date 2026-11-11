@@ -238,19 +238,20 @@ function renderAllContent() {
 }
 
 function populateDynamicFilters() {
-  // 1. Plugin Categories
+  const orderedCats = (MINECITY_DATA.categories || []).map(c => c.key);
+
+  // 1. System Categories Dropdown
   const pCatFilter = document.getElementById("pluginCategoryFilter");
-  if (pCatFilter && !pCatFilter.dataset.populated && MINECITY_DATA.plugins) {
-    const cats = [...new Set(MINECITY_DATA.plugins.map(p => p.category))].sort();
-    pCatFilter.innerHTML = `<option value="ALL">All Categories (${cats.length})</option>` +
-      cats.map(c => `<option value="${c}">${c}</option>`).join("");
+  if (pCatFilter && !pCatFilter.dataset.populated && MINECITY_DATA.categories) {
+    pCatFilter.innerHTML = `<option value="ALL">All Categories (${orderedCats.length})</option>` +
+      MINECITY_DATA.categories.map(c => `<option value="${c.key}">${c.icon} ${getLocalized(c, "title")}</option>`).join("");
     pCatFilter.dataset.populated = "true";
   }
 
   // 2. Command Categories & Plugins
   const cCatFilter = document.getElementById("cmdCategoryFilter");
   if (cCatFilter && !cCatFilter.dataset.populated) {
-    const cats = [...new Set(MINECITY_DATA.commands.map(c => c.category))].sort();
+    const cats = orderedCats.length ? orderedCats : [...new Set(MINECITY_DATA.commands.map(c => c.category))].sort();
     cCatFilter.innerHTML = `<option value="ALL">All Categories (${cats.length})</option>` +
       cats.map(c => `<option value="${c}">${c}</option>`).join("");
     cCatFilter.dataset.populated = "true";
@@ -263,7 +264,14 @@ function populateDynamicFilters() {
     cPluginFilter.dataset.populated = "true";
   }
 
-  // 3. Permission Plugins
+  // 3. Permission Categories & Plugins
+  const permCatFilter = document.getElementById("permCategoryFilter");
+  if (permCatFilter && !permCatFilter.dataset.populated) {
+    const cats = orderedCats.length ? orderedCats : [...new Set(MINECITY_DATA.permissions.map(p => p.category))].sort();
+    permCatFilter.innerHTML = `<option value="ALL">All Categories (${cats.length})</option>` +
+      cats.map(c => `<option value="${c}">${c}</option>`).join("");
+    permCatFilter.dataset.populated = "true";
+  }
   const permPluginFilter = document.getElementById("permPluginFilter");
   if (permPluginFilter && !permPluginFilter.dataset.populated) {
     const plugs = [...new Set(MINECITY_DATA.permissions.map(p => p.plugin || "System"))].sort();
@@ -272,7 +280,14 @@ function populateDynamicFilters() {
     permPluginFilter.dataset.populated = "true";
   }
 
-  // 4. Placeholder Plugins
+  // 4. Placeholder Categories & Plugins
+  const phCatFilter = document.getElementById("phCategoryFilter");
+  if (phCatFilter && !phCatFilter.dataset.populated) {
+    const cats = orderedCats.length ? orderedCats : [...new Set(MINECITY_DATA.placeholders.map(p => p.category || "Core & Roleplay"))].sort();
+    phCatFilter.innerHTML = `<option value="ALL">All Categories (${cats.length})</option>` +
+      cats.map(c => `<option value="${c}">${c}</option>`).join("");
+    phCatFilter.dataset.populated = "true";
+  }
   const phPluginFilter = document.getElementById("phPluginFilter");
   if (phPluginFilter && !phPluginFilter.dataset.populated) {
     const plugs = [...new Set(MINECITY_DATA.placeholders.map(p => p.plugin))].sort();
@@ -282,46 +297,67 @@ function populateDynamicFilters() {
   }
 }
 
-// Render All 76 Server Plugins Ecosystem Grid
+// Render Exact 10 System Categories Encyclopedia Grid
 function renderPluginsGrid() {
   const container = document.getElementById("pluginsGridContainer");
   const catFilter = document.getElementById("pluginCategoryFilter");
   const searchInput = document.getElementById("pluginSearchInput");
   const countBadge = document.getElementById("pluginsCountBadge");
-  if (!container || !MINECITY_DATA.plugins) return;
+  if (!container || !MINECITY_DATA.categories) return;
 
   const selectedCat = catFilter ? catFilter.value : "ALL";
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
-  const filtered = MINECITY_DATA.plugins.filter(p => {
-    const matchCat = selectedCat === "ALL" || p.category === selectedCat;
+  const filtered = MINECITY_DATA.categories.filter(cat => {
+    const title = getLocalized(cat, "title");
+    const summary = getLocalized(cat, "summary");
+    const highlightsStr = (cat.highlights || []).join(" ");
+    const matchCat = selectedCat === "ALL" || cat.key === selectedCat;
     const matchQuery = !query ||
-      p.name.toLowerCase().includes(query) ||
-      p.jar.toLowerCase().includes(query) ||
-      p.category.toLowerCase().includes(query) ||
-      p.desc.toLowerCase().includes(query);
+      cat.key.toLowerCase().includes(query) ||
+      title.toLowerCase().includes(query) ||
+      cat.pluginsList.toLowerCase().includes(query) ||
+      summary.toLowerCase().includes(query) ||
+      highlightsStr.toLowerCase().includes(query);
     return matchCat && matchQuery;
   });
 
   if (countBadge) {
-    countBadge.innerText = `${filtered.length} / ${MINECITY_DATA.plugins.length}`;
+    countBadge.innerText = `${filtered.length} / ${MINECITY_DATA.categories.length}`;
   }
 
-  container.innerHTML = filtered.map(p => `
-    <div class="feature-card">
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.6rem;">
-        <span class="badge badge-plugin">${p.category}</span>
-        <code style="font-size:0.75rem;">v${p.version}</code>
+  container.innerHTML = filtered.map(cat => {
+    const title = getLocalized(cat, "title");
+    const summary = getLocalized(cat, "summary");
+    const cmdCount = MINECITY_DATA.commands.filter(c => c.category === cat.key).length;
+    const permCount = MINECITY_DATA.permissions.filter(p => p.category === cat.key).length;
+    const phCount = MINECITY_DATA.placeholders.filter(p => (p.category || "Core & Roleplay") === cat.key).length;
+    const pluginPills = cat.pluginsList.split(",").map(s => s.trim()).filter(Boolean)
+      .map(name => `<span class="badge badge-plugin" style="font-size:0.74rem; padding:3px 8px;">${name}</span>`).join(" ");
+    const highlightsHtml = (cat.highlights || []).map(h => `<li style="margin-bottom:0.35rem; font-size:0.86rem;">${h}</li>`).join("");
+    const safeKey = cat.key.replace(/'/g, "\\'");
+
+    return `
+      <div class="feature-card" style="display:flex; flex-direction:column;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.65rem;">
+          <span style="font-size:1.65rem;">${cat.icon}</span>
+          <span class="badge badge-plugin">${cmdCount} Cmds • ${permCount} Perms</span>
+        </div>
+        <h3 style="margin-bottom:0.55rem; color: var(--gta-yellow);">${title}</h3>
+        <p style="font-size:0.91rem; margin-bottom:0.85rem; line-height:1.5;">${summary}</p>
+        <div style="margin-bottom:0.85rem;">
+          <div style="font-size:0.75rem; font-weight:800; text-transform:uppercase; color:var(--text-muted); margin-bottom:0.4rem;">Core Modules Included:</div>
+          <div style="display:flex; flex-wrap:wrap; gap:5px;">${pluginPills}</div>
+        </div>
+        ${highlightsHtml ? `<ul style="margin:0 0 1rem 1.1rem; padding:0; color:var(--text-secondary);">${highlightsHtml}</ul>` : ""}
+        <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:auto; padding-top:0.5rem; border-top:1px solid var(--border-color);">
+          <button class="btn btn-secondary" style="font-size:0.78rem; padding:0.42rem 0.8rem;" onclick="jumpToCategoryCommands('${safeKey}')">⚡ Commands (${cmdCount})</button>
+          <button class="btn btn-secondary" style="font-size:0.78rem; padding:0.42rem 0.8rem;" onclick="jumpToCategoryPermissions('${safeKey}')">🔐 Perms (${permCount})</button>
+          ${phCount > 0 ? `<button class="btn btn-secondary" style="font-size:0.78rem; padding:0.42rem 0.8rem;" onclick="jumpToCategoryPlaceholders('${safeKey}')">🧩 PAPI (${phCount})</button>` : ""}
+        </div>
       </div>
-      <h3 style="margin-bottom:0.3rem;">${p.name}</h3>
-      <div style="font-size:0.78rem; color: var(--text-muted); margin-bottom:0.6rem;">📦 <code>${p.jar}</code></div>
-      <p style="font-size:0.9rem; margin-bottom:1rem;">${p.desc}</p>
-      <div style="display:flex; gap:8px; margin-top:auto;">
-        <button class="btn btn-secondary" style="font-size:0.78rem; padding:0.4rem 0.8rem;" onclick="jumpToPluginCommands('${p.name.replace(/'/g, "\\'")}')">⚡ Commands</button>
-        <button class="btn btn-secondary" style="font-size:0.78rem; padding:0.4rem 0.8rem;" onclick="jumpToPluginPermissions('${p.name.replace(/'/g, "\\'")}')">🔐 Perms</button>
-      </div>
-    </div>
-  `).join("");
+    `;
+  }).join("");
 
   if (catFilter && !catFilter.dataset.initialized) {
     catFilter.dataset.initialized = "true";
@@ -333,40 +369,42 @@ function renderPluginsGrid() {
   }
 }
 
-window.jumpToPluginCommands = function(pluginName) {
+window.jumpToCategoryCommands = function(catKey) {
   const cmdTabLink = document.querySelector('.sidebar-link[data-tab="commands"]');
   if (cmdTabLink) cmdTabLink.click();
+  const cmdCategoryFilter = document.getElementById("cmdCategoryFilter");
   const cmdPluginFilter = document.getElementById("cmdPluginFilter");
   const cmdSearch = document.getElementById("cmdSearchInput");
-  if (cmdPluginFilter) {
-    const matchOpt = Array.from(cmdPluginFilter.options).find(o => o.value.toLowerCase().includes(pluginName.toLowerCase().split(" ")[0]));
-    if (matchOpt) {
-      cmdPluginFilter.value = matchOpt.value;
-      if (cmdSearch) cmdSearch.value = "";
-    } else if (cmdSearch) {
-      cmdPluginFilter.value = "ALL";
-      cmdSearch.value = pluginName.split(" ")[0];
-    }
-  }
+  if (cmdCategoryFilter) cmdCategoryFilter.value = catKey;
+  if (cmdPluginFilter) cmdPluginFilter.value = "ALL";
+  if (cmdSearch) cmdSearch.value = "";
   renderCommandsTable();
 };
 
-window.jumpToPluginPermissions = function(pluginName) {
+window.jumpToCategoryPermissions = function(catKey) {
   const permTabLink = document.querySelector('.sidebar-link[data-tab="permissions"]');
   if (permTabLink) permTabLink.click();
+  const permCatFilter = document.getElementById("permCategoryFilter");
+  const permGroupFilter = document.getElementById("permGroupFilter");
   const permPluginFilter = document.getElementById("permPluginFilter");
   const permSearch = document.getElementById("permSearchInput");
-  if (permPluginFilter) {
-    const matchOpt = Array.from(permPluginFilter.options).find(o => o.value.toLowerCase().includes(pluginName.toLowerCase().split(" ")[0]));
-    if (matchOpt) {
-      permPluginFilter.value = matchOpt.value;
-      if (permSearch) permSearch.value = "";
-    } else if (permSearch) {
-      permPluginFilter.value = "ALL";
-      permSearch.value = pluginName.split(" ")[0];
-    }
-  }
+  if (permCatFilter) permCatFilter.value = catKey;
+  if (permGroupFilter) permGroupFilter.value = "ALL";
+  if (permPluginFilter) permPluginFilter.value = "ALL";
+  if (permSearch) permSearch.value = "";
   renderPermissionsTable();
+};
+
+window.jumpToCategoryPlaceholders = function(catKey) {
+  const phTabLink = document.querySelector('.sidebar-link[data-tab="placeholders"]');
+  if (phTabLink) phTabLink.click();
+  const phCatFilter = document.getElementById("phCategoryFilter");
+  const phPluginFilter = document.getElementById("phPluginFilter");
+  const phSearch = document.getElementById("phSearchInput");
+  if (phCatFilter) phCatFilter.value = catKey;
+  if (phPluginFilter) phPluginFilter.value = "ALL";
+  if (phSearch) phSearch.value = "";
+  renderPlaceholdersTable();
 };
 
 // Render Player Guide Chapters
@@ -476,7 +514,10 @@ function renderCommandsTable() {
         </td>
         <td><code>${c.aliases}</code></td>
         <td><span class="badge badge-plugin">${c.permission}</span></td>
-        <td><strong>${c.plugin}</strong></td>
+        <td>
+          <span class="badge badge-plugin" style="font-size:0.72rem;">${c.category}</span>
+          <div style="font-size:0.78rem; color:var(--text-muted); margin-top:2px;">${c.plugin}</div>
+        </td>
         <td>${desc}</td>
       </tr>
     `;
@@ -499,27 +540,32 @@ function renderCommandsTable() {
 // Render Permissions Table
 function renderPermissionsTable() {
   const tbody = document.getElementById("permissionsTableBody");
+  const catSelect = document.getElementById("permCategoryFilter");
   const groupSelect = document.getElementById("permGroupFilter");
   const pluginSelect = document.getElementById("permPluginFilter");
   const searchInput = document.getElementById("permSearchInput");
   const countBadge = document.getElementById("permissionsCountBadge");
   if (!tbody) return;
 
+  const selectedCat = catSelect ? catSelect.value : "ALL";
   const selectedGroup = groupSelect ? groupSelect.value : "ALL";
   const selectedPlugin = pluginSelect ? pluginSelect.value : "ALL";
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
   const filtered = MINECITY_DATA.permissions.filter(p => {
     const plug = p.plugin || "System";
+    const cat = p.category || "Core & Roleplay";
+    const matchesCat = (selectedCat === "ALL" || cat === selectedCat);
     const matchesGroup = (selectedGroup === "ALL" || p.group === selectedGroup);
     const matchesPlugin = (selectedPlugin === "ALL" || plug === selectedPlugin);
     const desc = getLocalized(p, "desc");
     const matchesSearch = !query ||
       p.node.toLowerCase().includes(query) ||
       p.group.toLowerCase().includes(query) ||
+      cat.toLowerCase().includes(query) ||
       plug.toLowerCase().includes(query) ||
       desc.toLowerCase().includes(query);
-    return matchesGroup && matchesPlugin && matchesSearch;
+    return matchesCat && matchesGroup && matchesPlugin && matchesSearch;
   });
 
   if (countBadge) {
@@ -536,12 +582,19 @@ function renderPermissionsTable() {
         </td>
         <td><span class="badge badge-plugin">${p.group}</span></td>
         <td>${p.defaultState}</td>
-        <td><strong>${p.plugin || "System"}</strong></td>
+        <td>
+          <span class="badge badge-plugin" style="font-size:0.72rem;">${p.category || "Core & Roleplay"}</span>
+          <div style="font-size:0.78rem; color:var(--text-muted); margin-top:2px;">${p.plugin || "System"}</div>
+        </td>
         <td>${desc}</td>
       </tr>
     `;
   }).join("");
 
+  if (catSelect && !catSelect.dataset.initialized) {
+    catSelect.dataset.initialized = "true";
+    catSelect.addEventListener("change", renderPermissionsTable);
+  }
   if (groupSelect && !groupSelect.dataset.initialized) {
     groupSelect.dataset.initialized = "true";
     groupSelect.addEventListener("change", renderPermissionsTable);
@@ -559,22 +612,27 @@ function renderPermissionsTable() {
 // Render Placeholders Table
 function renderPlaceholdersTable() {
   const tbody = document.getElementById("placeholdersTableBody");
+  const catSelect = document.getElementById("phCategoryFilter");
   const pluginSelect = document.getElementById("phPluginFilter");
   const searchInput = document.getElementById("phSearchInput");
   const countBadge = document.getElementById("placeholdersCountBadge");
   if (!tbody) return;
 
+  const selectedCat = catSelect ? catSelect.value : "ALL";
   const selectedPlugin = pluginSelect ? pluginSelect.value : "ALL";
   const query = searchInput ? searchInput.value.toLowerCase().trim() : "";
 
   const filtered = MINECITY_DATA.placeholders.filter(p => {
+    const cat = p.category || "Core & Roleplay";
+    const matchesCat = (selectedCat === "ALL" || cat === selectedCat);
     const matchesPlugin = (selectedPlugin === "ALL" || p.plugin === selectedPlugin);
     const desc = getLocalized(p, "desc");
     const matchesSearch = !query ||
       p.placeholder.toLowerCase().includes(query) ||
+      cat.toLowerCase().includes(query) ||
       p.plugin.toLowerCase().includes(query) ||
       desc.toLowerCase().includes(query);
-    return matchesPlugin && matchesSearch;
+    return matchesCat && matchesPlugin && matchesSearch;
   });
 
   if (countBadge) {
@@ -589,13 +647,20 @@ function renderPlaceholdersTable() {
           <code>${p.placeholder}</code>
           <button class="copy-btn" data-copy="${p.placeholder}">${I18N.t("copyText")}</button>
         </td>
-        <td><strong>${p.plugin}</strong></td>
+        <td>
+          <span class="badge badge-plugin" style="font-size:0.72rem;">${p.category || "Core & Roleplay"}</span>
+          <div style="font-size:0.78rem; color:var(--text-muted); margin-top:2px;">${p.plugin}</div>
+        </td>
         <td><code style="color: var(--accent-green); background: rgba(16,185,129,0.1); border-color: rgba(16,185,129,0.3);">${p.example}</code></td>
         <td>${desc}</td>
       </tr>
     `;
   }).join("");
 
+  if (catSelect && !catSelect.dataset.initialized) {
+    catSelect.dataset.initialized = "true";
+    catSelect.addEventListener("change", renderPlaceholdersTable);
+  }
   if (pluginSelect && !pluginSelect.dataset.initialized) {
     pluginSelect.dataset.initialized = "true";
     pluginSelect.addEventListener("change", renderPlaceholdersTable);
@@ -667,9 +732,11 @@ function handleGlobalSearch(q) {
       }
     }
   } else {
-    // Check if matches any plugin name
-    const matchesPlug = MINECITY_DATA.plugins && MINECITY_DATA.plugins.some(p => p.name.toLowerCase().includes(q));
-    if (matchesPlug) {
+    // Check if matches any category or module name
+    const matchesCat = MINECITY_DATA.categories && MINECITY_DATA.categories.some(c =>
+      c.key.toLowerCase().includes(q) || c.pluginsList.toLowerCase().includes(q)
+    );
+    if (matchesCat) {
       const plugLink = document.querySelector('[data-tab="plugins"]');
       if (plugLink) {
         plugLink.click();

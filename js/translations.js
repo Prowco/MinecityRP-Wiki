@@ -10,93 +10,39 @@ const I18N = {
   locales: {
   "en": {
     "name": "English",
-    "flag": "🇺🇸",
-      "navPlugins": "Server Plugins",
-      "pluginsSubtitle": "Complete catalog of all 76 installed plugins powering Minecity Roleplay. Click any plugin's Commands button to inspect its features.",
-      "navPlayerCasino": "12. Casino, Fishing & Arcade",
-      "commandsSubtitle": "Interactive, searchable directory of all 323+ commands across every installed plugin on the server.",
-      "permissionsSubtitle": "LuckPerms permission nodes catalog across all 76 plugins for civilian ranks, police, paramedics, and admins.",
-      "placeholdersSubtitle": "Complete PlaceholderAPI variable catalog across all expansions and server plugins for TAB, scoreboards, and DeluxeMenus."
+    "flag": "🇺🇸"
   },
   "es": {
     "name": "Español",
-    "flag": "🇪🇸",
-      "navPlugins": "Plugins del Servidor",
-      "pluginsSubtitle": "Catálogo completo de los 76 plugins instalados que impulsan Minecity Roleplay. Pulsa Commands o Perms en cualquier plugin para filtrarlo.",
-      "navPlayerCasino": "12. Casino, Pesca y Arcade",
-      "commandsSubtitle": "Directorio interactivo de más de 323 comandos reales divididos por categoría y plugin.",
-      "permissionsSubtitle": "Matriz de 363+ permisos LuckPerms divididos por rango civil, policía, paramédico, admin y plugin.",
-      "placeholdersSubtitle": "Catálogo completo de más de 113 variables PlaceholderAPI de todas las expansiones y plugins del servidor."
+    "flag": "🇪🇸"
   },
   "de": {
     "name": "Deutsch",
-    "flag": "🇩🇪",
-      "navPlugins": "Server-Plugins",
-      "pluginsSubtitle": "Vollständiger Katalog aller 76 installierten Plugins auf Minecity Roleplay.",
-      "navPlayerCasino": "12. Casino, Angeln & Arcade",
-      "commandsSubtitle": "Durchsuchbares Verzeichnis aller 323+ Befehle aus allen Server-Plugins.",
-      "permissionsSubtitle": "LuckPerms-Berechtigungsmatrix für alle 76 Plugins und Ränge.",
-      "placeholdersSubtitle": "Vollständiger PlaceholderAPI-Variablenkatalog für alle Plugins und Erweiterungen."
+    "flag": "🇩🇪"
   },
   "fr": {
     "name": "Français",
-    "flag": "🇫🇷",
-      "navPlugins": "Plugins du Serveur",
-      "pluginsSubtitle": "Catalogue complet des 76 plugins installés sur Minecity Roleplay.",
-      "navPlayerCasino": "12. Casino, Pêche & Arcade",
-      "commandsSubtitle": "Répertoire interactif de plus de 323 commandes de tous les plugins du serveur.",
-      "permissionsSubtitle": "Matrice de plus de 363 permissions LuckPerms classées par plugin et rang.",
-      "placeholdersSubtitle": "Catalogue complet de plus de 113 variables PlaceholderAPI de tous les plugins."
+    "flag": "🇫🇷"
   },
   "it": {
     "name": "Italiano",
-    "flag": "🇮🇹",
-      "navPlugins": "Plugin del Server",
-      "pluginsSubtitle": "Catalogo completo di tutti i 76 plugin installati su Minecity Roleplay.",
-      "navPlayerCasino": "12. Casinò, Pesca e Arcade",
-      "commandsSubtitle": "Elenco interattivo di oltre 323 comandi di tutti i plugin del server.",
-      "permissionsSubtitle": "Matrice completa di oltre 363 permessi LuckPerms suddivisi per plugin e grado.",
-      "placeholdersSubtitle": "Catalogo completo di oltre 113 variabili PlaceholderAPI per tutti i plugin."
+    "flag": "🇮🇹"
   },
   "pt": {
     "name": "Português",
-    "flag": "🇧🇷",
-      "navPlugins": "Plugins do Servidor",
-      "pluginsSubtitle": "Catálogo completo de todos os 76 plugins instalados no Minecity Roleplay.",
-      "navPlayerCasino": "12. Cassino, Pesca e Arcade",
-      "commandsSubtitle": "Diretório pesquisável de mais de 323 comandos de todos os plugins do servidor.",
-      "permissionsSubtitle": "Matriz de mais de 363 permissões LuckPerms organizadas por plugin e cargo.",
-      "placeholdersSubtitle": "Catálogo completo com mais de 113 variáveis PlaceholderAPI de todos os plugins."
+    "flag": "🇧🇷"
   },
   "zh": {
     "name": "中文",
-    "flag": "🇨🇳",
-      "navPlugins": "服务器插件全览",
-      "pluginsSubtitle": "Minecity Roleplay 全部 76 个已安装插件的完整功能目录。",
-      "navPlayerCasino": "12. 赌场、钓鱼与街机小游戏",
-      "commandsSubtitle": "涵盖服务器全部 76 个插件的 323+ 指令交互式检索目录。",
-      "permissionsSubtitle": "涵盖所有插件和 LuckPerms 身份组的 363+ 权限节点表。",
-      "placeholdersSubtitle": "包含所有扩展插件的 113+ PlaceholderAPI 变量完整列表。"
+    "flag": "🇨🇳"
   },
   "ko": {
     "name": "한국어",
-    "flag": "🇰🇷",
-      "navPlugins": "서버 플러그인 목록",
-      "pluginsSubtitle": "Minecity Roleplay 서버에 설치된 전체 76개 플러그인의 통합 카탈로그입니다.",
-      "navPlayerCasino": "12. 카지노, 낚시 및 아케이드",
-      "commandsSubtitle": "모든 서버 플러그인의 323개 이상 명령어를 검색할 수 있는 통합 디렉토리입니다.",
-      "permissionsSubtitle": "모든 플러그인 및 LuckPerms 등급별 363개 이상의 권한 노드 매트릭스입니다.",
-      "placeholdersSubtitle": "서버의 모든 확장 모듈과 플러그인을 아우르는 113개 이상의 PAPI 변수 목록입니다."
+    "flag": "🇰🇷"
   },
   "ru": {
     "name": "Русский",
-    "flag": "🇷🇺",
-      "navPlugins": "Плагины Сервера",
-      "pluginsSubtitle": "Полный каталог всех 76 установленных плагинов на сервере Minecity Roleplay.",
-      "navPlayerCasino": "12. Казино, Рыбалка и Аркады",
-      "commandsSubtitle": "Интерактивный справочник по 323+ командам всех плагинов сервера.",
-      "permissionsSubtitle": "Матрица 363+ прав доступа LuckPerms по всем плагинам и ролям.",
-      "placeholdersSubtitle": "Полный каталог 113+ переменных PlaceholderAPI всех расширений и плагинов."
+    "flag": "🇷🇺"
   }
 },
   strings: {
@@ -173,9 +119,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Key Server Features",
     "playerManualSubtitle": "Everything you need to know about starting your civilian life, building wealth, driving, and surviving in Minecity.",
     "adminGuideSubtitle": "Comprehensive technical manual, configuration architectures, LuckPerms permissions hierarchy, and runtime injection protocols.",
-    "commandsSubtitle": "Interactive, searchable directory of all citizen, officer, medic, real estate, vehicle, and admin commands.",
-    "permissionsSubtitle": "LuckPerms permission nodes catalog for civilian ranks, emergency services, and staff hierarchy.",
-    "placeholdersSubtitle": "PlaceholderAPI compatible variables for scoreboards, TAB, chat prefixes, and interactive menus.",
+    "commandsSubtitle": "Interactive, searchable directory of all 359+ real commands and subcommands organized by the 10 server categories.",
+    "permissionsSubtitle": "LuckPerms permission nodes catalog (415+ nodes) organized by category and roleplay rank group.",
+    "placeholdersSubtitle": "Complete PlaceholderAPI variable catalog across all categories and expansions for TAB, scoreboards, and DeluxeMenus.",
     "videosSubtitle": "Official cinematics and video guides featuring all 17 episodes from the official Minecity YouTube playlist.",
     "btnViewVehicles": "View Vehicles Guide",
     "btnViewProperties": "View Real Estate",
@@ -188,7 +134,11 @@ const I18N = {
     "navDataRegistries": "Data & Registries",
     "playlistCalloutTitle": "Official YouTube Playlist (17 Episodes)",
     "playlistCalloutDesc": "Watch all episodes directly on YouTube: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Minecity Roleplay Full Playlist (17 Videos)</strong></a> • Also visit the <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit Minecity Roleplay Resource</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Crafted with passion for the Minecraft Roleplay community.<br><small>Optimized for Purpur 1.21.11 & Java 21 • Setup by <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Crafted with passion for the Minecraft Roleplay community.<br><small>Optimized for Purpur 1.21.11 & Java 21 • Setup by <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "System Categories",
+    "pluginsSubtitle": "All 77 server modules organized into the 10 core gameplay categories. Explore mechanics, core systems, and jump straight to each category's commands, permissions, and placeholders.",
+    "navPlayerCasino": "12. Casino, Fishing & Arcade",
+    "tableCategory": "Category / System"
   },
   "es": {
     "siteTitle": "Minecity Roleplay | Wiki Oficial GTA Minecraft",
@@ -263,9 +213,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Características Principales del Servidor",
     "playerManualSubtitle": "Todo lo que necesitas saber para triunfar en tu vida civil, generar ingresos, conducir bólidos y sobrevivir en Minecity.",
     "adminGuideSubtitle": "Manual técnico de arquitectura, archivos de configuración, jerarquía de permisos LuckPerms y protocolos de inyección.",
-    "commandsSubtitle": "Directorio interactivo de comandos civiles, policiales, paramédicos, inmobiliarios, vehiculares y administrativos.",
-    "permissionsSubtitle": "Catálogo de nodos de permisos para configurar LuckPerms en rangos de ciudadanos, servicios de emergencia y staff.",
-    "placeholdersSubtitle": "Placeholders compatibles con PlaceholderAPI para scoreboards, TAB, chat prefixes y menús interactivos.",
+    "commandsSubtitle": "Directorio interactivo de más de 359 comandos y subcomandos reales organizados por las 10 categorías del servidor.",
+    "permissionsSubtitle": "Matriz de 415+ permisos LuckPerms organizados por categoría y grupo de rol.",
+    "placeholdersSubtitle": "Catálogo completo de más de 113 variables PlaceholderAPI divididas por categoría para TAB, scoreboards y menús.",
     "videosSubtitle": "Archivo audiovisual oficial completo con los 17 videos de jugabilidad, mecánicas urbanas y guías del servidor Minecity.",
     "btnViewVehicles": "Ver Guía de Autos",
     "btnViewProperties": "Ver Bienes Raíces",
@@ -278,7 +228,11 @@ const I18N = {
     "navDataRegistries": "Datos y Registros",
     "playlistCalloutTitle": "Lista de Reproducción Oficial de YouTube (17 Episodios)",
     "playlistCalloutDesc": "Mira todos los episodios en YouTube: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Playlist Completa de Minecity Roleplay (17 Videos)</strong></a> • Visita también el <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Recurso Oficial en BuiltByBit</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Creado con pasión para la comunidad de Minecraft Roleplay.<br><small>Optimizado para Purpur 1.21.11 y Java 21 • Setup por <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Creado con pasión para la comunidad de Minecraft Roleplay.<br><small>Optimizado para Purpur 1.21.11 y Java 21 • Setup por <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Categorías del Sistema",
+    "pluginsSubtitle": "Todos los 77 módulos del servidor organizados en las 10 categorías oficiales. Explora mecánicas y salta directo a los comandos, permisos y placeholders de cada categoría.",
+    "navPlayerCasino": "12. Casino, Pesca y Arcade",
+    "tableCategory": "Categoría / Plugin"
   },
   "de": {
     "siteTitle": "Minecity Roleplay | Offizielle GTA Minecraft Wiki",
@@ -353,9 +307,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Wichtigste Server-Features",
     "playerManualSubtitle": "Alles, was du über Bürgerleben, Geldverdienen und Überleben wissen musst.",
     "adminGuideSubtitle": "Technisches Handbuch, Konfigurationsarchitektur und Berechtigungshierarchie.",
-    "commandsSubtitle": "Interaktives Verzeichnis aller zivilen, polizeilichen und administrativen Befehle.",
-    "permissionsSubtitle": "LuckPerms Berechtigungskatalog für Zivilisten und Einsatzkräfte.",
-    "placeholdersSubtitle": "PlaceholderAPI Variablen für Scoreboards, TAB und Menüs.",
+    "commandsSubtitle": "Durchsuchbares Verzeichnis aller 359+ echten Befehle und Unterbefehle nach den 10 Kategorien.",
+    "permissionsSubtitle": "LuckPerms-Berechtigungsmatrix (415+ Nodes) nach Kategorie und Rolle sortiert.",
+    "placeholdersSubtitle": "Vollständiger PlaceholderAPI-Variablenkatalog nach Kategorie für TAB, Scoreboards und Menüs.",
     "videosSubtitle": "Offizielle Videosammlung mit allen 17 Episoden der Minecity-Playlist.",
     "btnViewVehicles": "Fahrzeug-Guide ansehen",
     "btnViewProperties": "Immobilien ansehen",
@@ -369,7 +323,11 @@ const I18N = {
     "navDataRegistries": "Daten & Register",
     "playlistCalloutTitle": "Offizielle YouTube-Playlist (17 Episoden)",
     "playlistCalloutDesc": "Alle Folgen auf YouTube ansehen: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Minecity Roleplay Playlist (17 Videos)</strong></a> • Besuche auch die <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit Minecity-Ressource</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Für die Minecraft Roleplay Community.<br><small>Optimiert für Purpur 1.21.11 & Java 21 • Setup von <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Für die Minecraft Roleplay Community.<br><small>Optimiert für Purpur 1.21.11 & Java 21 • Setup von <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Systemkategorien",
+    "pluginsSubtitle": "Alle 77 Server-Module in den 10 offiziellen Kategorien. Entdecke Spielmechaniken und springe direkt zu Befehlen, Berechtigungen und Platzhaltern.",
+    "navPlayerCasino": "12. Casino, Angeln & Arcade",
+    "tableCategory": "Kategorie / Plugin"
   },
   "fr": {
     "siteTitle": "Minecity Roleplay | Wiki Officiel GTA Minecraft",
@@ -444,9 +402,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Fonctionnalités Principales",
     "playerManualSubtitle": "Tout ce que vous devez savoir sur la vie civile, l'argent et la survie.",
     "adminGuideSubtitle": "Manuel technique, architecture de configuration et hiérarchie LuckPerms.",
-    "commandsSubtitle": "Répertoire interactif de toutes les commandes civiles et administratives.",
-    "permissionsSubtitle": "Catalogue de permissions LuckPerms pour citoyens et urgences.",
-    "placeholdersSubtitle": "Variables PlaceholderAPI pour tableaux de bord et chat.",
+    "commandsSubtitle": "Répertoire interactif de plus de 359 commandes et sous-commandes classées par les 10 catégories.",
+    "permissionsSubtitle": "Matrice de plus de 415 permissions LuckPerms classées par catégorie et grade.",
+    "placeholdersSubtitle": "Catalogue complet de plus de 113 variables PlaceholderAPI classées par catégorie.",
     "videosSubtitle": "Archive vidéo officielle comprenant les 17 épisodes de Minecity.",
     "btnViewVehicles": "Voir Guide Véhicules",
     "btnViewProperties": "Voir Immobilier",
@@ -459,7 +417,11 @@ const I18N = {
     "navDataRegistries": "Données & Registres",
     "playlistCalloutTitle": "Playlist YouTube Officielle (17 Épisodes)",
     "playlistCalloutDesc": "Regardez tous les épisodes sur YouTube : <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Playlist Complète Minecity Roleplay (17 Vidéos)</strong></a> • Visitez également la ressource sur <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Conçu avec passion pour la communauté Minecraft Roleplay.<br><small>Optimisé pour Purpur 1.21.11 & Java 21 • Setup par <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Conçu avec passion pour la communauté Minecraft Roleplay.<br><small>Optimisé pour Purpur 1.21.11 & Java 21 • Setup par <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Catégories du Système",
+    "pluginsSubtitle": "Les 77 modules du serveur organisés dans les 10 catégories officielles. Explorez les mécaniques et accédez aux commandes, permissions et placeholders.",
+    "navPlayerCasino": "12. Casino, Pêche & Arcade",
+    "tableCategory": "Catégorie / Plugin"
   },
   "pt": {
     "siteTitle": "Minecity Roleplay | Wiki Oficial GTA Minecraft",
@@ -534,9 +496,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Principais Recursos do Servidor",
     "playerManualSubtitle": "Tudo o que você precisa saber sobre a vida civil, dinheiro e sobrevivência.",
     "adminGuideSubtitle": "Manual técnico, arquitetura de configuração e hierarquia LuckPerms.",
-    "commandsSubtitle": "Diretório interativo de comandos civis, policiais e administrativos.",
-    "permissionsSubtitle": "Catálogo de permissões LuckPerms para cidadãos e serviços de emergência.",
-    "placeholdersSubtitle": "Variáveis PlaceholderAPI para scoreboards, TAB e menus.",
+    "commandsSubtitle": "Diretório pesquisável de mais de 359 comandos e subcomandos organizados nas 10 categorias.",
+    "permissionsSubtitle": "Matriz de mais de 415 permissões LuckPerms organizadas por categoria e cargo.",
+    "placeholdersSubtitle": "Catálogo completo com mais de 113 variáveis PlaceholderAPI divididas por categoria.",
     "videosSubtitle": "Arquivo audiovisual com todos os 17 vídeos oficiais do Minecity.",
     "btnViewVehicles": "Ver Guia de Veículos",
     "btnViewProperties": "Ver Imóveis",
@@ -549,7 +511,11 @@ const I18N = {
     "navDataRegistries": "Dados & Registros",
     "playlistCalloutTitle": "Playlist Oficial do YouTube (17 Episódios)",
     "playlistCalloutDesc": "Assista a todos os episódios no YouTube: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Playlist Completa do Minecity Roleplay (17 Vídeos)</strong></a> • Veja também o recurso no <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Feito com paixão para a comunidade Minecraft Roleplay.<br><small>Otimizado para Purpur 1.21.11 e Java 21 • Setup por <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Feito com paixão para a comunidade Minecraft Roleplay.<br><small>Otimizado para Purpur 1.21.11 e Java 21 • Setup por <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Categorias do Sistema",
+    "pluginsSubtitle": "Todos os 77 módulos do servidor organizados nas 10 categorias oficiais. Explore mecânicas e acesse comandos, permissões e placeholders.",
+    "navPlayerCasino": "12. Cassino, Pesca e Arcade",
+    "tableCategory": "Categoria / Plugin"
   },
   "it": {
     "siteTitle": "Minecity Roleplay | Wiki Ufficiale GTA Minecraft",
@@ -624,9 +590,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Funzionalità Principali",
     "playerManualSubtitle": "Tutto quello che devi sapere sulla vita cittadina, guadagni e sopravvivenza.",
     "adminGuideSubtitle": "Manuale tecnico, architettura di configurazione e permessi LuckPerms.",
-    "commandsSubtitle": "Elenco interattivo di comandi civili, polizia e amministrazione.",
-    "permissionsSubtitle": "Catalogo permessi LuckPerms per ranghi civili e staff.",
-    "placeholdersSubtitle": "Variabili PlaceholderAPI per scoreboard e chat.",
+    "commandsSubtitle": "Elenco interattivo di oltre 359 comandi e sottocomandi divisi nelle 10 categorie.",
+    "permissionsSubtitle": "Matrice completa di oltre 415 permessi LuckPerms suddivisi per categoria e grado.",
+    "placeholdersSubtitle": "Catalogo completo di oltre 113 variabili PlaceholderAPI suddivise per categoria.",
     "videosSubtitle": "Raccolta video ufficiale con tutti i 17 episodi di Minecity.",
     "btnViewVehicles": "Vedi Guida Veicoli",
     "btnViewProperties": "Vedi Immobili",
@@ -639,7 +605,11 @@ const I18N = {
     "navDataRegistries": "Dati & Registri",
     "playlistCalloutTitle": "Playlist Ufficiale YouTube (17 Episodi)",
     "playlistCalloutDesc": "Guarda tutti gli episodi su YouTube: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Playlist Completa Minecity Roleplay (17 Video)</strong></a> • Visita la risorsa su <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Per la community di Minecraft Roleplay.<br><small>Ottimizzato per Purpur 1.21.11 & Java 21 • Setup di <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Per la community di Minecraft Roleplay.<br><small>Ottimizzato per Purpur 1.21.11 & Java 21 • Setup di <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Categorie di Sistema",
+    "pluginsSubtitle": "Tutti i 77 moduli del server organizzati nelle 10 categorie ufficiali. Esplora meccaniche e accedi a comandi, permessi e placeholder.",
+    "navPlayerCasino": "12. Casinò, Pesca e Arcade",
+    "tableCategory": "Categoria / Plugin"
   },
   "zh": {
     "siteTitle": "Minecity Roleplay | GTA 官方维基与技术文档",
@@ -714,9 +684,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 服务器核心特色系统",
     "playerManualSubtitle": "从初入都市、求职谋生、考照购车到生存自保的全面指南。",
     "adminGuideSubtitle": "底层技术手册、参数配置架构、权限继承与代码注入协议。",
-    "commandsSubtitle": "全量可搜索指令大全，涵盖市民、警方、医护及管理权限。",
-    "permissionsSubtitle": "LuckPerms 权限节点库，覆盖市民阶段、应急单位与管理层级。",
-    "placeholdersSubtitle": "全兼容 PlaceholderAPI 变量代码，适用于计分板与聊天栏。",
+    "commandsSubtitle": "按 10 大系统分类整理的 359+ 真实指令与子指令交互式目录。",
+    "permissionsSubtitle": "按系统分类和 LuckPerms 身份组整理的 415+ 权限节点表。",
+    "placeholdersSubtitle": "按分类整理的 113+ PlaceholderAPI 变量列表，适用于计分板与菜单。",
     "videosSubtitle": "官方高清视频集锦，收录 Minecity 官方播放列表全部 17 部视频。",
     "btnViewVehicles": "查看载具驾驶指南",
     "btnViewProperties": "查看房产置业指南",
@@ -729,7 +699,11 @@ const I18N = {
     "navDataRegistries": "数据与索引名录",
     "playlistCalloutTitle": "官方 YouTube 视频集锦 (全 17 集)",
     "playlistCalloutDesc": "在 YouTube 上观看全部章节：<a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Minecity Roleplay 全量播放列表 (17 部视频)</strong></a> • 同时欢迎查阅 <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit 官方发布页</a>。",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — 为 Minecraft 角色扮演社区倾情打造。<br><small>专为 Purpur 1.21.11 与 Java 21 深度定制 • 配置由 <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a> 提供。</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — 为 Minecraft 角色扮演社区倾情打造。<br><small>专为 Purpur 1.21.11 与 Java 21 深度定制 • 配置由 <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a> 提供。</small>",
+    "navPlugins": "系统十大分类",
+    "pluginsSubtitle": "全部 77 个服务器模块已整合进 10 大核心系统分类。点击任意分类即可快速筛选对应指令、权限与变量。",
+    "navPlayerCasino": "12. 赌场、钓鱼与街机小游戏",
+    "tableCategory": "分类 / 插件"
   },
   "ko": {
     "siteTitle": "Minecity Roleplay | 공식 GTA 마인크래프트 위키",
@@ -804,9 +778,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 서버 핵심 주요 기능",
     "playerManualSubtitle": "도시 생활 정착, 수익 창출, 차량 운전 및 생존에 관한 완벽 가이드.",
     "adminGuideSubtitle": "기술 아키텍처 매뉴얼, 설정 파일 구조 및 권한 상속 체계.",
-    "commandsSubtitle": "시민, 경찰, 구급 및 관리자 명령어가 총망라된 인터랙티브 사전.",
-    "permissionsSubtitle": "시민 등급, 응급 서비스 및 스태프용 LuckPerms 권한 노드 카탈로그.",
-    "placeholdersSubtitle": "스코어보드, TAB 및 메뉴에 완벽 호환되는 PlaceholderAPI 코드 모음.",
+    "commandsSubtitle": "10개 시스템 카테고리별로 분류된 359개 이상의 실제 명령어 및 하위 명령어 디렉토리입니다.",
+    "permissionsSubtitle": "카테고리 및 LuckPerms 등급별 415개 이상의 권한 노드 매트릭스입니다.",
+    "placeholdersSubtitle": "카테고리별로 정리된 113개 이상의 PlaceholderAPI 변수 목록입니다.",
     "videosSubtitle": "마인시티 공식 유튜브 플레이리스트 17편 전편이 수록된 영상 갤러리.",
     "btnViewVehicles": "차량 가이드 보기",
     "btnViewProperties": "부동산 가이드 보기",
@@ -819,7 +793,11 @@ const I18N = {
     "navDataRegistries": "데이터 및 레지스트리",
     "playlistCalloutTitle": "공식 YouTube 플레이리스트 (총 17편)",
     "playlistCalloutDesc": "YouTube에서 모든 에피소드를 시청하세요: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Minecity Roleplay 공식 영상 재생목록 (17개 영상)</strong></a> • <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit 리소스 페이지</a>도 함께 확인하세요.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — 마인크래프트 롤플레이 커뮤니티 전용.<br><small>Purpur 1.21.11 및 Java 21 최적화 • 제작: <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — 마인크래프트 롤플레이 커뮤니티 전용.<br><small>Purpur 1.21.11 및 Java 21 최적화 • 제작: <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "10대 시스템 카테고리",
+    "pluginsSubtitle": "77개 서버 모듈을 10개의 핵심 게임플레이 카테고리로 통합 정리했습니다. 각 카테고리의 명령어, 권한, PAPI 변수를 바로 확인하세요.",
+    "navPlayerCasino": "12. 카지노, 낚시 및 아케이드",
+    "tableCategory": "카테고리 / 플러그인"
   },
   "ru": {
     "siteTitle": "Minecity Roleplay | Официальная Вики GTA Minecraft",
@@ -894,9 +872,9 @@ const I18N = {
     "keyFeaturesTitle": "🌟 Ключевые Особенности Сервера",
     "playerManualSubtitle": "Все о начале жизни в городе, заработке, вождении и выживании.",
     "adminGuideSubtitle": "Техническое руководство, конфигурации и иерархия прав LuckPerms.",
-    "commandsSubtitle": "Интерактивный справочник всех гражданских и служебных команд.",
-    "permissionsSubtitle": "Каталог прав LuckPerms для граждан, служб спасения и персонала.",
-    "placeholdersSubtitle": "Переменные PlaceholderAPI для скорбордов, таба и чата.",
+    "commandsSubtitle": "Интерактивный справочник по 359+ реальным командам и подкомандам в 10 категориях.",
+    "permissionsSubtitle": "Матрица 415+ прав доступа LuckPerms по категориям и ролям.",
+    "placeholdersSubtitle": "Полный каталог 113+ переменных PlaceholderAPI по категориям сервера.",
     "videosSubtitle": "Официальная видеогалерея со всеми 17 эпизодами плейлиста Minecity.",
     "btnViewVehicles": "Гайд по Транспорту",
     "btnViewProperties": "Гайд по Недвижимости",
@@ -909,7 +887,11 @@ const I18N = {
     "navDataRegistries": "Данные и Реестры",
     "playlistCalloutTitle": "Официальный Плейлист на YouTube (17 Эпизодов)",
     "playlistCalloutDesc": "Смотрите все серии на YouTube: <a href='https://www.youtube.com/watch?v=tqgprEd5LGY&list=PLiSeaxIUvacnIqTX89JWHoUzzBK4XznnD' target='_blank' rel='noopener noreferrer'><strong>Полный плейлист Minecity Roleplay (17 видео)</strong></a> • Также посетите страницу на <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>BuiltByBit</a>.",
-    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Создано с любовью для Minecraft Roleplay сообщества.<br><small>Оптимизировано для Purpur 1.21.11 и Java 21 • Сборка от <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>"
+    "footerText": "© 2026 <strong>Minecity Roleplay</strong> — Создано с любовью для Minecraft Roleplay сообщества.<br><small>Оптимизировано для Purpur 1.21.11 и Java 21 • Сборка от <a href='https://builtbybit.com/resources/minecity-roleplay-gta-minecraft-setup.22823/' target='_blank' rel='noopener noreferrer'>Unique Setups</a>.</small>",
+    "navPlugins": "Категории Систем",
+    "pluginsSubtitle": "Все 77 модулей сервера объединены в 10 официальных категорий. Изучайте механики и переходите к командам, правам и плейсхолдерам.",
+    "navPlayerCasino": "12. Казино, Рыбалка и Аркады",
+    "tableCategory": "Категория / Плагин"
   }
 },
   guides: {
@@ -941,13 +923,13 @@ const I18N = {
         "videoTitle": "How to rent an apartment in Minecraft! | Minecity GTA Setup",
         "content": "\n                <p>Real estate is fully automated via <strong>MinecitySuite (MCRP-Properties)</strong> and ARM:</p>\n                <ul>\n                  <li>Type <code>/apartments</code> (or <code>/rent</code> / <code>/buy</code>) to open the interactive property catalogue.</li>\n                  <li><strong>Rental Apartments:</strong> Affordable weekly or monthly leases. Doors lock automatically against strangers. When leases expire, interiors automatically reset clean for the next resident.</li>\n                  <li><strong>Permanent Houses & Luxury Penthouses:</strong> Estates that belong to you forever and can be customized freely.</li>\n                  <li><strong>Roommates:</strong> Add trusted friends to your doors using <code>/arm addmember &lt;region&gt; &lt;player&gt;</code>.</li>\n                  <li><strong>Safe Sign Interaction:</strong> Clicking on property signs never deducts money immediately; it opens a safe preview GUI showing price, rental duration, and confirmation buttons.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. 3D Vehicles, Dealerships & Helicopter Flight",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "3D Vehicles in Minecraft without mods! | Minecity GTA Setup",
-              "content": "\n                <p>Minecity includes an extensive collection of custom 3D sports cars, cruisers, motorbikes, cargo haulers, and helicopters:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Fast & Essential Vehicle Commands</div>\n                  <ul>\n                    <li><code>/car</code> — Opens your personal garage GUI with all your owned vehicles.</li>\n                    <li><code>/carcall</code> — Saves and stores your active vehicle back into your garage to prevent theft or loss.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Sit as a passenger in seat 1, 2, or 3 of a vehicle.</li>\n                    <li><code>/car-drive</code> — Switch back to the driver seat of your vehicle.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Vehicle Mechanics & Controls</h3>\n                <ul>\n                  <li><strong>Purchasing:</strong> Buy vehicles from NPC dealers. Your vehicle is delivered straight into your virtual garage.</li>\n                  <li><strong>Trunk Storage (Shift + Right-Click):</strong> Sneak (Shift) and right-click the rear of your car (or use <code>/vehicle trunk</code>) to open the trunk and store weapons, contraband, or tools.</li>\n                  <li><strong>Refueling:</strong> Pull up to any gas station pump, hold the nozzle, and right-click your vehicle to refill fuel.</li>\n                  <li><strong>Driving:</strong> Natural left and right steering controls.</li>\n                  <li><strong>Helicopters:</strong> Hold <strong>SPACEBAR</strong> to ascend with powerful vertical lift. Adjust your pitch or press <strong>SHIFT</strong> to descend smoothly.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. 3D Vehicles, Dealerships & Helicopter Flight",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "3D Vehicles in Minecraft without mods! | Minecity GTA Setup",
+        "content": "\n                <p>Minecity includes an extensive collection of custom 3D sports cars, cruisers, motorbikes, cargo haulers, and helicopters:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Fast & Essential Vehicle Commands</div>\n                  <ul>\n                    <li><code>/car</code> — Opens your personal garage GUI with all your owned vehicles.</li>\n                    <li><code>/carcall</code> — Saves and stores your active vehicle back into your garage to prevent theft or loss.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Sit as a passenger in seat 1, 2, or 3 of a vehicle.</li>\n                    <li><code>/car-drive</code> — Switch back to the driver seat of your vehicle.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Vehicle Mechanics & Controls</h3>\n                <ul>\n                  <li><strong>Purchasing:</strong> Buy vehicles from NPC dealers. Your vehicle is delivered straight into your virtual garage.</li>\n                  <li><strong>Trunk Storage (Shift + Right-Click):</strong> Sneak (Shift) and right-click the rear of your car (or use <code>/vehicle trunk</code>) to open the trunk and store weapons, contraband, or tools.</li>\n                  <li><strong>Refueling:</strong> Pull up to any gas station pump, hold the nozzle, and right-click your vehicle to refill fuel.</li>\n                  <li><strong>Driving:</strong> Natural left and right steering controls.</li>\n                  <li><strong>Helicopters:</strong> Hold <strong>SPACEBAR</strong> to ascend with powerful vertical lift. Adjust your pitch or press <strong>SHIFT</strong> to descend smoothly.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -990,10 +972,10 @@ const I18N = {
         "content": "\n                <p>If you prefer an honest living, Minecity features diverse well-paying careers:</p>\n                <ul>\n                  <li><strong>Fisher:</strong> Catch custom fish along coastal piers, participate in fishing tournaments, and sell fresh catches at the fish market with <code>/emf shop</code>.</li>\n                  <li><strong>Miner:</strong> Extract valuable ores and raw materials in the industrial quarry.</li>\n                  <li><strong>Truck Driver:</strong> Hitch heavy trailers to commercial freight trucks and deliver goods across the highway for substantial transport bonuses.</li>\n                  <li><strong>Bus Driver:</strong> Operate city transit lines picking up passengers at designated bus stops.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Casino, Banking, Fishing, Gangs & Arcade",
-              "icon": "🎰",
-              "content": "\n                <p>Beyond your daily job, Minecity offers an entire ecosystem of banking, player commerce, underground crime syndicates, casino gambling, sports, and arcades powered by over 76 specialized plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 City Banking, Auction Market & Direct Deposit Salaries</div>\n                  <ul>\n                    <li><strong>City Bank & ATM (<code>/bank</code>):</strong> Store hard-earned cash safely away from muggers, earn periodic savings interest, and manage loans.</li>\n                    <li><strong>Global Auction House (<code>/ah</code> / <code>/ah sell &lt;price&gt;</code>):</strong> Buy and sell rare weapons, car keys, collectibles, and supplies directly with other citizens.</li>\n                    <li><strong>Automatic Paychecks (<code>/salary</code>):</strong> On-duty officers, paramedics, and city employees receive scheduled direct deposits every payday cycle.</li>\n                    <li><strong>Playtime Ranks & RPG Skills (<code>/autorank</code> & <code>/class</code>):</strong> Unlock new citizenship tiers by playing active hours and allocate stamina perks.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Stadium & Recreational Minigames</h3>\n                <ul>\n                  <li><strong>Las Venturas Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Wager casino chips at live Roulette wheels, play 5-card Video Poker, or buy metropolitan lottery jackpot tickets.</li>\n                  <li><strong>Marina Sport Fishing (<code>/emf</code>):</strong> Catch dozens of rare custom fish species at the pier, compete in timed fishing contests, and sell your catch.</li>\n                  <li><strong>City Stadium Soccer (<code>/blockball</code>):</strong> Team up at the downtown soccer pitch for real-time 3D ball matches.</li>\n                  <li><strong>Arcade & Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Play handheld GameBoy cartridges, Snake/2048/Flappy Bird, and tune into city jukebox stations.</li>\n                  <li><strong>Street Gangs, Clans & Contraband (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Form criminal turf gangs with shared safes (<code>/gang vault</code>), crime syndicates, or trade black market goods.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Casino, Banking, Fishing, Gangs & Arcade",
+        "icon": "🎰",
+        "content": "\n                <p>Beyond your daily job, Minecity offers an entire ecosystem of banking, player commerce, underground crime syndicates, casino gambling, sports, and arcades powered by over 76 specialized plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 City Banking, Auction Market & Direct Deposit Salaries</div>\n                  <ul>\n                    <li><strong>City Bank & ATM (<code>/bank</code>):</strong> Store hard-earned cash safely away from muggers, earn periodic savings interest, and manage loans.</li>\n                    <li><strong>Global Auction House (<code>/ah</code> / <code>/ah sell &lt;price&gt;</code>):</strong> Buy and sell rare weapons, car keys, collectibles, and supplies directly with other citizens.</li>\n                    <li><strong>Automatic Paychecks (<code>/salary</code>):</strong> On-duty officers, paramedics, and city employees receive scheduled direct deposits every payday cycle.</li>\n                    <li><strong>Playtime Ranks & RPG Skills (<code>/autorank</code> & <code>/class</code>):</strong> Unlock new citizenship tiers by playing active hours and allocate stamina perks.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Stadium & Recreational Minigames</h3>\n                <ul>\n                  <li><strong>Las Venturas Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Wager casino chips at live Roulette wheels, play 5-card Video Poker, or buy metropolitan lottery jackpot tickets.</li>\n                  <li><strong>Marina Sport Fishing (<code>/emf</code>):</strong> Catch dozens of rare custom fish species at the pier, compete in timed fishing contests, and sell your catch.</li>\n                  <li><strong>City Stadium Soccer (<code>/blockball</code>):</strong> Team up at the downtown soccer pitch for real-time 3D ball matches.</li>\n                  <li><strong>Arcade & Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Play handheld GameBoy cartridges, Snake/2048/Flappy Bird, and tune into city jukebox stations.</li>\n                  <li><strong>Street Gangs, Clans & Contraband (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Form criminal turf gangs with shared safes (<code>/gang vault</code>), crime syndicates, or trade black market goods.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1063,13 +1045,13 @@ const I18N = {
         "videoTitle": "¡Cómo alquilar un apartamento en Minecraft! | Minecity GTA",
         "content": "\n                <p>El mercado inmobiliario está completamente automatizado mediante <strong>MinecitySuite (MCRP-Properties)</strong> y ARM:</p>\n                <ul>\n                  <li>Escribe <code>/apartments</code> (o <code>/rent</code> / <code>/buy</code>) para abrir el catálogo interactivo de propiedades disponibles.</li>\n                  <li><strong>Alquiler Temporal:</strong> Departamentos económicos de renta semanal o mensual. Las puertas son privadas y se bloquean automáticamente contra desconocidos. Si vence tu contrato, el interior se restaura limpio para el siguiente inquilino.</li>\n                  <li><strong>Propiedades Permanentes:</strong> Casas y mansiones de propiedad perpetua que puedes decorar y asegurar a tu gusto.</li>\n                  <li><strong>Compañeros de Cuarto:</strong> Añade amigos a tu propiedad para compartir llaves con el comando <code>/arm addmember &lt;region&gt; &lt;jugador&gt;</code>.</li>\n                  <li><strong>Menú de Confirmación Seguro:</strong> Al tocar el cartel de una propiedad no se cobra dinero al instante; se abre un menú con el precio, duración y botones de confirmación.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. Conducción de Vehículos 3D y Helicópteros",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "¡Vehículos 3D en Minecraft sin mods! | Minecity GTA",
-              "content": "\n                <p>Minecity cuenta con una flota impresionante de autos deportivos, motocicletas urbanas, camiones de carga pesada y helicópteros:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandos Esenciales y Rápidos de Vehículos</div>\n                  <ul>\n                    <li><code>/car</code> — Abre el menú de tu garaje personal con todos tus vehículos guardados.</li>\n                    <li><code>/carcall</code> — Guarda y almacena tu vehículo activo de vuelta en el garaje para evitar robos o extravíos.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Te sienta como pasajero en el asiento 1, 2 o 3 de un vehículo.</li>\n                    <li><code>/car-drive</code> — Cambia de posición y te coloca al volante como conductor.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mecánicas de Conducción y Manejo</h3>\n                <ul>\n                  <li><strong>Compra en Concesionarios:</strong> Habla con el vendedor NPC en los salones de venta. Al comprar el voucher, el vehículo se envía automáticamente a tu garaje.</li>\n                  <li><strong>Maletero (Shift + Clic Derecho):</strong> Agáchate (Shift) y haz clic derecho en la parte trasera del auto (o usa <code>/vehicle trunk</code>) para abrir el baúl y guardar armas, objetos o equipaje.</li>\n                  <li><strong>Reabastecimiento de Combustible:</strong> Acércate a las estaciones de servicio, toma la manguera y mantén presionado el clic derecho en tu vehículo.</li>\n                  <li><strong>Conducción Terrestre:</strong> Manejo natural hacia la izquierda y derecha.</li>\n                  <li><strong>Helicópteros:</strong> Mantén presionada la <strong>BARRA ESPACIADORA</strong> para ascender con potencia vertical. Ajusta la inclinación de la vista o presiona <strong>SHIFT</strong> para descender suavemente.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. Conducción de Vehículos 3D y Helicópteros",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "¡Vehículos 3D en Minecraft sin mods! | Minecity GTA",
+        "content": "\n                <p>Minecity cuenta con una flota impresionante de autos deportivos, motocicletas urbanas, camiones de carga pesada y helicópteros:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandos Esenciales y Rápidos de Vehículos</div>\n                  <ul>\n                    <li><code>/car</code> — Abre el menú de tu garaje personal con todos tus vehículos guardados.</li>\n                    <li><code>/carcall</code> — Guarda y almacena tu vehículo activo de vuelta en el garaje para evitar robos o extravíos.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Te sienta como pasajero en el asiento 1, 2 o 3 de un vehículo.</li>\n                    <li><code>/car-drive</code> — Cambia de posición y te coloca al volante como conductor.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mecánicas de Conducción y Manejo</h3>\n                <ul>\n                  <li><strong>Compra en Concesionarios:</strong> Habla con el vendedor NPC en los salones de venta. Al comprar el voucher, el vehículo se envía automáticamente a tu garaje.</li>\n                  <li><strong>Maletero (Shift + Clic Derecho):</strong> Agáchate (Shift) y haz clic derecho en la parte trasera del auto (o usa <code>/vehicle trunk</code>) para abrir el baúl y guardar armas, objetos o equipaje.</li>\n                  <li><strong>Reabastecimiento de Combustible:</strong> Acércate a las estaciones de servicio, toma la manguera y mantén presionado el clic derecho en tu vehículo.</li>\n                  <li><strong>Conducción Terrestre:</strong> Manejo natural hacia la izquierda y derecha.</li>\n                  <li><strong>Helicópteros:</strong> Mantén presionada la <strong>BARRA ESPACIADORA</strong> para ascender con potencia vertical. Ajusta la inclinación de la vista o presiona <strong>SHIFT</strong> para descender suavemente.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1112,10 +1094,10 @@ const I18N = {
         "content": "\n                <p>Si prefieres una vida legal y próspera, Minecity cuenta con múltiples profesiones bien remuneradas:</p>\n                <ul>\n                  <li><strong>Pescador:</strong> Captura especies raras en los muelles de la costa, participa en torneos de pesca y vende tu pesca fresca con <code>/emf shop</code>.</li>\n                  <li><strong>Minero:</strong> Extrae minerales pesados y materias primas en la cantera industrial del condado.</li>\n                  <li><strong>Camionero:</strong> Engancha remolques pesados a tu camión y realiza repartos de mercancías por autopistas interurbanas para ganar cuantiosos bonos de transporte.</li>\n                  <li><strong>Conductor de Autobús:</strong> Cumple con las líneas de transporte metropolitano recogiendo pasajeros en cada parada de la ciudad.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Casino, Banco, Pesca, Pandillas y Arcade",
-              "icon": "🎰",
-              "content": "\n                <p>Más allá del trabajo diario, Minecity integra un completo ecosistema bancario, subastas entre jugadores, sindicatos criminales, casino, deportes y videojuegos impulsado por 76 plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 Banca Municipal, Casa de Subastas y Nóminas</div>\n                  <ul>\n                    <li><strong>Banco y Cajeros ATM (<code>/bank</code>):</strong> Protege tu dinero en cuentas bancarias lejos de asaltantes, cobra intereses y gestiona depósitos.</li>\n                    <li><strong>Casa de Subastas Global (<code>/ah</code> / <code>/ah sell &lt;precio&gt;</code>):</strong> Vende y compra armas, llaves de vehículos y objetos raros entre ciudadanos.</li>\n                    <li><strong>Cheques Salariales Automáticos (<code>/salary</code>):</strong> Consulta cuándo cobrarás tu próxima nómina automática por empleo público o privado.</li>\n                    <li><strong>Rangos de Ciudadanía y Habilidades (<code>/autorank</code> y <code>/class</code>):</strong> Sube de rango civil acumulando horas jugadas y mejora tus atributos físicos.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Estadio y Entretenimiento Urbano</h3>\n                <ul>\n                  <li><strong>Casino de Minecity (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Apuesta fichas en mesas de Ruleta en vivo, juega Video Póker o compra billetes de lotería.</li>\n                  <li><strong>Pesca Deportiva en la Marina (<code>/emf</code>):</strong> Atrapa especies exóticas, compite en torneos por tiempo y vende tus capturas.</li>\n                  <li><strong>Estadio de Fútbol (<code>/blockball</code>):</strong> Únete a partidos en la cancha municipal con física de balón en tiempo real.</li>\n                  <li><strong>Arcade y Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Juega cartuchos reales en GameBoy portátil, Snake/2048 y escucha estaciones musicales.</li>\n                  <li><strong>Pandillas, Clanes y Contrabando (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funda bandas callejeras con baúl compartido (<code>/gang vault</code>) o domina el mercado negro.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Casino, Banco, Pesca, Pandillas y Arcade",
+        "icon": "🎰",
+        "content": "\n                <p>Más allá del trabajo diario, Minecity integra un completo ecosistema bancario, subastas entre jugadores, sindicatos criminales, casino, deportes y videojuegos impulsado por 76 plugins:</p>\n                <div class=\"callout callout-info\">\n                  <div class=\"callout-title\">🏦 Banca Municipal, Casa de Subastas y Nóminas</div>\n                  <ul>\n                    <li><strong>Banco y Cajeros ATM (<code>/bank</code>):</strong> Protege tu dinero en cuentas bancarias lejos de asaltantes, cobra intereses y gestiona depósitos.</li>\n                    <li><strong>Casa de Subastas Global (<code>/ah</code> / <code>/ah sell &lt;precio&gt;</code>):</strong> Vende y compra armas, llaves de vehículos y objetos raros entre ciudadanos.</li>\n                    <li><strong>Cheques Salariales Automáticos (<code>/salary</code>):</strong> Consulta cuándo cobrarás tu próxima nómina automática por empleo público o privado.</li>\n                    <li><strong>Rangos de Ciudadanía y Habilidades (<code>/autorank</code> y <code>/class</code>):</strong> Sube de rango civil acumulando horas jugadas y mejora tus atributos físicos.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">🎰 Casino, Estadio y Entretenimiento Urbano</h3>\n                <ul>\n                  <li><strong>Casino de Minecity (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Apuesta fichas en mesas de Ruleta en vivo, juega Video Póker o compra billetes de lotería.</li>\n                  <li><strong>Pesca Deportiva en la Marina (<code>/emf</code>):</strong> Atrapa especies exóticas, compite en torneos por tiempo y vende tus capturas.</li>\n                  <li><strong>Estadio de Fútbol (<code>/blockball</code>):</strong> Únete a partidos en la cancha municipal con física de balón en tiempo real.</li>\n                  <li><strong>Arcade y Radio (<code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Juega cartuchos reales en GameBoy portátil, Snake/2048 y escucha estaciones musicales.</li>\n                  <li><strong>Pandillas, Clanes y Contrabando (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funda bandas callejeras con baúl compartido (<code>/gang vault</code>) o domina el mercado negro.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1185,13 +1167,13 @@ const I18N = {
         "videoTitle": "Wie man eine Wohnung in Minecraft mietet! | Minecity GTA",
         "content": "\n                <p>Der Immobilienmarkt wird vollautomatisch über <strong>MinecitySuite (MCRP-Properties)</strong> und ARM verwaltet:</p>\n                <ul>\n                  <li>Gib <code>/apartments</code> (oder <code>/rent</code> / <code>/buy</code>) ein, um den interaktiven Immobilienkatalog zu öffnen.</li>\n                  <li><strong>Mietwohnungen:</strong> Günstige Apartments mit wöchentlicher oder monatlicher Miete. Türen verriegeln automatisch gegen Fremde. Nach Ablauf der Miete wird der Innenraum automatisch sauber für den nächsten Mieter zurückgesetzt.</li>\n                  <li><strong>Dauerhafte Häuser & Luxusvillen:</strong> Grundstücke im dauerhaften Besitz, die du frei dekorieren und absichern kannst.</li>\n                  <li><strong>Mitbewohner:</strong> Füge Freunde zu deinen Türen mit dem Befehl <code>/arm addmember &lt;Region&gt; &lt;Spieler&gt;</code> hinzu.</li>\n                  <li><strong>Sichere Vorschau:</strong> Ein Klick auf Immobilienschilder bucht kein Geld direkt ab, sondern öffnet ein sicheres Bestätigungsmenü.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. 3D-Fahrzeuge, Händler & Hubschrauberflug",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "3D-Fahrzeuge in Minecraft ohne Mods! | Minecity GTA",
-              "content": "\n                <p>Minecity bietet eine beeindruckende Flotte von Sportwagen, Motorrädern, Schwerlast-Lkw und Hubschraubern:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Wichtige & Schnelle Fahrzeugbefehle</div>\n                  <ul>\n                    <li><code>/car</code> — Öffnet dein persönliches Garagenmenü mit allen deinen Fahrzeugen.</li>\n                    <li><code>/carcall</code> — Speichert und parkt dein aktives Fahrzeug sicher zurück in die Garage ein.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Setzt dich als Beifahrer auf Sitz 1, 2 oder 3.</li>\n                    <li><code>/car-drive</code> — Wechselt auf den Fahrersitz des Fahrzeugs.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Fahrzeugmechanik & Steuerung</h3>\n                <ul>\n                  <li><strong>Kauf beim Händler:</strong> Sprich mit dem NPC-Händler im Ausstellungsraum. Beim Kauf wird das Fahrzeug direkt in deine Garage übertragen.</li>\n                  <li><strong>Kofferraum (Shift + Rechtsklick):</strong> Schleiche (Shift) und klicke mit rechts auf das Heck deines Autos (oder nutze <code>/vehicle trunk</code>), um Gepäck und Waffen zu verstauen.</li>\n                  <li><strong>Betankung:</strong> Fahre an eine Tankstelle, nimm den Zapfhahn und halte Rechtsklick auf dein Fahrzeug gedrückt.</li>\n                  <li><strong>Fahren:</strong> Natürliche und präzise Lenkung nach links und rechts.</li>\n                  <li><strong>Hubschrauber:</strong> Halte die <strong>LEERTASTE</strong> gedrückt, um mit starkem Auftrieb zu steigen. Neige die Sicht oder drücke <strong>SHIFT</strong>, um sanft zu sinken.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. 3D-Fahrzeuge, Händler & Hubschrauberflug",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "3D-Fahrzeuge in Minecraft ohne Mods! | Minecity GTA",
+        "content": "\n                <p>Minecity bietet eine beeindruckende Flotte von Sportwagen, Motorrädern, Schwerlast-Lkw und Hubschraubern:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Wichtige & Schnelle Fahrzeugbefehle</div>\n                  <ul>\n                    <li><code>/car</code> — Öffnet dein persönliches Garagenmenü mit allen deinen Fahrzeugen.</li>\n                    <li><code>/carcall</code> — Speichert und parkt dein aktives Fahrzeug sicher zurück in die Garage ein.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Setzt dich als Beifahrer auf Sitz 1, 2 oder 3.</li>\n                    <li><code>/car-drive</code> — Wechselt auf den Fahrersitz des Fahrzeugs.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Fahrzeugmechanik & Steuerung</h3>\n                <ul>\n                  <li><strong>Kauf beim Händler:</strong> Sprich mit dem NPC-Händler im Ausstellungsraum. Beim Kauf wird das Fahrzeug direkt in deine Garage übertragen.</li>\n                  <li><strong>Kofferraum (Shift + Rechtsklick):</strong> Schleiche (Shift) und klicke mit rechts auf das Heck deines Autos (oder nutze <code>/vehicle trunk</code>), um Gepäck und Waffen zu verstauen.</li>\n                  <li><strong>Betankung:</strong> Fahre an eine Tankstelle, nimm den Zapfhahn und halte Rechtsklick auf dein Fahrzeug gedrückt.</li>\n                  <li><strong>Fahren:</strong> Natürliche und präzise Lenkung nach links und rechts.</li>\n                  <li><strong>Hubschrauber:</strong> Halte die <strong>LEERTASTE</strong> gedrückt, um mit starkem Auftrieb zu steigen. Neige die Sicht oder drücke <strong>SHIFT</strong>, um sanft zu sinken.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1234,10 +1216,10 @@ const I18N = {
         "content": "\n                <p>Wenn du ein ehrliches bürgerliches Leben bevorzugst, bietet Minecity vielfältige, lukrative Karrieren:</p>\n                <ul>\n                  <li><strong>Fischer:</strong> Fange seltene Fischarten an den Küstenstegen, nimm an Angelturnieren teil und verkaufe den Fang mit <code>/emf shop</code>.</li>\n                  <li><strong>Bergarbeiter:</strong> Baue schwere Erze und Rohstoffe im Industriesteinbruch ab.</li>\n                  <li><strong>LKW-Fahrer:</strong> Kopple schwere Auflieger an deinen Sattelschlepper und liefere Fracht über die Autobahnen für dicke Lieferprämien.</li>\n                  <li><strong>Busfahrer:</strong> Bediene städtische Nahverkehrslinien und befördere Fahrgäste von Haltestelle zu Haltestelle.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Kasino, Bankwesen, Angeln, Gangs & Spielhalle",
-              "icon": "🎰",
-              "content": "\n                <p>Entdecke das komplette Ökosystem aus Banken, Auktionshaus, Straßengangs, Kasinos, Sport und Minispielen auf Basis von 76 Plugins:</p>\n                <ul>\n                  <li><strong>Bank & Geldautomat (<code>/bank</code>), Auktionen (<code>/ah</code>) & Gehalt (<code>/salary</code>):</strong> Sichere dein Geld vor Räubern, handle global und prüfe deinen nächsten Zahltag.</li>\n                  <li><strong>Kasino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Setze Chips am Roulettetisch, spiele Poker oder kaufe Lottoscheine.</li>\n                  <li><strong>Sport & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Angelturniere, Stadionfußball, GameBoy-Emulator und Stadtradio.</li>\n                  <li><strong>Gangs & Unterwelt (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Gründe Straßengangs mit Gang-Tresor (<code>/gang vault</code>) oder steige in den Schwarzmarkt ein.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Kasino, Bankwesen, Angeln, Gangs & Spielhalle",
+        "icon": "🎰",
+        "content": "\n                <p>Entdecke das komplette Ökosystem aus Banken, Auktionshaus, Straßengangs, Kasinos, Sport und Minispielen auf Basis von 76 Plugins:</p>\n                <ul>\n                  <li><strong>Bank & Geldautomat (<code>/bank</code>), Auktionen (<code>/ah</code>) & Gehalt (<code>/salary</code>):</strong> Sichere dein Geld vor Räubern, handle global und prüfe deinen nächsten Zahltag.</li>\n                  <li><strong>Kasino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Setze Chips am Roulettetisch, spiele Poker oder kaufe Lottoscheine.</li>\n                  <li><strong>Sport & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Angelturniere, Stadionfußball, GameBoy-Emulator und Stadtradio.</li>\n                  <li><strong>Gangs & Unterwelt (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Gründe Straßengangs mit Gang-Tresor (<code>/gang vault</code>) oder steige in den Schwarzmarkt ein.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1307,13 +1289,13 @@ const I18N = {
         "videoTitle": "Comment louer un appartement dans Minecraft ! | Minecity GTA",
         "content": "\n                <p>Le marché immobilier est entièrement géré par <strong>MinecitySuite (MCRP-Properties)</strong> et ARM :</p>\n                <ul>\n                  <li>Tapez <code>/apartments</code> (ou <code>/rent</code> / <code>/buy</code>) pour ouvrir le catalogue interactif des propriétés disponibles.</li>\n                  <li><strong>Appartements en Location :</strong> Logements abordables avec loyer hebdomadaire ou mensuel. Les portes se verrouillent automatiquement pour empêcher les intrusions. À l'expiration du bail, l'intérieur se réinitialise proprement pour le prochain locataire.</li>\n                  <li><strong>Maisons Permanentes & Villas :</strong> Propriétés privées perpétuelles que vous pouvez meubler et sécuriser à votre guise.</li>\n                  <li><strong>Colocataires :</strong> Ajoutez des amis à vos portes avec la commande <code>/arm addmember &lt;région&gt; &lt;joueur&gt;</code>.</li>\n                  <li><strong>Confirmation Sécurisée :</strong> Cliquer sur un panneau n'achète jamais le bien directement ; cela ouvre un aperçu avec prix et confirmation.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. Véhicules 3D, Concessions & Vol en Hélicoptère",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "Véhicules 3D dans Minecraft sans mods ! | Minecity GTA",
-              "content": "\n                <p>Minecity propose une flotte spectaculaire de voitures de sport, motos urbaines, camions lourds et hélicoptères :</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Commandes Essentielles et Rapides pour Véhicules</div>\n                  <ul>\n                    <li><code>/car</code> — Ouvre le menu de votre garage personnel avec tous vos véhicules.</li>\n                    <li><code>/carcall</code> — Sauvegarde et range votre véhicule actif dans votre garage pour éviter le vol.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Vous installe comme passager sur le siège 1, 2 ou 3.</li>\n                    <li><code>/car-drive</code> — Vous replace au volant en tant que conducteur.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mécanismes de Conduite et Contrôles</h3>\n                <ul>\n                  <li><strong>Achat chez le Concessionnaire :</strong> Parlez au vendeur NPC dans les concessions pour acheter votre véhicule livré directement au garage.</li>\n                  <li><strong>Coffre (Shift + Clic Droit) :</strong> Accroupissez-vous (Shift) et faites un clic droit à l'arrière (ou <code>/vehicle trunk</code>) pour stocker armes et objets.</li>\n                  <li><strong>Carburant :</strong> Rendez-vous à une station-service, tenez le pistolet et faites un clic droit sur le véhicule pour faire le plein.</li>\n                  <li><strong>Conduite :</strong> Maniabilité fluide et réaliste à gauche et à droite.</li>\n                  <li><strong>Hélicoptères :</strong> Maintenez <strong>ESPACE</strong> pour monter avec une poussée verticale. Ajustez l'inclinaison ou appuyez sur <strong>SHIFT</strong> pour descendre.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. Véhicules 3D, Concessions & Vol en Hélicoptère",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "Véhicules 3D dans Minecraft sans mods ! | Minecity GTA",
+        "content": "\n                <p>Minecity propose une flotte spectaculaire de voitures de sport, motos urbaines, camions lourds et hélicoptères :</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Commandes Essentielles et Rapides pour Véhicules</div>\n                  <ul>\n                    <li><code>/car</code> — Ouvre le menu de votre garage personnel avec tous vos véhicules.</li>\n                    <li><code>/carcall</code> — Sauvegarde et range votre véhicule actif dans votre garage pour éviter le vol.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Vous installe comme passager sur le siège 1, 2 ou 3.</li>\n                    <li><code>/car-drive</code> — Vous replace au volant en tant que conducteur.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mécanismes de Conduite et Contrôles</h3>\n                <ul>\n                  <li><strong>Achat chez le Concessionnaire :</strong> Parlez au vendeur NPC dans les concessions pour acheter votre véhicule livré directement au garage.</li>\n                  <li><strong>Coffre (Shift + Clic Droit) :</strong> Accroupissez-vous (Shift) et faites un clic droit à l'arrière (ou <code>/vehicle trunk</code>) pour stocker armes et objets.</li>\n                  <li><strong>Carburant :</strong> Rendez-vous à une station-service, tenez le pistolet et faites un clic droit sur le véhicule pour faire le plein.</li>\n                  <li><strong>Conduite :</strong> Maniabilité fluide et réaliste à gauche et à droite.</li>\n                  <li><strong>Hélicoptères :</strong> Maintenez <strong>ESPACE</strong> pour monter avec une poussée verticale. Ajustez l'inclinaison ou appuyez sur <strong>SHIFT</strong> pour descendre.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1356,10 +1338,10 @@ const I18N = {
         "content": "\n                <p>Si vous préférez une vie honnête et prospère, Minecity propose diverses carrières bien rémunérées :</p>\n                <ul>\n                  <li><strong>Pêcheur :</strong> Pêchez des espèces marines rares sur les quais, participez à des concours et vendez vos prises avec <code>/emf shop</code>.</li>\n                  <li><strong>Mineur :</strong> Extrayez des minerais précieux et des matériaux lourds dans la carrière industrielle du comté.</li>\n                  <li><strong>Routier :</strong> Attelez de lourdes remorques à votre camion et assurez des livraisons autoroutières pour toucher d'importantes primes de fret.</li>\n                  <li><strong>Chauffeur de Bus :</strong> Assurez les lignes de transport urbain en prenant en charge les citoyens aux arrêts officiels.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Casino, Banque, Pêche, Gangs & Arcade",
-              "icon": "🎰",
-              "content": "\n                <p>Explorez tout l'écosystème bancaire, commercial, criminel et ludique propulsé par les 76 plugins du serveur :</p>\n                <ul>\n                  <li><strong>Banque & ATM (<code>/bank</code>), Enchères (<code>/ah</code>) & Salaires (<code>/salary</code>) :</strong> Sécurisez vos économies, vendez des objets aux enchères et percevez votre paie.</li>\n                  <li><strong>Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>) :</strong> Misez à la Roulette en direct, au Vidéo Poker ou à la loterie.</li>\n                  <li><strong>Sports & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>) :</strong> Tournois de pêche, football, émulateur GameBoy et radio.</li>\n                  <li><strong>Gangs & Cartels (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>) :</strong> Fondez un gang avec coffre fort partagé (<code>/gang vault</code>) ou rejoignez un syndicat.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Casino, Banque, Pêche, Gangs & Arcade",
+        "icon": "🎰",
+        "content": "\n                <p>Explorez tout l'écosystème bancaire, commercial, criminel et ludique propulsé par les 76 plugins du serveur :</p>\n                <ul>\n                  <li><strong>Banque & ATM (<code>/bank</code>), Enchères (<code>/ah</code>) & Salaires (<code>/salary</code>) :</strong> Sécurisez vos économies, vendez des objets aux enchères et percevez votre paie.</li>\n                  <li><strong>Casino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>) :</strong> Misez à la Roulette en direct, au Vidéo Poker ou à la loterie.</li>\n                  <li><strong>Sports & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>) :</strong> Tournois de pêche, football, émulateur GameBoy et radio.</li>\n                  <li><strong>Gangs & Cartels (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>) :</strong> Fondez un gang avec coffre fort partagé (<code>/gang vault</code>) ou rejoignez un syndicat.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1429,13 +1411,13 @@ const I18N = {
         "videoTitle": "Come affittare un appartamento in Minecraft! | Minecity GTA",
         "content": "\n                <p>Il mercato immobiliare è gestito in modo completamente automatizzato da <strong>MinecitySuite (MCRP-Properties)</strong> e ARM:</p>\n                <ul>\n                  <li>Digita <code>/apartments</code> (o <code>/rent</code> / <code>/buy</code>) per aprire il catalogo delle proprietà disponibili.</li>\n                  <li><strong>Appartamenti in Affitto:</strong> Alloggi economici con affitto settimanale o mensile. Le porte si bloccano automaticamente contro gli estranei. Alla scadenza del contratto, gli interni si ripristinano puliti per il prossimo inquilino.</li>\n                  <li><strong>Case e Ville Permanenti:</strong> Proprietà perpetue che puoi arredare e rendere sicure a tuo piacimento.</li>\n                  <li><strong>Coinquilini:</strong> Aggiungi amici fidati alle tue porte con il comando <code>/arm addmember &lt;regione&gt; &lt;giocatore&gt;</code>.</li>\n                  <li><strong>Anteprima Sicura:</strong> Cliccare sui cartelli non addebita denaro subito, ma apre un menu con costi e conferma.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. Veicoli 3D, Concessionari e Volo in Elicottero",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "Veicoli 3D su Minecraft senza mod! | Minecity GTA",
-              "content": "\n                <p>Minecity offre una flotta straordinaria di auto sportive, moto urbane, camion pesanti ed elicotteri:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandi Rapidi ed Essenziali per Veicoli</div>\n                  <ul>\n                    <li><code>/car</code> — Apre il menu del tuo garage personale con tutti i tuoi veicoli.</li>\n                    <li><code>/carcall</code> — Salva e ripone il veicolo attivo nel garage per prevenirne il furto o la perdita.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Ti fa sedere come passeggero nel sedile 1, 2 o 3.</li>\n                    <li><code>/car-drive</code> — Torna al posto di guida come conducente.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Meccaniche di Guida e Controlli</h3>\n                <ul>\n                  <li><strong>Acquisto in Concessionaria:</strong> Parla con il venditore NPC nei saloni per acquistare il voucher del veicolo inviato al tuo garage.</li>\n                  <li><strong>Bagagliaio (Shift + Clic Destro):</strong> Accovacciati (Shift) e fai clic destro sul retro dell'auto (o <code>/vehicle trunk</code>) per riporre oggetti.</li>\n                  <li><strong>Rifornimento Carburante:</strong> Avvicinati alla pompa di benzina, impugna l'erogatore e tieni premuto clic destro sul veicolo.</li>\n                  <li><strong>Guida Terrestre:</strong> Sterzata naturale e reattiva a destra e sinistra.</li>\n                  <li><strong>Elicotteri:</strong> Tieni premuta la <strong>BARRA SPAZIATRICE</strong> per salire in quota. Regola la vista o premi <strong>SHIFT</strong> per atterrare dolcemente.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. Veicoli 3D, Concessionari e Volo in Elicottero",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "Veicoli 3D su Minecraft senza mod! | Minecity GTA",
+        "content": "\n                <p>Minecity offre una flotta straordinaria di auto sportive, moto urbane, camion pesanti ed elicotteri:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandi Rapidi ed Essenziali per Veicoli</div>\n                  <ul>\n                    <li><code>/car</code> — Apre il menu del tuo garage personale con tutti i tuoi veicoli.</li>\n                    <li><code>/carcall</code> — Salva e ripone il veicolo attivo nel garage per prevenirne il furto o la perdita.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Ti fa sedere come passeggero nel sedile 1, 2 o 3.</li>\n                    <li><code>/car-drive</code> — Torna al posto di guida come conducente.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Meccaniche di Guida e Controlli</h3>\n                <ul>\n                  <li><strong>Acquisto in Concessionaria:</strong> Parla con il venditore NPC nei saloni per acquistare il voucher del veicolo inviato al tuo garage.</li>\n                  <li><strong>Bagagliaio (Shift + Clic Destro):</strong> Accovacciati (Shift) e fai clic destro sul retro dell'auto (o <code>/vehicle trunk</code>) per riporre oggetti.</li>\n                  <li><strong>Rifornimento Carburante:</strong> Avvicinati alla pompa di benzina, impugna l'erogatore e tieni premuto clic destro sul veicolo.</li>\n                  <li><strong>Guida Terrestre:</strong> Sterzata naturale e reattiva a destra e sinistra.</li>\n                  <li><strong>Elicotteri:</strong> Tieni premuta la <strong>BARRA SPAZIATRICE</strong> per salire in quota. Regola la vista o premi <strong>SHIFT</strong> per atterrare dolcemente.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1478,10 +1460,10 @@ const I18N = {
         "content": "\n                <p>Se preferisci guadagnarti da vivere onestamente, Minecity offre numerose professioni ben remunerate:</p>\n                <ul>\n                  <li><strong>Pescatore:</strong> Cattura pesci rari dai moli costieri, partecipa a tornei e vendi il pescato con <code>/emf shop</code>.</li>\n                  <li><strong>Minatore:</strong> Estrai minerali pesanti e materie prime nella cava industriale della contea.</li>\n                  <li><strong>Camionista:</strong> Aggancia pesanti rimorchi al tuo camion e consegna merci sulle autostrade per ricche ricompense di trasporto.</li>\n                  <li><strong>Autista di Autobus:</strong> Segui le linee del trasporto pubblico metropolitano facendo salire i passeggeri alle fermate ufficiali.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Casinò, Banca, Pesca, Gang e Sala Giochi",
-              "icon": "🎰",
-              "content": "\n                <p>Esplora l'intero ecosistema bancario, aste, sindacati criminali, casinò e minigiochi supportato dai 76 plugin del server:</p>\n                <ul>\n                  <li><strong>Banca ATM (<code>/bank</code>), Aste (<code>/ah</code>) & Stipendi (<code>/salary</code>):</strong> Proteggi i contanti in banca, commercia all'asta e controlla il prossimo stipendio.</li>\n                  <li><strong>Casinò (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Gioca alla Roulette, Video Poker e acquista biglietti della lotteria.</li>\n                  <li><strong>Pesca, Calcio & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Tornei di pesca, stadio di calcio e radio musicale.</li>\n                  <li><strong>Gang & Clan (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Crea bande di strada con caveau condiviso (<code>/gang vault</code>) e domina il mercato nero.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Casinò, Banca, Pesca, Gang e Sala Giochi",
+        "icon": "🎰",
+        "content": "\n                <p>Esplora l'intero ecosistema bancario, aste, sindacati criminali, casinò e minigiochi supportato dai 76 plugin del server:</p>\n                <ul>\n                  <li><strong>Banca ATM (<code>/bank</code>), Aste (<code>/ah</code>) & Stipendi (<code>/salary</code>):</strong> Proteggi i contanti in banca, commercia all'asta e controlla il prossimo stipendio.</li>\n                  <li><strong>Casinò (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Gioca alla Roulette, Video Poker e acquista biglietti della lotteria.</li>\n                  <li><strong>Pesca, Calcio & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Tornei di pesca, stadio di calcio e radio musicale.</li>\n                  <li><strong>Gang & Clan (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Crea bande di strada con caveau condiviso (<code>/gang vault</code>) e domina il mercato nero.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1551,13 +1533,13 @@ const I18N = {
         "videoTitle": "Como alugar um apartamento no Minecraft! | Minecity GTA",
         "content": "\n                <p>O setor imobiliário é automatizado pelo <strong>MinecitySuite (MCRP-Properties)</strong> e ARM:</p>\n                <ul>\n                  <li>Digite <code>/apartments</code> (ou <code>/rent</code> / <code>/buy</code>) para abrir o catálogo interativo de imóveis disponíveis.</li>\n                  <li><strong>Apartamentos de Aluguel:</strong> Moradias acessíveis de cobrança semanal ou mensal. As portas trancam sozinhas contra invasores. Ao vencer o aluguel, o interior é resetado limpo para o próximo morador.</li>\n                  <li><strong>Casas e Mansões Próprias:</strong> Imóveis perpétuos que você pode mobiliar e decorar à vontade.</li>\n                  <li><strong>Colegas de Quarto:</strong> Adicione amigos às suas portas com o comando <code>/arm addmember &lt;região&gt; &lt;jogador&gt;</code>.</li>\n                  <li><strong>Confirmação Segura:</strong> Clicar na placa do imóvel não cobra dinheiro na hora; abre um menu com valores e botão de confirmação.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. Veículos 3D, Concessionárias e Voo de Helicóptero",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "Veículos 3D no Minecraft sem mods! | Minecity GTA",
-              "content": "\n                <p>O Minecity conta com uma frota exclusiva de carros esportivos, motocicletas, caminhões de carga e helicópteros:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandos Rápidos e Essenciais de Veículos</div>\n                  <ul>\n                    <li><code>/car</code> — Abre o menu da sua garagem com todos os seus veículos.</li>\n                    <li><code>/carcall</code> — Salva e guarda seu veículo ativo de volta na garagem para evitar roubos.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Senta você como passageiro no banco 1, 2 ou 3.</li>\n                    <li><code>/car-drive</code> — Assume a posição de motorista no volante.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mecânicas de Direção e Controles</h3>\n                <ul>\n                  <li><strong>Compra em Concessionárias:</strong> Fale com os vendedores NPC nos showrooms para comprar o veículo enviado direto para sua garagem.</li>\n                  <li><strong>Porta-malas (Shift + Clique Direito):</strong> Agache (Shift) e clique com o botão direito na traseira (ou <code>/vehicle trunk</code>) para guardar itens.</li>\n                  <li><strong>Abastecimento de Combustível:</strong> Encoste no posto, segure a mangueira e clique com o botão direito no veículo para abastecer.</li>\n                  <li><strong>Pilotagem Terrestre:</strong> Controle suave e preciso de curvas para esquerda e direita.</li>\n                  <li><strong>Helicópteros:</strong> Segure a <strong>BARRA DE ESPAÇO</strong> para decolar com impulso vertical. Ajuste a inclinação ou pressione <strong>SHIFT</strong> para pousar suavemente.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. Veículos 3D, Concessionárias e Voo de Helicóptero",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "Veículos 3D no Minecraft sem mods! | Minecity GTA",
+        "content": "\n                <p>O Minecity conta com uma frota exclusiva de carros esportivos, motocicletas, caminhões de carga e helicópteros:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Comandos Rápidos e Essenciais de Veículos</div>\n                  <ul>\n                    <li><code>/car</code> — Abre o menu da sua garagem com todos os seus veículos.</li>\n                    <li><code>/carcall</code> — Salva e guarda seu veículo ativo de volta na garagem para evitar roubos.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Senta você como passageiro no banco 1, 2 ou 3.</li>\n                    <li><code>/car-drive</code> — Assume a posição de motorista no volante.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Mecânicas de Direção e Controles</h3>\n                <ul>\n                  <li><strong>Compra em Concessionárias:</strong> Fale com os vendedores NPC nos showrooms para comprar o veículo enviado direto para sua garagem.</li>\n                  <li><strong>Porta-malas (Shift + Clique Direito):</strong> Agache (Shift) e clique com o botão direito na traseira (ou <code>/vehicle trunk</code>) para guardar itens.</li>\n                  <li><strong>Abastecimento de Combustível:</strong> Encoste no posto, segure a mangueira e clique com o botão direito no veículo para abastecer.</li>\n                  <li><strong>Pilotagem Terrestre:</strong> Controle suave e preciso de curvas para esquerda e direita.</li>\n                  <li><strong>Helicópteros:</strong> Segure a <strong>BARRA DE ESPAÇO</strong> para decolar com impulso vertical. Ajuste a inclinação ou pressione <strong>SHIFT</strong> para pousar suavemente.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1600,10 +1582,10 @@ const I18N = {
         "content": "\n                <p>Se você prefere uma jornada honesta e estruturada, o Minecity dispõe de excelentes empregos:</p>\n                <ul>\n                  <li><strong>Pescador:</strong> Pesque espécies marinhas exóticas nos píeres, dispute torneios e venda seu lote com <code>/emf shop</code>.</li>\n                  <li><strong>Mineiro:</strong> Extraia minérios nobres e insumos industriais na pedreira municipal.</li>\n                  <li><strong>Caminhoneiro:</strong> Engate carretas pesadas no seu cavalo mecânico e faça entregas rodoviárias para lucrar altos bônus de frete.</li>\n                  <li><strong>Motorista de Ônibus:</strong> Conduza os ônibus urbanos transportando passageiros pelas paradas metropolitanas.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Cassino, Banco, Pesca, Gangues e Fliperama",
-              "icon": "🎰",
-              "content": "\n                <p>Explore o ecossistema completo de bancos, leilões, gangues, cassinos e fliperama alimentado por 76 plugins:</p>\n                <ul>\n                  <li><strong>Banco ATM (<code>/bank</code>), Leilões (<code>/ah</code>) & Salários (<code>/salary</code>):</strong> Proteja seu dinheiro contra assaltos, negocie itens e receba pagamentos automáticos.</li>\n                  <li><strong>Cassino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Aposte na Roleta, jogue Video Poker ou tente a sorte na loteria.</li>\n                  <li><strong>Esportes & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Campeonatos de pesca, futebol no estádio e rádio da cidade.</li>\n                  <li><strong>Gangues & Clãs (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funde facções com cofre compartilhado (<code>/gang vault</code>) e domine o submundo.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Cassino, Banco, Pesca, Gangues e Fliperama",
+        "icon": "🎰",
+        "content": "\n                <p>Explore o ecossistema completo de bancos, leilões, gangues, cassinos e fliperama alimentado por 76 plugins:</p>\n                <ul>\n                  <li><strong>Banco ATM (<code>/bank</code>), Leilões (<code>/ah</code>) & Salários (<code>/salary</code>):</strong> Proteja seu dinheiro contra assaltos, negocie itens e receba pagamentos automáticos.</li>\n                  <li><strong>Cassino (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Aposte na Roleta, jogue Video Poker ou tente a sorte na loteria.</li>\n                  <li><strong>Esportes & Arcade (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Campeonatos de pesca, futebol no estádio e rádio da cidade.</li>\n                  <li><strong>Gangues & Clãs (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Funde facções com cofre compartilhado (<code>/gang vault</code>) e domine o submundo.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1673,13 +1655,13 @@ const I18N = {
         "videoTitle": "如何在 Minecraft 中租用公寓套房！| Minecity GTA",
         "content": "\n                <p>都市房产由 <strong>MinecitySuite (MCRP-Properties)</strong> 结合 ARM 自动化系统提供保障：</p>\n                <ul>\n                  <li>输入 <code>/apartments</code>（或 <code>/rent</code> / <code>/buy</code>）开启交互式房源目录。</li>\n                  <li><strong>租用公寓：</strong> 经济型周租或月租套房，防盗门自动上锁防止陌生人进入；租约到期后房间自动重置如初。</li>\n                  <li><strong>永久独栋与豪宅：</strong> 永久拥有的独立物业，可随心装修布局并配置防盗措施。</li>\n                  <li><strong>室友合住权限：</strong> 使用指令 <code>/arm addmember &lt;区域代码&gt; &lt;玩家名&gt;</code> 赋予同伴房屋进出权限。</li>\n                  <li><strong>安全预览机制：</strong> 点击房产告示牌绝不会直接扣款，而是弹出包含租金、剩余时长与确认按钮的预览菜单。</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. 3D 拟真载具、车行购置与直升机驾驶",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "无需 Mod 的 3D 载具系统！ | Minecity GTA Setup",
-              "content": "\n                <p>Minecity 拥有品类丰富的超跑、机车、重型货运卡车及航空直升机：</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">载具核心快捷指令</div>\n                  <ul>\n                    <li><code>/car</code> — 打开个人车库界面，浏览并生成名下拥有的所有载具。</li>\n                    <li><code>/carcall</code> — 将当前激活的载具安全收回保存至个人车库，防止被盗或遗失。</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — 作为乘客入座载具的 1 号、2 号或 3 号座位（副驾与后排）。</li>\n                    <li><code>/car-drive</code> — 切换并返回至主驾驶位亲自操控载具。</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">载具操控与物理机制</h3>\n                <ul>\n                  <li><strong>车行购置：</strong> 前往汽车展厅与车商 NPC 对话购买提车券，载具将即时自动存入您的个人车库。</li>\n                  <li><strong>后备箱收纳（Shift + 右键）：</strong> 潜行（Shift）并右键点击车辆尾部（或输入 <code>/vehicle trunk</code>）即可开启车厢储存物品与武器。</li>\n                  <li><strong>加油站充能：</strong> 将车辆开至加油机旁，手持加油枪右键持续注入汽油。</li>\n                  <li><strong>地面驾驶：</strong> 符合直觉的方向按键操控，支持自然过弯与倒车。</li>\n                  <li><strong>直升机空中升空：</strong> 长按<strong>空格键（SPACEBAR）</strong>获得强劲垂直升力，调整俯仰仰角或轻按 <strong>SHIFT</strong> 键实现平稳降落。</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. 3D 拟真载具、车行购置与直升机驾驶",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "无需 Mod 的 3D 载具系统！ | Minecity GTA Setup",
+        "content": "\n                <p>Minecity 拥有品类丰富的超跑、机车、重型货运卡车及航空直升机：</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">载具核心快捷指令</div>\n                  <ul>\n                    <li><code>/car</code> — 打开个人车库界面，浏览并生成名下拥有的所有载具。</li>\n                    <li><code>/carcall</code> — 将当前激活的载具安全收回保存至个人车库，防止被盗或遗失。</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — 作为乘客入座载具的 1 号、2 号或 3 号座位（副驾与后排）。</li>\n                    <li><code>/car-drive</code> — 切换并返回至主驾驶位亲自操控载具。</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">载具操控与物理机制</h3>\n                <ul>\n                  <li><strong>车行购置：</strong> 前往汽车展厅与车商 NPC 对话购买提车券，载具将即时自动存入您的个人车库。</li>\n                  <li><strong>后备箱收纳（Shift + 右键）：</strong> 潜行（Shift）并右键点击车辆尾部（或输入 <code>/vehicle trunk</code>）即可开启车厢储存物品与武器。</li>\n                  <li><strong>加油站充能：</strong> 将车辆开至加油机旁，手持加油枪右键持续注入汽油。</li>\n                  <li><strong>地面驾驶：</strong> 符合直觉的方向按键操控，支持自然过弯与倒车。</li>\n                  <li><strong>直升机空中升空：</strong> 长按<strong>空格键（SPACEBAR）</strong>获得强劲垂直升力，调整俯仰仰角或轻按 <strong>SHIFT</strong> 键实现平稳降落。</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1722,10 +1704,10 @@ const I18N = {
         "content": "\n                <p>如果您向往安居乐业，都市中提供众多高收入合法职业：</p>\n                <ul>\n                  <li><strong>近海渔夫：</strong> 沿海码头垂钓稀有鱼种，参与垂钓锦标赛，并在海产市场使用 <code>/emf shop</code> 兑换丰厚报酬。</li>\n                  <li><strong>采石矿工：</strong> 在工业采石场开采重金属与建材矿物。</li>\n                  <li><strong>货运卡车司机：</strong> 为重卡挂接拖车货箱，在高速公路上长途运送货物赚取丰厚物流运费。</li>\n                  <li><strong>公交车司机：</strong> 遵照时刻表接送市民乘客，稳定获取公共交通服务报酬。</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. 赌场、银行、海钓、帮派与街机游戏",
-              "icon": "🎰",
-              "content": "\n                <p>除了日常职业，Minecity 还由 76 款专业插件驱动了完整的银行金融、帮派地盘、赌场娱乐和街机体系：</p>\n                <ul>\n                  <li><strong>城市银行与拍卖行（<code>/bank</code>, <code>/ah</code>, <code>/salary</code>）：</strong> 将现金存入 ATM 避免抢劫损失，在全局拍卖行交易稀有物资，领取定期薪水。</li>\n                  <li><strong>拉斯维加斯赌场（<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>）：</strong> 参与轮盘赌博、视频扑克与城市彩票大奖。</li>\n                  <li><strong>海钓锦标赛与娱乐街机（<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>）：</strong> 参加码头钓鱼比赛、体育场足球赛、随身 GameBoy 掌机与城市电台。</li>\n                  <li><strong>街头帮派与黑市（<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>）：</strong> 组建帮派解锁共享金库（<code>/gang vault</code>）并参与黑市走私贸易。</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. 赌场、银行、海钓、帮派与街机游戏",
+        "icon": "🎰",
+        "content": "\n                <p>除了日常职业，Minecity 还由 76 款专业插件驱动了完整的银行金融、帮派地盘、赌场娱乐和街机体系：</p>\n                <ul>\n                  <li><strong>城市银行与拍卖行（<code>/bank</code>, <code>/ah</code>, <code>/salary</code>）：</strong> 将现金存入 ATM 避免抢劫损失，在全局拍卖行交易稀有物资，领取定期薪水。</li>\n                  <li><strong>拉斯维加斯赌场（<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>）：</strong> 参与轮盘赌博、视频扑克与城市彩票大奖。</li>\n                  <li><strong>海钓锦标赛与娱乐街机（<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>）：</strong> 参加码头钓鱼比赛、体育场足球赛、随身 GameBoy 掌机与城市电台。</li>\n                  <li><strong>街头帮派与黑市（<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>）：</strong> 组建帮派解锁共享金库（<code>/gang vault</code>）并参与黑市走私贸易。</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1795,13 +1777,13 @@ const I18N = {
         "videoTitle": "마인크래프트에서 아파트 임대하는 법! | Minecity GTA",
         "content": "\n                <p>부동산은 <strong>MinecitySuite (MCRP-Properties)</strong> 및 ARM을 통해 완벽히 자동화되어 관리됩니다:</p>\n                <ul>\n                  <li><code>/apartments</code> (또는 <code>/rent</code> / <code>/buy</code>)를 입력하여 매물 목록을 확인하세요.</li>\n                  <li><strong>임대 아파트:</strong> 주간 또는 월간 단위의 저렴한 주거 공간입니다. 문이 자동으로 잠겨 외부인 침입을 막으며, 임대 만료 시 깨끗하게 초기화됩니다.</li>\n                  <li><strong>영구 주택 & 고급 빌라:</strong> 영구 소유가 가능한 주택으로 자유롭게 꾸미고 보안을 설정할 수 있습니다.</li>\n                  <li><strong>룸메이트 등록:</strong> <code>/arm addmember &lt;구역명&gt; &lt;플레이어&gt;</code> 명령어로 친구에게 출입 권한을 부여하세요.</li>\n                  <li><strong>안전한 확인 메뉴:</strong> 표지판을 우클릭해도 즉시 결제되지 않으며, 가격과 기간을 확인하는 안전 창이 표시됩니다.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. 3D 커스텀 차량, 딜러십 및 헬리콥터 비행 조작",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "모드 없는 마인크래프트 3D 차량 시스템! | Minecity GTA",
-              "content": "\n                <p>스포츠카, 도심형 오토바이, 대형 트럭 및 헬리콥터가 구비되어 있습니다:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">핵심 및 필수 차량 명령어</div>\n                  <ul>\n                    <li><code>/car</code> — 소유한 모든 차량을 확인하고 스폰할 수 있는 개인 차고 메뉴를 엽니다.</li>\n                    <li><code>/carcall</code> — 도난이나 분실을 방지하기 위해 탑승 중인 차량을 차고로 안전하게 입고 저장합니다.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — 차량의 1번, 2번 또는 3번 좌석에 동승자로 탑승합니다.</li>\n                    <li><code>/car-drive</code> — 운전석으로 위치를 이동하여 운전을 시작합니다.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">차량 조작 및 물리 메커니즘</h3>\n                <ul>\n                  <li><strong>대리점 구매:</strong> 전시장 NPC 딜러에게서 차량 바우처를 구입하면 개인 차고에 즉시 등록됩니다.</li>\n                  <li><strong>트렁크 보관함 (Shift + 우클릭):</strong> 웅크린 상태(Shift)로 차량 후면을 우클릭(또는 <code>/vehicle trunk</code>)하여 트렁크를 열고 물품과 무기를 적재합니다.</li>\n                  <li><strong>주유소 연료 보충:</strong> 주유기 근처에 정차 후 주유 노즐을 손에 쥐고 차량을 우클릭하여 연료를 완충합니다.</li>\n                  <li><strong>지상 운전:</strong> 사실적인 핸들링과 직관적인 좌우 조향을 지원합니다.</li>\n                  <li><strong>헬리콥터 비행 조작:</strong> <strong>스페이스바</strong>를 길게 눌러 수직 상승하며, 시야 각도를 조절하거나 <strong>SHIFT</strong>를 눌러 부드럽게 착륙합니다.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. 3D 커스텀 차량, 딜러십 및 헬리콥터 비행 조작",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "모드 없는 마인크래프트 3D 차량 시스템! | Minecity GTA",
+        "content": "\n                <p>스포츠카, 도심형 오토바이, 대형 트럭 및 헬리콥터가 구비되어 있습니다:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">핵심 및 필수 차량 명령어</div>\n                  <ul>\n                    <li><code>/car</code> — 소유한 모든 차량을 확인하고 스폰할 수 있는 개인 차고 메뉴를 엽니다.</li>\n                    <li><code>/carcall</code> — 도난이나 분실을 방지하기 위해 탑승 중인 차량을 차고로 안전하게 입고 저장합니다.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — 차량의 1번, 2번 또는 3번 좌석에 동승자로 탑승합니다.</li>\n                    <li><code>/car-drive</code> — 운전석으로 위치를 이동하여 운전을 시작합니다.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">차량 조작 및 물리 메커니즘</h3>\n                <ul>\n                  <li><strong>대리점 구매:</strong> 전시장 NPC 딜러에게서 차량 바우처를 구입하면 개인 차고에 즉시 등록됩니다.</li>\n                  <li><strong>트렁크 보관함 (Shift + 우클릭):</strong> 웅크린 상태(Shift)로 차량 후면을 우클릭(또는 <code>/vehicle trunk</code>)하여 트렁크를 열고 물품과 무기를 적재합니다.</li>\n                  <li><strong>주유소 연료 보충:</strong> 주유기 근처에 정차 후 주유 노즐을 손에 쥐고 차량을 우클릭하여 연료를 완충합니다.</li>\n                  <li><strong>지상 운전:</strong> 사실적인 핸들링과 직관적인 좌우 조향을 지원합니다.</li>\n                  <li><strong>헬리콥터 비행 조작:</strong> <strong>스페이스바</strong>를 길게 눌러 수직 상승하며, 시야 각도를 조절하거나 <strong>SHIFT</strong>를 눌러 부드럽게 착륙합니다.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1844,10 +1826,10 @@ const I18N = {
         "content": "\n                <p>합법적이고 풍요로운 삶을 선호한다면 다양한 전문 직업에 종사할 수 있습니다:</p>\n                <ul>\n                  <li><strong>어부:</strong> 해안 부두에서 희귀 어종을 낚아 낚시 대회에 참가하고, 수산 시장에서 <code>/emf shop</code>으로 납품합니다.</li>\n                  <li><strong>광부:</strong> 산업 채석장에서 고부가가치 광물과 건축 자재를 채굴합니다.</li>\n                  <li><strong>트럭 기사:</strong> 대형 트레일러를 연결하고 고속도로 물류를 운송하여 대량의 운송 보너스를 획득합니다.</li>\n                  <li><strong>버스 기사:</strong> 도심 정류장을 순회하며 시민 승객을 운송하고 대중교통 운행 보수를 받습니다.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. 카지노, 은행, 낚시, 갱단 및 아케이드",
-              "icon": "🎰",
-              "content": "\n                <p>직업 활동 외에도 76개의 플러그인으로 구현된 은행, 경매장, 갱단 세력 다툼, 카지노 및 미니게임을 즐길 수 있습니다:</p>\n                <ul>\n                  <li><strong>은행 ATM(<code>/bank</code>), 경매장(<code>/ah</code>) 및 급여(<code>/salary</code>):</strong> 현금을 안전하게 예금하고, 시민들과 아이템을 거래하며 정기 급여를 수령하세요.</li>\n                  <li><strong>카지노(<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> 룰렛, 비디오 포커 및 복권 추첨에 참여하여 대박을 노리세요.</li>\n                  <li><strong>낚시 대회 및 아케이드(<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> 부두 낚시 대회, 경기장 축구, 게임보이 에뮬레이터 및 라디오 방송을 이용하세요.</li>\n                  <li><strong>갱단 및 암시장(<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> 공유 금고(<code>/gang vault</code>)를 갖춘 갱단을 결성하고 뒷골목을 장악하세요.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. 카지노, 은행, 낚시, 갱단 및 아케이드",
+        "icon": "🎰",
+        "content": "\n                <p>직업 활동 외에도 76개의 플러그인으로 구현된 은행, 경매장, 갱단 세력 다툼, 카지노 및 미니게임을 즐길 수 있습니다:</p>\n                <ul>\n                  <li><strong>은행 ATM(<code>/bank</code>), 경매장(<code>/ah</code>) 및 급여(<code>/salary</code>):</strong> 현금을 안전하게 예금하고, 시민들과 아이템을 거래하며 정기 급여를 수령하세요.</li>\n                  <li><strong>카지노(<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> 룰렛, 비디오 포커 및 복권 추첨에 참여하여 대박을 노리세요.</li>\n                  <li><strong>낚시 대회 및 아케이드(<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> 부두 낚시 대회, 경기장 축구, 게임보이 에뮬레이터 및 라디오 방송을 이용하세요.</li>\n                  <li><strong>갱단 및 암시장(<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> 공유 금고(<code>/gang vault</code>)를 갖춘 갱단을 결성하고 뒷골목을 장악하세요.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -1917,13 +1899,13 @@ const I18N = {
         "videoTitle": "Как арендовать квартиру в Minecraft! | Minecity GTA",
         "content": "\n                <p>Рынок недвижимости полностью автоматизирован связкой <strong>MinecitySuite (MCRP-Properties)</strong> и ARM:</p>\n                <ul>\n                  <li>Введите <code>/apartments</code> (или <code>/rent</code> / <code>/buy</code>) для открытия интерактивного каталога жилья.</li>\n                  <li><strong>Аренда Квартир:</strong> Доступные варианты с посуточной или помесячной оплатой. Двери защищены от взлома. По окончании аренды интерьер автоматически очищается для следующего жильца.</li>\n                  <li><strong>Собственные Дома и Коттеджи:</strong> Постоянная частная собственность, которую можно обустраивать по своему вкусу.</li>\n                  <li><strong>Сожители:</strong> Добавляйте друзей к дверям командой <code>/arm addmember &lt;регион&gt; &lt;игрок&gt;</code>.</li>\n                  <li><strong>Безопасный Предпросмотр:</strong> Нажатие на табличку не списывает деньги сразу, а открывает меню с подтверждением условий.</li>\n                </ul>\n                "
       },
-            {
-              "id": "player-vehicles",
-              "title": "5. 3D Транспорт, Автосалоны и Полеты на Вертолетах",
-              "icon": "🏎️",
-              "videoId": "lq8u-JcET-g",
-              "videoTitle": "3D Транспорт в Minecraft без модов! | Minecity GTA",
-              "content": "\n                <p>В Minecity представлен обширный автопарк спорткаров, мотоциклов, грузовиков и вертолетов:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Основные и быстрые команды для транспорта</div>\n                  <ul>\n                    <li><code>/car</code> — Открывает меню личного гаража со всеми вашими автомобилями.</li>\n                    <li><code>/carcall</code> — Сохраняет и убирает активную машину обратно в гараж для защиты от угона.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Садит вас на пассажирское место 1, 2 или 3.</li>\n                    <li><code>/car-drive</code> — Пересаживает вас на место водителя за руль.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Механика вождения и управление</h3>\n                <ul>\n                  <li><strong>Покупка в автосалоне:</strong> Поговорите с NPC-дилером в салоне. Купленный транспорт мгновенно доставляется в ваш личный виртуальный гараж.</li>\n                  <li><strong>Багажник (Shift + ПКМ):</strong> Присядьте (Shift) и нажмите ПКМ по задней части автомобиля (или используйте <code>/vehicle trunk</code>) для хранения оружия и грузов.</li>\n                  <li><strong>Заправка топливом:</strong> Подъедьте к бензоколонке, возьмите заправочный пистолет и удерживайте ПКМ по транспорту.</li>\n                  <li><strong>Управление на дороге:</strong> Отзывчивое и реалистичное рулевое управление.</li>\n                  <li><strong>Вертолеты:</strong> Удерживайте <strong>ПРОБЕЛ</strong> для вертикального взлета с мощной тягой. Регулируйте наклон взгляда или нажмите <strong>SHIFT</strong> для плавной посадки.</li>\n                </ul>\n                "
+      {
+        "id": "player-vehicles",
+        "title": "5. 3D Транспорт, Автосалоны и Полеты на Вертолетах",
+        "icon": "🏎️",
+        "videoId": "lq8u-JcET-g",
+        "videoTitle": "3D Транспорт в Minecraft без модов! | Minecity GTA",
+        "content": "\n                <p>В Minecity представлен обширный автопарк спорткаров, мотоциклов, грузовиков и вертолетов:</p>\n                <div class=\"callout callout-success\">\n                  <div class=\"callout-title\">Основные и быстрые команды для транспорта</div>\n                  <ul>\n                    <li><code>/car</code> — Открывает меню личного гаража со всеми вашими автомобилями.</li>\n                    <li><code>/carcall</code> — Сохраняет и убирает активную машину обратно в гараж для защиты от угона.</li>\n                    <li><code>/carsit1</code>, <code>/carsit2</code>, <code>/carsit3</code> — Садит вас на пассажирское место 1, 2 или 3.</li>\n                    <li><code>/car-drive</code> — Пересаживает вас на место водителя за руль.</li>\n                  </ul>\n                </div>\n                <h3 class=\"section-subtitle\">Механика вождения и управление</h3>\n                <ul>\n                  <li><strong>Покупка в автосалоне:</strong> Поговорите с NPC-дилером в салоне. Купленный транспорт мгновенно доставляется в ваш личный виртуальный гараж.</li>\n                  <li><strong>Багажник (Shift + ПКМ):</strong> Присядьте (Shift) и нажмите ПКМ по задней части автомобиля (или используйте <code>/vehicle trunk</code>) для хранения оружия и грузов.</li>\n                  <li><strong>Заправка топливом:</strong> Подъедьте к бензоколонке, возьмите заправочный пистолет и удерживайте ПКМ по транспорту.</li>\n                  <li><strong>Управление на дороге:</strong> Отзывчивое и реалистичное рулевое управление.</li>\n                  <li><strong>Вертолеты:</strong> Удерживайте <strong>ПРОБЕЛ</strong> для вертикального взлета с мощной тягой. Регулируйте наклон взгляда или нажмите <strong>SHIFT</strong> для плавной посадки.</li>\n                </ul>\n                "
       },
       {
         "id": "player-police",
@@ -1966,10 +1948,10 @@ const I18N = {
         "content": "\n                <p>Если вы предпочитаете честную жизнь, в городе доступно множество высокооплачиваемых профессий:</p>\n                <ul>\n                  <li><strong>Рыбак:</strong> Ловите редкую рыбу на пирсах, участвуйте в турнирах и продавайте улов через <code>/emf shop</code>.</li>\n                  <li><strong>Шахтер:</strong> Добывайте ценную руду и камень в промышленном карьере округа.</li>\n                  <li><strong>Дальнобойщик:</strong> Цепляйте тяжелые полуприцепы к тягачу и возите грузы по автомагистралям за щедрые премии.</li>\n                  <li><strong>Водитель Автобуса:</strong> Обслуживайте городские маршруты, забирая жителей на остановках.</li>\n                </ul>\n                "
       },
       {
-              "id": "player-casino",
-              "title": "12. Казино, Банки, Рыбалка, Банды и Аркады",
-              "icon": "🎰",
-              "content": "\n                <p>Помимо работы, в Minecity работает полноценная финансовая, криминальная и развлекательная система из 76 плагинов:</p>\n                <ul>\n                  <li><strong>Банк и ATM (<code>/bank</code>), Аукцион (<code>/ah</code>) и Зарплата (<code>/salary</code>):</strong> Защитите сбережения от грабителей, торгуйте на аукционе и проверяйте время до получки.</li>\n                  <li><strong>Казино (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Ставьте фишки в рулетке, играйте в видеопокер или покупайте лотерейные билеты.</li>\n                  <li><strong>Рыбалка, Футбол и Игры (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Турниры по рыбалке, стадионный футбол и эмулятор GameBoy.</li>\n                  <li><strong>Уличные Банды и Кланы (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Создавайте банды с общим хранилищем (<code>/gang vault</code>) и контролируйте черный рынок.</li>\n                </ul>\n                "
+        "id": "player-casino",
+        "title": "12. Казино, Банки, Рыбалка, Банды и Аркады",
+        "icon": "🎰",
+        "content": "\n                <p>Помимо работы, в Minecity работает полноценная финансовая, криминальная и развлекательная система из 76 плагинов:</p>\n                <ul>\n                  <li><strong>Банк и ATM (<code>/bank</code>), Аукцион (<code>/ah</code>) и Зарплата (<code>/salary</code>):</strong> Защитите сбережения от грабителей, торгуйте на аукционе и проверяйте время до получки.</li>\n                  <li><strong>Казино (<code>/roulette</code>, <code>/videopoker</code>, <code>/lottery</code>):</strong> Ставьте фишки в рулетке, играйте в видеопокер или покупайте лотерейные билеты.</li>\n                  <li><strong>Рыбалка, Футбол и Игры (<code>/emf</code>, <code>/blockball</code>, <code>/gameboy</code>, <code>/pocketgames</code>, <code>/music</code>):</strong> Турниры по рыбалке, стадионный футбол и эмулятор GameBoy.</li>\n                  <li><strong>Уличные Банды и Кланы (<code>/gang</code>, <code>/clan</code>, <code>/drugs</code>):</strong> Создавайте банды с общим хранилищем (<code>/gang vault</code>) и контролируйте черный рынок.</li>\n                </ul>\n                "
       }
     ],
     "admin": [
@@ -2011,8 +1993,7 @@ const I18N = {
       }
     ]
   }
-},
-
+}
   t(key) {
     const loc = this.strings[this.currentLocale] || this.strings.en;
     return loc[key] || this.strings.en[key] || key;
