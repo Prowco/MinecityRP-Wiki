@@ -1993,7 +1993,7 @@ const I18N = {
       }
     ]
   }
-}
+},
   t(key) {
     const loc = this.strings[this.currentLocale] || this.strings.en;
     return loc[key] || this.strings.en[key] || key;
